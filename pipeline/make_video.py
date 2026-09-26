@@ -17,17 +17,31 @@ Caminhos relativos são relativos ao WORKDIR. Requer ./setup.sh antes.
 import json, os, re, subprocess as sp, sys, wave
 import numpy as np
 W=sys.argv[1]; os.chdir(W); S=json.load(open("spec.json"))
-PIPER="/tmp/piper"; GAP=0.3; FPS=30
+PIPER="/tmp/piper"; FPS=30
 HERE=os.path.dirname(os.path.abspath(__file__))
 def run(a): sp.run(a,check=True,capture_output=True)
 def dur(f): return float(sp.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f]))
 
-# 1) Narração frase a frase (tempos exatos)
-T=[]; t=0.0; files=[]
-for i,(sec,txt) in enumerate(S["segs"]):
-    f=f"_seg{i:02d}.wav"
-    sp.run([f"{PIPER}/piper/piper","--model",f"{PIPER}/pt-br-edresson-low.onnx","--output_file",f],input=txt.encode(),check=True,capture_output=True)
-    d=dur(f); T.append({"sec":sec,"text":txt,"start":t,"end":t+d}); files.append(f); t+=d+GAP
+# 1) Narração frase a frase (tempos exatos). Fala acelerada e duração ajustada para "1 min e pouco" (61-72s).
+TARGET=(61.0,72.0); GAP=0.2
+def synth(scale):
+    T=[]; t=0.0; files=[]
+    for i,(sec,txt) in enumerate(S["segs"]):
+        f=f"_seg{i:02d}.wav"
+        sp.run([f"{PIPER}/piper/piper","--model",f"{PIPER}/pt-br-edresson-low.onnx","--length_scale",f"{scale:.3f}","--output_file",f],input=txt.encode(),check=True,capture_output=True)
+        d=dur(f); T.append({"sec":sec,"text":txt,"start":t,"end":t+d}); files.append(f); t+=d+GAP
+    return T,files
+scale=float(S.get("length_scale",0.85))
+T,files=synth(scale)
+for _ in range(3):
+    total=T[-1]["end"]+0.8
+    if TARGET[0]<=total<=TARGET[1]: break
+    scale=max(0.72,min(1.1,scale*(66.0/total)))
+    T,files=synth(scale)
+total=T[-1]["end"]+0.8
+if not (TARGET[0]<=total<=TARGET[1]):
+    sys.exit(f"ERRO: narração com {total:.1f}s mesmo com velocidade {scale:.2f}. Ajuste o tamanho do roteiro (~150-175 palavras) e rode de novo.")
+print(f"velocidade length_scale={scale:.2f} duração={total:.1f}s", file=sys.stderr)
 run(["ffmpeg","-y","-f","lavfi","-i","anullsrc=r=16000:cl=mono","-t",str(GAP),"_gap.wav"])
 with open("_list.txt","w") as L:
     for j,f in enumerate(files):

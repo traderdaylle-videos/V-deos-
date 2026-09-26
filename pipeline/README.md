@@ -13,10 +13,10 @@ Leia `pipeline/historico.json` e escolha um tema que NÃO esteja nos últimos 10
 suporte/resistência, Fibonacci, médias, RSI, volume, gestão de risco, etc.).
 
 ## 2. Roteiro (spec.json)
-Português do Brasil, falado, frases curtas. Total de narração ~80–100s (o vídeo PRECISA passar de 60s).
+Português do Brasil, falado, frases curtas. **Tamanho: 150–175 palavras no total.** O vídeo final deve ficar com "1 minuto e pouco" (61–72s): o make_video.py acelera a fala (length_scale 0.85) e ajusta sozinho a velocidade para cair nessa faixa; se sair do limite ele para com erro — aí encurte/alongue o roteiro e rode de novo.
 Seções, nesta ordem obrigatória:
-- `intro` (3–5 frases): gancho + explicação clara do conceito/estratégia.
-- `meio` (5–7 frases): exemplo genérico de "zona de compra/venda" ("é aqui que muitos analistas técnicos costumam observar..."),
+- `intro` (3 frases): gancho + explicação clara do conceito/estratégia.
+- `meio` (4–5 frases): exemplo genérico de "zona de compra/venda" ("é aqui que muitos analistas técnicos costumam observar..."),
   cuidados/sinais falsos e UMA pergunta ao espectador ("Me conta aqui nos comentários: ...").
 - `recap` (1–2 frases): "Recapitulando: ...".
 - `final_5pi` (2 frases): "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit." + "O link tá aqui na descrição do vídeo."
@@ -46,7 +46,7 @@ Copie as escolhidas para $W.
 ```bash
 python3 pipeline/make_video.py $W     # imprime {"output","duration","size_mb"}
 ```
-Confirme duração > 60s. Extraia 4–6 quadros e confira com Read (ordem: explicativo → fotos → explicativo → dinheiro → cartão final).
+Confirme duração entre 61 e 72s. Extraia 4–6 quadros e confira com Read (ordem: explicativo → fotos → explicativo → dinheiro → cartão final).
 
 ## 6. Hospedar no GitHub (branch `media`, só vídeos recentes)
 ```bash
