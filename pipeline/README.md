@@ -48,14 +48,20 @@ python3 pipeline/make_video.py $W     # imprime {"output","duration","size_mb"}
 ```
 Confirme duração > 60s. Extraia 4–6 quadros e confira com Read (ordem: explicativo → fotos → explicativo → dinheiro → cartão final).
 
-## 6. Hospedar no GitHub (branch `media`)
+## 6. Hospedar no GitHub (branch `media`, só vídeos recentes)
 ```bash
-git -C pipeline/.. fetch origin media 2>/dev/null || true
+F=AAAA-MM-DD-slug.mp4            # nome do arquivo de hoje
+M=/tmp/media; rm -rf $M
+git clone -q --depth 1 --branch media https://github.com/traderdaylle-videos/v-deos- $M 2>/dev/null \
+  || (mkdir -p $M && git -C $M init -q -b media && git -C $M remote add origin https://github.com/traderdaylle-videos/v-deos-)
+cd $M && mkdir -p tiktok && cp $W/video.mp4 tiktok/$F
+# mantém só vídeos dos últimos 3 dias (pela data no nome)
+python3 -c "import os,datetime as d;L=d.date.today()-d.timedelta(days=3);[os.remove('tiktok/'+f) for f in os.listdir('tiktok') if f[:10]<L.isoformat()]"
+git checkout -q --orphan novo && git add -A && git -c user.name=traderdaylle-videos -c user.email=traderdaylle-videos@users.noreply.github.com commit -qm "media $F" && git push -qf origin novo:media
 ```
-Publique o mp4 em `tiktok/AAAA-MM-DD-slug.mp4` na branch `media` (crie como órfã se não existir; mantenha só os vídeos dos
-últimos 3 dias nessa branch para o repositório não crescer — os anteriores já foram copiados pelo Metricool).
-URL pública: `https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/<arquivo>.mp4`
-Também faça commit em `main` das fotos novas e do `historico.json` atualizado.
+A branch `media` é recriada a cada vez (force-push só nela) para o repositório não crescer. Nunca force-push em `main`.
+URL pública: `https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/$F`
+Depois, no clone de `main`, faça commit/push das fotos novas e do `historico.json` atualizado (tema, data, arquivo, id do Metricool).
 
 ## 7. Agendar no Metricool
 `createScheduledPost` blogId 7082205, rede tiktok, data = agora + 5 min (America/Sao_Paulo), media = URL raw acima,
