@@ -1,5 +1,24 @@
 [
- {"data":"2026-09-25","tema":"Padrão Martelo","obs":"pipeline antigo (ElevenLabs)"},
- {"data":"2026-09-25","tema":"Suporte e Resistência","obs":"pipeline antigo (ElevenLabs)"},
- {"data":"2026-09-26","tema":"Cruzamento de médias móveis","arquivo":"tiktok/2026-09-26-cruzamento-de-medias.mp4","metricool_id":382514369}
+ {
+  "data": "2026-09-25",
+  "tema": "Padrão Martelo",
+  "obs": "pipeline antigo (ElevenLabs)"
+ },
+ {
+  "data": "2026-09-25",
+  "tema": "Suporte e Resistência",
+  "obs": "pipeline antigo (ElevenLabs)"
+ },
+ {
+  "data": "2026-09-26",
+  "tema": "Cruzamento de médias móveis",
+  "arquivo": "tiktok/2026-09-26-cruzamento-de-medias.mp4",
+  "metricool_id": 382514369
+ },
+ {
+  "data": "2026-09-26",
+  "tema": "Cruzamento de médias móveis (v2: voz Santa, 1min11s)",
+  "arquivo": "media:tiktok/2026-09-26-cruzamento-de-medias-v2.mp4",
+  "metricool_id": 382547079
+ }
 ]
