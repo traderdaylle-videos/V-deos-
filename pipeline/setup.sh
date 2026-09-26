@@ -1,12 +1,9 @@
 #!/usr/bin/env bash
-# Instala dependências e a voz gratuita (Piper pt-BR) em /tmp/piper. Idempotente.
+# Instala dependências e a voz gratuita Kokoro (pt-BR, voz "pm_santa") em /tmp/kokoro. Idempotente.
 set -e
-pip install matplotlib numpy pillow --break-system-packages -q 2>/dev/null || true
-P=/tmp/piper
-if [ ! -x "$P/piper/piper" ]; then
-  mkdir -p $P && cd $P
-  curl -sL -o voice.tar.gz https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-pt-br-edresson-low.tar.gz
-  curl -sL -o piper.tar.gz https://github.com/rhasspy/piper/releases/download/2023.11.14-2/piper_linux_x86_64.tar.gz
-  tar xzf voice.tar.gz && tar xzf piper.tar.gz && rm -f voice.tar.gz piper.tar.gz
-fi
-echo "piper ok: $P"
+pip install matplotlib numpy pillow kokoro-onnx soundfile --break-system-packages -q 2>/dev/null || true
+K=/tmp/kokoro; mkdir -p $K
+for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+  [ -s "$K/$f" ] || curl -sL -o "$K/$f" "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f"
+done
+echo "kokoro ok: $K"

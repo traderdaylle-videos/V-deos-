@@ -12,7 +12,7 @@ WORKDIR/spec.json:
   "keywords_green": ["COMPRA","ALTA"], "keywords_orange": ["VENDA","BAIXA"],
   "output": "video.mp4"
 }
-Caminhos relativos são relativos ao WORKDIR. Requer ./setup.sh antes.
+Caminhos relativos são relativos ao WORKDIR. Requer ./setup.sh antes. Voz: Kokoro pm_santa (spec "voice"/"speed" opcionais).
 """
 import json, os, re, subprocess as sp, sys, wave
 import numpy as np
@@ -22,27 +22,31 @@ HERE=os.path.dirname(os.path.abspath(__file__))
 def run(a): sp.run(a,check=True,capture_output=True)
 def dur(f): return float(sp.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f]))
 
-# 1) Narração frase a frase (tempos exatos). Fala acelerada e duração ajustada para "1 min e pouco" (61-72s).
-TARGET=(61.0,72.0); GAP=0.2
-def synth(scale):
+# 1) Narração frase a frase (tempos exatos) com a voz Kokoro "pm_santa" (masculina grave, escolhida pelo usuário).
+#    Fala acelerada e duração ajustada para "1 min e pouco" (61-72s).
+from kokoro_onnx import Kokoro
+import soundfile as sf
+KK=Kokoro("/tmp/kokoro/kokoro-v1.0.onnx","/tmp/kokoro/voices-v1.0.bin")
+VOICE=S.get("voice","pm_santa"); TARGET=(61.0,72.0); GAP=0.2
+def synth(speed):
     T=[]; t=0.0; files=[]
     for i,(sec,txt) in enumerate(S["segs"]):
         f=f"_seg{i:02d}.wav"
-        sp.run([f"{PIPER}/piper/piper","--model",f"{PIPER}/pt-br-edresson-low.onnx","--length_scale",f"{scale:.3f}","--output_file",f],input=txt.encode(),check=True,capture_output=True)
-        d=dur(f); T.append({"sec":sec,"text":txt,"start":t,"end":t+d}); files.append(f); t+=d+GAP
+        a,sr=KK.create(txt,voice=VOICE,speed=speed,lang="pt-br"); sf.write(f,a,sr)
+        d=len(a)/sr; T.append({"sec":sec,"text":txt,"start":t,"end":t+d}); files.append(f); t+=d+GAP
     return T,files
-scale=float(S.get("length_scale",0.85))
-T,files=synth(scale)
+speed=float(S.get("speed",1.1))
+T,files=synth(speed)
 for _ in range(3):
     total=T[-1]["end"]+0.8
     if TARGET[0]<=total<=TARGET[1]: break
-    scale=max(0.72,min(1.1,scale*(66.0/total)))
-    T,files=synth(scale)
+    speed=max(1.05,min(1.35,speed*(total/66.0)))
+    T,files=synth(speed)
 total=T[-1]["end"]+0.8
 if not (TARGET[0]<=total<=TARGET[1]):
-    sys.exit(f"ERRO: narração com {total:.1f}s mesmo com velocidade {scale:.2f}. Ajuste o tamanho do roteiro (~150-175 palavras) e rode de novo.")
-print(f"velocidade length_scale={scale:.2f} duração={total:.1f}s", file=sys.stderr)
-run(["ffmpeg","-y","-f","lavfi","-i","anullsrc=r=16000:cl=mono","-t",str(GAP),"_gap.wav"])
+    sys.exit(f"ERRO: narração com {total:.1f}s mesmo com velocidade {speed:.2f}. Ajuste o tamanho do roteiro (~185-210 palavras) e rode de novo.")
+print(f"voz={VOICE} speed={speed:.2f} duração={total:.1f}s", file=sys.stderr)
+run(["ffmpeg","-y","-f","lavfi","-i","anullsrc=r=24000:cl=mono","-t",str(GAP),"_gap.wav"])
 with open("_list.txt","w") as L:
     for j,f in enumerate(files):
         L.write(f"file '{f}'\n")
@@ -50,16 +54,12 @@ with open("_list.txt","w") as L:
 run(["ffmpeg","-y","-f","concat","-safe","0","-i","_list.txt","-ar","44100","-ac","1","_narracao.wav"])
 END=T[-1]["end"]+0.8
 
-# 2) Trilha ambiente gerada (sem direitos autorais), bem baixa
-sr=44100; tt=np.arange(int(sr*END))/sr; out=np.zeros_like(tt)
-chords=[[220,261.63,329.63],[174.61,220,261.63],[130.81,196,261.63],[196,246.94,293.66]]
-for k in range(int(END//8)+1):
-    c=chords[k%4]; a=k*8; m=(tt>=a)&(tt<a+10); x=tt[m]-a
-    env=np.clip(x/2,0,1)*np.clip((10-x)/2,0,1)
-    for fr in c: out[m]+=env*(np.sin(2*np.pi*fr*x)+0.3*np.sin(4*np.pi*fr*x))*0.2
-out=out/np.abs(out).max()*0.09
-w=wave.open("_musica.wav","wb"); w.setnchannels(1); w.setsampwidth(2); w.setframerate(sr); w.writeframes((out*32767).astype(np.int16).tobytes()); w.close()
-run(["ffmpeg","-y","-i","_narracao.wav","-i","_musica.wav","-filter_complex","[0:a]aresample=44100,apad[v];[v][1:a]amix=inputs=2:duration=shortest:normalize=0,alimiter=limit=0.95[a]","-map","[a]","-ac","1","_mix.wav"])
+# 2) Trilha animada (gerada por código) mais presente, com "ducking": abaixa sozinha quando a voz fala
+sys.path.insert(0,HERE); from musica import gerar
+gerar("_musica.wav",END)
+run(["ffmpeg","-y","-i","_narracao.wav","-i","_musica.wav","-filter_complex",
+     "[0:a]aresample=44100,apad,asplit=2[v][sc];[1:a]volume=0.32[m];[m][sc]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[md];[v][md]amix=inputs=2:duration=shortest:normalize=0,alimiter=limit=0.95[a]",
+     "-map","[a]","-ac","1","_mix.wav"])
 
 # 3) Cortes visuais por seção
 def first(sec): return min(x["start"] for x in T if x["sec"]==sec)

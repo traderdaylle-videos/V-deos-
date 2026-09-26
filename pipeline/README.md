@@ -1,10 +1,10 @@
 # Pipeline de vídeos TikTok @traderdaylle (custo zero)
 
-Roteiro que a tarefa agendada segue a cada disparo. Tudo roda no workspace do Claude; nada de ElevenLabs/Descript.
+Roteiro que a tarefa agendada segue a cada disparo. Tudo roda no workspace do Claude; nada de ElevenLabs/Descript. Voz: Kokoro pm_santa. Trilha: batida animada gerada por `musica.py`, mais presente, que abaixa sozinha quando a voz fala.
 
 ## 0. Preparar
 ```bash
-bash pipeline/setup.sh          # voz Piper pt-BR em /tmp/piper + libs
+bash pipeline/setup.sh          # voz Kokoro pm_santa em /tmp/kokoro + libs
 W=/tmp/job && rm -rf $W && mkdir -p $W
 ```
 
@@ -13,7 +13,7 @@ Leia `pipeline/historico.json` e escolha um tema que NÃO esteja nos últimos 10
 suporte/resistência, Fibonacci, médias, RSI, volume, gestão de risco, etc.).
 
 ## 2. Roteiro (spec.json)
-Português do Brasil, falado, frases curtas. **Tamanho: 150–175 palavras no total.** O vídeo final deve ficar com "1 minuto e pouco" (61–72s): o make_video.py acelera a fala (length_scale 0.85) e ajusta sozinho a velocidade para cair nessa faixa; se sair do limite ele para com erro — aí encurte/alongue o roteiro e rode de novo.
+Português do Brasil, falado, frases curtas. **Tamanho: 180–200 palavras no total.** O vídeo final deve ficar com "1 minuto e pouco" (61–72s): o make_video.py usa a voz Kokoro **pm_santa** (masculina grave, escolhida pelo usuário) com fala acelerada (speed ~1.1, nunca abaixo de 1.05) e ajusta sozinho a velocidade para cair nessa faixa; se sair do limite ele para com erro — aí encurte/alongue o roteiro e rode de novo.
 Seções, nesta ordem obrigatória:
 - `intro` (3 frases): gancho + explicação clara do conceito/estratégia.
 - `meio` (4–5 frases): exemplo genérico de "zona de compra/venda" ("é aqui que muitos analistas técnicos costumam observar..."),
