@@ -31,7 +31,7 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
   - Voz pm_santa acelerada, 61–72s.
   - `music_mood: "alegre"`.
   - Paleta azul-marinho/roxo + ciano #3fe0ff + amarelo #ffd23f.
-  - Cartão final PRIME/WIN.
+  - **Cartão final animado** (`endcard: {"animado": true, "bg_clip": "<clipe>.mp4"}`): clipe real em movimento no fundo, fontes Anton/Montserrat (em `../fonts/`), logo descendo, botão "COMENTE PRIME" pulsando, comentário simulado digitando "PRIME" com coração, setas e selo da 5PI. Troque o `bg_clip` a cada vídeo, usando um clipe de liberdade, pôr do sol ou tela de trading que não esteja no meio do mesmo vídeo. **Nunca** volte ao cartão estático de fundo liso.
 
 ## Estrutura (seções do spec)
 1. `intro` (2 frases): gancho sobre a animação `primewin/explainer_primewin.py` (entradas e saídas automáticas).

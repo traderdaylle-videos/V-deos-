@@ -95,55 +95,9 @@
  "music_mood": "alegre",
  "speed": 1.15,
  "endcard": {
-  "bg": "#0a0f2e",
-  "lines": [
-   {
-    "t": "PRIME",
-    "y": 0.88,
-    "size": 64,
-    "color": "#3fe0ff",
-    "bold": true
-   },
-   {
-    "t": "WIN",
-    "y": 0.8,
-    "size": 64,
-    "color": "#ffd23f",
-    "bold": true
-   },
-   {
-    "t": "Automações para a bolsa",
-    "y": 0.7,
-    "size": 22,
-    "color": "#c9d1f0"
-   },
-   {
-    "t": "Comente PRIME",
-    "y": 0.58,
-    "size": 40,
-    "color": "white",
-    "bold": true
-   },
-   {
-    "t": "e receba as informações\nno direct",
-    "y": 0.51,
-    "size": 26,
-    "color": "#c9d1f0"
-   },
-   {
-    "t": "Mesa proprietária 5PI: até R$ 100 mil",
-    "y": 0.38,
-    "size": 20,
-    "color": "#ffd23f",
-    "bold": true
-   },
-   {
-    "t": "Operar envolve risco. Resultados passados não garantem resultados futuros.",
-    "y": 0.06,
-    "size": 11,
-    "color": "#8b93b8"
-   }
-  ]
+  "animado": true,
+  "bg_clip": "homem-mar-tranquilo-26667.mp4",
+  "clip_offset": 2
  },
  "output": "primewin_clipes_teste.mp4"
 }

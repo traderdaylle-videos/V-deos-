@@ -88,7 +88,7 @@ import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 EC=S.get("endcard")
 if EC:  # cartão final configurável: {"bg":"#hex","lines":[{"t":..,"y":..,"size":..,"color":..,"bold":bool}]}
     fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor(EC.get("bg","#0d1117"))
-    for L in EC["lines"]:
+    for L in EC.get("lines",[]):
         fig.text(0.5,L["y"],L["t"],ha="center",va="top",fontsize=L.get("size",26),color=L.get("color","white"),
                  fontweight="bold" if L.get("bold") else "normal",linespacing=1.25)
 else:
@@ -108,6 +108,9 @@ for k,(src,a,b) in enumerate(cuts):
         run(["ffmpeg","-y","-i",S["explainer_anim"],"-loop","1","-t",str(hold+0.2),"-i",S["explainer_final"],"-filter_complex",
              f"[1:v]scale=1080:1920,zoompan=z='min(1+0.0002*on,1.05)':x='iw/2-(iw/zoom/2)':y='ih*0.55-(ih/zoom*0.55)':d={int(hold*FPS)+3}:s=1080x1920:fps={FPS}[h];[0:v]scale=1080:1920,fps={FPS}[a];[a][h]concat=n=2:v=1[v]",
              "-map","[v]","-t",str(d),"-r",str(FPS),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
+    elif src=="endcard" and EC and EC.get("animado"):
+        from endcard_anim import render as render_endcard   # cartão final animado sobre clipe real
+        render_endcard(EC["bg_clip"],d,o,EC)
     elif src=="endcard":
         run(["ffmpeg","-y","-loop","1","-i","_endcard.png","-vf",f"scale=1080:1920,zoompan=z='min(1+0.0004*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS}","-t",str(d),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     elif src.lower().endswith((".mp4",".mov",".webm")):
