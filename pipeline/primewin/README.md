@@ -4,7 +4,7 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
 
 ## Padrão aprovado (vídeo-teste 27/09/2026)
 - **Objetivo:** convencer, não ensinar. A ideia central é "você pode não precisar mais operar manualmente, se optar por uma automação" / "já pensou em nunca mais clicar em comprar ou vender?".
-- **Argumentos:** perdas, quebra de conta, emocional (medo, ganância, revanche, entrar atrasado, segurar prejuízo), disciplina do robô (segue a estratégia, respeita o stop, não hesita) e liberdade de tempo. Varie o ângulo a cada vídeo.
+- **Argumentos:** perdas, quebra de conta, emocional (medo, ganância, revanche, entrar atrasado, segurar prejuízo), disciplina da automação (segue a estratégia, respeita o stop, não hesita) e liberdade de tempo. Varie o ângulo a cada vídeo.
 - **Anúncio da Prime Win:** automatiza estratégias, e toda automação é testada em ambiente de conta real antes de chegar ao cliente.
 - **5PI:** mesa proprietária que libera até cem mil reais para operar na Profit. Mantenha sempre.
 - **CTA:** "Comenta PRIME aqui embaixo que a gente te manda as informações no direct". **Nunca** "link na bio".
@@ -20,8 +20,13 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
 - **Variar o gráfico a cada vídeo (rodízio, registre no histórico):**
   - `--estilo linha` ou `--estilo candles`. Candles em pelo menos metade dos vídeos.
   - `--cenario ondas`: 3 operações maiores, compra no fundo e saída no topo.
-  - `--cenario tendencia_alta` / `tendencia_baixa`: várias entradas num único movimento, cada uma ganhando poucos pontos, com contador "N operações +X pontos". Nesses vídeos, a narração deve comentar isso, por exemplo: "numa única tendência o robô fez várias entradas curtas, pegando poucos pontos em cada uma, sem cansaço e sem hesitar".
+  - `--cenario tendencia_alta` / `tendencia_baixa`: várias entradas curtas num único movimento, cada uma ganhando poucos pontos.
+  - `--cenario longo_alta` / `longo_baixa`: uma entrada que pega um movimento longo.
+  - `--cenario fibo_alta` / `fibo_baixa`: entrada na retração de 61,8% de Fibonacci, com alvo em 161,8%.
   - Nunca repita a mesma combinação estilo+cenário do vídeo anterior.
+- **PROIBIDO (pedido de 27/09):**
+  - Nunca usar a palavra **"robô"** em nenhum lugar: narração, legenda, textos na tela ou legenda do post. Diga "automação" ou "automações". O `make_video.py` para com erro se encontrar a palavra.
+  - A narração **não** comenta a operação do gráfico ("olha esse gráfico", "fez várias entradas aqui") e **não** dá a entender que o vídeo mostra uma automação ou operação específica. O texto fala de **automações em geral**. O gráfico é só ilustração visual.
 - **Técnico:**
   - Voz pm_santa acelerada, 61–72s.
   - `music_mood: "alegre"`.

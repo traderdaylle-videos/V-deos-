@@ -22,6 +22,10 @@ HERE=os.path.dirname(os.path.abspath(__file__))
 def run(a): sp.run(a,check=True,capture_output=True)
 def dur(f): return float(sp.check_output(["ffprobe","-v","error","-show_entries","format=duration","-of","csv=p=0",f]))
 
+# 0) Palavras proibidas (pedido do usuário): nunca "robô" em narração, legenda ou cartão final
+_txt=" ".join(t for _,t in S["segs"])+" "+" ".join(L["t"] for L in S.get("endcard",{}).get("lines",[]))
+if re.search(r"\brob[oô]s?\b",_txt,flags=re.I): sys.exit('ERRO: o roteiro contém a palavra "robô" (proibida). Use "automação".')
+
 # 1) Narração frase a frase (tempos exatos) com a voz Kokoro "pm_santa" (masculina grave, escolhida pelo usuário).
 #    Fala acelerada e duração ajustada para "1 min e pouco" (61-72s).
 from kokoro_onnx import Kokoro
