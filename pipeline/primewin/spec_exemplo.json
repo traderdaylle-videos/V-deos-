@@ -6,27 +6,31 @@
   ],
   [
    "intro",
-   "Você pode não precisar mais operar manualmente, se optar por uma automação."
+   "Olha esse gráfico: numa única tendência de alta, o robô fez várias entradas curtas, pegando poucos pontos em cada uma."
+  ],
+  [
+   "intro",
+   "Sem cansaço, sem medo e sem hesitar."
   ],
   [
    "meio",
-   "Seja sincero: quantas vezes você entrou atrasado, com medo de perder o movimento?"
+   "Agora seja sincero: quantas vezes você entrou atrasado, com medo de perder o movimento?"
   ],
   [
    "meio",
-   "Quantas vezes segurou uma perda achando que o preço ia voltar, e viu o prejuízo crescer?"
+   "Quantas vezes segurou uma perda achando que o preço ia voltar?"
   ],
   [
    "meio",
-   "É assim que muita gente quebra a conta: não por falta de estratégia, mas por causa do emocional."
+   "É assim que muita gente quebra a conta: não por falta de estratégia, mas pelo emocional."
   ],
   [
    "meio",
-   "Medo, ganância, vontade de recuperar o prejuízo no mesmo dia."
+   "Medo, ganância, vontade de recuperar tudo no mesmo dia."
   ],
   [
    "meio",
-   "Um agente automatizado não sente nada disso. Ele segue a estratégia à risca, respeita o stop e executa na hora certa, sem hesitar."
+   "Uma automação segue a estratégia à risca e respeita o stop."
   ],
   [
    "meio",
@@ -34,19 +38,19 @@
   ],
   [
    "recap",
-   "É isso que a Prime Win faz: pega estratégias e transforma em automações."
+   "É isso que a Prime Win faz: transforma estratégias em automações."
   ],
   [
    "recap",
-   "E toda automação é testada em ambiente de conta real antes de chegar até você."
+   "Toda automação é testada em ambiente de conta real antes de chegar até você."
+  ],
+  [
+   "recap",
+   "Você não precisa mais operar manualmente, se optar por uma automação."
   ],
   [
    "final_5pi",
-   "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na plataforma Profit."
-  ],
-  [
-   "final_5pi",
-   "Automação e mesa proprietária juntas podem ser uma combinação muito interessante."
+   "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na Profit."
   ],
   [
    "final_fim",
@@ -54,16 +58,18 @@
   ],
   [
    "final_fim",
-   "E lembre: operar envolve risco, e resultado passado não garante resultado futuro."
+   "Operar envolve risco, e resultado passado não garante resultado futuro."
   ]
  ],
  "photos_meio": [
-  "estressado.png",
-  "trader-monitores-noite.png",
-  "relaxado.png",
-  "celular-grafico.png"
+  "numeros-oculos-47792.mp4",
+  "lucro-bolsa-47012.mp4",
+  "homem-estressado-49225.mp4",
+  "trader-estressado.png",
+  "tendencia-tela-9607.mp4",
+  "homem-mar-tranquilo-26667.mp4"
  ],
- "photo_5pi": "dinheiro-reais.png",
+ "photo_5pi": "investidor-tablet-escritorio-45706.mp4",
  "explainer_anim": "explicativo_anim.mp4",
  "explainer_final": "explicativo_final.png",
  "keywords_green": [
@@ -139,5 +145,5 @@
    }
   ]
  },
- "output": "2026-09-27-primewin-nunca-mais-clicar.mp4"
+ "output": "primewin_clipes_teste.mp4"
 }

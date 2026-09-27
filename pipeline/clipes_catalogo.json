@@ -1,0 +1,21 @@
+{
+ "_como_usar": "Clipes de vídeo reais (Mixkit, licença gratuita para uso comercial/redes sociais, sem atribuição). Ficam no branch 'clipes' (pasta clipes/). Baixe com: git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-deos- /tmp/clipes. Para adicionar novos: ache o ID no Mixkit (WebSearch 'mixkit free stock video <tema>'; o ID é o número no fim da URL) e dispare o workflow baixar-clipes (ver README).",
+ "clipes": {
+  "empresario-grafico-sucesso-26518.mp4": "homem de terno analisando gráfico no monitor, escritório",
+  "grafico-closeup-47016.mp4": "close de gráfico azul subindo na tela",
+  "grafico-homem-analisando-47214.mp4": "homem de óculos olhando painel de cotações",
+  "grafico-tempo-real-47018.mp4": "mãos com tablet mostrando gráfico em tempo real",
+  "homem-analisando-graficos-17415.mp4": "mãos com calculadora e relatórios (genérico)",
+  "homem-estressado-49225.mp4": "homem estressado com as mãos na cabeça (dor, perda, emocional)",
+  "homem-mar-tranquilo-26667.mp4": "homem comemorando de braços abertos à beira-mar (liberdade)",
+  "investidor-tablet-45708.mp4": "dedos navegando gráfico em tablet",
+  "investidor-tablet-escritorio-45706.mp4": "mesa vista de cima: tablet com gráfico, dinheiro e caderno",
+  "lucro-bolsa-47012.mp4": "gráfico de candles vermelho caindo (perdas)",
+  "numeros-oculos-47792.mp4": "reflexo de cotações nos óculos (ansiedade, olhar a tela)",
+  "relaxando-por-do-sol-33968.mp4": "silhueta relaxando no banco ao pôr do sol (tempo livre)",
+  "tendencia-tela-9607.mp4": "tela de trading com gráfico e cotações (robô operando)",
+  "contando-dinheiro-23168.mp4": "mão entregando dinheiro (dólar)",
+  "dinheiro-transacao-18247.mp4": "mãos trocando nota de dólar, fundo preto",
+  "homem-cafe-88009.mp4": "close de xícara (pouco claro, evitar)"
+ }
+}

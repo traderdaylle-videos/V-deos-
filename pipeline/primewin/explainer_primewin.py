@@ -104,7 +104,7 @@ def up(f):
     g=sum(ganho(tr) for tr in done)
     if not done: pnl.set_text("aguardando sinal...")
     elif big: pnl.set_text(f"{g:+.0f} pontos")
-    else: pnl.set_text(f"{len(done)} operações  {g:+.0f} pontos")
+    else: pnl.set_text(f"{len(done)} {'operação' if len(done)==1 else 'operações'}  {g:+.0f} pontos")
     status.set_alpha(0.55+0.45*abs(np.sin(f/6)))
     return []
 assert all(ganho(tr)>0 for tr in trades), "cenário gerou operação negativa; troque --seed"

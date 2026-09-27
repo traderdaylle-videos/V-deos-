@@ -29,7 +29,11 @@ legenda de cores, gráfico com dados sintéticos limpos que mostram o padrão de
 frase de destaque abaixo do gráfico e o QUARTO INFERIOR VAZIO (legendas). Gera `explicativo_anim.mp4` (8s, 1080x1920) e
 `explicativo_final.png`. Rode dentro de $W. Extraia 2 quadros e CONFIRA com a ferramenta Read (legível, sem sobreposição).
 
-## 4. Fotos reais
+## 4a. Clipes de vídeo reais (preferir a fotos paradas)
+No bloco `meio`, use principalmente **clipes em movimento** do branch `clipes` (veja `clipes_catalogo.json`), 4–5 itens de 4–6s cada, e no máximo 1–2 fotos do Canva.
+O `make_video.py` aceita `.mp4` em `photos_meio` e `photo_5pi`. Para baixar clipes novos do Mixkit, use o workflow `baixar-clipes` (instruções em `primewin/README.md`, passo 4).
+
+## 4. Fotos reais (complemento)
 Banco em `pipeline/fotos/` (1080x1920 ou 9:16). A cada vídeo, gere 1–2 fotos NOVAS ligadas ao tema no Canva para variar:
 1. `generate-image` (aspectRatio PORTRAIT_9_16, foto realista, pessoas/dinheiro/gráficos, sem texto) → `get-generate-image-job` → media id.
 2. `create-design` (format "Phone Wallpaper", brief "blank dark background, no text") → `get-create-design-async-job` → design id.

@@ -47,12 +47,22 @@ Tarefa agendada "Prime Win: 2 Reels por dia no Instagram": 10:05 e 18:05 (picos 
    - Varie os títulos, por exemplo "SEM CLICAR" / "EM COMPRAR OU VENDER", ou "VÁRIAS ENTRADAS" / "NUMA SÓ TENDÊNCIA".
    - Se der "operação negativa", troque `--seed`.
    - Verifique `explicativo_final.png` com Read.
-4. Fotos:
+4. **Clipes de vídeo reais (obrigatório, pedido de 27/09):** no bloco `meio` e na 5PI, use **principalmente clipes em movimento**. Fotos paradas são apenas complemento, no máximo 1–2 por vídeo.
+   - `git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-deos- /tmp/clipes` e escolha pelo `../clipes_catalogo.json`.
+   - Use 5–6 itens no `meio`, um por frase, cada um com 4–6s. Combine a cena com a fala (estressado na dor, gráfico caindo na perda, liberdade no final).
+   - Não repita a mesma sequência do vídeo anterior.
+   - O `make_video.py` monta cada clipe com fundo desfocado e o vídeo nítido no centro. Escolha o trecho com `"clip_offset": {"arquivo.mp4": segundos}`.
+   - **Clipes novos** (1–2 por dia, para variar):
+     - Ache o ID no Mixkit com WebSearch "mixkit free stock video <tema>". O ID é o número no fim da URL.
+     - Dispare o workflow: `curl -s -X POST -H "Accept: application/vnd.github+json" -H "Content-Type: application/json" https://api.github.com/repos/traderdaylle-videos/V-deos-/actions/workflows/baixar-clipes.yml/dispatches -d '{"ref":"main","inputs":{"itens":"<nome>-<ID>.mp4 https://assets.mixkit.co/videos/<ID>/<ID>-1080.mp4"}}'` (itens separados por quebra de linha).
+     - Espere cerca de 1 min, clone o branch `clipes` de novo e adicione a descrição ao `clipes_catalogo.json`.
+   - Canva: o conector não busca na biblioteca de vídeos do Canva. Se o usuário puser vídeos numa pasta do Canva, dá para exportá-los em MP4 (export-design) e passar a URL ao mesmo workflow.
+5. Fotos (complemento):
    - Reutilize as de `../fotos/` (trader-estressado, homem-relaxado-automacao, trader-monitores-noite, celular-grafico, dinheiro-reais).
    - Ou gere novas no Canva: `generate-image` → design Phone Wallpaper → `insert_fill` 1080x1920 → pegue o PNG da miniatura do `edit-design` em tool-results.
-5. Escreva `spec.json` e rode `python3 ../make_video.py WORKDIR`. Confira de 4 a 6 quadros.
-6. Hospede o vídeo no branch `media` (órfão, force-push, mantendo os 3 últimos dias) em `primewin/<data>-<slug>.mp4`. A URL fica `https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/primewin/<arquivo>`.
-7. Publique como Reels via Zapier `instagram_for_business` publish_video:
+6. Escreva `spec.json` e rode `python3 ../make_video.py WORKDIR`. Confira de 4 a 6 quadros.
+7. Hospede o vídeo no branch `media` (órfão, force-push, mantendo os 3 últimos dias) em `primewin/<data>-<slug>.mp4`. A URL fica `https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/primewin/<arquivo>`.
+8. Publique como Reels via Zapier `instagram_for_business` publish_video:
    - instagramPageId `17841422795242601`;
    - conexão `0276af1e-2b83-8acf-966c-8e21fb820c5d`;
    - legenda com "Comente PRIME", hashtags e o aviso de risco.

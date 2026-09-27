@@ -5,7 +5,7 @@ Uso: python3 make_video.py WORKDIR
 WORKDIR/spec.json:
 {
   "segs": [["intro","frase"], ...],   # seções: intro, meio, recap, final_5pi, final_fim
-  "photos_meio": ["a.png","b.png","c.png"],  # fotos (1080x1920 ou 9:16) para o bloco "meio", em ordem
+  "photos_meio": ["a.png","clipe.mp4","c.png"],  # fotos (9:16) e/ou CLIPES DE VÍDEO (.mp4) para o bloco "meio", em ordem
   "photo_5pi": "dinheiro.png",                 # foto durante o anúncio da 5PI
   "explainer_anim": "explicativo_anim.mp4",    # animação 1080x1920 (~8s) do conceito
   "explainer_final": "explicativo_final.png",  # último quadro da animação (1080x1920)
@@ -106,6 +106,16 @@ for k,(src,a,b) in enumerate(cuts):
              "-map","[v]","-t",str(d),"-r",str(FPS),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     elif src=="endcard":
         run(["ffmpeg","-y","-loop","1","-i","_endcard.png","-vf",f"scale=1080:1920,zoompan=z='min(1+0.0004*on,1.08)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS}","-t",str(d),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
+    elif src.lower().endswith((".mp4",".mov",".webm")):
+        # clipe de vídeo real (horizontal ou vertical): fundo desfocado em tela cheia + vídeo nítido no centro,
+        # em movimento. Começa em "clip_offset" s (spec opcional por arquivo) e repete se for curto.
+        off=str(S.get("clip_offset",{}).get(src,1.0))
+        run(["ffmpeg","-y","-stream_loop","-1","-ss",off,"-i",src,"-filter_complex",
+             f"[0:v]fps={FPS},split[a][b];"
+             "[a]scale=1080:1920:force_original_aspect_ratio=increase,crop=1080:1920,boxblur=18:2,eq=brightness=-0.06[bg];"
+             "[b]scale=-2:1180,crop='min(iw,1080)':1180[fg];"
+             "[bg][fg]overlay=(W-w)/2:(H-h)/2-140,setsar=1[v]",
+             "-map","[v]","-an","-t",str(d),"-r",str(FPS),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     else:
         run(["ffmpeg","-y","-loop","1","-i",src,"-vf",f"scale=2160:3840:force_original_aspect_ratio=increase:flags=lanczos,crop=2160:3840,unsharp=5:5:0.8,zoompan=z='1.0+0.0012*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS},eq=brightness=-0.04","-t",str(d),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     parts.append(o)
