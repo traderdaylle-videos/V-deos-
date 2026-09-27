@@ -1,0 +1,38 @@
+name: baixar-clipes
+# Baixa clipes de vídeo (ex.: exportações MP4 do Canva) que o workspace do Claude não consegue acessar
+# e salva no branch "clipes" para o pipeline usar. Disparo: workflow_dispatch com "itens" = linhas "nome.mp4 URL".
+on:
+  workflow_dispatch:
+    inputs:
+      itens:
+        description: "Uma linha por clipe: <nome.mp4> <url>"
+        required: true
+permissions:
+  contents: write
+jobs:
+  baixar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Baixar e publicar no branch clipes
+        env:
+          ITENS: ${{ github.event.inputs.itens }}
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          set -e
+          git config --global user.name traderdaylle-videos
+          git config --global user.email traderdaylle-videos@users.noreply.github.com
+          if git clone -q --depth 1 --branch clipes "https://x-access-token:${TOKEN}@github.com/${REPO}" c; then cd c; else
+            mkdir c && cd c && git init -q -b clipes && git remote add origin "https://x-access-token:${TOKEN}@github.com/${REPO}"; fi
+          mkdir -p clipes
+          printf '%s\n' "$ITENS" | while read -r nome url; do
+            [ -z "$nome" ] && continue
+            nome=$(basename "$nome")
+            curl -fsSL --retry 3 -o "clipes/$nome" "$url"
+            ls -la "clipes/$nome"
+          done
+          # mantém só os clipes dos últimos 10 dias (nome começa com AAAA-MM-DD)
+          lim=$(date -d '10 days ago' +%F)
+          for f in clipes/*; do n=$(basename "$f"); case "$n" in 20*) [ "${n:0:10}" \< "$lim" ] && rm -f "$f";; esac; done || true
+          git checkout -q --orphan novo
+          git add -A && git commit -qm "clipes $(date +%F-%H%M)" && git push -qf origin novo:clipes
