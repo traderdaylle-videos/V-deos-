@@ -51,7 +51,11 @@ def render(bg_clip, dur, out, cfg=None):
     f_av = ImageFont.truetype(F_XB, 22)
 
     m1, m2 = cfg.get("marca1", "PRIME"), cfg.get("marca2", "WIN")
-    tag = cfg.get("tagline", "A U T O M A Ç Õ E S   P A R A   A   B O L S A")
+    tag = cfg.get("tagline", "AUTOMAÇÕES DE MERCADO FINANCEIRO")
+    tag = "   ".join(" ".join(w) for w in tag.split())          # espaçamento largo entre letras
+    ts = 34
+    while ts > 20 and ImageDraw.Draw(Image.new("RGB", (1, 1))).textlength(tag, font=ImageFont.truetype(F_XB, ts)) > 980: ts -= 1
+    f_tag = ImageFont.truetype(F_XB, ts)
     btn = cfg.get("botao", "COMENTE PRIME")
     sub = cfg.get("sub", "e receba todas as informações no direct")
     com = cfg.get("comentario", "PRIME")
