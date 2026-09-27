@@ -1,6 +1,6 @@
 """Trilha animada gerada por código (sem direitos autorais): batida 118 BPM, bumbo, chimbal, baixo, acordes e arpejo."""
 import numpy as np, wave, sys
-def gerar(path, dur, sr=44100, bpm=118, seed=0):
+def gerar(path, dur, sr=44100, bpm=118, seed=0, mood="padrao"):
     rng=np.random.default_rng(seed); n=int(sr*dur); out=np.zeros(n)
     beat=60/bpm; t=np.arange(n)/sr
     def put(sig,start):
@@ -12,6 +12,8 @@ def gerar(path, dur, sr=44100, bpm=118, seed=0):
     hl=int(0.05*sr); hat=rng.normal(0,1,hl)*np.exp(-np.arange(hl)/sr*90)*0.18
     cl=int(0.2*sr); clap=rng.normal(0,1,cl)*np.exp(-np.arange(cl)/sr*25)*0.35
     prog=[[57,60,64],[53,57,60],[48,55,60],[55,59,62]]   # Am F C G
+    if mood=="alegre":   # bom astral: I-V-vi-IV em Dó maior, mais rápido
+        prog=[[60,64,67],[55,59,62],[57,60,64],[53,57,60]]; bpm=124; beat=60/bpm
     f=lambda m:440*2**((m-69)/12)
     nb=int(dur/beat)+1
     for b in range(nb):

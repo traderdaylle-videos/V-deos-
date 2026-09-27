@@ -56,7 +56,7 @@ END=T[-1]["end"]+0.8
 
 # 2) Trilha animada (gerada por código) mais presente, com "ducking": abaixa sozinha quando a voz fala
 sys.path.insert(0,HERE); from musica import gerar
-gerar("_musica.wav",END)
+gerar("_musica.wav",END,mood=S.get("music_mood","padrao"))
 run(["ffmpeg","-y","-i","_narracao.wav","-i","_musica.wav","-filter_complex",
      "[0:a]aresample=44100,apad,asplit=2[v][sc];[1:a]volume=0.32[m];[m][sc]sidechaincompress=threshold=0.03:ratio=4:attack=20:release=300[md];[v][md]amix=inputs=2:duration=shortest:normalize=0,alimiter=limit=0.95[a]",
      "-map","[a]","-ac","1","_mix.wav"])
@@ -76,12 +76,19 @@ cuts=[(s,a,(cuts[i+1][1] if i+1<len(cuts) else END)) for i,(s,a,_) in enumerate(
 
 # cartão final
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
-fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor("#0d1117")
-fig.text(0.5,0.86,"GOSTOU?",ha="center",fontsize=46,fontweight="bold",color="white")
-fig.text(0.5,0.79,"Segue pra mais dicas\nde análise técnica",ha="center",va="top",fontsize=26,color="#c9d1d9",linespacing=1.3)
-fig.text(0.5,0.62,S.get("handle","@traderdaylle"),ha="center",fontsize=40,fontweight="bold",color="#3fb950")
-fig.text(0.5,0.52,"Link da 5PI na descrição",ha="center",fontsize=24,color="#f0883e",fontweight="bold")
-fig.text(0.5,0.075,"Conteúdo educacional. Não é recomendação de investimento.",ha="center",fontsize=13,color="#8b949e")
+EC=S.get("endcard")
+if EC:  # cartão final configurável: {"bg":"#hex","lines":[{"t":..,"y":..,"size":..,"color":..,"bold":bool}]}
+    fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor(EC.get("bg","#0d1117"))
+    for L in EC["lines"]:
+        fig.text(0.5,L["y"],L["t"],ha="center",va="top",fontsize=L.get("size",26),color=L.get("color","white"),
+                 fontweight="bold" if L.get("bold") else "normal",linespacing=1.25)
+else:
+    fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor("#0d1117")
+    fig.text(0.5,0.86,"GOSTOU?",ha="center",fontsize=46,fontweight="bold",color="white")
+    fig.text(0.5,0.79,"Segue pra mais dicas\nde análise técnica",ha="center",va="top",fontsize=26,color="#c9d1d9",linespacing=1.3)
+    fig.text(0.5,0.62,S.get("handle","@traderdaylle"),ha="center",fontsize=40,fontweight="bold",color="#3fb950")
+    fig.text(0.5,0.52,"Link da 5PI na descrição",ha="center",fontsize=24,color="#f0883e",fontweight="bold")
+    fig.text(0.5,0.075,"Conteúdo educacional. Não é recomendação de investimento.",ha="center",fontsize=13,color="#8b949e")
 fig.savefig("_endcard.png",facecolor=fig.get_facecolor()); plt.close(fig)
 
 parts=[]
@@ -128,8 +135,8 @@ for s in T:
     tot=sum(len(c) for c in ch); t0=s["start"]; span=s["end"]-s["start"]
     for c in ch:
         d=span*len(c)/tot; x=c.upper()
-        if G: x=re.sub(f"({G})",r"{\\c&H50B93F&}\1{\\c&HFFFFFF&}",x)
-        if O: x=re.sub(f"({O})",r"{\\c&H3E88F0&}\1{\\c&HFFFFFF&}",x)
+        if G: x=re.sub(f"({G})",r"{\\c"+S.get("kw_color_green","&H50B93F&")+r"}\1{\\c&HFFFFFF&}",x)
+        if O: x=re.sub(f"({O})",r"{\\c"+S.get("kw_color_orange","&H3E88F0&")+r"}\1{\\c&HFFFFFF&}",x)
         L.append(f"Dialogue: 0,{ts(t0)},{ts(t0+d)},Cap,,0,0,0,,{x}"); t0+=d
 open("_legendas.ass","w").write(head+"\n".join(L)+"\n")
 out=S.get("output","video.mp4")
