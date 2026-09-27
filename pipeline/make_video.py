@@ -28,11 +28,16 @@ from kokoro_onnx import Kokoro
 import soundfile as sf
 KK=Kokoro("/tmp/kokoro/kokoro-v1.0.onnx","/tmp/kokoro/voices-v1.0.bin")
 VOICE=S.get("voice","pm_santa"); TARGET=(61.0,72.0); GAP=0.2
+# Pronúncia: troca palavras só no texto falado (a legenda continua com a grafia correta). Ex.: Prime -> Praime
+PRON={"Prime":"Praime",**S.get("pronuncia",{})}
+def falado(txt):
+    for a,b in PRON.items(): txt=re.sub(rf"\b{re.escape(a)}\b",b,txt,flags=re.I)
+    return txt
 def synth(speed):
     T=[]; t=0.0; files=[]
     for i,(sec,txt) in enumerate(S["segs"]):
         f=f"_seg{i:02d}.wav"
-        a,sr=KK.create(txt,voice=VOICE,speed=speed,lang="pt-br"); sf.write(f,a,sr)
+        a,sr=KK.create(falado(txt),voice=VOICE,speed=speed,lang="pt-br"); sf.write(f,a,sr)
         d=len(a)/sr; T.append({"sec":sec,"text":txt,"start":t,"end":t+d}); files.append(f); t+=d+GAP
     return T,files
 speed=float(S.get("speed",1.1))

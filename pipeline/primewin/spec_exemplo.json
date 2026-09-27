@@ -1,38 +1,143 @@
 {
  "segs": [
-  ["intro","Já pensou em nunca mais precisar clicar em comprar ou vender?"],
-  ["intro","Você pode não precisar mais operar manualmente, se optar por uma automação."],
-  ["meio","Seja sincero: quantas vezes você entrou atrasado, com medo de perder o movimento?"],
-  ["meio","Quantas vezes segurou uma perda achando que o preço ia voltar, e viu o prejuízo crescer?"],
-  ["meio","É assim que muita gente quebra a conta: não por falta de estratégia, mas por causa do emocional."],
-  ["meio","Medo, ganância, vontade de recuperar o prejuízo no mesmo dia."],
-  ["meio","Um agente automatizado não sente nada disso. Ele segue a estratégia à risca, respeita o stop e executa na hora certa, sem hesitar."],
-  ["meio","Enquanto isso, você vive a sua vida longe da tela."],
-  ["recap","É isso que a Prime Win faz: pega estratégias e transforma em automações."],
-  ["recap","E toda automação é testada em ambiente de conta real antes de chegar até você."],
-  ["final_5pi","E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na plataforma Profit."],
-  ["final_5pi","Automação e mesa proprietária juntas podem ser uma combinação muito interessante."],
-  ["final_fim","Comenta PRIME aqui embaixo que a gente te manda todas as informações no direct."],
-  ["final_fim","E lembre: operar envolve risco, e resultado passado não garante resultado futuro."]
+  [
+   "intro",
+   "Já pensou em nunca mais precisar clicar em comprar ou vender?"
+  ],
+  [
+   "intro",
+   "Você pode não precisar mais operar manualmente, se optar por uma automação."
+  ],
+  [
+   "meio",
+   "Seja sincero: quantas vezes você entrou atrasado, com medo de perder o movimento?"
+  ],
+  [
+   "meio",
+   "Quantas vezes segurou uma perda achando que o preço ia voltar, e viu o prejuízo crescer?"
+  ],
+  [
+   "meio",
+   "É assim que muita gente quebra a conta: não por falta de estratégia, mas por causa do emocional."
+  ],
+  [
+   "meio",
+   "Medo, ganância, vontade de recuperar o prejuízo no mesmo dia."
+  ],
+  [
+   "meio",
+   "Um agente automatizado não sente nada disso. Ele segue a estratégia à risca, respeita o stop e executa na hora certa, sem hesitar."
+  ],
+  [
+   "meio",
+   "Enquanto isso, você vive a sua vida longe da tela."
+  ],
+  [
+   "recap",
+   "É isso que a Prime Win faz: pega estratégias e transforma em automações."
+  ],
+  [
+   "recap",
+   "E toda automação é testada em ambiente de conta real antes de chegar até você."
+  ],
+  [
+   "final_5pi",
+   "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "Automação e mesa proprietária juntas podem ser uma combinação muito interessante."
+  ],
+  [
+   "final_fim",
+   "Comenta PRIME aqui embaixo que a gente te manda todas as informações no direct."
+  ],
+  [
+   "final_fim",
+   "E lembre: operar envolve risco, e resultado passado não garante resultado futuro."
+  ]
  ],
- "photos_meio": ["estressado.png","trader-monitores-noite.png","relaxado.png","celular-grafico.png"],
+ "photos_meio": [
+  "estressado.png",
+  "trader-monitores-noite.png",
+  "relaxado.png",
+  "celular-grafico.png"
+ ],
  "photo_5pi": "dinheiro-reais.png",
  "explainer_anim": "explicativo_anim.mp4",
  "explainer_final": "explicativo_final.png",
- "keywords_green": ["PRIME WIN","PRIME","AUTOMAÇÃO","AUTOMAÇÕES","AUTOMATIZADO","CONTA REAL","5PI"],
- "keywords_orange": ["PERDA","PREJUÍZO","QUEBRA","EMOCIONAL","MEDO","GANÂNCIA","RISCO"],
+ "keywords_green": [
+  "PRIME WIN",
+  "PRIME",
+  "AUTOMAÇÃO",
+  "AUTOMAÇÕES",
+  "AUTOMATIZADO",
+  "CONTA REAL",
+  "5PI"
+ ],
+ "keywords_orange": [
+  "PERDA",
+  "PREJUÍZO",
+  "QUEBRA",
+  "EMOCIONAL",
+  "MEDO",
+  "GANÂNCIA",
+  "RISCO"
+ ],
  "kw_color_green": "&HFFE03F&",
  "kw_color_orange": "&H3FD2FF&",
  "music_mood": "alegre",
  "speed": 1.15,
- "endcard": {"bg":"#0a0f2e","lines":[
-   {"t":"PRIME","y":0.88,"size":64,"color":"#3fe0ff","bold":true},
-   {"t":"WIN","y":0.80,"size":64,"color":"#ffd23f","bold":true},
-   {"t":"Automações para a bolsa","y":0.70,"size":22,"color":"#c9d1f0"},
-   {"t":"Comente PRIME","y":0.58,"size":40,"color":"white","bold":true},
-   {"t":"e receba as informações\nno direct","y":0.51,"size":26,"color":"#c9d1f0"},
-   {"t":"Mesa proprietária 5PI: até R$ 100 mil","y":0.38,"size":20,"color":"#ffd23f","bold":true},
-   {"t":"Operar envolve risco. Resultados passados não garantem resultados futuros.","y":0.06,"size":11,"color":"#8b93b8"}
- ]},
- "output": "primewin_teste.mp4"
+ "endcard": {
+  "bg": "#0a0f2e",
+  "lines": [
+   {
+    "t": "PRIME",
+    "y": 0.88,
+    "size": 64,
+    "color": "#3fe0ff",
+    "bold": true
+   },
+   {
+    "t": "WIN",
+    "y": 0.8,
+    "size": 64,
+    "color": "#ffd23f",
+    "bold": true
+   },
+   {
+    "t": "Automações para a bolsa",
+    "y": 0.7,
+    "size": 22,
+    "color": "#c9d1f0"
+   },
+   {
+    "t": "Comente PRIME",
+    "y": 0.58,
+    "size": 40,
+    "color": "white",
+    "bold": true
+   },
+   {
+    "t": "e receba as informações\nno direct",
+    "y": 0.51,
+    "size": 26,
+    "color": "#c9d1f0"
+   },
+   {
+    "t": "Mesa proprietária 5PI: até R$ 100 mil",
+    "y": 0.38,
+    "size": 20,
+    "color": "#ffd23f",
+    "bold": true
+   },
+   {
+    "t": "Operar envolve risco. Resultados passados não garantem resultados futuros.",
+    "y": 0.06,
+    "size": 11,
+    "color": "#8b93b8"
+   }
+  ]
+ },
+ "output": "2026-09-27-primewin-nunca-mais-clicar.mp4"
 }

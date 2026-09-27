@@ -12,6 +12,16 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
   - Sem prometer lucro, sem percentuais ou valores de ganho, sem "renda garantida".
   - Sempre feche com "operar envolve risco, resultado passado não garante resultado futuro".
   - O gráfico abstrato leva "Simulação ilustrativa".
+- **Pronúncia:** o nome se lê "PRAIME win". O `make_video.py` troca Prime→Praime **só na voz** (a legenda continua "PRIME"). Para outras palavras, use `"pronuncia": {"Palavra":"Como falar"}` no spec.
+- **Gráfico por mais tempo (pedido de 27/09):**
+  - O clipe do gráfico tem 13s por padrão.
+  - A `intro` deve ter **3 frases** (12–15s sobre o gráfico) e o `recap` **3 frases**.
+  - Mais de 1/3 do vídeo fica no gráfico.
+- **Variar o gráfico a cada vídeo (rodízio, registre no histórico):**
+  - `--estilo linha` ou `--estilo candles`. Candles em pelo menos metade dos vídeos.
+  - `--cenario ondas`: 3 operações maiores, compra no fundo e saída no topo.
+  - `--cenario tendencia_alta` / `tendencia_baixa`: várias entradas num único movimento, cada uma ganhando poucos pontos, com contador "N operações +X pontos". Nesses vídeos, a narração deve comentar isso, por exemplo: "numa única tendência o robô fez várias entradas curtas, pegando poucos pontos em cada uma, sem cansaço e sem hesitar".
+  - Nunca repita a mesma combinação estilo+cenário do vídeo anterior.
 - **Técnico:**
   - Voz pm_santa acelerada, 61–72s.
   - `music_mood: "alegre"`.
@@ -30,7 +40,10 @@ O roteiro deve ter de 190 a 205 palavras. Modelo completo em `spec_exemplo.json`
 ## Passos
 1. Rode `bash ../setup.sh`.
 2. Escolha o ângulo do dia e registre-o em `historico_primewin.json`. Não repita o ângulo dos últimos 7 dias.
-3. Gere a animação: `python3 explainer_primewin.py "TÍTULO 1" "TÍTULO 2"`, rodado no WORKDIR. Varie os títulos, por exemplo "SEM CLICAR" / "EM COMPRAR OU VENDER". Verifique `explicativo_final.png` com Read.
+3. Gere a animação no WORKDIR: `python3 explainer_primewin.py --estilo candles --cenario tendencia_alta "TÍTULO 1" "TÍTULO 2"`.
+   - Varie os títulos, por exemplo "SEM CLICAR" / "EM COMPRAR OU VENDER", ou "VÁRIAS ENTRADAS" / "NUMA SÓ TENDÊNCIA".
+   - Se der "operação negativa", troque `--seed`.
+   - Verifique `explicativo_final.png` com Read.
 4. Fotos:
    - Reutilize as de `../fotos/` (trader-estressado, homem-relaxado-automacao, trader-monitores-noite, celular-grafico, dinheiro-reais).
    - Ou gere novas no Canva: `generate-image` → design Phone Wallpaper → `insert_fill` 1080x1920 → pegue o PNG da miniatura do `edit-design` em tool-results.
