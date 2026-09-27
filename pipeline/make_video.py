@@ -127,7 +127,7 @@ Style: Cap,DejaVu Sans,74,&H00FFFFFF,&H00FFFFFF,&H00000000,&H96000000,-1,0,0,0,1
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
 """
-G="|".join(map(re.escape,S.get("keywords_green",["COMPRA","ALTA","5PI"]))); O="|".join(map(re.escape,S.get("keywords_orange",["VENDA","BAIXA"])))
+G="|".join(map(re.escape,sorted(S.get("keywords_green",["COMPRA","ALTA","5PI"]),key=len,reverse=True))); O="|".join(map(re.escape,sorted(S.get("keywords_orange",["VENDA","BAIXA"]),key=len,reverse=True)))
 L=[]
 for s in T:
     ch=[]; cur=[]
@@ -140,8 +140,9 @@ for s in T:
     tot=sum(len(c) for c in ch); t0=s["start"]; span=s["end"]-s["start"]
     for c in ch:
         d=span*len(c)/tot; x=c.upper()
-        if G: x=re.sub(f"({G})",r"{\\c"+S.get("kw_color_green","&H50B93F&")+r"}\1{\\c&HFFFFFF&}",x)
-        if O: x=re.sub(f"({O})",r"{\\c"+S.get("kw_color_orange","&H3E88F0&")+r"}\1{\\c&HFFFFFF&}",x)
+        B=r"(?<![A-ZÀ-Ý0-9])"; E=r"(?![A-ZÀ-Ý0-9])"   # palavra inteira: COMPRA não pinta dentro de SOBRECOMPRADO
+        if G: x=re.sub(f"{B}({G}){E}",r"{\\c"+S.get("kw_color_green","&H50B93F&")+r"}\1{\\c&HFFFFFF&}",x)
+        if O: x=re.sub(f"{B}({O}){E}",r"{\\c"+S.get("kw_color_orange","&H3E88F0&")+r"}\1{\\c&HFFFFFF&}",x)
         L.append(f"Dialogue: 0,{ts(t0)},{ts(t0+d)},Cap,,0,0,0,,{x}"); t0+=d
 open("_legendas.ass","w").write(head+"\n".join(L)+"\n")
 out=S.get("output","video.mp4")

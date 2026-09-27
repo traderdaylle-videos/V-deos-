@@ -37,6 +37,9 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
 
 O roteiro deve ter de 190 a 205 palavras. Modelo completo em `spec_exemplo.json` (copie o `endcard`, as cores e as palavras-chave).
 
+## Horários
+Tarefa agendada "Prime Win: 2 Reels por dia no Instagram": 10:05 e 18:05 (picos de audiência de finanças no Instagram, dados do Metricool). Ela publica na hora via Zapier. O TikTok roda às 10:40 e 17:40; os horários não se cruzam, para as duas tarefas não gravarem o branch media ao mesmo tempo.
+
 ## Passos
 1. Rode `bash ../setup.sh`.
 2. Escolha o ângulo do dia e registre-o em `historico_primewin.json`. Não repita o ângulo dos últimos 7 dias.
