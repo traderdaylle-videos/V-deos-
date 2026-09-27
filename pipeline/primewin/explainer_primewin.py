@@ -67,8 +67,9 @@ hi=np.maximum(opn,close)+np.abs(rng.normal(0.35,0.15,n)); lo=np.minimum(opn,clos
 fig=plt.figure(figsize=(7.2,12.8),dpi=150)
 bgax=fig.add_axes([0,0,1,1]); bgax.axis("off")
 g=np.linspace(0,1,256)[:,None]; bgax.imshow(g,aspect="auto",cmap=matplotlib.colors.LinearSegmentedColormap.from_list("b",[BG,"#1c0d45"]),extent=[0,1,0,1])
-fig.text(0.5,0.935,T1,ha="center",va="center",fontsize=40,fontweight="bold",color="white")
-fig.text(0.5,0.88,T2,ha="center",va="center",fontsize=40,fontweight="bold",color=YE)
+def fs(txt): return min(40, 40*15/max(len(txt),1))   # títulos longos encolhem para caber na largura
+fig.text(0.5,0.935,T1,ha="center",va="center",fontsize=fs(T1),fontweight="bold",color="white")
+fig.text(0.5,0.88,T2,ha="center",va="center",fontsize=fs(T2),fontweight="bold",color=YE)
 status=fig.text(0.5,0.815,status_txt,ha="center",fontsize=17,color=CY,fontweight="bold")
 ax=fig.add_axes([0.06,0.33,0.88,0.44]); ax.set_facecolor("none")
 ax.set_xlim(-5,n+(10 if fib else 3)); ax.set_ylim(lo.min()-3,hi.max()+3.5); ax.axis("off")
