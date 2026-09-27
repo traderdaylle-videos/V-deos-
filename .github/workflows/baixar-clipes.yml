@@ -28,7 +28,9 @@ jobs:
           printf '%s\n' "$ITENS" | while read -r nome url; do
             [ -z "$nome" ] && continue
             nome=$(basename "$nome")
-            curl -fsSL --retry 3 -o "clipes/$nome" "$url"
+            curl -fsSL --retry 3 -o "clipes/$nome" "$url" \
+              || curl -fsSL --retry 3 -o "clipes/$nome" "$(echo "$url" | sed 's/-1080\.mp4/-720.mp4/')" \
+              || { echo "FALHOU: $nome"; rm -f "clipes/$nome"; continue; }
             ls -la "clipes/$nome"
           done
           # mantém só os clipes dos últimos 10 dias (nome começa com AAAA-MM-DD)
