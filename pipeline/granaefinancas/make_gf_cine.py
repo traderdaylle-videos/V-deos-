@@ -31,6 +31,8 @@ import json, os, re, subprocess as sp, sys, wave
 W = sys.argv[1]; os.chdir(W); S = json.load(open("spec.json"))
 HERE = os.path.dirname(os.path.abspath(__file__)); sys.path.insert(0, HERE)
 FPS = 30; FONTS = os.path.abspath(os.path.join(HERE, "..", "fonts"))
+HORIZ = S.get("formato", "9:16") == "16:9"          # "16:9" = vídeo longo do YouTube
+WW, HH = (1920, 1080) if HORIZ else (1080, 1920)
 def run(a): sp.run(a, check=True, capture_output=True)
 def dur(f): return float(sp.check_output(["ffprobe", "-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", f]))
 def wav_dur(f):
@@ -46,13 +48,17 @@ if re.search(r"recomenda[çc][ãa]o de investimento", txt_all, flags=re.I):
 V = {"model": "/tmp/clipes/clipes/pt_BR-jeff-medium.onnx", "length_scale": 1.0, "noise_scale": 0.72,
      "noise_w": 0.9, "pitch_semitons": -1.5, **S.get("voice", {})}
 TARGET = tuple(S.get("target", [45, 65])); TAIL = 3.0
+from piper import PiperVoice, SynthesisConfig
+PV = PiperVoice.load(V["model"])
+def tts(txt, f, ls):
+    with wave.open(f, "wb") as w:
+        PV.synthesize_wav(txt, w, syn_config=SynthesisConfig(length_scale=ls, noise_scale=V["noise_scale"],
+                                                             noise_w_scale=V["noise_w"]))
 def synth(ls):
     T = []; t = 0.6; files = []   # 0,6s de respiro antes da 1ª fala
     for i, (txt, pausa) in enumerate(segs):
         f = f"_seg{i:02d}.wav"
-        sp.run([sys.executable, "-m", "piper", "-m", V["model"], "-f", f, "--length-scale", f"{ls:.3f}",
-                "--noise-scale", str(V["noise_scale"]), "--noise-w-scale", str(V["noise_w"]), "--sentence-silence", "0.25"],
-               input=txt.encode(), check=True, capture_output=True)
+        tts(txt, f, ls)
         run(["ffmpeg", "-y", "-i", f, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,"
              "silenceremove=start_periods=1:start_threshold=-50dB,areverse", "_t.wav"]); os.replace("_t.wav", f)
         d = wav_dur(f); T.append({"text": txt, "start": t, "end": t + d, "pausa": pausa}); files.append(f); t += d + pausa
@@ -95,8 +101,10 @@ def at(seg, frac=0.0):
     x = T[seg]; return 0.0 if seg == 0 and frac == 0 else x["start"] + frac * (x["end"] - x["start"])
 C = S["clips"]; st = [at(c["seg"], c.get("frac", 0.0)) for c in C]
 cuts = [(c, a, (st[i + 1] if i + 1 < len(C) else END)) for i, (c, a) in enumerate(zip(C, st))]
-GRADE = ("scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,"
-         "zoompan=z='1.0+0.0007*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s=1080x1920:fps=30,"
+SW, SH = int(WW * 1.1) // 2 * 2, int(HH * 1.1) // 2 * 2
+ZR = S.get("zoom_rate", 0.0007 if not HORIZ else 0.0003)
+GRADE = (f"scale={SW}:{SH}:force_original_aspect_ratio=increase,crop={SW}:{SH},"
+         f"zoompan=z='min(1.0+{ZR}*on,1.25)':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d=1:s={WW}x{HH}:fps=30,"
          "eq=contrast=1.10:brightness={luz}:saturation=0.65:gamma=1.0,"
          "colorbalance=rs=-0.06:gs=0.03:bs=0.01:rm=-0.04:gm=0.02:bm=0.0:rh=0.02:gh=0.01:bh=-0.03,"
          "vignette=angle=PI/4.2,noise=alls=4:allf=t,"
@@ -104,30 +112,42 @@ GRADE = ("scale=1188:2112:force_original_aspect_ratio=increase,crop=1188:2112,"
 parts = []
 for k, (c, a, b) in enumerate(cuts):
     d = round(b - a, 3); o = f"_part{k}.mp4"
-    fx = GRADE.format(luz=-0.03 + c.get("luz", 0.0)) + f",fade=t=in:st=0:d={0.35 if k else 0.8}:color=black"
+    fx = GRADE.replace("{luz}", "{luz}").format(luz=-0.03 + c.get("luz", 0.0)) + f",fade=t=in:st=0:d={0.35 if k else 0.8}:color=black"
     if k == len(cuts) - 1: fx += f",fade=t=out:st={max(0, d - 0.8):.2f}:d=0.8:color=black"
-    run(["ffmpeg", "-y", "-stream_loop", "-1", "-ss", str(c.get("offset", 1.0)), "-i", c["src"], "-vf", f"fps=30,{fx},setsar=1",
-         "-an", "-t", str(d), "-r", str(FPS), "-pix_fmt", "yuv420p", "-c:v", "libx264", "-crf", "19", o])
+    off = float(c.get("offset", 1.0)); sd = dur(c["src"])
+    if off > sd - 1.5: off = off % max(1.0, sd - 1.5)   # offset maior que o clipe: dá a volta
+    run(["ffmpeg", "-y", "-stream_loop", "-1", "-ss", f"{off:.2f}", "-i", c["src"], "-vf", f"fps=30,{fx},setsar=1",
+         "-an", "-t", str(d), "-r", str(FPS), "-pix_fmt", "yuv420p", "-c:v", "libx264", "-preset", "veryfast", "-crf", "18", o])
     parts.append(o)
 open("_parts.txt", "w").write("".join(f"file '{p}'\n" for p in parts))
 run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "_parts.txt", "-c", "copy", "_video.mp4"])
 
 # 4) Texto: frases de impacto + legendas + selo
 def ts(x): return f"{int(x // 3600)}:{int(x % 3600 // 60):02d}:{x % 60:05.2f}"
-head = """[Script Info]
-ScriptType: v4.00+
-PlayResX: 1080
-PlayResY: 1920
-WrapStyle: 0
-
-[V4+ Styles]
-Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
-Style: Cap,Montserrat Thin ExtraBold,66,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H78000000,0,0,0,0,100,100,1,0,1,5,3,2,80,80,330,1
+FMT_STYLES = {
+ False: """Style: Cap,Montserrat Thin ExtraBold,66,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H78000000,0,0,0,0,100,100,1,0,1,5,3,2,80,80,330,1
 Style: Brand,Montserrat Thin ExtraBold,30,&H004AB8E8,&H004AB8E8,&H00100C02,&H00000000,0,0,0,0,100,100,6,0,1,2,0,8,40,40,80,1
 Style: Num,Anton,330,&H004AB8E8,&H004AB8E8,&H00100C02,&H96000000,0,0,0,0,100,100,2,0,1,6,6,5,40,40,0,1
 Style: Tit,Anton,140,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H96000000,0,0,0,0,100,100,2,0,1,6,5,5,60,60,0,1
 Style: Sub,Montserrat Thin ExtraBold,66,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H96000000,0,0,0,0,100,100,1,0,1,4,3,5,70,70,0,1
-Style: Handle,Montserrat Thin ExtraBold,64,&H002C3404,&H002C3404,&H004AB8E8,&H004AB8E8,0,0,0,0,100,100,1,0,3,22,0,5,60,60,0,1
+Style: Kick,Montserrat Thin ExtraBold,44,&H004AB8E8,&H004AB8E8,&H00100C02,&H96000000,0,0,0,0,100,100,10,0,1,3,2,5,60,60,0,1
+Style: Handle,Montserrat Thin ExtraBold,64,&H002C3404,&H002C3404,&H004AB8E8,&H004AB8E8,0,0,0,0,100,100,1,0,3,22,0,5,60,60,0,1""",
+ True: """Style: Cap,Montserrat Thin ExtraBold,52,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H78000000,0,0,0,0,100,100,1,0,1,4,2,2,200,200,90,1
+Style: Brand,Montserrat Thin ExtraBold,24,&H004AB8E8,&H004AB8E8,&H00100C02,&H00000000,0,0,0,0,100,100,6,0,1,2,0,8,40,40,40,1
+Style: Num,Anton,300,&H004AB8E8,&H004AB8E8,&H00100C02,&H96000000,0,0,0,0,100,100,2,0,1,6,6,5,40,40,0,1
+Style: Tit,Anton,130,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H96000000,0,0,0,0,100,100,2,0,1,6,5,5,120,120,0,1
+Style: Sub,Montserrat Thin ExtraBold,56,&H00FFFFFF,&H00FFFFFF,&H00100C02,&H96000000,0,0,0,0,100,100,1,0,1,4,3,5,200,200,0,1
+Style: Kick,Montserrat Thin ExtraBold,38,&H004AB8E8,&H004AB8E8,&H00100C02,&H96000000,0,0,0,0,100,100,12,0,1,3,2,5,60,60,0,1
+Style: Handle,Montserrat Thin ExtraBold,56,&H002C3404,&H002C3404,&H004AB8E8,&H004AB8E8,0,0,0,0,100,100,1,0,3,20,0,5,60,60,0,1"""}
+head = f"""[Script Info]
+ScriptType: v4.00+
+PlayResX: {WW}
+PlayResY: {HH}
+WrapStyle: 0
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+{FMT_STYLES[HORIZ]}
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
@@ -142,11 +162,11 @@ for ov in S.get("overlays", []):
     a = at(ov["seg"], ov.get("frac", 0.0)) if ov["seg"] else 0.0
     b = T[ov.get("ate", ov["seg"])]["end"] + T[ov.get("ate", ov["seg"])]["pausa"] * 0.9
     for i, ln in enumerate(ov["linhas"]):
-        est = ln.get("estilo", "Tit"); y = ln.get("y", 760)
+        est = ln.get("estilo", "Tit"); y = ln.get("y", 760 if not HORIZ else 480); x = ln.get("x", WW // 2)
         ln = {**ln, "t": ln["t"].replace("\n", "\\N")}
-        txt = ln["t"] if est in ("Num", "Handle") else gold(ln["t"].upper() if est == "Tit" else ln["t"])
+        txt = ln["t"] if est in ("Num", "Handle", "Kick") else gold(ln["t"].upper() if est == "Tit" else ln["t"])
         pop = r"\t(0,160,\fscx104\fscy104)\t(160,320,\fscx100\fscy100)" if est in ("Num", "Tit") else ""
-        L.append(f"Dialogue: 3,{ts(a + ln.get('t0', 0))},{ts(b)},{est},,0,0,0,,{{\\an5\\pos(540,{y})\\fad(250,200){pop}}}{txt}")
+        L.append(f"Dialogue: 3,{ts(a + ln.get('t0', 0))},{ts(b)},{est},,0,0,0,,{{\\an5\\pos({x},{y})\\fad(250,200){pop}}}{txt}")
     cover.append((a, b))
 for s in T:
     words = s["text"].split(); ch = []; cur = []

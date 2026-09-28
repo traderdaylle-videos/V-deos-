@@ -14,14 +14,15 @@ def _reverb(x, secs=3.2, mix=0.45, seed=1):
     rng = np.random.default_rng(seed); n = int(secs * SR); t = np.arange(n) / SR
     ir = rng.normal(0, 1, n) * np.exp(-t * 6.9 / secs)
     ir = np.convolve(ir, np.ones(8) / 8, mode="same"); ir /= np.sqrt((ir ** 2).sum())   # escurece o reverb
-    m = len(x) + n - 1; N = 1 << (m - 1).bit_length()
-    wet = np.fft.irfft(np.fft.rfft(x, N) * np.fft.rfft(ir, N), N)[:len(x)]
+    from scipy.signal import oaconvolve   # por blocos: não estoura a memória em vídeos longos
+    wet = oaconvolve(x, ir)[:len(x)]
     return (1 - mix) * x + mix * wet / (np.abs(wet).max() + 1e-9) * np.abs(x).max()
 
 
-def _lp(x, cutoff):   # passa-baixa de 1 polo via FFT (rápido)
-    N = len(x); F = np.fft.rfftfreq(N, 1 / SR)
-    return np.fft.irfft(np.fft.rfft(x) / (1 + 1j * F / cutoff), N)
+def _lp(x, cutoff):   # passa-baixa de 1 polo (lfilter: rápido e leve em memória)
+    from scipy.signal import lfilter
+    a = np.exp(-2 * np.pi * cutoff / SR)
+    return lfilter([1 - a], [1, -a], x)
 
 
 def gerar(path, dur, impactos=(), seed=0, bpm=64):
