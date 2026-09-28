@@ -28,9 +28,26 @@ Canal de **educação financeira psicológica com base no estoicismo**. Tom **dr
   - Vídeo curto: "Manda pra alguém que precisa ouvir isso" e "segue a Grana e Finanças".
   - Vídeo longo: pedir inscrição e perguntar "qual princípio você vai aplicar primeiro?".
 
+## Preferências aprovadas em 28/09 (valem para todos os vídeos)
+- **Skills de roteiro:** as skills `/ig-*` adaptadas ao canal estão em `skills/` (perfil da marca em `skills/voice.md`).
+  - Use o método do `skills/ig-reel/SKILL.md` para o roteiro curto.
+  - Escreva 3 ganchos com fórmulas diferentes de `skills/ig-reel/hooks.json` e pontue com `python3 skills/ig-reel/hookscore.py ganchos.txt` (entende pt-BR).
+  - Escolha o de maior nota (mínimo 70, STRONG). O gancho abre com um **número concreto tirado de fonte pesquisada no dia** (ex.: "Seus mil reais parados viram novecentos e cinquenta e dois em um ano", conta feita a partir do Focus).
+  - Confira o ritmo com `skills/ig-reel/beats.py` e o texto com `skills/ig-human/detect.py`.
+- **Estrutura do curto aprovado (~60s):** gancho com número → dado da fonte → frases curtas com pausas → frase de virada ("Guardar não é proteger") → princípio estoico em paráfrase fiel → pergunta-espelho → ferramenta prática ("abra o seu extrato e pergunte: esse dinheiro tem um destino?") → CTA "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças."
+- **Overlays:** número gigante (`Num`) nos dados, 1 frase de impacto (`Tit`), citação/pergunta em `Sub`, handle no final.
+- **Números falados por extenso** na narração; na tela, em algarismos.
+- **Legenda do Reels:** revise com `python3 skills/ig-caption/caption.py legenda.txt --keywords "..."` até dar READY. Ela deve ter:
+  - 1ª linha com o número e uma pergunta ("Me conta 👇");
+  - corpo curto com a fonte;
+  - "📩 Manda esse vídeo pra alguém…";
+  - "👉 Segue @granaefinancas…";
+  - até 5 hashtags de finanças.
+- **Não refaça nada do zero:** voz, clipes e montagem vêm sempre deste pipeline.
+
 ## Dois vídeos por tema
-1. **Curto (9:16, 45–65s):** vai para o Instagram @granaefinancas como Reels e para o YouTube Shorts. Modelo: `spec_cine_exemplo.json`, aprovado pelo usuário em 28/09.
-2. **Longo (16:9, 5–8 min):** só YouTube. Modelo: `roteiro_longo_endividamento.py`, que gera o `spec.json`. Estrutura:
+1. **Curto (9:16, 45–65s):** vai para o Instagram @granaefinancas como Reels e para o YouTube Shorts. Modelos: `spec_cine_inflacao_aprovado.json` ("sensacional", 28/09) e `spec_cine_exemplo.json`.
+2. **Longo (16:9, ~4,5 min):** só YouTube (o usuário pediu ~4,5 min em 28/09; roteiro de ~550–600 palavras e 3 princípios; `target` [240, 330]). Modelos: `roteiro_longo_inflacao.py` (3 princípios, ~4,5 min, o formato atual) e `roteiro_longo_endividamento.py`; eles geram o `spec.json`. Estrutura:
    - abertura com o gancho do curto;
    - "há dois mil anos…";
    - promessa dos N princípios;
