@@ -27,6 +27,8 @@ s("Com o dinheiro acontece o mesmo.", 0.4, "maquina-contando-dinheiro-49134.mp4"
 s("Todo real que você tem está mergulhado no tempo. E o tempo nunca fica parado.", 0.5, "relogio-parede-28886.mp4", 6)
 s("Com quatro vírgula noventa e nove por cento de inflação, mil reais esquecidos perdem uns quarenta e oito reais de poder de compra em um ano.", 0.5, "mulher-calculando-contas-49131.mp4", 2)
 s("Em cinco anos, a conta fica bem pior.", 0.9, "numeros-oculos-47792.mp4", 1)
+s("E o mais cruel é que ninguém sente essa perda no dia.", 0.4, "homem-cafe-88009.mp4", 1)
+s("Você só percebe depois. No mercado. Na conta de luz. No preço que subiu de novo.", 0.9, "mulheres-shopping-9060.mp4", 1)
 s("O problema não é o dinheiro. É o dinheiro sem destino.", 0.9, "homem-contando-dinheiro-ansioso-49438.mp4", 1)
 s("O exercício é simples: abra o seu extrato hoje.", 0.3, "homem-escrevendo-46768.mp4", 1)
 s("Olhe para cada valor parado e pergunte: esse dinheiro tem um destino?", 1.1, "olho-laptop-46575.mp4", 2, luz=0.12)
@@ -37,6 +39,8 @@ s("E mesmo assim, escrevia para si mesmo que o universo é transformação.", 0.
 s("Tudo muda. Os preços, os salários, as crises.", 0.9, "transito-timelapse-4240.mp4", 2)
 s("Mas a nossa cabeça gosta de fingir que o dinheiro guardado é uma coisa fixa.", 0.4, "homem-banco-sozinho-25896.mp4", 8)
 s("Que mil reais hoje são mil reais amanhã.", 0.8, "contando-dinheiro-23168.mp4", 5)
+s("A psicologia tem até um nome para isso: ilusão monetária.", 0.4, "grafico-closeup-47016.mp4", 1)
+s("A gente olha o número na tela, e não o que ele consegue comprar.", 0.8, "tendencia-tela-9607.mp4", 1)
 s("Não são.", 1.0, "vela-acendendo-3461.mp4", 8, luz=0.07)
 s("A pergunta estoica é: se tudo muda, você está mudando junto?", 0.5, "homem-estrada-35809.mp4", 1)
 s("Aprender como o dinheiro funciona é a sua forma de acompanhar a mudança, em vez de ser atropelado por ela.", 0.4, "homem-laptop-trabalhando-9756.mp4", 2)
@@ -48,14 +52,18 @@ s("Sêneca dizia que, enquanto a gente adia, a vida passa.", 0.9, "chuva-janela-
 s("Quantas vezes você disse: mês que vem eu organizo.", 0.5, "cansado-computador-14763.mp4", 1)
 s("Quando o salário aumentar, eu começo.", 0.5, "homem-estressado-49225.mp4", 1)
 s("Quando sobrar, eu cuido disso.", 0.9, "casal-contas-problemas-48974.mp4", 2)
+s("Só que quase nunca sobra. Porque o dinheiro sem plano sempre encontra um caminho para sair.", 0.9, "cartao-compra-online-14009.mp4", 1)
 s("Adiar também custa. E custa em silêncio, como a inflação.", 0.9, "fumaca-50951.mp4", 5)
 s("Então comece pequeno. Hoje.", 0.4, "homem-escrevendo-46768.mp4", 6)
 s("Separe o dinheiro que tem um destino do dinheiro que só está esquecido.", 0.4, "dinheiro-transacao-18247.mp4", 5)
+s("O que é para emergência, guarde num lugar seguro que pelo menos acompanhe a inflação.", 0.4, "investidor-tablet-45708.mp4", 1)
+s("O que é para um sonho, dê um nome, um valor e uma data.", 0.5, "pai-brincando-filho-7681.mp4", 1)
 s("E dê um trabalho a cada real.", 1.0, "xadrez-rei-49736.mp4", 1)
 # CONCLUSÃO
 s("Você não controla a inflação. Nem o que o mercado vai prever na semana que vem.", 0.5, "cidade-noite-aerea-42343.mp4", 20)
 s("Mas os estoicos nos lembram de algo que nenhuma crise tira de você:", 0.4, "teatro-romano-1759.mp4", 3)
 s("a escolha de não deixar o tempo trabalhar contra você.", 1.0, "mapa-antigo-vela-21612.mp4", 9)
+s("Porque no fim, o tempo vai passar de qualquer jeito. A única pergunta é se ele vai passar a seu favor.", 1.0, "homem-mar-tranquilo-26667.mp4", 2)
 s("Então hoje, antes de dormir, abra o extrato e faça a pergunta:", 0.4, "homem-sozinho-rio-35426.mp4", 10)
 s("o que o meu dinheiro está fazendo por mim?", 1.2, "vela-acendendo-3461.mp4", 26, luz=0.07)
 s("Se esse vídeo te fez pensar, se inscreva no canal Grana e Finanças.", 0.3, "maquina-contando-dinheiro-49134.mp4", 4)
@@ -94,6 +102,7 @@ overlays = [
   {"seg": find("O exercício é simples"), "ate": find("Olhe para cada"), "linhas": [{"t": "Esse dinheiro\ntem um destino?", "estilo": "Tit", "y": 500}]},
   cap(2, "Nada fica como está", "Princípio número dois"),
   cit("E mesmo assim, escrevia", "O universo é transformação.", "MARCO AURÉLIO"),
+  {"seg": find("A psicologia tem até"), "ate": find("A gente olha o número"), "linhas": [{"t": "Ilusão monetária", "estilo": "Tit", "y": 520}]},
   {"seg": find("Não são."), "ate": find("Não são."), "linhas": [{"t": "Não são.", "estilo": "Tit", "y": 520}]},
   {"seg": find("Guardar é o primeiro"), "ate": find("E é exatamente"), "linhas": [{"t": "GUARDAR NÃO É PROTEGER", "estilo": "Kick", "y": 380}, {"t": "O segundo passo", "estilo": "Tit", "y": 500, "t0": 0.2}]},
   cap(3, "Pare de adiar", "Princípio número três"),
