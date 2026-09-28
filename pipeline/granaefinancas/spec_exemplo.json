@@ -1,0 +1,41 @@
+{
+ "segs": [
+  ["hook","Oitenta e dois por cento das famílias brasileiras estão endividadas."],
+  ["hook","E o problema quase nunca é o salário."],
+  ["hook","Seu cérebro cai em três armadilhas sem perceber."],
+  ["t1","Um: o cartão."],
+  ["t1","Você não vê o dinheiro saindo, então não sente a dor de pagar."],
+  ["t2","Dois: a parcelinha."],
+  ["t2","Doze de cinquenta parece pouco, mas são seiscentos reais presos por um ano."],
+  ["t3","Três: o eu mereço."],
+  ["t3","A recompensa depois de um dia difícil vira fatura no fim do mês."],
+  ["saida","A saída é simples: espere quarenta e oito horas antes de comprar."],
+  ["saida","E olhe sempre o valor total, nunca só a parcela."],
+  ["cta","Manda esse vídeo pra alguém que vive parcelando tudo."],
+  ["cta","E segue a Grana e Finanças pra aprender mais."]
+ ],
+ "voice": {"engine": "piper", "model": "/tmp/clipes/clipes/pt_BR-jeff-medium.onnx", "length_scale": 0.86},
+ "target": [32, 46],
+ "music_mood": "dark",
+ "timeline": [
+  {"seg": 0, "tipo": "estatistica", "frase_seg": 1,
+   "cena": {"pct": 82, "badge": null, "frase": "O problema quase nunca\né o salário.", "fonte": "Fonte: CNC (Peic), 2026"}},
+  {"seg": 2, "tipo": "lista", "titulo": "3 ARMADILHAS\nDO SEU CÉREBRO", "itens": ["O cartão", "A parcelinha", "O \"eu mereço\""], "tempos": [0.25, 0.7, 1.15]},
+  {"seg": 3, "tipo": "clipe", "src": "cartao-compra-online-14009.mp4", "capitulo": "1. O CARTÃO", "offset": 1},
+  {"seg": 4, "frac": 0.45, "tipo": "clipe", "src": "dinheiro-transacao-18247.mp4", "capitulo": "1. O CARTÃO", "offset": 1},
+  {"seg": 5, "tipo": "clipe", "src": "mulher-calculando-contas-49131.mp4", "capitulo": "2. A PARCELINHA", "offset": 2},
+  {"seg": 6, "frac": 0.5, "tipo": "clipe", "src": "homem-contando-dinheiro-ansioso-49438.mp4", "capitulo": "2. A PARCELINHA", "offset": 1},
+  {"seg": 7, "tipo": "clipe", "src": "mulheres-shopping-9060.mp4", "capitulo": "3. O \"EU MEREÇO\"", "offset": 1},
+  {"seg": 8, "frac": 0.5, "tipo": "clipe", "src": "casal-contas-problemas-48974.mp4", "capitulo": "3. O \"EU MEREÇO\"", "offset": 2},
+  {"seg": 9, "tipo": "lista", "titulo": "A SAÍDA", "itens": ["Espere 48 horas\nantes de comprar", "Olhe o valor TOTAL,\nnunca só a parcela"], "itens_seg": [9, 10]},
+  {"seg": 11, "tipo": "final", "src": "maquina-contando-dinheiro-49134.mp4", "offset": 1, "linhas": [
+    {"t": "MANDA PRA ALGUÉM", "y": 0.80, "fonte": "anton", "size": 54, "cor": "white", "t0": 0},
+    {"t": "que vive parcelando tudo", "y": 0.735, "fonte": "mxb", "size": 27, "cor": "soft", "t0": 0.3},
+    {"t": "@granaefinancas", "y": 0.58, "fonte": "mxb", "size": 32, "caixa": true, "t0": 2.2},
+    {"t": "Segue pra aprender mais", "y": 0.495, "fonte": "mxb", "size": 24, "cor": "white", "t0": 2.4}
+  ]}
+ ],
+ "keywords_gold": ["GRANA E FINANÇAS","48 HORAS","QUARENTA E OITO HORAS","VALOR TOTAL","A SAÍDA","SEGUE"],
+ "keywords_coral": ["ENDIVIDADAS","ARMADILHAS","CARTÃO","PARCELINHA","DOR DE PAGAR","SEISCENTOS REAIS","FATURA","EU MEREÇO"],
+ "output": "gf-curto-v2.mp4"
+}

@@ -47,11 +47,14 @@ def _alpha(t, t0, fade=0.35):
     return float(np.clip((t - t0) / fade, 0, 1))
 
 
-def _save(fig, update, dur, out_mp4, out_png=None):
+def _save(fig, update, dur, out_mp4, out_png=None, alpha=False):
     n = max(1, int(round(dur * FPS)))
     anim = FuncAnimation(fig, lambda f: update(f / FPS), frames=n, blit=False)
-    anim.save(out_mp4, writer=FFMpegWriter(fps=FPS, codec="libx264",
-                                           extra_args=["-pix_fmt", "yuv420p", "-crf", "20"]))
+    if alpha:   # .mov com canal alfa (para sobrepor a um clipe real)
+        anim.save(out_mp4, writer=FFMpegWriter(fps=FPS, codec="png"), savefig_kwargs={"transparent": True})
+    else:
+        anim.save(out_mp4, writer=FFMpegWriter(fps=FPS, codec="libx264",
+                                               extra_args=["-pix_fmt", "yuv420p", "-crf", "20"]))
     if out_png:
         update(dur); fig.savefig(out_png)
     plt.close(fig)
@@ -90,21 +93,21 @@ def cena_estatistica(dur, t_badge, t_frase, out_mp4, out_png,
     box = FancyBboxPatch((0.01, 0.08), 0.98, 0.84, boxstyle="round,pad=0,rounding_size=0.25",
                          fc=GOLD, ec="none", transform=bax.transAxes)
     bax.add_patch(box)
-    btxt = bax.text(0.5, 0.5, badge, ha="center", va="center", fontproperties=MXB, fontsize=19, color=BG1)
+    btxt = bax.text(0.5, 0.5, badge or "", ha="center", va="center", fontproperties=MXB, fontsize=19, color=BG1)
     fr = fig.text(0.5, 0.325, frase, ha="center", va="center", fontproperties=MXB, fontsize=24,
                   color=GOLD_SOFT, linespacing=1.3)
     src = fig.text(0.5, 0.265, fonte, ha="center", va="center", fontproperties=MSB, fontsize=11, color=MUTED)
-    t_count = min(2.2, max(1.0, t_badge * 0.6))
+    t_count = 0.7   # gancho: o número já aparece grande no primeiro quadro e sobe rápido
 
     def up(t):
         k = min(1.0, t / t_count); e = 1 - (1 - k) ** 3
-        num.set_text(f"{int(round(pct * e))}%")
-        num.set_fontsize(120 * (1 + 0.06 * np.sin(min(t, 3) * 6) * (1 - k)))
-        sub.set_alpha(_alpha(t, 0.2))
+        num.set_text(f"{pct}%")   # gancho: número final já no 1º quadro (vira a capa)
+        num.set_fontsize(120 * (1 + 0.10 * np.exp(-3 * max(0, t - t_count)) * (t >= t_count)))
+        sub.set_alpha(1.0)
         for i, (_, filled) in enumerate(icons):
-            a = _alpha(t, 0.3 + i * (t_count / 10)) if i < n_fill else 0
+            a = _alpha(t, i * 0.06, 0.1) if i < n_fill else 0
             for p in filled: p.set_alpha(a)
-        a = _alpha(t, t_badge); box.set_alpha(a); btxt.set_alpha(a)
+        a = _alpha(t, t_badge) if badge else 0; box.set_alpha(a); btxt.set_alpha(a)
         fr.set_alpha(_alpha(t, t_frase)); src.set_alpha(0.9 * _alpha(t, 0.5))
     _save(fig, up, dur, out_mp4, out_png)
 
@@ -166,3 +169,35 @@ def cena_final(dur, out_mp4, handle="@granaefinancas", chamada="Segue pra mais\n
         a = _alpha(t, 0.6); box.set_alpha(a); h.set_alpha(a); h.set_fontsize(32 * s)
         q.set_alpha(_alpha(t, 1.2)); av.set_alpha(_alpha(t, 0.2))
     _save(fig, up, dur, out_mp4)
+
+
+def cena_final_sobre_clipe(dur, out_mov, linhas):
+    """Textos do cartão final com fundo TRANSPARENTE (.mov), para sobrepor a um clipe real de dinheiro.
+    linhas: [{"t":..., "y":..., "size":..., "cor":"gold|white|soft", "fonte":"anton|mxb|msb", "caixa":bool, "t0":seg}]"""
+    fig = plt.figure(figsize=(7.2, 12.8), dpi=150); fig.patch.set_alpha(0)
+    cores = {"gold": GOLD, "white": WHITE, "soft": GOLD_SOFT, "bg": BG1}
+    fontes = {"anton": ANTON, "mxb": MXB, "msb": MSB}
+    fig.text(0.5, 0.965, "GRANA E FINANÇAS", ha="center", va="center", fontproperties=MXB, fontsize=15, color=GOLD)
+    els = []
+    for L in linhas:
+        if L.get("caixa"):
+            ax = fig.add_axes([0.08, L["y"] - 0.045, 0.84, 0.09]); ax.axis("off"); ax.set_xlim(0, 1); ax.set_ylim(0, 1)
+            box = FancyBboxPatch((0, 0.05), 1, 0.9, boxstyle="round,pad=0,rounding_size=0.3", fc=GOLD, ec="none",
+                                 transform=ax.transAxes)
+            ax.add_patch(box)
+            tx = ax.text(0.5, 0.5, L["t"], ha="center", va="center", fontproperties=fontes[L.get("fonte", "mxb")],
+                         fontsize=L.get("size", 30), color=BG1)
+            els.append((L, [box, tx], tx))
+        else:
+            tx = fig.text(0.5, L["y"], L["t"], ha="center", va="center", fontproperties=fontes[L.get("fonte", "mxb")],
+                          fontsize=L.get("size", 28), color=cores[L.get("cor", "white")], linespacing=1.2)
+            tx.set_path_effects([__import__("matplotlib.patheffects", fromlist=["x"]).withStroke(linewidth=6, foreground=BG1)])
+            els.append((L, [tx], tx))
+
+    def up(t):
+        for L, parts, tx in els:
+            a = _alpha(t, L.get("t0", 0), 0.3)
+            for p in parts: p.set_alpha(a)
+            if L.get("caixa") and t > L.get("t0", 0) + 0.6:
+                tx.set_fontsize(L.get("size", 30) * (1 + 0.04 * np.sin(t * 5)))
+    _save(fig, up, dur, out_mov, alpha=True)
