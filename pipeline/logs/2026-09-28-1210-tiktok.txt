@@ -1,0 +1,9 @@
+Execução automática TikTok @traderdaylle — 2026-09-28 12:10 (America/Sao_Paulo)
+STATUS: SUCESSO
+Tema: Fundo duplo (padrão W)
+Duração: 69,4s (voz Kokoro pm_santa, speed 1.10), 203 palavras
+Estrutura: explicativo animado (fundo duplo, linha do pescoço, rompimento) -> 4 clipes reais (grafico-closeup-47016, grafico-homem-analisando-47214, investidor-tablet-45708, numeros-oculos-47792) + 1 foto Canva nova (pipeline/fotos/trader-fundo-duplo-noite.png) -> recap com explicativo -> 5PI (maquina-contando-dinheiro-49134) -> cartão final
+Quadros conferidos: explicativo legível, clipes em movimento, legendas sem sobrepor, sem tela preta.
+Vídeo: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-09-28-fundo-duplo.mp4
+Metricool: id 383551224, agendado 2026-09-28 12:22, status PENDING
+Problemas: nenhum (aviso "repository moved" no push da branch media, sem impacto).

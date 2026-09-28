@@ -45,5 +45,12 @@
   "metricool_id": 383505005,
   "horario": "2026-09-28 11:30",
   "obs": "feito manualmente: execução automática das 10:40 terminou sem agendar e sem log (3ª vez)"
+ },
+ {
+  "data": "2026-09-28",
+  "tema": "Fundo duplo (padrão W)",
+  "arquivo": "media:tiktok/2026-09-28-fundo-duplo.mp4",
+  "metricool_id": 383551224,
+  "horario": "2026-09-28 12:22"
  }
 ]
