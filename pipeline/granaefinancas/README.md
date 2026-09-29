@@ -28,6 +28,25 @@ Canal de **educação financeira psicológica com base no estoicismo**. Tom **dr
   - Vídeo curto: "Manda pra alguém que precisa ouvir isso" e "segue a Grana e Finanças".
   - Vídeo longo: pedir inscrição e perguntar "qual princípio você vai aplicar primeiro?".
 
+## Preferências de 29/09: AULA DE EDUCAÇÃO FINANCEIRA SOBRE A NOTÍCIA (substituem o foco no estoicismo)
+Voz, clipes, trilha, overlays e configurações continuam iguais (aprovados). O que muda é o **texto**, no curto e no longo:
+- **O ensinamento é EDUCAÇÃO FINANCEIRA, não estoicismo.** Parta de uma notícia financeira do dia (pesquisada, com fonte) e dê uma **aula** sobre ela: o que aconteceu, **por que** acontece e **o que isso muda no bolso** da pessoa.
+  - Exemplo: "Hoje o dólar subiu 5%":
+    - o que isso influencia: importações, preço de combustível, eletrônicos e alimentos, inflação, juros;
+    - por que acontece: juros e mercado americano, fluxo de capital, risco fiscal, commodities;
+    - o que fazer com o próprio dinheiro.
+- **O estoicismo fica só como a IDEIA de fundo:** a postura de assumir a responsabilidade pelo próprio dinheiro ("não controlo o dólar, mas controlo o que faço com o meu dinheiro"; "a culpa do meu orçamento é minha"). Use no máximo 1 referência estoica curta por vídeo, nunca como tema principal. Nada de "3 princípios estoicos".
+- **Curto (~60s):** gancho com o número da notícia → o que aconteceu → por que acontece (1–2 causas simples) → o que muda no seu bolso (2–3 efeitos concretos) → virada de responsabilidade (a ideia estoica, 1 frase) → ação prática → pergunta → CTA.
+- **Longo (~4,5 min):** aula completa sobre a notícia:
+  - o fato e os números;
+  - as causas explicadas passo a passo;
+  - os efeitos em cadeia (importação → inflação → juros → crédito → seu bolso);
+  - quem ganha e quem perde;
+  - o que fazer (reserva, dívidas, consumo);
+  - fechamento com a postura de responsabilidade e o CTA.
+  - Capítulos pelos tópicos da aula, e não "Princípio 1/2/3".
+- Títulos, legendas e descrições refletem a notícia e a aula (ex.: "Dólar subiu 5%: o que muda no seu bolso"), não o estoicismo.
+
 ## Preferências aprovadas em 28/09 (valem para todos os vídeos)
 - **Skills de roteiro:** as skills `/ig-*` adaptadas ao canal estão em `skills/` (perfil da marca em `skills/voice.md`).
   - Use o método do `skills/ig-reel/SKILL.md` para o roteiro curto.
