@@ -1,0 +1,9 @@
+Execução automática TikTok @traderdaylle — 2026-09-29 17:49 (America/Sao_Paulo)
+STATUS: SUCESSO
+Tema: Linha de tendência de alta (LTA): fundos ascendentes, 3º toque como zona de compra observada, linha forçada = sinal falso, rompimento pra baixo
+Duração: 72,0s (71,98s; voz Kokoro pm_santa, speed 1.10), 199 palavras
+Estrutura: explicativo animado (preço, 3 fundos, LTA, zona de compra) -> 5 clipes reais (investidor-tablet-45708, grafico-closeup-47016, grafico-homem-analisando-47214, lucro-bolsa-47012, homem-escrevendo-46768) + 1 foto Canva nova (pipeline/fotos/trader-lta-noite.png) -> recap com explicativo -> 5PI (investidor-tablet-escritorio-45706) -> cartão final
+Quadros conferidos: explicativo legível, clipes em movimento, legendas sem sobrepor o gráfico, sem tela preta.
+Vídeo: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-09-29-linha-de-tendencia-alta.mp4
+Metricool: id 384554538, agendado 2026-09-29 17:59, status PENDING
+Problemas: add_repo não disponível (repo já clonado com push). Duração ficou no limite superior (72,0s); próximos roteiros podem ficar com ~190 palavras.
