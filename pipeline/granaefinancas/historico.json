@@ -34,5 +34,49 @@
    "short_18h": 383570003,
    "youtube_16h": 383584306
   }
+ },
+ {
+  "data": "2026-09-30",
+  "tema": "Dólar cai para R$ 5,17 (-0,81%) e Ibovespa fecha setembro com +5% após inflação dos EUA (PCE) abaixo do esperado; 2º Reels: IGP-M +1,57% em setembro, reajuste de aluguel de 3,34% em outubro",
+  "formato": "aula de educação financeira sobre a notícia (produzido na conversa, recuperação do dia)",
+  "curto": {
+   "arquivo": "granaefinancas/2026-09-30-dolar-curto.mp4",
+   "duracao": 64.1,
+   "gancho": "Nobody Tells You (76,6)",
+   "metricool": {
+    "reel": 385391035,
+    "short": 385391066
+   },
+   "horario": "19:15"
+  },
+  "reels2": {
+   "arquivo": "granaefinancas/2026-09-30-aluguel-curto.mp4",
+   "duracao": 62.8,
+   "gancho": "The Deadline (83,0)",
+   "metricool": {
+    "reel": 385397036
+   },
+   "horario": "20:30"
+  },
+  "longo": {
+   "arquivo": "youtube/2026-09-30-dolar-inflacao-eua.mp4",
+   "duracao": 283.7,
+   "metricool": 385409259,
+   "horario": "19:50",
+   "capitulos": [
+    "0:00 Abertura",
+    "0:42 O fato",
+    "1:03 Por que a inflação americana mexe no dólar",
+    "1:50 O que muda no seu bolso",
+    "2:50 Quem ganha e quem perde",
+    "3:12 O que fazer com o seu dinheiro",
+    "3:53 O que depende de você"
+   ]
+  },
+  "fontes": [
+   "InfoMoney 30/09/2026",
+   "BPMoney 30/09/2026",
+   "FGV IGP-M setembro/2026"
+  ]
  }
 ]
