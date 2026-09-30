@@ -7,6 +7,14 @@
   - O Brasil aparece destacado em verde, para gerar identificação.
   - O suspense vai até o 1º lugar, o que prende a pessoa até o fim.
 - **Gancho (0–3 s):** contraste ou surpresa ("o mesmo sanduíche pode custar o dobro") + "QUEM FICA EM 1º?" na tela + "fica até o final".
+- **Clipes reais (30/09):**
+  - Um painel com moldura dourada no topo mostra, em cada posição, um clipe real do país: bandeira tremulando ou cidade (branch `clipes`, arquivos `mn-*`).
+  - Na abertura, o painel mostra clipes do tema (comida, produto, cidade).
+  - O cartão da posição fica sobre o painel, e a lista compacta fica embaixo.
+  - Para baixar bandeiras e cidades novas do Mixkit, use o workflow `baixar-clipes` (busque "mixkit <país> flag").
+  - Se não houver clipe do país, use um de cidade genérica.
+- **Música ALEGRE e interativa** (`music_mood: "alegre"`, volume 0,34), com um "whoosh" a cada revelação.
+- **Voz mais rápida:** Santa grave com velocidade ~1,28. Para manter 61–72 s, o roteiro deve ter ~230–245 palavras: cada posição com 1 curiosidade curta.
 - **Paleta:** a mesma da foto de perfil (azul-marinho noturno, luzes de cidade douradas, dourado #F5B83D, destaque verde para o Brasil). Fontes Anton e Montserrat.
 - **Voz:** pm_santa (Kokoro) **mais grave**: pitch 0,90 com reforço de graves. Velocidade ~1,12.
 - **Duração:** 61–72 s (monetização exige mais de 1 minuto).

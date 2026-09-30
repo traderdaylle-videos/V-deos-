@@ -1,29 +1,97 @@
 {
  "titulo": "O BIG MAC MAIS CARO",
  "subtitulo": "preço em dólares, em 10 países",
- "unidade": "US$ ", "decimais": 2,
+ "unidade": "US$ ",
+ "decimais": 2,
  "destaque": "Brasil",
  "fonte": "Fonte: The Economist, Índice Big Mac 2025",
  "intro": [
-  "O mesmo sanduíche, do mesmo jeitinho, pode custar mais que o dobro dependendo do país.",
-  "Esse é o índice Big Mac, usado por economistas pra comparar o custo de vida no mundo.",
-  "E o Brasil? Fica caro ou barato? Fica até o final pra descobrir quem é o primeiro."
+  "O mesmo sanduíche, feito do mesmo jeito, pode custar mais que o dobro dependendo do país.",
+  "É o famoso índice Big Mac, que economistas usam pra comparar o custo de vida no mundo inteiro.",
+  "E o Brasil? Tá caro ou barato? Fica até o final pra descobrir quem ficou em primeiro."
  ],
  "itens": [
-  {"pos":10,"nome":"Japão","valor":3.11,"fala":"Em décimo lugar, o Japão: três dólares e onze. Barato pra um país tão rico."},
-  {"pos":9,"nome":"China","valor":3.52,"fala":"Nono, a China: três e cinquenta e dois."},
-  {"pos":8,"nome":"Brasil","valor":4.03,"fala":"Oitavo, o Brasil: quatro dólares e três centavos. Mais de vinte reais no câmbio atual."},
-  {"pos":7,"nome":"México","valor":4.60,"fala":"Sétimo, o México: quatro e sessenta."},
-  {"pos":6,"nome":"Reino Unido","valor":5.73,"fala":"Sexto, o Reino Unido: cinco e setenta e três."},
-  {"pos":5,"nome":"EUA","valor":5.79,"fala":"Quinto, os Estados Unidos, a terra do Big Mac: cinco e setenta e nove."},
-  {"pos":4,"nome":"Noruega","valor":6.67,"fala":"Quarto, a Noruega: seis e sessenta e sete."},
-  {"pos":3,"nome":"Uruguai","valor":6.91,"fala":"Terceiro, e essa surpreende: o Uruguai, seis e noventa e um."},
-  {"pos":2,"nome":"Argentina","valor":6.95,"fala":"Segundo, a Argentina: seis e noventa e cinco. Mais caro que nos Estados Unidos."},
-  {"pos":1,"nome":"Suíça","valor":7.99,"fala":"E em primeiro lugar, a Suíça: sete dólares e noventa e nove. Quase oito dólares num sanduíche."}
+  {
+   "pos": 10,
+   "nome": "Japão",
+   "valor": 3.11,
+   "fala": "Em décimo lugar, o Japão: três dólares e onze. Um dos países mais ricos do mundo, com um dos Big Macs mais baratos.",
+   "clip": "mn-toquio-noite-20061.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "China",
+   "valor": 3.52,
+   "fala": "Nono, a China: três e cinquenta e dois. Mão de obra e aluguel mais baratos pesam no preço.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Brasil",
+   "valor": 4.03,
+   "fala": "Oitavo, o Brasil: quatro dólares e três centavos. No câmbio atual, passa de vinte reais, e aqui isso pesa muito mais no salário.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "México",
+   "valor": 4.6,
+   "fala": "Sétimo, o México: quatro e sessenta, mais caro que no Brasil.",
+   "clip": "mn-bandeira-mexico-42113.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Reino Unido",
+   "valor": 5.73,
+   "fala": "Sexto, o Reino Unido: cinco e setenta e três.",
+   "clip": "mn-bandeira-reino-unido-42115.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "EUA",
+   "valor": 5.79,
+   "fala": "Quinto, os Estados Unidos, a terra do Big Mac: cinco e setenta e nove.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Noruega",
+   "valor": 6.67,
+   "fala": "Quarto, a Noruega: seis e sessenta e sete. Lá, até o fast food é artigo de luxo.",
+   "clip": "mn-bandeira-noruega-18086.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Uruguai",
+   "valor": 6.91,
+   "fala": "Terceiro, e essa surpreende muita gente: o Uruguai, seis e noventa e um.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Argentina",
+   "valor": 6.95,
+   "fala": "Segundo, a Argentina: seis e noventa e cinco. Mais caro que nos próprios Estados Unidos, reflexo da inflação altíssima.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Suíça",
+   "valor": 7.99,
+   "fala": "E em primeiro lugar, a Suíça: sete dólares e noventa e nove. Quase oito dólares por um único sanduíche.",
+   "clip": "mn-bandeira-suica-18128.mp4"
+  }
  ],
  "outro": [
   "Você esperava a Argentina e o Uruguai lá em cima?",
   "Comenta qual ranking você quer ver amanhã, e segue o Mundo Numeral."
  ],
- "output": "2026-09-30-big-mac.mp4"
+ "output": "2026-09-30-big-mac.mp4",
+ "music_mood": "alegre",
+ "clips_intro": [
+  "mn-queijo-derretendo-burger-12016.mp4",
+  "mn-homem-comendo-burger-372.mp4",
+  "mn-cheeseburger-escuro-47191.mp4"
+ ],
+ "clip_final": "mn-alpes-suica-31939.mp4"
 }
