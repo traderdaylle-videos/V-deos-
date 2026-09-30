@@ -15,6 +15,7 @@
   - Se não houver clipe do país, use um de cidade genérica.
 - **Música ALEGRE e interativa** (`music_mood: "alegre"`, volume 0,34), com um "whoosh" a cada revelação.
 - **Voz mais rápida:** Santa grave com velocidade ~1,28. Para manter 61–72 s, o roteiro deve ter ~230–245 palavras: cada posição com 1 curiosidade curta.
+- **Fundo:** SEMPRE um clipe em movimento ligado ao tema (ex.: bandeira do país/produto do ranking, em close tremulando), levemente desfocado sob um véu azul-marinho leve (spec `bg_clip`). Nunca fundo parado/pesado.
 - **Paleta:** a mesma da foto de perfil (azul-marinho noturno, luzes de cidade douradas, dourado #F5B83D, destaque verde para o Brasil). Fontes Anton e Montserrat.
 - **Voz:** pm_santa (Kokoro) **mais grave**: pitch 0,90 com reforço de graves. Velocidade ~1,12.
 - **Duração:** 61–72 s (monetização exige mais de 1 minuto).

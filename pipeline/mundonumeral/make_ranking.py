@@ -96,6 +96,12 @@ def ease(x): x = max(0, min(1, x)); return 1 - (1 - x) ** 3
 
 HOLE = Image.new("L", (W, H), 255); ImageDraw.Draw(HOLE).rounded_rectangle([PX, PY, PX + PW, PY + PH], 40, fill=0)
 BGA = bg.convert("RGBA"); BGA.putalpha(HOLE)
+if S.get("bg_clip"):   # fundo com CLIPE em movimento ligado ao tema: só um véu leve para dar leitura
+    sc = np.zeros((H, W, 4), np.uint8); sc[..., :3] = NAVY
+    ys = np.arange(H)[:, None]
+    al = np.where(ys < 270, 130, np.where(ys < TOP - 30, 50, 150)).astype(np.uint8)   # título, painel, lista+legenda
+    sc[..., 3] = np.broadcast_to(al, (H, W))
+    BGA = Image.fromarray(sc, "RGBA"); BGA.putalpha(Image.fromarray(np.minimum(np.array(BGA.getchannel("A")), np.array(HOLE))))
 def frame(t):
     im = BGA.copy(); d = ImageDraw.Draw(im, "RGBA")
     d.rounded_rectangle([PX - 4, PY - 4, PX + PW + 4, PY + PH + 4], 44, outline=GOLD + (255,), width=5)
@@ -164,9 +170,11 @@ for j, (c, a0, b0) in enumerate(segs):
     pp.append(o)
 open("_pn.txt", "w").write("".join(f"file '{x}'\n" for x in pp))
 run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "_pn.txt", "-c", "copy", "_panel.mp4"])
-p = sp.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i", f"color=c=0x080C1E:s={W}x{H}:r={FPS}:d={tot:.2f}", "-i", "_panel.mp4",
+base = (["-stream_loop", "-1", "-i", S["bg_clip"]] if S.get("bg_clip") else ["-f", "lavfi", "-i", f"color=c=0x080C1E:s={W}x{H}:r={FPS}:d={tot:.2f}"])
+BGF = (f"[0:v]fps={FPS},scale={W}:{H}:force_original_aspect_ratio=increase,crop={W}:{H},boxblur=6:1,eq=brightness=-0.08:saturation=1.05,trim=duration={tot:.2f},setsar=1[bg0];" if S.get("bg_clip") else "[0:v]null[bg0];")
+p = sp.Popen(["ffmpeg", "-y", "-loglevel", "error", *base, "-i", "_panel.mp4",
               "-f", "rawvideo", "-pix_fmt", "rgba", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-              "-filter_complex", f"[0:v][1:v]overlay={PX}:{PY}:shortest=1[b];[b][2:v]overlay=0:0:shortest=1,format=yuv420p[v]",
+              "-filter_complex", BGF + f"[bg0][1:v]overlay={PX}:{PY}:shortest=1[b];[b][2:v]overlay=0:0:shortest=1,format=yuv420p[v]",
               "-map", "[v]", "-c:v", "libx264", "-crf", "20", "_video.mp4"], stdin=sp.PIPE)
 for i in range(int(math.ceil(tot * FPS))):
     p.stdin.write(frame(i / FPS).tobytes())
