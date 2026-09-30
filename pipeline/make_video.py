@@ -73,7 +73,13 @@ run(["ffmpeg","-y","-i","_narracao.wav","-i","_musica.wav","-filter_complex",
 # 3) Cortes visuais por seção
 def first(sec): return min(x["start"] for x in T if x["sec"]==sec)
 def last_end(sec): return max(x["end"] for x in T if x["sec"]==sec)
-cuts=[("anim",0,first("meio"))]
+cuts=[]
+if S.get("photos_intro"):   # abertura com clipes reais (ex.: estilo de vida/desejo) em vez do gráfico
+    pi=S["photos_intro"]; intro=[x for x in T if x["sec"]=="intro"]
+    for j,p in enumerate(pi):
+        k=j*len(intro)//len(pi)
+        if j==0 or k!=(j-1)*len(intro)//len(pi): cuts.append((p,0 if j==0 else intro[k]["start"],None))
+else: cuts.append(("anim",0,first("meio")))
 meio=[x for x in T if x["sec"]=="meio"]; ph=S["photos_meio"]
 # distribui as frases do meio entre as fotos (grupos contíguos)
 groups=[[] for _ in ph]

@@ -42,11 +42,35 @@ Mesmo motor do TikTok (`../make_video.py`, custo zero). O que muda é o **conte�
 
 O roteiro deve ter de 190 a 205 palavras. Modelo completo em `spec_exemplo.json` (copie o `endcard`, as cores e as palavras-chave).
 
-## Horários
-Tarefa agendada "Prime Win: 2 Reels por dia no Instagram": 10:05 e 18:05 (picos de audiência de finanças no Instagram, dados do Metricool). Ela publica na hora via Zapier. O TikTok roda às 10:40 e 17:40; os horários não se cruzam, para as duas tarefas não gravarem o branch media ao mesmo tempo.
+## Horários e formatos (a partir de 30/09): 4 Reels por dia
+A tarefa "Prime Win: 4 Reels por dia no Instagram" dispara 4 vezes e publica na hora via Zapier. Cada turno tem um formato fixo:
+
+| Turno | Hora | Formato |
+|---|---|---|
+| manha | 07:05 | **DESEJO** (novo) |
+| almoco | 12:05 | Padrão de convencimento (seções acima) |
+| tarde | 15:05 | **SERVIÇO** (novo) |
+| noite | 20:05 | Padrão de convencimento |
+
+Os horários não cruzam com as outras tarefas que gravam no branch media.
+
+### Formato DESEJO (turno manha)
+- Público: inclusive quem **ainda não opera na bolsa**.
+- Abre com **clipes reais de desejo/estilo de vida** (liberdade de tempo, viagem, mar, família, café tranquilo, dinheiro trabalhando), usando `"photos_intro": [3 clipes]` no spec. Nada de gráfico na abertura.
+- Gancho de desejo: "E se o seu dinheiro trabalhasse enquanto você vive a sua vida?" / "Imagina operar na bolsa sem precisar ficar na frente da tela".
+- Meio: mostra que dá para começar sem ser especialista, porque a automação segue a estratégia sozinha; disciplina, sem emocional, tempo livre. Tom aspiracional, **sem promessa de ganho**.
+- Recap sobre o gráfico (explicativo): Prime Win, testada em conta real. Depois a 5PI e o CTA "Comenta PRIME".
+
+### Formato SERVIÇO (turno tarde)
+- Público: **traders que já têm uma estratégia** e operam manualmente.
+- Oferta: a Prime Win **transforma a estratégia do próprio trader em uma automação** (serviço sob medida).
+- Gancho: "Você já tem uma estratégia que funciona? Então por que ainda executa tudo na mão?"
+- Meio: dores de executar manualmente uma estratégia boa (atraso na entrada, hesitação, quebra de regra, horas de tela). Depois o processo: você explica as regras → a Prime Win programa → testa em ambiente de conta real → a automação executa exatamente as suas regras.
+- CTA: "Comenta AUTOMATIZAR que a gente te chama no direct pra entender a sua estratégia" (no cartão final: `botao` "COMENTE AUTOMATIZAR", `comentario` "AUTOMATIZAR").
+- Legenda do post voltada ao serviço, com o mesmo aviso de risco. Mantém a 5PI no final.
 
 ## Fila de vídeos pré-aprovados (`fila/`)
-Antes de produzir, veja se existe `fila/<AAAA-MM-DD>-<manha|noite>.json` para o turno atual:
+Antes de produzir, veja se existe `fila/<AAAA-MM-DD>-<manha|almoco|tarde|noite>.json` para o turno atual:
 - **`"aprovado": true`:** não produza nada. Publique o `video` com a `caption` desse arquivo via Zapier, registre no histórico e apague o arquivo da fila.
 - **`"aprovado": false`:** o vídeo está aguardando o usuário. Não produza outro e não publique; só informe no resumo.
 - **Sem arquivo:** produza normalmente.
