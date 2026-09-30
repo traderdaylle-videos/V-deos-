@@ -1,0 +1,92 @@
+{
+ "titulo": "Rösti de batata com queijo",
+ "pronuncia": {
+  "Rösti": "Rôsti",
+  "rösti": "rôsti"
+ },
+ "segs": [
+  {
+   "texto": "Você nunca comeu batata desse jeito.",
+   "visual": "rosti-pronto.png"
+  },
+  {
+   "texto": "Crocante por fora, com queijo derretendo por dentro, e feito numa frigideira só.",
+   "visual": "rosti-pronto.png"
+  },
+  {
+   "texto": "É o rösti, uma receita suíça que fica pronta em vinte minutos, e usa ingredientes que você já tem em casa.",
+   "visual": "receita-fritando-batata-panela-23765.mp4",
+   "offset": 2
+  },
+  {
+   "texto": "Você vai precisar de duas batatas grandes.",
+   "visual": "rosti-batata.png",
+   "chip": "2 batatas grandes"
+  },
+  {
+   "texto": "Uma xícara de queijo muçarela ralado.",
+   "visual": "rosti-queijo.png",
+   "chip": "1 xícara de muçarela"
+  },
+  {
+   "texto": "E uma colher de manteiga, sal e cebolinha a gosto.",
+   "visual": "rosti-manteiga.png",
+   "chip": "manteiga, sal e cebolinha"
+  },
+  {
+   "texto": "Descasque as batatas e rale no ralo grosso.",
+   "visual": "receita-descascando-batata-33110.mp4",
+   "passo": 1,
+   "offset": 3
+  },
+  {
+   "texto": "Agora vem o segredo: coloque a batata ralada num pano limpo e esprema bem, até sair toda a água. É isso que deixa crocante.",
+   "visual": "receita-queijo-ralado-42478.mp4",
+   "passo": 2,
+   "offset": 1
+  },
+  {
+   "texto": "Tempere com sal e a cebolinha.",
+   "visual": "receita-fatiando-batata-crua-9381.mp4",
+   "passo": 3,
+   "offset": 4
+  },
+  {
+   "texto": "Derreta a manteiga e espalhe metade da batata na frigideira.",
+   "visual": "receita-pao-na-manteiga-43030.mp4",
+   "passo": 4,
+   "offset": 2
+  },
+  {
+   "texto": "Coloque o queijo no meio e cubra com o resto da batata.",
+   "visual": "rosti-queijo.png",
+   "passo": 5
+  },
+  {
+   "texto": "Doure em fogo baixo por uns oito minutos, vire com a ajuda de um prato, e doure do outro lado até ficar bem douradinho.",
+   "visual": "receita-fritando-batata-panela-23765.mp4",
+   "passo": 6,
+   "offset": 6
+  },
+  {
+   "texto": "E olha esse queijo puxando.",
+   "visual": "rosti-pronto.png"
+  },
+  {
+   "texto": "Você faria no café da manhã ou no jantar? Me conta aqui embaixo.",
+   "visual": "rosti-pronto.png"
+  },
+  {
+   "texto": "Salva essa receita pra fazer depois e segue pra mais receitas fáceis.",
+   "visual": "rosti-pronto.png",
+   "final": true
+  }
+ ],
+ "destaques": [
+  "CROCANTE",
+  "QUEIJO",
+  "SEGREDO",
+  "DERRETENDO"
+ ],
+ "output": "2026-09-30-rosti-de-batata.mp4"
+}
