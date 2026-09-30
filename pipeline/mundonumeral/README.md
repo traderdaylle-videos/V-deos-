@@ -14,10 +14,10 @@
   - Para baixar bandeiras e cidades novas do Mixkit, use o workflow `baixar-clipes` (busque "mixkit <país> flag").
   - Se não houver clipe do país, use um de cidade genérica.
 - **Música ALEGRE e interativa** (`music_mood: "alegre"`, volume 0,34), com um "whoosh" a cada revelação.
-- **Voz mais rápida:** Santa grave com velocidade ~1,28. Para manter 61–72 s, o roteiro deve ter ~230–245 palavras: cada posição com 1 curiosidade curta.
+- **Voz mais rápida:** Santa grave, velocidade 1,28–1,32 (ajuste automático). Para manter 61–72 s, o roteiro deve ter ~245–255 palavras: cada posição com 1 curiosidade curta.
 - **Fundo:** SEMPRE um clipe em movimento ligado ao tema (ex.: bandeira do país/produto do ranking, em close tremulando), levemente desfocado sob um véu azul-marinho leve (spec `bg_clip`). Nunca fundo parado/pesado.
 - **Paleta:** a mesma da foto de perfil (azul-marinho noturno, luzes de cidade douradas, dourado #F5B83D, destaque verde para o Brasil). Fontes Anton e Montserrat.
-- **Voz:** pm_santa (Kokoro) **mais grave**: pitch 0,90 com reforço de graves. Velocidade ~1,12.
+- **Voz:** pm_santa (Kokoro) **mais grave**: pitch 0,90 (rubberband) com reforço de graves.
 - **Duração:** 61–72 s (monetização exige mais de 1 minuto).
 - **Legendas SEMPRE**, com destaque em verde para "BRASIL".
 - **Dados reais com fonte na tela** (The Economist, Banco Mundial, FMI, OCDE, IBGE…). Confira os números na fonte do dia; nunca invente.
@@ -41,6 +41,15 @@
   - expectativa de vida;
   - internet mais rápida;
   - impostos.
+
+## Rotina (aprovada em 30/09): 4 posts por dia
+- 2 disparos por dia; cada disparo produz **2 vídeos com temas diferentes** e agenda os 2 no Metricool (marca Mundo Numeral, brandId 7160301).
+  - Manhã → posts do turno "manha" (~07:30) e "almoco" (~12:30).
+  - Tarde → posts do turno "tarde" (~18:30) e "noite" (~21:30).
+  - Ajuste os horários com `getBestTimeToPostByNetwork` (tiktok) quando a conta já tiver dados; nunca agende no passado.
+- **Fila aprovada:** antes de produzir, veja `fila/*.json` com `"aprovado": true`. Cada um já tem vídeo hospedado e legenda: agende-o no lugar de 1 vídeo novo e apague o arquivo da fila.
+- Temas variados (economia, preços, viagens, tecnologia, esportes, população, curiosidades…) sempre com dados reais e fonte; não repetir os últimos 30 temas do `historico.json`.
+- Antes de produzir, confira que a marca 7160301 tem o TikTok conectado (`getBrandSettings`, `networksData.tiktokData`). Se não tiver, não produza nada (economia) e avise no resumo.
 
 ## Passos
 1. Rode `bash ../setup.sh` e pesquise o tema e os dados, com a fonte.
