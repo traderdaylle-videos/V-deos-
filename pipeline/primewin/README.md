@@ -47,7 +47,7 @@ A tarefa "Prime Win: 4 Reels por dia no Instagram" dispara 4 vezes e publica na 
 
 | Turno | Hora | Formato |
 |---|---|---|
-| manha | 07:05 | **DESEJO** (novo) |
+| manha | 08:05 | **DESEJO** (novo) |
 | almoco | 12:05 | Padrão de convencimento (seções acima) |
 | tarde | 15:05 | **SERVIÇO** (novo) |
 | noite | 20:05 | Padrão de convencimento |
