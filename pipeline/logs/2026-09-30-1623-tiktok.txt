@@ -1,0 +1,21 @@
+Execução automática TikTok @traderdaylle — 2026-09-30 16:23 (America/Sao_Paulo) — disparo da tarde (rodou às ~16:03)
+STATUS: SUCESSO (2 vídeos agendados)
+
+Vídeo 1 — Ombro-cabeça-ombro (OCO): 3 topos, linha de pescoço, rompimento = zona de venda observada, sinais falsos
+  Duração 67,6s (voz Kokoro pm_santa, speed 1.10), 188 palavras
+  Estrutura: explicativo animado OCO -> clipes grafico-homem-analisando-47214, lucro-bolsa-47012, foto Canva nova trader-oco-noite.png, numeros-oculos-47792, homem-escrevendo-46768 -> recap explicativo -> 5PI (maquina-contando-dinheiro-49134) -> cartão final
+  URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-09-30-ombro-cabeca-ombro.mp4
+  Metricool: id 385294633, 2026-09-30 18:10, PENDING
+
+Vídeo 2 — Bandas de Bollinger: aperto (squeeze) e expansão, rompimento da banda, tocar na banda não é sinal
+  Duração 69,3s (speed 1.10), 193 palavras
+  Estrutura: explicativo animado Bollinger -> clipes grafico-tempo-real-47018, tendencia-tela-9607, empresario-grafico-sucesso-26518, foto Canva nova trader-bollinger-noite.png, olho-laptop-46575 -> recap explicativo -> 5PI (investidor-tablet-escritorio-45706) -> cartão final
+  URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-09-30-bandas-de-bollinger.mp4
+  Metricool: id 385294679, 2026-09-30 21:30, PENDING
+
+Quadros conferidos (8 por vídeo): explicativo legível, clipes/foto ok, legendas sem sobrepor gráfico, sem tela preta.
+Branch media: pastas das outras tarefas mantidas; tiktok/ com arquivos de 28/09 em diante.
+Problemas/observações:
+- add_repo não disponível (repo já clonado com push).
+- O post da manhã (Doji, id 385047995, 11:10) não estava no historico.json; adicionado agora. Não havia post TikTok às 14:00 hoje (disparo da manhã agendou só 1).
+- Com 4 frases no "meio" um dos 5 itens ficava sem tempo de tela; separei uma frase em duas para os 5 itens aparecerem.

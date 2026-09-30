@@ -66,5 +66,26 @@
   "arquivo": "media:tiktok/2026-09-29-linha-de-tendencia-alta.mp4",
   "metricool_id": 384554538,
   "horario": "2026-09-29 17:59"
+ },
+ {
+  "data": "2026-09-30",
+  "tema": "Candle Doji (indecisão)",
+  "metricool_id": 385047995,
+  "horario": "2026-09-30 11:10",
+  "obs": "registrado pela execução da tarde (não constava no histórico)"
+ },
+ {
+  "data": "2026-09-30",
+  "tema": "Ombro-cabeça-ombro (OCO): linha de pescoço",
+  "arquivo": "media:tiktok/2026-09-30-ombro-cabeca-ombro.mp4",
+  "metricool_id": 385294633,
+  "horario": "2026-09-30 18:10"
+ },
+ {
+  "data": "2026-09-30",
+  "tema": "Bandas de Bollinger: aperto e expansão",
+  "arquivo": "media:tiktok/2026-09-30-bandas-de-bollinger.mp4",
+  "metricool_id": 385294679,
+  "horario": "2026-09-30 21:30"
  }
 ]
