@@ -80,6 +80,9 @@ def render(bg_clip, dur, out, cfg=None):
     glow = glow.filter(ImageFilter.GaussianBlur(26))
     d = ImageDraw.Draw(btn_img)
     d.rounded_rectangle([40, 40, 40 + bw, 40 + bh], 95, fill=_hex(c2))
+    bs = 112   # reduz a fonte até o texto caber no botão (ex.: "COMENTE AUTOMATIZAR")
+    while bs > 50 and d.textlength(btn, font=ImageFont.truetype(F_ANTON, bs)) > bw - 110: bs -= 2
+    f_btn = ImageFont.truetype(F_ANTON, bs)
     tw = d.textlength(btn, font=f_btn)
     d.text((40 + (bw - tw) / 2, 40 + bh / 2), btn, font=f_btn, fill=navy, anchor="lm")
 
