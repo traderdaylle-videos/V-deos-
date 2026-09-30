@@ -34,18 +34,28 @@ import soundfile as sf
 KK = Kokoro("/tmp/kokoro/kokoro-v1.0.onnx", "/tmp/kokoro/voices-v1.0.bin")
 falas = [("intro", t, None) for t in S["intro"]] + [("item", it["fala"], k) for k, it in enumerate(S["itens"])] + [("outro", t, None) for t in S["outro"]]
 PITCH = float(S.get("pitch", 0.90)); GAP = 0.25
+import re
+def fonemas(txt):
+    """Corrige vícios do espeak pt-BR que soam como 'vírgula no meio da palavra':
+    - vogal fantasma após R antes de consoante (quar-ə-to, Ar-ə-gentina, ter-ə-ceiro);
+    - acento secundário (ˌ), que faz o modelo alongar/quebrar sílabas no meio da frase."""
+    p = KK.tokenizer.phonemize(txt, "pt-br")
+    p = re.sub(r"ɾə(?=[^\saeiouɐɛɔæʊyɪ.,;:!?])", "ɾ", p)
+    return p.replace("ˌ", "")
 def synth(speed):
     T, t = [], 0.0
     for i, (kind, txt, k) in enumerate(falas):
-        a, sr = KK.create(txt, voice="pm_santa", speed=speed, lang="pt-br"); sf.write(f"_r{i:02d}.wav", a, sr)
-        run(["ffmpeg", "-y", "-i", f"_r{i:02d}.wav", "-af", f"asetrate=24000*{PITCH},atempo={1/PITCH:.5f},aresample=24000,equalizer=f=120:t=q:w=1:g=3", f"_s{i:02d}.wav"])
+        a, sr = KK.create(fonemas(txt), voice="pm_santa", speed=speed, is_phonemes=True); sf.write(f"_r{i:02d}.wav", a, sr)
+        # voz mais grave com rubberband (mesmo timbre do asetrate, sem os 'engasgos' do atempo)
+        run(["ffmpeg", "-y", "-i", f"_r{i:02d}.wav", "-af", f"rubberband=pitch={PITCH},equalizer=f=120:t=q:w=1:g=3", f"_s{i:02d}.wav"])
         d = dur(f"_s{i:02d}.wav"); T.append((t, t + d)); t += d + GAP
     return T
 speed = float(S.get("speed", 1.28)); T = synth(speed)
 for _ in range(3):
     tot = T[-1][1] + 1.2
+    print(f"  speed={speed:.2f} -> {tot:.1f}s", file=sys.stderr)
     if 61 <= tot <= 72: break
-    speed = max(1.18, min(1.4, speed * tot / 66)); T = synth(speed)
+    speed = max(1.18, min(1.32, speed * tot / 66)); T = synth(speed)  # acima de ~1.33 o Kokoro engole sílabas
 tot = T[-1][1] + 1.2
 if not 61 <= tot <= 72: sys.exit(f"ERRO: {tot:.1f}s (speed {speed:.2f}); ajuste o roteiro")
 print(f"voz santa-grave speed={speed:.2f} duração={tot:.1f}s", file=sys.stderr)

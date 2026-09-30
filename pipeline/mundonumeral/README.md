@@ -46,3 +46,9 @@
 1. Rode `bash ../setup.sh` e pesquise o tema e os dados, com a fonte.
 2. Escreva o `spec.json` (modelo: `spec_exemplo.json`, com intro, 10 itens com fala e outro) e rode `python3 make_ranking.py WORKDIR`. Confira 4–6 quadros.
 3. Hospede no branch `media` em `mundonumeral/<data>-<turno>-<slug>.mp4` e agende no Metricool, na marca do Mundo Numeral: rede tiktok, tiktokData com title, isAigc true e PUBLIC_TO_EVERYONE.
+
+## Narração que flui (30/09)
+- O script corrige a vogal fantasma do espeak ("quar-ə-to", "Ar-ə-gentina") e tira o acento secundário: isso eliminava as "vírgulas" no meio das frases.
+- Voz grave via rubberband (pitch 0.90), sem o atempo que picotava.
+- Velocidade máxima 1.32 (acima disso o Kokoro engole sílabas). Roteiro de ~245–255 palavras.
+- Escrever frases corridas: "Em quarto vem a Noruega, com seis e sessenta e sete." Evitar dois-pontos e vírgulas em excesso ("Quarto, a Noruega: seis..."). No máximo 1 vírgula por frase curta.
