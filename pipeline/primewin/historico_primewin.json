@@ -195,5 +195,31 @@
   "arquivo": "media:primewin/2026-09-30-tarde-suas-regras-automacao.mp4",
   "instagram_id": "17970301593170235",
   "permalink": "https://www.instagram.com/reel/Dd69s37jD5F/"
+ },
+ {
+  "data": "2026-09-30",
+  "turno": "noite",
+  "formato": "convencimento",
+  "angulo": "tirar/mover o stop e segurar prejuízo esperando voltar (perda pequena vira grande, culpa, recuperar tudo); automação sai no stop sem negociar",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "STOP É STOP",
+   "SEM NEGOCIAR"
+  ],
+  "clipes": [
+   "numeros-oculos-47792",
+   "lucro-bolsa-47012",
+   "homem-estressado-49225",
+   "homem-contando-dinheiro-ansioso-49438",
+   "grafico-tempo-real-47018",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "duracao_s": 67.2,
+  "arquivo": "media:primewin/2026-09-30-noite-stop-e-stop.mp4",
+  "instagram_id": "17906346351330116",
+  "permalink": "https://www.instagram.com/reel/Dd7fsDfDY-o/",
+  "obs": "media hospedado com push normal (force-push bloqueado nesta execução); sem limpeza de primewin antigos necessária"
  }
 ]
