@@ -1,0 +1,12 @@
+Execução TikTok @traderdaylle — 2026-09-30 17:40 (America/Sao_Paulo) — disparo da tarde
+STATUS: OK — 1 vídeo produzido e agendado (decisão consciente de não fazer o 2º)
+Situação encontrada no Metricool (TikTok hoje): Doji 11:10 (publicado), OCO 17:30 (publicado; tinha sido criado p/ 18:10 e foi antecipado), Bollinger 21:30 (pendente, id 385294679). Slot 14:00 vazio.
+Decisão: 21:30 já ocupado -> produzi só 1 vídeo p/ 18:10 (fecha 4 posts TikTok no dia sem duplicar horário).
+Vídeo: Risco x retorno: stop e alvo (1 para 2)
+  duração 68,4s | voz pm_santa speed 1.10 | 208 palavras
+  explicativo: gráfico com entrada, caixa verde ALVO +10, caixa vermelha STOP -5, "Arrisca 1 pra buscar 2"
+  meio: grafico-tempo-real-47018, investidor-tablet-escritorio-45706, foto banco mulher-estudando-grafico.png, homem-estressado-49225, grafico-homem-analisando-47214 | 5PI: maquina-contando-dinheiro-49134
+  Canva não usado (tempo curto p/ 18:10); só clipes + 1 foto do banco.
+  URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-09-30-risco-retorno.mp4
+  Metricool id 385352817, 18:10, PENDING
+Quadros conferidos (8): explicativo legível, clipes ok, legendas no quarto inferior, cartão final ok, sem tela preta.
