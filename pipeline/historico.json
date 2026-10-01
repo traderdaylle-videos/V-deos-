@@ -108,5 +108,19 @@
   "arquivo": "media:tiktok/2026-10-01-estrela-da-manha.mp4",
   "metricool_id": 385879299,
   "horario": "2026-10-01 14:00"
+ },
+ {
+  "data": "2026-10-01",
+  "tema": "Bandeira de alta (mastro, canal e rompimento)",
+  "arquivo": "media:tiktok/2026-10-01-bandeira-de-alta.mp4",
+  "metricool_id": 386189218,
+  "horario": "2026-10-01 18:10"
+ },
+ {
+  "data": "2026-10-01",
+  "tema": "MACD: linha de sinal e histograma",
+  "arquivo": "media:tiktok/2026-10-01-macd.mp4",
+  "metricool_id": 386189286,
+  "horario": "2026-10-01 21:30"
  }
 ]
