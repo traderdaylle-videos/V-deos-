@@ -107,3 +107,7 @@ git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-
      - `youtubeData {type: video, title chamativo ≤100 caracteres, tags, category: EDUCATION, madeForKids: false, isAiGeneratedContent: true}`.
      - Descrição com os capítulos em minuto:segundo (use `_tempos.json`).
 8. **Registrar:** grave em `historico.json` a data, o tema, os princípios, os arquivos e os ids do Metricool. Faça commit e push em `main`.
+
+## Preferências de 30/09 (capa e ordem do feed)
+- **Capa obrigatória em todo Reels/Short:** coloque `"capa": "<título curto da notícia>"` no spec (ex.: "Dólar subiu 5%: o que muda no seu bolso"). O `make_gf_cine.py` gera `<video>_capa.jpg`: quadro do vídeo escurecido, faixa verde petróleo com o título (1ª linha dourada) e @granaefinancas, na faixa central (aparece inteira no grid do perfil). Hospede o jpg no branch media junto do vídeo e passe a URL raw em `videoThumbnailUrl` no Metricool (Reels e Short).
+- **Ordem do feed (nunca 2 Reels seguidos):** manhã = post único → meio-dia = Reels 1 → tarde = carrossel → noite = Reels 2. Assim o feed alterna post, vídeo, carrossel, vídeo.

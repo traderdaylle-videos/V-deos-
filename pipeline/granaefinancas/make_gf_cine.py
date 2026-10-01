@@ -185,6 +185,26 @@ out = S.get("output", "video.mp4")
 run(["ffmpeg", "-y", "-i", "_video.mp4", "-i", "_mix.wav", "-vf", f"ass=_legendas.ass:fontsdir={FONTS}",
      "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "22", "-maxrate", "7M", "-bufsize", "14M", "-preset", "medium", "-pix_fmt", "yuv420p",
      "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
+# 5) CAPA (Reels/Short): quadro do vídeo + título grande na faixa central (aparece inteira no grid 3:4 do perfil)
+capa = os.path.splitext(out)[0] + "_capa.jpg"
+tc = min(END - 0.5, (cover[0][0] + cover[0][1]) / 2) if cover else min(2.0, END / 2)
+run(["ffmpeg", "-y", "-ss", f"{tc:.2f}", "-i", "_video.mp4", "-frames:v", "1", "_capa_bg.png"])
+from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+im = ImageEnhance.Brightness(Image.open("_capa_bg.png").convert("RGB")).enhance(0.55)
+if S.get("capa"):
+    d = ImageDraw.Draw(im, "RGBA"); words = S["capa"].upper().split(); lines = []; cur = ""
+    fz = 120 if not HORIZ else 110; f = ImageFont.truetype(os.path.join(FONTS, "Anton-Regular.ttf"), fz)
+    for wd in words:
+        if d.textlength((cur + " " + wd).strip(), font=f) > WW * 0.84: lines.append(cur); cur = wd
+        else: cur = (cur + " " + wd).strip()
+    lines.append(cur); lh = int(fz * 1.12); y0 = HH // 2 - lh * len(lines) // 2
+    d.rectangle([0, y0 - 50, WW, y0 + lh * len(lines) + 40], fill=(4, 52, 44, 200))
+    for i, ln in enumerate(lines):
+        d.text((WW // 2, y0 + i * lh + lh // 2), ln, font=f, anchor="mm",
+               fill=(232, 184, 74) if i == 0 else (255, 255, 255))
+    d.text((WW // 2, y0 + lh * len(lines) + 90), "@granaefinancas", anchor="mm",
+           font=ImageFont.truetype(os.path.join(FONTS, "Montserrat-ExtraBold.ttf"), 44), fill=(232, 184, 74))
+im.save(capa, quality=92)
 json.dump([{"i": i, "start": round(x["start"], 2), "end": round(x["end"], 2), "text": x["text"]} for i, x in enumerate(T)],
           open("_tempos.json", "w"), ensure_ascii=False, indent=1)
-print(json.dumps({"output": out, "duration": dur(out), "size_mb": round(os.path.getsize(out) / 1e6, 1), "length_scale": round(ls, 2)}))
+print(json.dumps({"output": out, "capa": capa, "duration": dur(out), "size_mb": round(os.path.getsize(out) / 1e6, 1), "length_scale": round(ls, 2)}))
