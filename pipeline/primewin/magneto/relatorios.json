@@ -1,0 +1,40 @@
+[
+ {
+  "id": 1,
+  "data": "29/09/2026",
+  "liquido": "417,50",
+  "operacoes": 23,
+  "acerto": "82,61%"
+ },
+ {
+  "id": 2,
+  "data": null,
+  "liquido": "254,50",
+  "operacoes": 15,
+  "acerto": "66,67%"
+ },
+ {
+  "id": 3,
+  "data": null,
+  "liquido": "505,50",
+  "operacoes": 25,
+  "acerto": "80,00%",
+  "fator_lucro": "2,50"
+ },
+ {
+  "id": 4,
+  "data": null,
+  "liquido": "582,00",
+  "operacoes": 40,
+  "acerto": "65,00%",
+  "fator_lucro": "2,15"
+ },
+ {
+  "id": 5,
+  "data": null,
+  "liquido": "424,50",
+  "operacoes": 14,
+  "acerto": "85,71%",
+  "fator_lucro": "19,17"
+ }
+]

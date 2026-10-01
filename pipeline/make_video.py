@@ -130,7 +130,8 @@ for k,(src,a,b) in enumerate(cuts):
              "[bg][fg]overlay=(W-w)/2:(H-h)/2-140,setsar=1[v]",
              "-map","[v]","-an","-t",str(d),"-r",str(FPS),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     else:
-        run(["ffmpeg","-y","-loop","1","-i",src,"-vf",f"scale=2160:3840:force_original_aspect_ratio=increase:flags=lanczos,crop=2160:3840,unsharp=5:5:0.8,zoompan=z='1.0+0.0012*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS},eq=brightness=-0.04","-t",str(d),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
+        zr=S.get("photo_zoom",0.0012)   # velocidade do zoom lento das fotos (menor = cartão com texto fica inteiro na tela)
+        run(["ffmpeg","-y","-loop","1","-i",src,"-vf",f"scale=2160:3840:force_original_aspect_ratio=increase:flags=lanczos,crop=2160:3840,unsharp=5:5:0.8,zoompan=z='1.0+{zr}*on':x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':d={n}:s=1080x1920:fps={FPS},eq=brightness=-0.04","-t",str(d),"-pix_fmt","yuv420p","-c:v","libx264","-crf","20",o])
     parts.append(o)
 open("_parts.txt","w").write("".join(f"file '{p}'\n" for p in parts))
 run(["ffmpeg","-y","-f","concat","-safe","0","-i","_parts.txt","-c","copy","_video.mp4"])

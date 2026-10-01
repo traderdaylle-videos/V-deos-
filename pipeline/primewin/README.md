@@ -47,10 +47,12 @@ A tarefa "Prime Win: 4 Reels por dia no Instagram" dispara 4 vezes e publica na 
 
 | Turno | Hora | Formato |
 |---|---|---|
-| manha | 08:05 | **DESEJO** (novo) |
-| almoco | 12:05 | Padrão de convencimento (seções acima) |
-| tarde | 15:05 | **SERVIÇO** (novo) |
-| noite | 20:05 | Padrão de convencimento |
+| manha | 08:05 | **DESEJO** |
+| almoco | 12:05 | **MAGNETO** (anúncio do MagnetoV12, a partir de 01/10) |
+| tarde | 15:05 | **SERVIÇO** |
+| noite | 20:05 | **MAGNETO** (anúncio do MagnetoV12, a partir de 01/10) |
+
+O padrão de convencimento (seções acima) continua sendo a base de texto, ritmo e regras técnicas de todos os formatos.
 
 Os horários não cruzam com as outras tarefas que gravam no branch media.
 
@@ -68,6 +70,31 @@ Os horários não cruzam com as outras tarefas que gravam no branch media.
 - Meio: dores de executar manualmente uma estratégia boa (atraso na entrada, hesitação, quebra de regra, horas de tela). Depois o processo: você explica as regras → a Prime Win programa → testa em ambiente de conta real → a automação executa exatamente as suas regras.
 - CTA: "Comenta AUTOMATIZAR que a gente te chama no direct pra entender a sua estratégia" (no cartão final: `botao` "COMENTE AUTOMATIZAR", `comentario` "AUTOMATIZAR").
 - Legenda do post voltada ao serviço, com o mesmo aviso de risco. Mantém a 5PI no final.
+
+### Formato MAGNETO (turnos almoco e noite, pedido do usuário em 30/09)
+Anúncio do produto **MagnetoV12**, a automação da Prime Win para o Profit Pro.
+- **O que ela faz (texto do usuário):** opera sozinha na compra e na venda; lê o fluxo e entra no sentido da força do mercado; média de acerto de cerca de 70% no dia (média histórica, nunca garantia). Instalação feita pela equipe, por videochamada.
+- **Página de venda (vai na legenda):** https://claude.ai/artifact/YUK1E8u7oTnN6uBZbCFvgd
+- **Prova:** relatórios diários de contas reais em `magneto/`. O usuário confirmou que são todos de conta real (os ROCK_SMART são o MagnetoV12 na fase de testes).
+  - `card1..5.png`: cartão vertical 1080x1920 com o resultado do dia, a % de acerto, as operações e o print. Use estes no vídeo.
+  - `relatorio1..5.png`: prints com nome da automação, titular e número da conta já ocultos. **Nunca** use os prints originais.
+  - `relatorios.json`: os números de cada relatório. Só cite esses números e a média de ~70%.
+  - Use **1 cartão** na abertura (`photos_intro: ["cardN.png"]`), o mesmo cujos números a narração cita, e 1 outro cartão no meio. O número falado tem de ser o do cartão que está na tela. Varie os cartões a cada vídeo e registre no histórico quais usou.
+- **Roteiro (190–205 palavras):**
+  1. `intro`, sobre os cartões: "Isso aqui é o relatório de um único dia de uma automação operando sozinha, numa conta real", com os números do cartão por extenso.
+  2. `meio`: o nome (MagnetoV12); como funciona (lê o fluxo, espera a confirmação, compra e vende a favor da força do mercado); sem medo, sem ganância, sem entrar atrasado; "na média, sete de cada dez operações do dia terminam no gain"; tempo livre.
+  3. `recap`, sobre o gráfico ilustrativo: automação da Prime Win para o Profit Pro, testada em conta real, instalação por videochamada. A narração não diz que o gráfico é o MagnetoV12 operando.
+  4. `final_5pi` e `final_fim`: "Comenta MAGNETO aqui embaixo que a gente te manda o link no direct" + aviso de risco.
+- **Proibido:** "garantido", "lucro certo", "todo dia", projeção de ganho por mês, "recupere o investimento", e a palavra "robô". Resultado sempre como "de um dia" e acerto como "média".
+- **Técnico:** copie os `cardN.png` usados de `magneto/` para o WORKDIR. Modelo em `spec_magneto_exemplo.json` (pronúncia "Maguinéto vê doze", palavras-chave e `endcard` com `marca1` MAGNETO, `marca2` V12, `botao` "COMENTE MAGNETO", `comentario` "MAGNETO"). Mude o gráfico (estilo+cenário), os clipes e o `bg_clip` a cada vídeo.
+- **Legenda do post:**
+  - gancho com o resultado do cartão principal ("🧲 +R$ X em um único dia, numa conta real");
+  - os números do relatório (operações, % de acerto, resultado líquido já descontados os custos);
+  - 4–5 ✅ de como funciona;
+  - a 5PI;
+  - "👉 Conheça a MagnetoV12: <link da página>" e "👇 Ou comente MAGNETO que a gente te manda o link no direct" (link na legenda não é clicável no Instagram, por isso o CTA do comentário);
+  - o aviso: "⚠️ Operar no mercado financeiro envolve riscos. Resultados passados não garantem resultados futuros. Relatório de um dia de operação; o gráfico do vídeo é uma simulação ilustrativa.";
+  - hashtags #primewin #magnetov12 #automacao #tradingautomatizado #daytrade #miniindice #profitpro #bolsadevalores #mesaproprietaria #traderbrasil.
 
 ## Fila de vídeos pré-aprovados (`fila/`)
 Antes de produzir, veja se existe `fila/<AAAA-MM-DD>-<manha|almoco|tarde|noite>.json` para o turno atual:
