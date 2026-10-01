@@ -273,5 +273,31 @@
   "instagram_id": "18123865465928408",
   "permalink": "https://www.instagram.com/reel/Dd9MY-bFKPR/",
   "obs": "publicado da fila pré-aprovada (fila/2026-10-01-almoco.json); 1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
+ },
+ {
+  "data": "2026-10-01",
+  "turno": "tarde",
+  "formato": "servico",
+  "angulo": "serviço: estratégia que depende de estar na tela — perde o melhor momento por estar ocupado/trabalhando, entra atrasado, erra por cansaço depois de horas de tela; Prime Win programa as regras do trader e a automação executa sem precisar da presença dele",
+  "grafico": "candles / longo_alta",
+  "titulos": [
+   "SUA ESTRATÉGIA",
+   "SEM VOCÊ NA TELA"
+  ],
+  "clipes": [
+   "escritorio-movimentado-918 (novo)",
+   "relogio-parede-28886",
+   "cansado-computador-14763",
+   "homem-escrevendo-46768",
+   "programador-codigo-41637",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "duracao_s": 69.0,
+  "arquivo": "media:primewin/2026-10-01-tarde-estrategia-sem-tela.mp4",
+  "instagram_id": "18500001952098645",
+  "permalink": "https://www.instagram.com/reel/Dd9iMhrkm5U/",
+  "obs": "1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
  }
 ]
