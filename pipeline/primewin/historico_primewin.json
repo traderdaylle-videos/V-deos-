@@ -250,5 +250,28 @@
   "arquivo": "media:primewin/2026-10-01-manha-seu-tempo-de-volta.mp4",
   "instagram_id": "17870793564640928",
   "permalink": "https://www.instagram.com/reel/Dd8yZdDgjZ2/"
+ },
+ {
+  "data": "2026-10-01",
+  "turno": "almoco",
+  "formato": "magneto",
+  "angulo": "anúncio MagnetoV12: relatório de um dia em conta real (card3, R$ 505,50, 25 operações, 80%)",
+  "grafico": "candles / tendencia_baixa",
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "tendencia-tela-9607",
+   "homem-estressado-49225",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [
+   "card3",
+   "card1"
+  ],
+  "arquivo": "media:primewin/2026-10-01-almoco-magneto-conta-real.mp4",
+  "instagram_id": "18123865465928408",
+  "permalink": "https://www.instagram.com/reel/Dd9MY-bFKPR/",
+  "obs": "publicado da fila pré-aprovada (fila/2026-10-01-almoco.json); 1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
  }
 ]
