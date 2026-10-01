@@ -9,7 +9,8 @@ Diferenças para o make_gf.py:
 - Imagens reais em TELA CHEIA com tratamento de cinema: contraste, cor fria/esverdeada, vinheta, granulação,
   zoom lento e entrada com "respiro" do preto a cada corte.
 - Frases de impacto grandes no meio da tela (ASS), legendas elegantes no terço inferior.
-- Trilha cinematográfica escura (musica_cinema.py) com impactos graves nas viradas do roteiro.
+- Trilha inspiradora e mais alegre (musica_inspira.py, padrão desde 30/09) com impactos nas viradas do roteiro;
+  "trilha": "cinema" no spec volta à trilha escura antiga.
 - Sem aviso de recomendação de investimento.
 
 spec.json:
@@ -90,8 +91,9 @@ voz_fx = ("aresample=44100," + (f"rubberband=pitch={pitch:.4f}:pitchq=quality," 
           "acompressor=threshold=-22dB:ratio=4:attack=8:release=150:makeup=3,loudnorm=I=-15:TP=-1.5:LRA=6")
 run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "_list.txt", "-ac", "1", "-af", voz_fx, "_narracao.wav"])
 
-# 2) Trilha cinematográfica escura com impactos nas viradas
-from musica_cinema import gerar
+# 2) Trilha: "inspiradora" (padrão desde 30/09, mais alegre e atrativa) ou "cinema" (escura antiga)
+if S.get("trilha", "inspiradora") == "cinema": from musica_cinema import gerar
+else: from musica_inspira import gerar
 imp = [T[i]["start"] - 0.15 for i in S.get("impactos_seg", [0])]
 gerar("_musica.wav", END, impactos=imp, seed=S.get("music_seed", 0))
 run(["ffmpeg", "-y", "-i", "_narracao.wav", "-i", "_musica.wav", "-filter_complex",
