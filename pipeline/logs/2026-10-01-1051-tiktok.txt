@@ -1,0 +1,16 @@
+Execução TikTok @traderdaylle — 2026-10-01 10:40 (America/Sao_Paulo) — disparo da manhã
+STATUS: OK — 2 vídeos produzidos e agendados
+Metricool TikTok hoje antes do disparo: nenhum post (só Instagram Grana e Finanças 10:00 e 17:00).
+1) Triângulo ascendente — 69,7s | pm_santa speed 1.10 | 197 palavras
+   explicativo: teto reto laranja, fundos subindo verdes, ROMPIMENTO marcado
+   meio: grafico-closeup-47016, empresario-grafico-sucesso-26518, tendencia-tela-9607, numeros-oculos-47792, investidor-tablet-45708 | 5PI: maquina-contando-dinheiro-49134
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-01-triangulo-ascendente.mp4
+   Metricool id 385879273, 11:10, PENDING
+2) Estrela da manhã — 69,9s | pm_santa speed 1.10 | 196 palavras
+   explicativo: queda em candles, 1-2-3 circulados, "ESTRELA DA MANHÃ"
+   meio: grafico-tempo-real-47018, grafico-homem-analisando-47214, lucro-bolsa-47012, mulher-graficos-ipad-45662, homem-laptop-trabalhando-9756 | 5PI: contando-dinheiro-23168
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-01-estrela-da-manha.mp4
+   Metricool id 385879299, 14:00, PENDING
+Canva não usado (prazo curto p/ 11:10): só clipes reais, sem fotos.
+Quadros conferidos (7 por vídeo): explicativo legível, clipes em movimento, legendas no quarto inferior, cartão final ok, sem tela preta.
+Media: removidos tiktok/ de 28/09 (fibonacci, fundo-duplo); pastas das outras tarefas mantidas.
