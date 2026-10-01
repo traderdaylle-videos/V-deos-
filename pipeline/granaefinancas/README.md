@@ -114,7 +114,7 @@ git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-
 
 ## Voz aprovada em 30/09: FABER dinâmico
 - O usuário achou o Jeff lento e suave demais e escolheu o **Faber** (pt_BR-faber-medium, no branch clipes): mais dinâmico e com som real.
-- Já é o padrão do `make_gf_cine.py`: length_scale 0,84 (ajuste automático entre 0,80 e 0,92), pausas curtas (40% do valor do spec, no máximo 0,3 s), sem engrossar o tom, presença nos médios e compressão. O `"voice"` dos specs/roteiros antigos é ignorado.
+- Já é o padrão do `make_gf_cine.py`: length_scale 0,86 (ajuste automático entre 0,80 e 0,92), dicção limpa (noise_scale 0,55, noise_w 0,6), pausas de vírgula encurtadas para ~0,12 s e entre frases no máximo 0,18 s, sem engrossar o tom, presença nos médios e compressão. O `"voice"` dos specs/roteiros antigos é ignorado.
 - **Roteiro mais longo para manter a duração:** curto (45–65 s) com **~190–210 palavras**; longo (240–330 s) com **~850–950 palavras**. Se der erro de duração, acrescente ou corte frases (nunca desacelere a voz).
 
 ## Trilha nova em 30/09: INSPIRADORA (mais alegre e atrativa)

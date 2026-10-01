@@ -4,8 +4,8 @@
 Uso: python3 make_gf_cine.py WORKDIR   (lê WORKDIR/spec.json)
 
 Diferenças para o make_gf.py:
-- Narração com a voz Piper FABER dinâmica (aprovada em 30/09): length_scale ~0.84, pausas curtas
-  (40% do valor do spec, máx. 0,3 s), presença nos médios e compressão — mais rápida e com som real.
+- Narração com a voz Piper FABER dinâmica (aprovada em 30/09): length_scale ~0.86, dicção limpa (noise baixo),
+  pausas curtas (vírgulas ≤0,12 s; entre frases ≤0,18 s), presença nos médios e compressão.
 - Imagens reais em TELA CHEIA com tratamento de cinema: contraste, cor fria/esverdeada, vinheta, granulação,
   zoom lento e entrada com "respiro" do preto a cada corte.
 - Frases de impacto grandes no meio da tela (ASS), legendas elegantes no terço inferior.
@@ -47,8 +47,10 @@ if re.search(r"recomenda[çc][ãa]o de investimento", txt_all, flags=re.I):
 # 1) Narração natural
 # Voz aprovada em 30/09: Piper FABER dinâmico (mais rápido, pausas curtas, som presente e real).
 # O "voice" dos specs antigos (Jeff lento) é ignorado; use "voz": "custom" no spec para forçar outro "voice".
-V = {"model": "/tmp/clipes/clipes/pt_BR-faber-medium.onnx", "length_scale": 0.84, "noise_scale": 0.75,
-     "noise_w": 0.85, "pitch_semitons": 0.0, "pausa_fator": 0.4, "pausa_max": 0.3,
+# Dicção (30/09): noise_scale/noise_w menores = articulação mais limpa e ritmo regular; pausas internas
+# (vírgulas) encurtadas para no máx. ~0,12 s e pausas entre frases no máx. 0,18 s.
+V = {"model": "/tmp/clipes/clipes/pt_BR-faber-medium.onnx", "length_scale": 0.86, "noise_scale": 0.55,
+     "noise_w": 0.6, "pitch_semitons": 0.0, "pausa_fator": 0.3, "pausa_max": 0.18,
      **(S.get("voice", {}) if S.get("voz") == "custom" else {})}
 segs = [(t, min(V["pausa_max"], p * V["pausa_fator"])) for t, p in segs]
 TARGET = tuple(S.get("target", [45, 65])); TAIL = 3.0
@@ -64,7 +66,8 @@ def synth(ls):
         f = f"_seg{i:02d}.wav"
         tts(txt, f, ls)
         run(["ffmpeg", "-y", "-i", f, "-af", "silenceremove=start_periods=1:start_threshold=-50dB,areverse,"
-             "silenceremove=start_periods=1:start_threshold=-50dB,areverse", "_t.wav"]); os.replace("_t.wav", f)
+             "silenceremove=start_periods=1:start_threshold=-50dB,areverse,"
+             "silenceremove=stop_periods=-1:stop_duration=0.14:stop_threshold=-42dB:stop_silence=0.12", "_t.wav"]); os.replace("_t.wav", f)
         d = wav_dur(f); T.append({"text": txt, "start": t, "end": t + d, "pausa": pausa}); files.append(f); t += d + pausa
     return T, files
 ls = float(V["length_scale"]); T, files = synth(ls)
