@@ -4,9 +4,8 @@
 Uso: python3 make_gf_cine.py WORKDIR   (lê WORKDIR/spec.json)
 
 Diferenças para o make_gf.py:
-- Narração do Jeff mais NATURAL: fala sem acelerar (length_scale ~1.0), mais variação de entonação
-  (noise_scale/noise_w), pausas dramáticas por frase e tratamento de voz de narrador
-  (tom 1,5 semitom mais grave, graves quentes, menos chiado, compressão e ambiência leve).
+- Narração com a voz Piper FABER dinâmica (aprovada em 30/09): length_scale ~0.84, pausas curtas
+  (40% do valor do spec, máx. 0,3 s), presença nos médios e compressão — mais rápida e com som real.
 - Imagens reais em TELA CHEIA com tratamento de cinema: contraste, cor fria/esverdeada, vinheta, granulação,
   zoom lento e entrada com "respiro" do preto a cada corte.
 - Frases de impacto grandes no meio da tela (ASS), legendas elegantes no terço inferior.
@@ -45,8 +44,12 @@ if re.search(r"recomenda[çc][ãa]o de investimento", txt_all, flags=re.I):
     sys.exit("ERRO: este canal não usa o aviso de recomendação de investimento.")
 
 # 1) Narração natural
-V = {"model": "/tmp/clipes/clipes/pt_BR-jeff-medium.onnx", "length_scale": 1.0, "noise_scale": 0.72,
-     "noise_w": 0.9, "pitch_semitons": -1.5, **S.get("voice", {})}
+# Voz aprovada em 30/09: Piper FABER dinâmico (mais rápido, pausas curtas, som presente e real).
+# O "voice" dos specs antigos (Jeff lento) é ignorado; use "voz": "custom" no spec para forçar outro "voice".
+V = {"model": "/tmp/clipes/clipes/pt_BR-faber-medium.onnx", "length_scale": 0.84, "noise_scale": 0.75,
+     "noise_w": 0.85, "pitch_semitons": 0.0, "pausa_fator": 0.4, "pausa_max": 0.3,
+     **(S.get("voice", {}) if S.get("voz") == "custom" else {})}
+segs = [(t, min(V["pausa_max"], p * V["pausa_fator"])) for t, p in segs]
 TARGET = tuple(S.get("target", [45, 65])); TAIL = 3.0
 from piper import PiperVoice, SynthesisConfig
 PV = PiperVoice.load(V["model"])
@@ -67,7 +70,7 @@ ls = float(V["length_scale"]); T, files = synth(ls)
 for _ in range(2):
     total = T[-1]["end"] + TAIL
     if TARGET[0] <= total <= TARGET[1]: break
-    ls = max(0.9, min(1.08, ls * (sum(TARGET) / 2) / total)); T, files = synth(ls)
+    ls = max(0.80, min(0.92, ls * (sum(TARGET) / 2) / total)); T, files = synth(ls)
 END = T[-1]["end"] + TAIL
 if not (TARGET[0] <= END <= TARGET[1]):
     sys.exit(f"ERRO: {END:.1f}s fora da faixa {TARGET} (length_scale {ls:.2f}). Ajuste o roteiro.")
@@ -82,10 +85,9 @@ with open("_list.txt", "w") as L:
         run(["ffmpeg", "-y", "-f", "lavfi", "-i", f"anullsrc=r={sr0}:cl=mono", "-t", str(x["pausa"]), p])
         L.write(f"file '{p}'\n")
 pitch = 2 ** (V["pitch_semitons"] / 12)
-voz_fx = (f"aresample=44100,rubberband=pitch={pitch:.4f}:pitchq=quality,"
-          "highpass=f=70,equalizer=f=140:t=q:w=1:g=3,equalizer=f=3200:t=q:w=1.2:g=-3,equalizer=f=7500:t=q:w=1:g=-2,"
-          "deesser=i=0.4,acompressor=threshold=-20dB:ratio=3:attack=15:release=250:makeup=2,"
-          "aecho=0.85:0.7:35|60:0.10|0.06,loudnorm=I=-16:TP=-1.5:LRA=8")
+voz_fx = ("aresample=44100," + (f"rubberband=pitch={pitch:.4f}:pitchq=quality," if V["pitch_semitons"] else "") +
+          "highpass=f=75,equalizer=f=150:t=q:w=1:g=2,equalizer=f=3000:t=q:w=1.2:g=3,equalizer=f=8000:t=q:w=1:g=1,"
+          "acompressor=threshold=-22dB:ratio=4:attack=8:release=150:makeup=3,loudnorm=I=-15:TP=-1.5:LRA=6")
 run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "_list.txt", "-ac", "1", "-af", voz_fx, "_narracao.wav"])
 
 # 2) Trilha cinematográfica escura com impactos nas viradas

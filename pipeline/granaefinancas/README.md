@@ -17,7 +17,7 @@ Canal de **educação financeira psicológica com base no estoicismo**. Tom **dr
   - O aviso "não é recomendação de investimento". Ele é só do TikTok e da Prime Win.
   - A palavra "robô".
   - Promessa de ganho.
-- **Voz:** Piper **Jeff** (pt_BR-jeff-medium), NATURAL, sem acelerar (length_scale ~1.0), com o tratamento de narrador do `make_gf_cine.py`.
+- **Voz (atualizada em 30/09):** Piper **Faber** dinâmico — ver "Voz aprovada em 30/09" abaixo. (O Jeff lento foi substituído.)
 - **Visual:**
   - Clipes reais em tela cheia com gradação escura esverdeada (paleta do Instagram: #04342C, dourado #E8B84A).
   - Frases de impacto no meio da tela e legendas no terço inferior.
@@ -111,3 +111,8 @@ git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-
 ## Preferências de 30/09 (capa e ordem do feed)
 - **Capa obrigatória em todo Reels/Short:** coloque `"capa": "<título curto da notícia>"` no spec (ex.: "Dólar subiu 5%: o que muda no seu bolso"). O `make_gf_cine.py` gera `<video>_capa.jpg`: quadro do vídeo escurecido, faixa verde petróleo com o título (1ª linha dourada) e @granaefinancas, na faixa central (aparece inteira no grid do perfil). Hospede o jpg no branch media junto do vídeo e passe a URL raw em `videoThumbnailUrl` no Metricool (Reels e Short).
 - **Ordem do feed (nunca 2 Reels seguidos):** manhã = post único → meio-dia = Reels 1 → tarde = carrossel → noite = Reels 2. Assim o feed alterna post, vídeo, carrossel, vídeo.
+
+## Voz aprovada em 30/09: FABER dinâmico
+- O usuário achou o Jeff lento e suave demais e escolheu o **Faber** (pt_BR-faber-medium, no branch clipes): mais dinâmico e com som real.
+- Já é o padrão do `make_gf_cine.py`: length_scale 0,84 (ajuste automático entre 0,80 e 0,92), pausas curtas (40% do valor do spec, no máximo 0,3 s), sem engrossar o tom, presença nos médios e compressão. O `"voice"` dos specs/roteiros antigos é ignorado.
+- **Roteiro mais longo para manter a duração:** curto (45–65 s) com **~190–210 palavras**; longo (240–330 s) com **~850–950 palavras**. Se der erro de duração, acrescente ou corte frases (nunca desacelere a voz).
