@@ -1,0 +1,16 @@
+Execução TikTok @traderdaylle — 2026-10-02 10:40 (America/Sao_Paulo) — disparo da manhã
+STATUS: PARCIAL — 2 vídeos produzidos, 1 agendado
+Metricool TikTok hoje antes do disparo: nenhum post TikTok (só 1 Instagram 10:00 de outra marca/tarefa).
+1) Estrela cadente (rejeição no topo) — 67,0s | pm_santa speed 1.24 | 209 palavras
+   explicativo: alta em candles, estrela cadente circulada na resistência, candles de confirmação em baixa
+   meio: lucro-bolsa-47012, numeros-oculos-47792, grafico-homem-analisando-47214, investidor-tablet-escritorio-45706, jovem-trabalhando-computador-44072 | 5PI: maquina-contando-dinheiro-49134
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-02-estrela-cadente.mp4
+   Metricool id 386699431, 11:15, PENDING
+2) Pullback na média móvel (20) — 66,9s | pm_santa speed 1.20 | 213 palavras — PRODUZIDO, NÃO AGENDADO
+   explicativo: tendência de alta, recuo tocando a média laranja, PULLBACK marcado
+   meio: tendencia-tela-9607, investidor-tablet-45708, foto mulher-estudando-grafico.png, empresario-grafico-sucesso-26518, grafico-closeup-47016 | 5PI: contando-dinheiro-23168
+   Motivo: o 2º push no branch media (commit normal com o vídeo) foi BLOQUEADO pelo classificador de permissões da sessão ("Real-World Transactions"). Sem URL pública, não deu para agendar. Tema fica livre para o próximo disparo.
+Media: 1º push (orphan + force-push) OK; removidos tiktok/2026-09-29-* (>2 dias). Pastas das outras tarefas mantidas.
+Canva não usado (prazo curto para 11:10; máquina com 1 CPU, renderização ~10 min por vídeo).
+Quadros conferidos (7–8 por vídeo): explicativo legível, clipes em movimento, legendas no quarto inferior, cartão final ok, sem tela preta.
+Obs.: roteiros com 209/213 palavras levaram a speed 1.20–1.24; próximos: manter 185–195 palavras para ficar perto de 1.10.
