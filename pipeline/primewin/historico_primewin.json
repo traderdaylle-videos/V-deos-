@@ -360,5 +360,35 @@
   "instagram_id": "18344427313253429",
   "permalink": "https://www.instagram.com/reel/Dd_XhLOjLxP/",
   "obs": "1ª tentativa 'Video is still processing', conferido que não publicou e reenviado; download de casal-hotel-viagem-101721 falhou no workflow"
+ },
+ {
+  "data": "2026-10-02",
+  "turno": "almoco",
+  "formato": "magneto",
+  "angulo": "anúncio MagnetoV12: hesitar e entrar atrasado (vê o movimento, hesita, preço já foi); MagnetoV12 lê o fluxo em tempo real e entra quando a força confirma; relatório card1 (R$ 417,50, 23 operações, 82,61%)",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "LÊ O FLUXO",
+   "NA HORA CERTA"
+  ],
+  "clipes": [
+   "tendencia-tela-9607",
+   "homem-ansiedade-47206",
+   "grafico-homem-analisando-47214",
+   "mulher-graficos-ipad-45662",
+   "praia-mulher-caminhando-1208",
+   "maquina-contando-dinheiro-49134 (5PI)"
+  ],
+  "bg_clip": "casal-mapa-carro-2718",
+  "cartoes": [
+   "card1",
+   "card2"
+  ],
+  "duracao_s": 67.5,
+  "canal": "zapier",
+  "arquivo": "media:primewin/2026-10-02-almoco-magneto-hora-certa.mp4",
+  "instagram_id": "17918846202244097",
+  "permalink": "https://www.instagram.com/reel/Dd_yyfCjMAl/",
+  "obs": "force-push no media bloqueado; push normal, sem limpeza de primewin antigos. 1ª tentativa 'Video is still processing', conferido e reenviado. Sem clipe novo nesta execução (manhã já baixou 1)"
  }
 ]
