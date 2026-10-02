@@ -120,3 +120,6 @@ git clone -q --depth 1 --branch clipes https://github.com/traderdaylle-videos/v-
 ## Trilha nova em 30/09: INSPIRADORA (mais alegre e atrativa)
 - O usuário pediu música mais atrativa e um pouco mais alegre. O padrão do `make_gf_cine.py` agora é `musica_inspira.py`: tom maior (~104 BPM), arpejo brilhante, baixo pulsando, bateria leve que entra após a abertura e prato/riser nas viradas (`impactos_seg`).
 - Alterne `music_seed` 0/1 entre os vídeos (duas progressões diferentes). A trilha escura antiga só com `"trilha": "cinema"` no spec (não usar por padrão).
+
+## REGISTRO OBRIGATÓRIO (desde 01/10)
+Em 01/10 os vídeos (Reels, Short e longo) não saíram e nenhuma sessão deixou o motivo. A partir de agora, TODA execução, com sucesso ou falha, grava `pipeline/logs/<AAAA-MM-DD>-<HHMM>-gf.txt` (commit + push em main) com: o que foi agendado, cada etapa de vídeo (voz, trilha, montagem, capa, hospedagem, agendamento) e o erro exato de qualquer etapa que falhou. Grave um log parcial logo após os posts de imagem, antes de começar os vídeos, e atualize no fim.
