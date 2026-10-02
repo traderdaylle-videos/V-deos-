@@ -137,5 +137,35 @@
   "metricool_id": 386809439,
   "horario": "2026-10-02 14:00",
   "obs": "execução fora de horário (13:12) completou o slot das 14:00"
+ },
+ {
+  "data": "2026-10-02",
+  "tema": "Topo duplo (padrão M)",
+  "arquivo": "media:tiktok/2026-10-02-topo-duplo.mp4",
+  "metricool_id": 386971287,
+  "horario": "2026-10-02 18:10",
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "lucro-bolsa-47012",
+   "grafico-homem-analisando-47214",
+   "olho-laptop-46575",
+   "empresario-grafico-sucesso-26518",
+   "contando-dinheiro-23168"
+  ]
+ },
+ {
+  "data": "2026-10-02",
+  "tema": "Gap e preenchimento",
+  "arquivo": "media:tiktok/2026-10-02-gap-preenchimento.mp4",
+  "metricool_id": 386977888,
+  "horario": "2026-10-02 21:30",
+  "clipes": [
+   "tendencia-tela-9607",
+   "investidor-tablet-45708",
+   "numeros-oculos-47792",
+   "grafico-closeup-47016",
+   "homem-laptop-trabalhando-9756",
+   "maquina-contando-dinheiro-49134"
+  ]
  }
 ]
