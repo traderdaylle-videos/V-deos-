@@ -24,5 +24,25 @@
   "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-03-almoco-maiores-paises.mp4",
   "metricool_id": 387223140,
   "publicado": true
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "tarde",
+  "horario": "18:30",
+  "tema": "Maiores economias do mundo (PIB nominal 2025)",
+  "fonte": "FMI, World Economic Outlook (PIB nominal 2025)",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-03-tarde-maiores-economias.mp4",
+  "metricool_id": 387481540,
+  "publicado": true
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "noite",
+  "horario": "21:00",
+  "tema": "Países mais populosos do mundo",
+  "fonte": "ONU, World Population Prospects 2024 (estimativa 2025)",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-03-noite-mais-populosos.mp4",
+  "metricool_id": 387481582,
+  "publicado": true
  }
 ]
