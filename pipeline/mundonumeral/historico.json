@@ -1,1 +1,28 @@
-[{"data":"2026-09-30","tema":"Big Mac mais caro (10 países)","fonte":"The Economist 2025","publicado":false}]
+[
+ {
+  "data": "2026-09-30",
+  "tema": "Big Mac mais caro (10 países)",
+  "fonte": "The Economist 2025",
+  "publicado": true
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "manha",
+  "horario": "08:30",
+  "tema": "Big Mac mais caro (10 países) — fila aprovada, re-renderizado com @rankincuriosos",
+  "fonte": "The Economist, Índice Big Mac 2025",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-03-manha-big-mac.mp4",
+  "metricool_id": 387223126,
+  "publicado": true
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores países do mundo em território",
+  "fonte": "CIA World Factbook (área total)",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-03-almoco-maiores-paises.mp4",
+  "metricool_id": 387223140,
+  "publicado": true
+ }
+]
