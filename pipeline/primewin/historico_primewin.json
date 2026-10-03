@@ -480,5 +480,35 @@
   "metricool_id": 387352156,
   "metricool_uuid": "4890962190101200943",
   "agendado_para": "2026-10-03T12:29:00-03:00"
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "tarde",
+  "formato": "servico",
+  "angulo": "serviço: estratégia com muitas condições (média, volume, horário, tamanho do candle) — na mão é preciso conferir tudo a cada candle, uma distração faz o sinal passar ou entrar com metade das regras, vários ativos sobrecarregam; Prime Win programa as regras, testa em conta real e a automação confere todas as condições sem cansaço",
+  "grafico": "candles / longo_baixa",
+  "titulos": [
+   "TODAS AS REGRAS",
+   "EM CADA CANDLE"
+  ],
+  "clipes": [
+   "grafico-homem-analisando-47214",
+   "numeros-oculos-47792",
+   "olho-laptop-46575",
+   "homem-ansiedade-47206",
+   "programador-codigo-41637",
+   "tendencia-tela-9607",
+   "empresario-grafico-sucesso-26518 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "bg_clip": "praia-mulher-caminhando-1208",
+  "cartoes": [],
+  "duracao_s": 67.1,
+  "arquivo": "media:primewin/2026-10-03-tarde-todas-as-regras.mp4",
+  "canal": "metricool",
+  "metricool_id": 387433526,
+  "metricool_uuid": "-475471570261818577",
+  "agendado_para": "2026-10-03T15:32:00-03:00",
+  "obs": "force-push no media ok; removidos primewin anteriores a 30/09; sem clipe novo hoje no turno"
  }
 ]
