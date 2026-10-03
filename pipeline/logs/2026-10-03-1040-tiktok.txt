@@ -1,0 +1,16 @@
+Execução TikTok @traderdaylle — 2026-10-03 10:40 (America/Sao_Paulo) — disparo da manhã
+STATUS: SUCESSO — 2 vídeos produzidos, conferidos, hospedados e agendados
+Metricool TikTok hoje antes do disparo: nenhum post TikTok agendado (só um Instagram 10:00). Slots 11:10 e 14:00 livres.
+1) Topos e fundos ascendentes (tendência de alta) — 67,1s | pm_santa speed 1.10 | 197 palavras
+   explicativo: linha em zigue-zague com T1-T3 e F1-F3, "FUNDO MAIS ALTO" destacado, "Possível zona de compra observada"
+   meio: investidor-tablet-escritorio-45706, empresario-grafico-sucesso-26518, grafico-closeup-47016, jovem-trabalhando-computador-44072, homem-laptop-trabalhando-9756 | 5PI: maquina-contando-dinheiro-49134
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-03-topos-e-fundos.mp4
+   Metricool id 387317169, 11:10, PENDING
+2) Inside bar (barra interna) — 67,7s | pm_santa speed 1.10 | 199 palavras
+   explicativo: candle mãe + barra interna em caixa azul, linhas tracejadas da máxima/mínima da mãe, "ROMPEU A MÁXIMA", "Possível zona de compra observada"
+   meio: tendencia-tela-9607, olho-laptop-46575, grafico-homem-analisando-47214, investidor-tablet-45708, homem-analisando-graficos-17415 | 5PI: contando-dinheiro-23168
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-03-inside-bar.mp4
+   Metricool id 387317190, 14:00, PENDING
+Quadros conferidos (8 por vídeo): explicativo legível, clipes em movimento, legendas no quarto inferior, cartão final ok, sem tela preta (olho-laptop é escuro por natureza).
+Media: commit normal no branch media (sem force-push); removidos 4 tiktok/ de 30/09; pastas das outras tarefas mantidas.
+Problemas: make_video.py das 2 montagens em paralelo estourou o limite de 10 min do shell na etapa final (legendas); refeita só essa etapa com ffmpeg preset veryfast. Canva não usado (prazo do slot 11:10). Hashtag "#price action" saiu com espaço na legenda do vídeo 2 (cosmético).
