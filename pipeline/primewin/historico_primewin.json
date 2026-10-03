@@ -450,5 +450,35 @@
   "metricool_post_id": 387259794,
   "agendado_para": "2026-10-03T08:37:00-03:00",
   "obs": "Metricool marca 7160301 (pwinautomacoes); force-push no media bloqueado, push normal sem limpeza de primewin antigos; clipe novo familia-caminhando-por-do-sol-6472 baixado via workflow"
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "almoco",
+  "formato": "magneto",
+  "angulo": "anúncio MagnetoV12: revanche e quebra de regra depois de dois stops (raiva, mão maior); MagnetoV12 segue a mesma regra na entrada seguinte; 40 decisões num dia sem cansar; relatório card4 (R$ 582,00, 40 operações, 65%)",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "MESMA REGRA",
+   "EM CADA ENTRADA"
+  ],
+  "clipes": [
+   "homem-estressado-49225",
+   "indicadores-negativos-3d-26759",
+   "grafico-closeup-47016",
+   "investidor-tablet-45708",
+   "casal-mapa-carro-2718",
+   "investidor-tablet-escritorio-45706 (5PI)"
+  ],
+  "bg_clip": "homem-mar-tranquilo-26667",
+  "cartoes": [
+   "card4",
+   "card2"
+  ],
+  "duracao_s": 68.0,
+  "arquivo": "media:primewin/2026-10-03-almoco-magneto-sem-revanche.mp4",
+  "canal": "metricool",
+  "metricool_id": 387352156,
+  "metricool_uuid": "4890962190101200943",
+  "agendado_para": "2026-10-03T12:29:00-03:00"
  }
 ]
