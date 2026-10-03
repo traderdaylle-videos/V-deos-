@@ -418,5 +418,37 @@
   "instagram_id": "17909191275305318",
   "permalink": "https://www.instagram.com/reel/DeAHKfADdCU/",
   "obs": "Prime Win não está no Metricool (só granaefinancas); force-push no media bloqueado, push normal sem limpeza; 1ª tentativa 'Video is still processing', conferido e reenviado; sem clipe novo nesta execução"
+ },
+ {
+  "data": "2026-10-03",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo de investir com método: quem começa sozinho opera no palpite (dica, intuição), perde, o medo bate e entra no impulso; sem regra cada dia é aposta; automação segue regras claras de entrada, saída e stop, sem ser especialista nem ficar na tela",
+  "grafico": "candles / ondas",
+  "titulos": [
+   "REGRAS CLARAS",
+   "NADA DE PALPITE"
+  ],
+  "clipes": [
+   "cafe-manha-musica-43391 (intro)",
+   "familia-caminhando-por-do-sol-6472 (novo, intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "celular-rolando-29302",
+   "indicadores-negativos-3d-26759",
+   "homem-estressado-49225",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "pai-brincando-filho-7681",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 69.2,
+  "canal": "metricool",
+  "arquivo": "media:primewin/2026-10-03-manha-regras-claras-nada-de-palpite.mp4",
+  "metricool_post_id": 387259794,
+  "agendado_para": "2026-10-03T08:37:00-03:00",
+  "obs": "Metricool marca 7160301 (pwinautomacoes); force-push no media bloqueado, push normal sem limpeza de primewin antigos; clipe novo familia-caminhando-por-do-sol-6472 baixado via workflow"
  }
 ]
