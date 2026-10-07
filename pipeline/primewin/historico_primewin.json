@@ -511,5 +511,37 @@
   "agendado_para": "2026-10-03T15:32:00-03:00",
   "obs": "force-push no media ok; removidos primewin anteriores a 30/09; sem clipe novo hoje no turno",
   "permalink": "https://www.instagram.com/reel/DeCteyQE4pS/"
+ },
+ {
+  "data": "2026-10-07",
+  "turno": "almoco",
+  "formato": "magneto",
+  "angulo": "anúncio MagnetoV12: medo e esperança na mão — sai cedo do lucro por medo e segura o prejuízo esperando o preço voltar; MagnetoV12 lê o fluxo, entra quando a força confirma e sai na regra; relatório card3 (R$ 505,50, 25 operações, 80%) e card5 no meio (14 operações, 85,71%)",
+  "grafico": "linha / tendencia_baixa",
+  "titulos": [
+   "REGRA NA ENTRADA",
+   "REGRA NA SAÍDA"
+  ],
+  "clipes": [
+   "homem-contando-dinheiro-ansioso-49438",
+   "lucro-bolsa-47012",
+   "grafico-tempo-real-47018",
+   "xadrez-pensando-49885",
+   "familia-caminhando-por-do-sol-6472",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [
+   "card3",
+   "card5"
+  ],
+  "duracao_s": 68.0,
+  "arquivo": "media:primewin/2026-10-07-almoco-regra-na-saida.mp4",
+  "canal": "metricool",
+  "metricool_id": 390438970,
+  "metricool_uuid": "5077993644219517095",
+  "agendado_para": "2026-10-07T12:34:00-03:00",
+  "obs": "force-push no media ok; removidos primewin anteriores a 04/10; sem clipe novo hoje no turno"
  }
 ]
