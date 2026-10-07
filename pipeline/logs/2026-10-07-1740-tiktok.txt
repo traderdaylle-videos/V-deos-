@@ -1,0 +1,17 @@
+Execução TikTok @traderdaylle — 2026-10-07 17:40 (America/Sao_Paulo) — disparo da tarde
+STATUS: SUCESSO — 2 vídeos produzidos, conferidos, hospedados e agendados
+Metricool TikTok hoje antes do disparo: 14:00 e 15:30 (já publicados); 18:10/21:30 livres.
+1) Três soldados brancos — 67,0s | pm_santa speed 1.21 (auto) | 199 palavras
+   explicativo: queda em candles vermelhos + 3 candles verdes em caixa tracejada "3 SOLDADOS", "Possível zona de compra observada"
+   meio: grafico-tempo-real-47018, empresario-grafico-sucesso-26518, lucro-bolsa-47012, investidor-tablet-45708, homem-analisando-graficos-17415 | 5PI: maquina-contando-dinheiro-49134
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-07-tres-soldados-brancos.mp4
+   Metricool id 390686278, 18:12, PENDING
+2) Stop pelo ATR — 71,2s | pm_santa speed 1.10 | 200 palavras
+   explicativo: preço + linha de stop (preço − 2×ATR), setas "CALMO: stop perto" / "AGITADO: stop longe"
+   meio: numeros-oculos-47792, grafico-homem-analisando-47214, homem-estressado-49225, mulher-graficos-ipad-45662, homem-laptop-trabalhando-9756 | 5PI: contando-dinheiro-23168
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-07-stop-pelo-atr.mp4
+   Metricool id 390686325, 21:30, PENDING
+Quadros conferidos (8 por vídeo): explicativo legível, clipes em movimento, legendas no quarto inferior, cartão final ok; blackdetect sem tela preta.
+Ajustes: 1ª versão do vídeo 1 tinha olho-laptop-46575 quase preto → trocado por lucro-bolsa-47012; seta solta no início do explicativo ATR corrigida.
+Media: branch media clonado, pastas granaefinancas/mundonumeral/primewin/youtube mantidas; nenhum tiktok/ com mais de 2 dias; force-push.
+Notas: Canva não usado (prazo do slot 18:10); só clipes do branch clipes. make_video.py via cópia local com preset veryfast; repositório inalterado.
