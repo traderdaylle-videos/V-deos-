@@ -66,5 +66,28 @@
   "metricool_id": 390506833,
   "publicado": true,
   "obs": "disparo da manhã rodou às 13h; horário de recuperação"
+ },
+ {
+  "data": "2026-10-07",
+  "turno": "tarde",
+  "horario": "18:30",
+  "tema": "Países com mais medalhas em Paris 2024",
+  "fonte": "COI, quadro de medalhas Paris 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-07-tarde-medalhas-paris-2024.mp4",
+  "metricool_id": 390636284,
+  "publicado": true,
+  "duracao_s": 71.5
+ },
+ {
+  "data": "2026-10-07",
+  "turno": "noite",
+  "horario": "21:00",
+  "tema": "Países que mais fabricam carros (produção 2024)",
+  "fonte": "OICA, produção mundial de veículos 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/2026-10-07-noite-producao-carros.mp4",
+  "metricool_id": 390636333,
+  "publicado": true,
+  "duracao_s": 71.4,
+  "obs": "horário 21:00 (melhor que 21:30 pelo getBestTimeToPost)"
  }
 ]
