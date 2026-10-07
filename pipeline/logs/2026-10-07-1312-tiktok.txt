@@ -1,0 +1,16 @@
+Execução TikTok @traderdaylle — 2026-10-07 13:12 (America/Sao_Paulo) — disparo da manhã (executado com atraso)
+STATUS: SUCESSO — 2 vídeos produzidos, conferidos, hospedados e agendados
+Metricool TikTok hoje antes do disparo: nenhum post agendado. Slot 11:10 já tinha passado → usados 14:00 e 15:30.
+1) Harami de alta — 71,0s | pm_santa speed 1.10 | 201 palavras
+   explicativo: queda em candles, candle mãe vermelho + harami verde em caixa tracejada, alta depois, "Possível zona de compra observada"
+   meio: grafico-closeup-47016, investidor-tablet-45708, homem-laptop-trabalhando-9756, numeros-oculos-47792, empresario-grafico-sucesso-26518 | 5PI: maquina-contando-dinheiro-49134
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-07-harami-de-alta.mp4
+   Metricool id 390488236, 14:00, PENDING
+2) Canal de alta — 70,1s | pm_santa speed 1.10 | 203 palavras
+   explicativo: preço oscilando entre linha verde (fundos) e laranja (topos), pontos "ZONA DE COMPRA"/"ZONA DE VENDA"
+   meio: tendencia-tela-9607, grafico-homem-analisando-47214, investidor-tablet-escritorio-45706, jovem-trabalhando-computador-44072, mulher-graficos-ipad-45662 | 5PI: contando-dinheiro-23168
+   URL: https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/tiktok/2026-10-07-canal-de-alta.mp4
+   Metricool id 390488290, 15:30, PENDING
+Quadros conferidos (6 por vídeo + explicativo final): explicativo legível, clipes reais em movimento, legendas no quarto inferior, cartão final ok, sem tela preta.
+Media: branch media clonado, pastas granaefinancas/mundonumeral/primewin/youtube mantidas; removidos 12 tiktok/ de 01-03/10 (>2 dias); force-push.
+Notas: Canva não usado (prazo do slot 14:00); só clipes do branch clipes. make_video.py rodado via cópia local com preset veryfast; repositório inalterado.
