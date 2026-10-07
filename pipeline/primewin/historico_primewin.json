@@ -545,5 +545,38 @@
     "obs": "force-push no media ok; removidos primewin anteriores a 04/10; sem clipe novo hoje no turno",
     "id": "390438970",
     "permalink": "https://www.instagram.com/reel/DeMsTgZk-qZ/"
+  },
+  {
+    "data": "2026-10-07",
+    "turno": "manha",
+    "formato": "desejo",
+    "angulo": "desejo de liberdade de lugar e de tempo: a bolsa não precisa te prender a uma cadeira nem ao relógio do pregão; quem opera na mão fica preso ao horário, com cansaço de tela, e cansado o emocional decide (sai antes por medo, entra atrasado por pressa); automação segue entrada, saída e stop sem você na tela, sem ser especialista",
+    "grafico": "candles / longo_alta",
+    "titulos": [
+      "LIVRE DA TELA",
+      "LIVRE DO RELÓGIO"
+    ],
+    "clipes": [
+      "casal-mapa-carro-2718 (intro)",
+      "mn-alpes-suica-31939 (intro)",
+      "homem-estrada-35809 (intro)",
+      "relogio-parede-28886",
+      "cansado-computador-14763",
+      "olho-laptop-46575",
+      "tendencia-tela-9607",
+      "mulher-graficos-ipad-45662",
+      "pai-brincando-filho-7681",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "familia-caminhando-por-do-sol-6472 (endcard)"
+    ],
+    "bg_clip": "familia-caminhando-por-do-sol-6472",
+    "cartoes": [],
+    "duracao_s": 65.9,
+    "arquivo": "media:primewin/2026-10-07-manha-livre-do-relogio.mp4",
+    "canal": "metricool",
+    "metricool_id": 390489249,
+    "metricool_uuid": "-216171241707648823",
+    "agendado_para": "2026-10-07T13:33:00-03:00",
+    "obs": "recuperação: turno manha produzido às 13h após disparo perdido"
   }
 ]
