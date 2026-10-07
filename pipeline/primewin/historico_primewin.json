@@ -1,547 +1,549 @@
 [
- {
-  "data": "2026-09-27",
-  "angulo": "emocional (entrar atrasado, segurar perda, quebrar conta) + nunca mais clicar",
-  "grafico": "linha / ondas",
-  "arquivo": "media:primewin/2026-09-27-primewin-nunca-mais-clicar.mp4",
-  "instagram_id": "18127524301830479",
-  "permalink": "https://www.instagram.com/reel/DdyxXTykiuu/"
- },
- {
-  "data": "2026-09-27",
-  "turno": "noite",
-  "angulo": "tempo e cansaço de operar manualmente; liberdade",
-  "grafico": "candles / fibo_alta",
-  "clipes": [
-   "cansado-computador-14763",
-   "lucro-bolsa-47012",
-   "tendencia-tela-9607",
-   "grafico-homem-analisando-47214",
-   "pai-brincando-filho-7681",
-   "relaxando-por-do-sol-33968",
-   "investidor-tablet-45708"
-  ],
-  "arquivo": "media:primewin/2026-09-27-noite-tempo-livre.mp4",
-  "origem": "fila (aprovado)",
-  "instagram_id": "18101461433033789",
-  "permalink": "https://www.instagram.com/reel/Ddzia2Ekpi7/"
- },
- {
-  "data": "2026-09-28",
-  "turno": "manha",
-  "angulo": "revanche e impulso após o stop (quebra de conta); regras claras e disciplina da automação",
-  "grafico": "candles / tendencia_baixa",
-  "titulos": [
-   "REGRAS CLARAS",
-   "SEM REVANCHE"
-  ],
-  "clipes": [
-   "numeros-oculos-47792",
-   "lucro-bolsa-47012",
-   "homem-ansiedade-47206",
-   "olho-laptop-46575",
-   "grafico-tempo-real-47018",
-   "pai-brincando-filho-7681",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "relaxando-por-do-sol-33968 (endcard)"
-  ],
-  "duracao_s": 68.3,
-  "arquivo": "media:primewin/2026-09-28-manha-revanche-regras-claras.mp4",
-  "instagram_id": "18011619800761703",
-  "permalink": "https://www.instagram.com/reel/Dd1Sc5Egocf/"
- },
- {
-  "data": "2026-09-28",
-  "turno": "noite",
-  "angulo": "ganância: não sair na hora e devolver o positivo (virar prejuízo, entrar de novo com raiva); automação respeita alvo e stop",
-  "grafico": "candles / longo_alta",
-  "titulos": [
-   "SAIR NA HORA",
-   "SEM DEVOLVER O GANHO"
-  ],
-  "clipes": [
-   "grafico-homem-analisando-47214",
-   "indicadores-negativos-3d-26759 (novo)",
-   "homem-estressado-49225",
-   "homem-contando-dinheiro-ansioso-49438",
-   "mulher-graficos-ipad-45662 (novo)",
-   "homem-mar-tranquilo-26667",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "pai-brincando-filho-7681 (endcard)"
-  ],
-  "duracao_s": 68.0,
-  "arquivo": "media:primewin/2026-09-28-noite-ganancia-sair-na-hora.mp4",
-  "instagram_id": "18126347389878691",
-  "permalink": "https://www.instagram.com/reel/Dd2IE3AD72i/"
- },
- {
-  "data": "2026-09-29",
-  "turno": "manha",
-  "angulo": "inconsistência: trocar de estratégia, pular entrada, dobrar a mão; automação executa as mesmas regras todo dia",
-  "grafico": "linha / tendencia_alta",
-  "titulos": [
-   "MESMA ESTRATÉGIA",
-   "TODO DIA"
-  ],
-  "clipes": [
-   "homem-laptop-trabalhando-9756",
-   "olho-laptop-46575",
-   "lucro-bolsa-47012",
-   "homem-ansiedade-47206",
-   "tendencia-tela-9607",
-   "relaxando-por-do-sol-33968",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "homem-mar-tranquilo-26667 (endcard)"
-  ],
-  "duracao_s": 69.2,
-  "arquivo": "media:primewin/2026-09-29-manha-mesma-estrategia-todo-dia.mp4",
-  "instagram_id": "18130174456836518",
-  "permalink": "https://www.instagram.com/reel/Dd32GHTgb7-/"
- },
- {
-  "data": "2026-09-29",
-  "turno": "noite",
-  "angulo": "hesitação e medo de errar: ver o sinal e travar, excesso de confirmação/indicadores, entrar atrasado no pior preço; automação executa sem hesitar",
-  "grafico": "candles / fibo_baixa",
-  "titulos": [
-   "SEM HESITAR",
-   "NA HORA CERTA"
-  ],
-  "clipes": [
-   "jovem-trabalhando-computador-44072 (novo)",
-   "grafico-closeup-47016",
-   "homem-estressado-49225",
-   "indicadores-negativos-3d-26759",
-   "grafico-tempo-real-47018",
-   "pai-brincando-filho-7681",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "relaxando-por-do-sol-33968 (endcard)"
-  ],
-  "duracao_s": 68.9,
-  "arquivo": "media:primewin/2026-09-29-noite-sem-hesitar.mp4",
-  "instagram_id": "18031657871893279",
-  "permalink": "https://www.instagram.com/reel/Dd4tCcEgDfj/"
- },
- {
-  "data": "2026-09-30",
-  "turno": "manha",
-  "angulo": "overtrading por tédio: operar só para não ficar parado, forçar entradas em mercado lateral, excesso de operações; automação só entra quando a estratégia manda",
-  "grafico": "linha / longo_baixa",
-  "titulos": [
-   "SÓ ENTRA",
-   "QUANDO TEM SETUP"
-  ],
-  "clipes": [
-   "escritorio-entediado-48609 (novo)",
-   "tendencia-tela-9607",
-   "indicadores-negativos-3d-26759",
-   "homem-ansiedade-47206",
-   "mulher-graficos-ipad-45662",
-   "pai-brincando-filho-7681",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "homem-mar-tranquilo-26667 (endcard)"
-  ],
-  "duracao_s": 69.6,
-  "arquivo": "media:primewin/2026-09-30-manha-sem-tedio.mp4",
-  "instagram_id": "18096945302444090",
-  "permalink": "https://www.instagram.com/reel/Dd6a7LWDIvX/"
- },
- {
-  "data": "2026-09-30",
-  "turno": "almoco",
-  "formato": "convencimento",
-  "angulo": "palpites de terceiros: grupos, dicas, notícias e opiniões fazendo abandonar a estratégia; automação ignora o barulho e segue só as regras",
-  "grafico": "candles / ondas",
-  "titulos": [
-   "SÓ A SUA",
-   "ESTRATÉGIA"
-  ],
-  "clipes": [
-   "celular-rolando-29302 (novo)",
-   "grafico-homem-analisando-47214",
-   "indicadores-negativos-3d-26759",
-   "homem-estressado-49225",
-   "tendencia-tela-9607",
-   "relaxando-por-do-sol-33968",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "pai-brincando-filho-7681 (endcard)"
-  ],
-  "duracao_s": 65.5,
-  "arquivo": "media:primewin/2026-09-30-almoco-sem-palpite.mp4",
-  "instagram_id": "18075111860444704",
-  "permalink": "https://www.instagram.com/reel/Dd6oaTkjelT/"
- },
- {
-  "data": "2026-09-30",
-  "turno": "tarde",
-  "formato": "servico",
-  "angulo": "serviço: trader com estratégia própria executando na mão (atraso, hesitação no stop, mudar alvo); Prime Win programa as regras do trader, testa em conta real e a automação executa exatamente as regras",
-  "grafico": "linha / fibo_alta",
-  "titulos": [
-   "SUAS REGRAS",
-   "NO AUTOMÁTICO"
-  ],
-  "clipes": [
-   "jovem-trabalhando-computador-44072",
-   "homem-ansiedade-47206",
-   "lucro-bolsa-47012",
-   "programador-codigo-41637 (novo)",
-   "tendencia-tela-9607",
-   "mulher-graficos-ipad-45662",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "relaxando-por-do-sol-33968 (endcard)"
-  ],
-  "duracao_s": 67.7,
-  "arquivo": "media:primewin/2026-09-30-tarde-suas-regras-automacao.mp4",
-  "instagram_id": "17970301593170235",
-  "permalink": "https://www.instagram.com/reel/Dd69s37jD5F/"
- },
- {
-  "data": "2026-09-30",
-  "turno": "noite",
-  "formato": "convencimento",
-  "angulo": "tirar/mover o stop e segurar prejuízo esperando voltar (perda pequena vira grande, culpa, recuperar tudo); automação sai no stop sem negociar",
-  "grafico": "candles / tendencia_alta",
-  "titulos": [
-   "STOP É STOP",
-   "SEM NEGOCIAR"
-  ],
-  "clipes": [
-   "numeros-oculos-47792",
-   "lucro-bolsa-47012",
-   "homem-estressado-49225",
-   "homem-contando-dinheiro-ansioso-49438",
-   "grafico-tempo-real-47018",
-   "homem-mar-tranquilo-26667",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "pai-brincando-filho-7681 (endcard)"
-  ],
-  "duracao_s": 67.2,
-  "arquivo": "media:primewin/2026-09-30-noite-stop-e-stop.mp4",
-  "instagram_id": "17906346351330116",
-  "permalink": "https://www.instagram.com/reel/Dd7fsDfDY-o/",
-  "obs": "media hospedado com push normal (force-push bloqueado nesta execução); sem limpeza de primewin antigos necessária"
- },
- {
-  "data": "2026-10-01",
-  "turno": "manha",
-  "formato": "desejo",
-  "angulo": "desejo/liberdade de tempo para quem ainda não opera: dinheiro trabalhando enquanto vive (café, viagem, família); não precisa ser especialista nem ficar na tela; emocional resolvido pela automação",
-  "grafico": "candles / fibo_alta",
-  "titulos": [
-   "SEU TEMPO",
-   "DE VOLTA"
-  ],
-  "clipes": [
-   "cafe-manha-musica-43391 (novo, intro)",
-   "praia-mulher-caminhando-1208 (novo, intro)",
-   "pai-brincando-filho-7681 (intro)",
-   "cansado-computador-14763",
-   "homem-estressado-49225",
-   "indicadores-negativos-3d-26759",
-   "mulher-graficos-ipad-45662",
-   "tendencia-tela-9607",
-   "relaxando-por-do-sol-33968",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "homem-mar-tranquilo-26667 (endcard)"
-  ],
-  "cartoes": [],
-  "duracao_s": 69.6,
-  "arquivo": "media:primewin/2026-10-01-manha-seu-tempo-de-volta.mp4",
-  "instagram_id": "17870793564640928",
-  "permalink": "https://www.instagram.com/reel/Dd8yZdDgjZ2/"
- },
- {
-  "data": "2026-10-01",
-  "turno": "almoco",
-  "formato": "magneto",
-  "angulo": "anúncio MagnetoV12: relatório de um dia em conta real (card3, R$ 505,50, 25 operações, 80%)",
-  "grafico": "candles / tendencia_baixa",
-  "clipes": [
-   "grafico-tempo-real-47018",
-   "tendencia-tela-9607",
-   "homem-estressado-49225",
-   "homem-mar-tranquilo-26667",
-   "investidor-tablet-escritorio-45706"
-  ],
-  "bg_clip": "relaxando-por-do-sol-33968",
-  "cartoes": [
-   "card3",
-   "card1"
-  ],
-  "arquivo": "media:primewin/2026-10-01-almoco-magneto-conta-real.mp4",
-  "instagram_id": "18123865465928408",
-  "permalink": "https://www.instagram.com/reel/Dd9MY-bFKPR/",
-  "obs": "publicado da fila pré-aprovada (fila/2026-10-01-almoco.json); 1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
- },
- {
-  "data": "2026-10-01",
-  "turno": "tarde",
-  "formato": "servico",
-  "angulo": "serviço: estratégia que depende de estar na tela — perde o melhor momento por estar ocupado/trabalhando, entra atrasado, erra por cansaço depois de horas de tela; Prime Win programa as regras do trader e a automação executa sem precisar da presença dele",
-  "grafico": "candles / longo_alta",
-  "titulos": [
-   "SUA ESTRATÉGIA",
-   "SEM VOCÊ NA TELA"
-  ],
-  "clipes": [
-   "escritorio-movimentado-918 (novo)",
-   "relogio-parede-28886",
-   "cansado-computador-14763",
-   "homem-escrevendo-46768",
-   "programador-codigo-41637",
-   "homem-mar-tranquilo-26667",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "praia-mulher-caminhando-1208 (endcard)"
-  ],
-  "duracao_s": 69.0,
-  "arquivo": "media:primewin/2026-10-01-tarde-estrategia-sem-tela.mp4",
-  "instagram_id": "18500001952098645",
-  "permalink": "https://www.instagram.com/reel/Dd9iMhrkm5U/",
-  "obs": "1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
- },
- {
-  "data": "2026-10-01",
-  "turno": "noite",
-  "formato": "magneto",
-  "angulo": "anúncio MagnetoV12: relatório de um dia em conta real (card5, R$ 424,50, 14 operações, 85,71%); compra/vende a favor da força do mercado, tempo livre",
-  "grafico": "linha / longo_baixa",
-  "titulos": [
-   "A FAVOR",
-   "DA FORÇA"
-  ],
-  "clipes": [
-   "grafico-closeup-47016",
-   "investidor-tablet-45708",
-   "empresario-grafico-sucesso-26518",
-   "numeros-oculos-47792",
-   "pai-brincando-filho-7681",
-   "maquina-contando-dinheiro-49134 (5PI)"
-  ],
-  "bg_clip": "homem-mar-tranquilo-26667",
-  "cartoes": [
-   "card5",
-   "card4"
-  ],
-  "duracao_s": 67.5,
-  "canal": "zapier",
-  "arquivo": "media:primewin/2026-10-01-noite-magneto-a-favor-da-forca.mp4",
-  "instagram_id": "18116417689992369",
-  "permalink": "https://www.instagram.com/reel/Dd-Es3KEuH3/",
-  "obs": "force-push no media bloqueado; hospedado com push normal, sem limpeza de primewin antigos. 1ª tentativa 'Video is still processing', conferido e reenviado"
- },
- {
-  "data": "2026-10-02",
-  "turno": "manha",
-  "formato": "desejo",
-  "angulo": "desejo para quem acha que bolsa é só pra especialista: investir sem largar o trabalho e sem passar o dia na tela; quem tenta na mão deixa o emocional decidir; automação dá disciplina e devolve o tempo",
-  "grafico": "candles / fibo_baixa",
-  "titulos": [
-   "NÃO PRECISA",
-   "SER ESPECIALISTA"
-  ],
-  "clipes": [
-   "casal-mapa-carro-2718 (novo, intro)",
-   "praia-mulher-caminhando-1208 (intro)",
-   "relaxando-por-do-sol-33968 (intro)",
-   "olho-laptop-46575",
-   "homem-ansiedade-47206",
-   "lucro-bolsa-47012",
-   "grafico-tempo-real-47018",
-   "mulher-graficos-ipad-45662",
-   "homem-mar-tranquilo-26667",
-   "investidor-tablet-escritorio-45706 (5PI)",
-   "pai-brincando-filho-7681 (endcard)"
-  ],
-  "cartoes": [],
-  "duracao_s": 69.2,
-  "canal": "zapier",
-  "arquivo": "media:primewin/2026-10-02-manha-sem-ser-especialista.mp4",
-  "instagram_id": "18344427313253429",
-  "permalink": "https://www.instagram.com/reel/Dd_XhLOjLxP/",
-  "obs": "1ª tentativa 'Video is still processing', conferido que não publicou e reenviado; download de casal-hotel-viagem-101721 falhou no workflow"
- },
- {
-  "data": "2026-10-02",
-  "turno": "almoco",
-  "formato": "magneto",
-  "angulo": "anúncio MagnetoV12: hesitar e entrar atrasado (vê o movimento, hesita, preço já foi); MagnetoV12 lê o fluxo em tempo real e entra quando a força confirma; relatório card1 (R$ 417,50, 23 operações, 82,61%)",
-  "grafico": "candles / tendencia_alta",
-  "titulos": [
-   "LÊ O FLUXO",
-   "NA HORA CERTA"
-  ],
-  "clipes": [
-   "tendencia-tela-9607",
-   "homem-ansiedade-47206",
-   "grafico-homem-analisando-47214",
-   "mulher-graficos-ipad-45662",
-   "praia-mulher-caminhando-1208",
-   "maquina-contando-dinheiro-49134 (5PI)"
-  ],
-  "bg_clip": "casal-mapa-carro-2718",
-  "cartoes": [
-   "card1",
-   "card2"
-  ],
-  "duracao_s": 67.5,
-  "canal": "zapier",
-  "arquivo": "media:primewin/2026-10-02-almoco-magneto-hora-certa.mp4",
-  "instagram_id": "17918846202244097",
-  "permalink": "https://www.instagram.com/reel/Dd_yyfCjMAl/",
-  "obs": "force-push no media bloqueado; push normal, sem limpeza de primewin antigos. 1ª tentativa 'Video is still processing', conferido e reenviado. Sem clipe novo nesta execução (manhã já baixou 1)"
- },
- {
-  "data": "2026-10-02",
-  "turno": "tarde",
-  "formato": "servico",
-  "angulo": "serviço: execução inconsistente da própria estratégia — segue num dia e muda o plano no outro, pula sinal depois de duas perdas, aumenta a mão pra recuperar; nunca sabe se a estratégia funciona porque nunca foi executada igual; Prime Win programa as regras, testa em conta real e a automação executa sinal por sinal",
-  "grafico": "linha / ondas",
-  "titulos": [
-   "MESMAS REGRAS",
-   "TODO PREGÃO"
-  ],
-  "clipes": [
-   "xadrez-pensando-49885",
-   "jovem-trabalhando-computador-44072",
-   "indicadores-negativos-3d-26759",
-   "homem-pensando-rio-15777",
-   "homem-escrevendo-46768",
-   "programador-codigo-41637",
-   "empresario-grafico-sucesso-26518 (5PI)",
-   "relaxando-por-do-sol-33968 (endcard)"
-  ],
-  "cartoes": [],
-  "duracao_s": 67.7,
-  "canal": "zapier",
-  "arquivo": "media:primewin/2026-10-02-tarde-mesmas-regras-todo-pregao.mp4",
-  "instagram_id": "17909191275305318",
-  "permalink": "https://www.instagram.com/reel/DeAHKfADdCU/",
-  "obs": "Prime Win não está no Metricool (só granaefinancas); force-push no media bloqueado, push normal sem limpeza; 1ª tentativa 'Video is still processing', conferido e reenviado; sem clipe novo nesta execução"
- },
- {
-  "data": "2026-10-03",
-  "turno": "manha",
-  "formato": "desejo",
-  "angulo": "desejo de investir com método: quem começa sozinho opera no palpite (dica, intuição), perde, o medo bate e entra no impulso; sem regra cada dia é aposta; automação segue regras claras de entrada, saída e stop, sem ser especialista nem ficar na tela",
-  "grafico": "candles / ondas",
-  "titulos": [
-   "REGRAS CLARAS",
-   "NADA DE PALPITE"
-  ],
-  "clipes": [
-   "cafe-manha-musica-43391 (intro)",
-   "familia-caminhando-por-do-sol-6472 (novo, intro)",
-   "praia-mulher-caminhando-1208 (intro)",
-   "celular-rolando-29302",
-   "indicadores-negativos-3d-26759",
-   "homem-estressado-49225",
-   "tendencia-tela-9607",
-   "mulher-graficos-ipad-45662",
-   "pai-brincando-filho-7681",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "relaxando-por-do-sol-33968 (endcard)"
-  ],
-  "bg_clip": "relaxando-por-do-sol-33968",
-  "cartoes": [],
-  "duracao_s": 69.2,
-  "canal": "metricool",
-  "arquivo": "media:primewin/2026-10-03-manha-regras-claras-nada-de-palpite.mp4",
-  "metricool_post_id": 387259794,
-  "agendado_para": "2026-10-03T08:37:00-03:00",
-  "obs": "Metricool marca 7160301 (pwinautomacoes); force-push no media bloqueado, push normal sem limpeza de primewin antigos; clipe novo familia-caminhando-por-do-sol-6472 baixado via workflow"
- },
- {
-  "data": "2026-10-03",
-  "turno": "almoco",
-  "formato": "magneto",
-  "angulo": "anúncio MagnetoV12: revanche e quebra de regra depois de dois stops (raiva, mão maior); MagnetoV12 segue a mesma regra na entrada seguinte; 40 decisões num dia sem cansar; relatório card4 (R$ 582,00, 40 operações, 65%)",
-  "grafico": "candles / fibo_alta",
-  "titulos": [
-   "MESMA REGRA",
-   "EM CADA ENTRADA"
-  ],
-  "clipes": [
-   "homem-estressado-49225",
-   "indicadores-negativos-3d-26759",
-   "grafico-closeup-47016",
-   "investidor-tablet-45708",
-   "casal-mapa-carro-2718",
-   "investidor-tablet-escritorio-45706 (5PI)"
-  ],
-  "bg_clip": "homem-mar-tranquilo-26667",
-  "cartoes": [
-   "card4",
-   "card2"
-  ],
-  "duracao_s": 68.0,
-  "arquivo": "media:primewin/2026-10-03-almoco-magneto-sem-revanche.mp4",
-  "canal": "metricool",
-  "metricool_id": 387352156,
-  "metricool_uuid": "4890962190101200943",
-  "agendado_para": "2026-10-03T12:29:00-03:00"
- },
- {
-  "data": "2026-10-03",
-  "turno": "tarde",
-  "formato": "servico",
-  "angulo": "serviço: estratégia com muitas condições (média, volume, horário, tamanho do candle) — na mão é preciso conferir tudo a cada candle, uma distração faz o sinal passar ou entrar com metade das regras, vários ativos sobrecarregam; Prime Win programa as regras, testa em conta real e a automação confere todas as condições sem cansaço",
-  "grafico": "candles / longo_baixa",
-  "titulos": [
-   "TODAS AS REGRAS",
-   "EM CADA CANDLE"
-  ],
-  "clipes": [
-   "grafico-homem-analisando-47214",
-   "numeros-oculos-47792",
-   "olho-laptop-46575",
-   "homem-ansiedade-47206",
-   "programador-codigo-41637",
-   "tendencia-tela-9607",
-   "empresario-grafico-sucesso-26518 (5PI)",
-   "praia-mulher-caminhando-1208 (endcard)"
-  ],
-  "bg_clip": "praia-mulher-caminhando-1208",
-  "cartoes": [],
-  "duracao_s": 67.1,
-  "arquivo": "media:primewin/2026-10-03-tarde-todas-as-regras.mp4",
-  "canal": "metricool",
-  "metricool_id": 387433526,
-  "metricool_uuid": "-475471570261818577",
-  "agendado_para": "2026-10-03T15:32:00-03:00",
-  "obs": "force-push no media ok; removidos primewin anteriores a 30/09; sem clipe novo hoje no turno",
-  "permalink": "https://www.instagram.com/reel/DeCteyQE4pS/"
- },
- {
-  "data": "2026-10-07",
-  "turno": "almoco",
-  "formato": "magneto",
-  "angulo": "anúncio MagnetoV12: medo e esperança na mão — sai cedo do lucro por medo e segura o prejuízo esperando o preço voltar; MagnetoV12 lê o fluxo, entra quando a força confirma e sai na regra; relatório card3 (R$ 505,50, 25 operações, 80%) e card5 no meio (14 operações, 85,71%)",
-  "grafico": "linha / tendencia_baixa",
-  "titulos": [
-   "REGRA NA ENTRADA",
-   "REGRA NA SAÍDA"
-  ],
-  "clipes": [
-   "homem-contando-dinheiro-ansioso-49438",
-   "lucro-bolsa-47012",
-   "grafico-tempo-real-47018",
-   "xadrez-pensando-49885",
-   "familia-caminhando-por-do-sol-6472",
-   "maquina-contando-dinheiro-49134 (5PI)",
-   "pai-brincando-filho-7681 (endcard)"
-  ],
-  "bg_clip": "pai-brincando-filho-7681",
-  "cartoes": [
-   "card3",
-   "card5"
-  ],
-  "duracao_s": 68.0,
-  "arquivo": "media:primewin/2026-10-07-almoco-regra-na-saida.mp4",
-  "canal": "metricool",
-  "metricool_id": 390438970,
-  "metricool_uuid": "5077993644219517095",
-  "agendado_para": "2026-10-07T12:34:00-03:00",
-  "obs": "force-push no media ok; removidos primewin anteriores a 04/10; sem clipe novo hoje no turno"
- }
+  {
+    "data": "2026-09-27",
+    "angulo": "emocional (entrar atrasado, segurar perda, quebrar conta) + nunca mais clicar",
+    "grafico": "linha / ondas",
+    "arquivo": "media:primewin/2026-09-27-primewin-nunca-mais-clicar.mp4",
+    "instagram_id": "18127524301830479",
+    "permalink": "https://www.instagram.com/reel/DdyxXTykiuu/"
+  },
+  {
+    "data": "2026-09-27",
+    "turno": "noite",
+    "angulo": "tempo e cansaço de operar manualmente; liberdade",
+    "grafico": "candles / fibo_alta",
+    "clipes": [
+      "cansado-computador-14763",
+      "lucro-bolsa-47012",
+      "tendencia-tela-9607",
+      "grafico-homem-analisando-47214",
+      "pai-brincando-filho-7681",
+      "relaxando-por-do-sol-33968",
+      "investidor-tablet-45708"
+    ],
+    "arquivo": "media:primewin/2026-09-27-noite-tempo-livre.mp4",
+    "origem": "fila (aprovado)",
+    "instagram_id": "18101461433033789",
+    "permalink": "https://www.instagram.com/reel/Ddzia2Ekpi7/"
+  },
+  {
+    "data": "2026-09-28",
+    "turno": "manha",
+    "angulo": "revanche e impulso após o stop (quebra de conta); regras claras e disciplina da automação",
+    "grafico": "candles / tendencia_baixa",
+    "titulos": [
+      "REGRAS CLARAS",
+      "SEM REVANCHE"
+    ],
+    "clipes": [
+      "numeros-oculos-47792",
+      "lucro-bolsa-47012",
+      "homem-ansiedade-47206",
+      "olho-laptop-46575",
+      "grafico-tempo-real-47018",
+      "pai-brincando-filho-7681",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "relaxando-por-do-sol-33968 (endcard)"
+    ],
+    "duracao_s": 68.3,
+    "arquivo": "media:primewin/2026-09-28-manha-revanche-regras-claras.mp4",
+    "instagram_id": "18011619800761703",
+    "permalink": "https://www.instagram.com/reel/Dd1Sc5Egocf/"
+  },
+  {
+    "data": "2026-09-28",
+    "turno": "noite",
+    "angulo": "ganância: não sair na hora e devolver o positivo (virar prejuízo, entrar de novo com raiva); automação respeita alvo e stop",
+    "grafico": "candles / longo_alta",
+    "titulos": [
+      "SAIR NA HORA",
+      "SEM DEVOLVER O GANHO"
+    ],
+    "clipes": [
+      "grafico-homem-analisando-47214",
+      "indicadores-negativos-3d-26759 (novo)",
+      "homem-estressado-49225",
+      "homem-contando-dinheiro-ansioso-49438",
+      "mulher-graficos-ipad-45662 (novo)",
+      "homem-mar-tranquilo-26667",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "pai-brincando-filho-7681 (endcard)"
+    ],
+    "duracao_s": 68.0,
+    "arquivo": "media:primewin/2026-09-28-noite-ganancia-sair-na-hora.mp4",
+    "instagram_id": "18126347389878691",
+    "permalink": "https://www.instagram.com/reel/Dd2IE3AD72i/"
+  },
+  {
+    "data": "2026-09-29",
+    "turno": "manha",
+    "angulo": "inconsistência: trocar de estratégia, pular entrada, dobrar a mão; automação executa as mesmas regras todo dia",
+    "grafico": "linha / tendencia_alta",
+    "titulos": [
+      "MESMA ESTRATÉGIA",
+      "TODO DIA"
+    ],
+    "clipes": [
+      "homem-laptop-trabalhando-9756",
+      "olho-laptop-46575",
+      "lucro-bolsa-47012",
+      "homem-ansiedade-47206",
+      "tendencia-tela-9607",
+      "relaxando-por-do-sol-33968",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "homem-mar-tranquilo-26667 (endcard)"
+    ],
+    "duracao_s": 69.2,
+    "arquivo": "media:primewin/2026-09-29-manha-mesma-estrategia-todo-dia.mp4",
+    "instagram_id": "18130174456836518",
+    "permalink": "https://www.instagram.com/reel/Dd32GHTgb7-/"
+  },
+  {
+    "data": "2026-09-29",
+    "turno": "noite",
+    "angulo": "hesitação e medo de errar: ver o sinal e travar, excesso de confirmação/indicadores, entrar atrasado no pior preço; automação executa sem hesitar",
+    "grafico": "candles / fibo_baixa",
+    "titulos": [
+      "SEM HESITAR",
+      "NA HORA CERTA"
+    ],
+    "clipes": [
+      "jovem-trabalhando-computador-44072 (novo)",
+      "grafico-closeup-47016",
+      "homem-estressado-49225",
+      "indicadores-negativos-3d-26759",
+      "grafico-tempo-real-47018",
+      "pai-brincando-filho-7681",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "relaxando-por-do-sol-33968 (endcard)"
+    ],
+    "duracao_s": 68.9,
+    "arquivo": "media:primewin/2026-09-29-noite-sem-hesitar.mp4",
+    "instagram_id": "18031657871893279",
+    "permalink": "https://www.instagram.com/reel/Dd4tCcEgDfj/"
+  },
+  {
+    "data": "2026-09-30",
+    "turno": "manha",
+    "angulo": "overtrading por tédio: operar só para não ficar parado, forçar entradas em mercado lateral, excesso de operações; automação só entra quando a estratégia manda",
+    "grafico": "linha / longo_baixa",
+    "titulos": [
+      "SÓ ENTRA",
+      "QUANDO TEM SETUP"
+    ],
+    "clipes": [
+      "escritorio-entediado-48609 (novo)",
+      "tendencia-tela-9607",
+      "indicadores-negativos-3d-26759",
+      "homem-ansiedade-47206",
+      "mulher-graficos-ipad-45662",
+      "pai-brincando-filho-7681",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "homem-mar-tranquilo-26667 (endcard)"
+    ],
+    "duracao_s": 69.6,
+    "arquivo": "media:primewin/2026-09-30-manha-sem-tedio.mp4",
+    "instagram_id": "18096945302444090",
+    "permalink": "https://www.instagram.com/reel/Dd6a7LWDIvX/"
+  },
+  {
+    "data": "2026-09-30",
+    "turno": "almoco",
+    "formato": "convencimento",
+    "angulo": "palpites de terceiros: grupos, dicas, notícias e opiniões fazendo abandonar a estratégia; automação ignora o barulho e segue só as regras",
+    "grafico": "candles / ondas",
+    "titulos": [
+      "SÓ A SUA",
+      "ESTRATÉGIA"
+    ],
+    "clipes": [
+      "celular-rolando-29302 (novo)",
+      "grafico-homem-analisando-47214",
+      "indicadores-negativos-3d-26759",
+      "homem-estressado-49225",
+      "tendencia-tela-9607",
+      "relaxando-por-do-sol-33968",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "pai-brincando-filho-7681 (endcard)"
+    ],
+    "duracao_s": 65.5,
+    "arquivo": "media:primewin/2026-09-30-almoco-sem-palpite.mp4",
+    "instagram_id": "18075111860444704",
+    "permalink": "https://www.instagram.com/reel/Dd6oaTkjelT/"
+  },
+  {
+    "data": "2026-09-30",
+    "turno": "tarde",
+    "formato": "servico",
+    "angulo": "serviço: trader com estratégia própria executando na mão (atraso, hesitação no stop, mudar alvo); Prime Win programa as regras do trader, testa em conta real e a automação executa exatamente as regras",
+    "grafico": "linha / fibo_alta",
+    "titulos": [
+      "SUAS REGRAS",
+      "NO AUTOMÁTICO"
+    ],
+    "clipes": [
+      "jovem-trabalhando-computador-44072",
+      "homem-ansiedade-47206",
+      "lucro-bolsa-47012",
+      "programador-codigo-41637 (novo)",
+      "tendencia-tela-9607",
+      "mulher-graficos-ipad-45662",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "relaxando-por-do-sol-33968 (endcard)"
+    ],
+    "duracao_s": 67.7,
+    "arquivo": "media:primewin/2026-09-30-tarde-suas-regras-automacao.mp4",
+    "instagram_id": "17970301593170235",
+    "permalink": "https://www.instagram.com/reel/Dd69s37jD5F/"
+  },
+  {
+    "data": "2026-09-30",
+    "turno": "noite",
+    "formato": "convencimento",
+    "angulo": "tirar/mover o stop e segurar prejuízo esperando voltar (perda pequena vira grande, culpa, recuperar tudo); automação sai no stop sem negociar",
+    "grafico": "candles / tendencia_alta",
+    "titulos": [
+      "STOP É STOP",
+      "SEM NEGOCIAR"
+    ],
+    "clipes": [
+      "numeros-oculos-47792",
+      "lucro-bolsa-47012",
+      "homem-estressado-49225",
+      "homem-contando-dinheiro-ansioso-49438",
+      "grafico-tempo-real-47018",
+      "homem-mar-tranquilo-26667",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "pai-brincando-filho-7681 (endcard)"
+    ],
+    "duracao_s": 67.2,
+    "arquivo": "media:primewin/2026-09-30-noite-stop-e-stop.mp4",
+    "instagram_id": "17906346351330116",
+    "permalink": "https://www.instagram.com/reel/Dd7fsDfDY-o/",
+    "obs": "media hospedado com push normal (force-push bloqueado nesta execução); sem limpeza de primewin antigos necessária"
+  },
+  {
+    "data": "2026-10-01",
+    "turno": "manha",
+    "formato": "desejo",
+    "angulo": "desejo/liberdade de tempo para quem ainda não opera: dinheiro trabalhando enquanto vive (café, viagem, família); não precisa ser especialista nem ficar na tela; emocional resolvido pela automação",
+    "grafico": "candles / fibo_alta",
+    "titulos": [
+      "SEU TEMPO",
+      "DE VOLTA"
+    ],
+    "clipes": [
+      "cafe-manha-musica-43391 (novo, intro)",
+      "praia-mulher-caminhando-1208 (novo, intro)",
+      "pai-brincando-filho-7681 (intro)",
+      "cansado-computador-14763",
+      "homem-estressado-49225",
+      "indicadores-negativos-3d-26759",
+      "mulher-graficos-ipad-45662",
+      "tendencia-tela-9607",
+      "relaxando-por-do-sol-33968",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "homem-mar-tranquilo-26667 (endcard)"
+    ],
+    "cartoes": [],
+    "duracao_s": 69.6,
+    "arquivo": "media:primewin/2026-10-01-manha-seu-tempo-de-volta.mp4",
+    "instagram_id": "17870793564640928",
+    "permalink": "https://www.instagram.com/reel/Dd8yZdDgjZ2/"
+  },
+  {
+    "data": "2026-10-01",
+    "turno": "almoco",
+    "formato": "magneto",
+    "angulo": "anúncio MagnetoV12: relatório de um dia em conta real (card3, R$ 505,50, 25 operações, 80%)",
+    "grafico": "candles / tendencia_baixa",
+    "clipes": [
+      "grafico-tempo-real-47018",
+      "tendencia-tela-9607",
+      "homem-estressado-49225",
+      "homem-mar-tranquilo-26667",
+      "investidor-tablet-escritorio-45706"
+    ],
+    "bg_clip": "relaxando-por-do-sol-33968",
+    "cartoes": [
+      "card3",
+      "card1"
+    ],
+    "arquivo": "media:primewin/2026-10-01-almoco-magneto-conta-real.mp4",
+    "instagram_id": "18123865465928408",
+    "permalink": "https://www.instagram.com/reel/Dd9MY-bFKPR/",
+    "obs": "publicado da fila pré-aprovada (fila/2026-10-01-almoco.json); 1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
+  },
+  {
+    "data": "2026-10-01",
+    "turno": "tarde",
+    "formato": "servico",
+    "angulo": "serviço: estratégia que depende de estar na tela — perde o melhor momento por estar ocupado/trabalhando, entra atrasado, erra por cansaço depois de horas de tela; Prime Win programa as regras do trader e a automação executa sem precisar da presença dele",
+    "grafico": "candles / longo_alta",
+    "titulos": [
+      "SUA ESTRATÉGIA",
+      "SEM VOCÊ NA TELA"
+    ],
+    "clipes": [
+      "escritorio-movimentado-918 (novo)",
+      "relogio-parede-28886",
+      "cansado-computador-14763",
+      "homem-escrevendo-46768",
+      "programador-codigo-41637",
+      "homem-mar-tranquilo-26667",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "praia-mulher-caminhando-1208 (endcard)"
+    ],
+    "duracao_s": 69.0,
+    "arquivo": "media:primewin/2026-10-01-tarde-estrategia-sem-tela.mp4",
+    "instagram_id": "18500001952098645",
+    "permalink": "https://www.instagram.com/reel/Dd9iMhrkm5U/",
+    "obs": "1ª tentativa retornou 'Video is still processing', conferido que não publicou e reenviado"
+  },
+  {
+    "data": "2026-10-01",
+    "turno": "noite",
+    "formato": "magneto",
+    "angulo": "anúncio MagnetoV12: relatório de um dia em conta real (card5, R$ 424,50, 14 operações, 85,71%); compra/vende a favor da força do mercado, tempo livre",
+    "grafico": "linha / longo_baixa",
+    "titulos": [
+      "A FAVOR",
+      "DA FORÇA"
+    ],
+    "clipes": [
+      "grafico-closeup-47016",
+      "investidor-tablet-45708",
+      "empresario-grafico-sucesso-26518",
+      "numeros-oculos-47792",
+      "pai-brincando-filho-7681",
+      "maquina-contando-dinheiro-49134 (5PI)"
+    ],
+    "bg_clip": "homem-mar-tranquilo-26667",
+    "cartoes": [
+      "card5",
+      "card4"
+    ],
+    "duracao_s": 67.5,
+    "canal": "zapier",
+    "arquivo": "media:primewin/2026-10-01-noite-magneto-a-favor-da-forca.mp4",
+    "instagram_id": "18116417689992369",
+    "permalink": "https://www.instagram.com/reel/Dd-Es3KEuH3/",
+    "obs": "force-push no media bloqueado; hospedado com push normal, sem limpeza de primewin antigos. 1ª tentativa 'Video is still processing', conferido e reenviado"
+  },
+  {
+    "data": "2026-10-02",
+    "turno": "manha",
+    "formato": "desejo",
+    "angulo": "desejo para quem acha que bolsa é só pra especialista: investir sem largar o trabalho e sem passar o dia na tela; quem tenta na mão deixa o emocional decidir; automação dá disciplina e devolve o tempo",
+    "grafico": "candles / fibo_baixa",
+    "titulos": [
+      "NÃO PRECISA",
+      "SER ESPECIALISTA"
+    ],
+    "clipes": [
+      "casal-mapa-carro-2718 (novo, intro)",
+      "praia-mulher-caminhando-1208 (intro)",
+      "relaxando-por-do-sol-33968 (intro)",
+      "olho-laptop-46575",
+      "homem-ansiedade-47206",
+      "lucro-bolsa-47012",
+      "grafico-tempo-real-47018",
+      "mulher-graficos-ipad-45662",
+      "homem-mar-tranquilo-26667",
+      "investidor-tablet-escritorio-45706 (5PI)",
+      "pai-brincando-filho-7681 (endcard)"
+    ],
+    "cartoes": [],
+    "duracao_s": 69.2,
+    "canal": "zapier",
+    "arquivo": "media:primewin/2026-10-02-manha-sem-ser-especialista.mp4",
+    "instagram_id": "18344427313253429",
+    "permalink": "https://www.instagram.com/reel/Dd_XhLOjLxP/",
+    "obs": "1ª tentativa 'Video is still processing', conferido que não publicou e reenviado; download de casal-hotel-viagem-101721 falhou no workflow"
+  },
+  {
+    "data": "2026-10-02",
+    "turno": "almoco",
+    "formato": "magneto",
+    "angulo": "anúncio MagnetoV12: hesitar e entrar atrasado (vê o movimento, hesita, preço já foi); MagnetoV12 lê o fluxo em tempo real e entra quando a força confirma; relatório card1 (R$ 417,50, 23 operações, 82,61%)",
+    "grafico": "candles / tendencia_alta",
+    "titulos": [
+      "LÊ O FLUXO",
+      "NA HORA CERTA"
+    ],
+    "clipes": [
+      "tendencia-tela-9607",
+      "homem-ansiedade-47206",
+      "grafico-homem-analisando-47214",
+      "mulher-graficos-ipad-45662",
+      "praia-mulher-caminhando-1208",
+      "maquina-contando-dinheiro-49134 (5PI)"
+    ],
+    "bg_clip": "casal-mapa-carro-2718",
+    "cartoes": [
+      "card1",
+      "card2"
+    ],
+    "duracao_s": 67.5,
+    "canal": "zapier",
+    "arquivo": "media:primewin/2026-10-02-almoco-magneto-hora-certa.mp4",
+    "instagram_id": "17918846202244097",
+    "permalink": "https://www.instagram.com/reel/Dd_yyfCjMAl/",
+    "obs": "force-push no media bloqueado; push normal, sem limpeza de primewin antigos. 1ª tentativa 'Video is still processing', conferido e reenviado. Sem clipe novo nesta execução (manhã já baixou 1)"
+  },
+  {
+    "data": "2026-10-02",
+    "turno": "tarde",
+    "formato": "servico",
+    "angulo": "serviço: execução inconsistente da própria estratégia — segue num dia e muda o plano no outro, pula sinal depois de duas perdas, aumenta a mão pra recuperar; nunca sabe se a estratégia funciona porque nunca foi executada igual; Prime Win programa as regras, testa em conta real e a automação executa sinal por sinal",
+    "grafico": "linha / ondas",
+    "titulos": [
+      "MESMAS REGRAS",
+      "TODO PREGÃO"
+    ],
+    "clipes": [
+      "xadrez-pensando-49885",
+      "jovem-trabalhando-computador-44072",
+      "indicadores-negativos-3d-26759",
+      "homem-pensando-rio-15777",
+      "homem-escrevendo-46768",
+      "programador-codigo-41637",
+      "empresario-grafico-sucesso-26518 (5PI)",
+      "relaxando-por-do-sol-33968 (endcard)"
+    ],
+    "cartoes": [],
+    "duracao_s": 67.7,
+    "canal": "zapier",
+    "arquivo": "media:primewin/2026-10-02-tarde-mesmas-regras-todo-pregao.mp4",
+    "instagram_id": "17909191275305318",
+    "permalink": "https://www.instagram.com/reel/DeAHKfADdCU/",
+    "obs": "Prime Win não está no Metricool (só granaefinancas); force-push no media bloqueado, push normal sem limpeza; 1ª tentativa 'Video is still processing', conferido e reenviado; sem clipe novo nesta execução"
+  },
+  {
+    "data": "2026-10-03",
+    "turno": "manha",
+    "formato": "desejo",
+    "angulo": "desejo de investir com método: quem começa sozinho opera no palpite (dica, intuição), perde, o medo bate e entra no impulso; sem regra cada dia é aposta; automação segue regras claras de entrada, saída e stop, sem ser especialista nem ficar na tela",
+    "grafico": "candles / ondas",
+    "titulos": [
+      "REGRAS CLARAS",
+      "NADA DE PALPITE"
+    ],
+    "clipes": [
+      "cafe-manha-musica-43391 (intro)",
+      "familia-caminhando-por-do-sol-6472 (novo, intro)",
+      "praia-mulher-caminhando-1208 (intro)",
+      "celular-rolando-29302",
+      "indicadores-negativos-3d-26759",
+      "homem-estressado-49225",
+      "tendencia-tela-9607",
+      "mulher-graficos-ipad-45662",
+      "pai-brincando-filho-7681",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "relaxando-por-do-sol-33968 (endcard)"
+    ],
+    "bg_clip": "relaxando-por-do-sol-33968",
+    "cartoes": [],
+    "duracao_s": 69.2,
+    "canal": "metricool",
+    "arquivo": "media:primewin/2026-10-03-manha-regras-claras-nada-de-palpite.mp4",
+    "metricool_post_id": 387259794,
+    "agendado_para": "2026-10-03T08:37:00-03:00",
+    "obs": "Metricool marca 7160301 (pwinautomacoes); force-push no media bloqueado, push normal sem limpeza de primewin antigos; clipe novo familia-caminhando-por-do-sol-6472 baixado via workflow"
+  },
+  {
+    "data": "2026-10-03",
+    "turno": "almoco",
+    "formato": "magneto",
+    "angulo": "anúncio MagnetoV12: revanche e quebra de regra depois de dois stops (raiva, mão maior); MagnetoV12 segue a mesma regra na entrada seguinte; 40 decisões num dia sem cansar; relatório card4 (R$ 582,00, 40 operações, 65%)",
+    "grafico": "candles / fibo_alta",
+    "titulos": [
+      "MESMA REGRA",
+      "EM CADA ENTRADA"
+    ],
+    "clipes": [
+      "homem-estressado-49225",
+      "indicadores-negativos-3d-26759",
+      "grafico-closeup-47016",
+      "investidor-tablet-45708",
+      "casal-mapa-carro-2718",
+      "investidor-tablet-escritorio-45706 (5PI)"
+    ],
+    "bg_clip": "homem-mar-tranquilo-26667",
+    "cartoes": [
+      "card4",
+      "card2"
+    ],
+    "duracao_s": 68.0,
+    "arquivo": "media:primewin/2026-10-03-almoco-magneto-sem-revanche.mp4",
+    "canal": "metricool",
+    "metricool_id": 387352156,
+    "metricool_uuid": "4890962190101200943",
+    "agendado_para": "2026-10-03T12:29:00-03:00"
+  },
+  {
+    "data": "2026-10-03",
+    "turno": "tarde",
+    "formato": "servico",
+    "angulo": "serviço: estratégia com muitas condições (média, volume, horário, tamanho do candle) — na mão é preciso conferir tudo a cada candle, uma distração faz o sinal passar ou entrar com metade das regras, vários ativos sobrecarregam; Prime Win programa as regras, testa em conta real e a automação confere todas as condições sem cansaço",
+    "grafico": "candles / longo_baixa",
+    "titulos": [
+      "TODAS AS REGRAS",
+      "EM CADA CANDLE"
+    ],
+    "clipes": [
+      "grafico-homem-analisando-47214",
+      "numeros-oculos-47792",
+      "olho-laptop-46575",
+      "homem-ansiedade-47206",
+      "programador-codigo-41637",
+      "tendencia-tela-9607",
+      "empresario-grafico-sucesso-26518 (5PI)",
+      "praia-mulher-caminhando-1208 (endcard)"
+    ],
+    "bg_clip": "praia-mulher-caminhando-1208",
+    "cartoes": [],
+    "duracao_s": 67.1,
+    "arquivo": "media:primewin/2026-10-03-tarde-todas-as-regras.mp4",
+    "canal": "metricool",
+    "metricool_id": 387433526,
+    "metricool_uuid": "-475471570261818577",
+    "agendado_para": "2026-10-03T15:32:00-03:00",
+    "obs": "force-push no media ok; removidos primewin anteriores a 30/09; sem clipe novo hoje no turno",
+    "permalink": "https://www.instagram.com/reel/DeCteyQE4pS/"
+  },
+  {
+    "data": "2026-10-07",
+    "turno": "almoco",
+    "formato": "magneto",
+    "angulo": "anúncio MagnetoV12: medo e esperança na mão — sai cedo do lucro por medo e segura o prejuízo esperando o preço voltar; MagnetoV12 lê o fluxo, entra quando a força confirma e sai na regra; relatório card3 (R$ 505,50, 25 operações, 80%) e card5 no meio (14 operações, 85,71%)",
+    "grafico": "linha / tendencia_baixa",
+    "titulos": [
+      "REGRA NA ENTRADA",
+      "REGRA NA SAÍDA"
+    ],
+    "clipes": [
+      "homem-contando-dinheiro-ansioso-49438",
+      "lucro-bolsa-47012",
+      "grafico-tempo-real-47018",
+      "xadrez-pensando-49885",
+      "familia-caminhando-por-do-sol-6472",
+      "maquina-contando-dinheiro-49134 (5PI)",
+      "pai-brincando-filho-7681 (endcard)"
+    ],
+    "bg_clip": "pai-brincando-filho-7681",
+    "cartoes": [
+      "card3",
+      "card5"
+    ],
+    "duracao_s": 68.0,
+    "arquivo": "media:primewin/2026-10-07-almoco-regra-na-saida.mp4",
+    "canal": "metricool",
+    "metricool_id": 390438970,
+    "metricool_uuid": "5077993644219517095",
+    "agendado_para": "2026-10-07T12:34:00-03:00",
+    "obs": "force-push no media ok; removidos primewin anteriores a 04/10; sem clipe novo hoje no turno",
+    "id": "390438970",
+    "permalink": "https://www.instagram.com/reel/DeMsTgZk-qZ/"
+  }
 ]
