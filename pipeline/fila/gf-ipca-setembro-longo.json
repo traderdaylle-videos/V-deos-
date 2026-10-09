@@ -2,99 +2,155 @@
  "segs": [
   [
    "Os preços subiram oito décimos em setembro. Zero vírgula oitenta e dois por cento.",
-   0.6
-  ],
-  [
-   "Esse número saiu acima do que os economistas esperavam. E ele diz muito sobre o seu bolso.",
    0.5
   ],
   [
-   "Vamos entender o que aconteceu, por que aconteceu, e o que muda para você. Sem complicação.",
-   0.4
-  ],
-  [
-   "Primeiro, o fato. A inflação mede o aumento geral dos preços que você paga no dia a dia.",
-   0.4
-  ],
-  [
-   "Comida, transporte, aluguel, remédio, conta de luz. Tudo entra nessa conta.",
+   "Esse número veio acima do que os economistas esperavam. Eles previam zero vírgula setenta e três.",
    0.5
   ],
   [
-   "Em doze meses, a soma chega a quatro vírgula cinquenta e oito por cento.",
-   0.6
-  ],
-  [
-   "Isso significa que, em média, o que custava mil reais agora custa mais do que isso.",
-   0.4
-  ],
-  [
-   "Agora, por que isso acontece. A primeira causa é a demanda: mais gente comprando, preço sobe.",
-   0.4
-  ],
-  [
-   "A segunda é o câmbio. Quando o dólar sobe, tudo que é importado fica mais caro, de combustível a eletrônico.",
+   "E em doze meses, a inflação acumulada já chega a quatro vírgula cinquenta e oito por cento.",
    0.5
   ],
   [
-   "E a terceira é a expectativa. Se todo mundo acha que vai subir, os preços acabam subindo mesmo.",
-   0.6
-  ],
-  [
-   "Aqui entra o Banco Central. Para segurar a inflação, ele mantém os juros altos.",
-   0.4
-  ],
-  [
-   "Juros altos fazem o crédito ficar caro. Cheque especial, financiamento e cartão parcelado pesam mais.",
+   "Parece um número técnico. Mas ele mexe diretamente com o que sobra no seu fim de mês.",
    0.5
   ],
   [
-   "Esse é o efeito em cadeia: inflação, juros altos, crédito caro, e o seu orçamento apertado.",
-   0.6
-  ],
-  [
-   "Quem ganha? Quem tem dinheiro aplicado em investimento que acompanha a inflação.",
-   0.4
-  ],
-  [
-   "Quem perde? Quem deixa o dinheiro parado na conta e quem depende de crédito caro.",
-   0.7
-  ],
-  [
-   "Agora, o que fazer. O primeiro passo é montar ou revisar a sua reserva de emergência.",
+   "Hoje você vai entender três coisas: o que é inflação, por que ela sobe e o que muda para você.",
    0.5
   ],
   [
-   "Reserva é o dinheiro que cobre de três a seis meses de despesas, em aplicação de liquidez.",
-   0.4
-  ],
-  [
-   "Depois, olhe as dívidas. Juros de cartão e cheque especial corroem qualquer ganho.",
+   "Vamos ao primeiro ponto. Inflação é o aumento geral dos preços, medido mês a mês.",
    0.5
   ],
   [
-   "E por último, o consumo. Antes de comprar, pergunte: isso é necessidade, ou é impulso?",
+   "Ela pesa comida, transporte, aluguel, remédio e conta de luz. Tudo entra nessa conta.",
    0.5
   ],
   [
-   "Epicteto ensinava que nem tudo depende de você. A inflação não depende. Mas o seu extrato depende.",
-   0.8
+   "Quando a inflação sobe, o mesmo dinheiro compra menos. Isso é perda de poder de compra.",
+   0.5
   ],
   [
-   "Ninguém controla o preço do dólar ou a decisão do Banco Central. Você controla o seu orçamento.",
-   0.6
+   "Um exemplo: mil reais parados por um ano, com inflação de quatro vírgula cinquenta e oito por cento, perdem cerca de quarenta e seis reais de poder de compra.",
+   0.5
   ],
   [
-   "Por isso, a lição de hoje é simples: abra o seu extrato, e marque o que foi para o que você quer de verdade.",
-   0.6
+   "Esse cálculo é simples, e vale fazer com o seu próprio dinheiro.",
+   0.5
+  ],
+  [
+   "Agora, por que os preços sobem. A primeira causa é a demanda: muita gente comprando ao mesmo tempo.",
+   0.5
+  ],
+  [
+   "A segunda causa é o câmbio. Quando o dólar sobe, tudo que é importado fica mais caro, de combustível a eletrônico.",
+   0.5
+  ],
+  [
+   "Hoje o dólar fechou em torno de quatro reais e noventa e nove centavos, em queda. Isso tende a aliviar os importados nos próximos meses.",
+   0.5
+  ],
+  [
+   "A terceira causa é a expectativa. Se todo mundo acha que os preços vão subir, os comerciantes remarcam antes, e a previsão se cumpre.",
+   0.5
+  ],
+  [
+   "Aqui entra o Banco Central. Para segurar a inflação, ele mantém os juros em patamar mais alto.",
+   0.5
+  ],
+  [
+   "Quando os juros sobem, o crédito fica caro. Cheque especial, financiamento de carro e cartão parcelado pesam mais no seu orçamento.",
+   0.5
+  ],
+  [
+   "Esse é o efeito em cadeia. Inflação alta, juros altos, crédito caro, e o seu dinheiro rendendo menos do que deveria.",
+   0.5
+  ],
+  [
+   "E a bolsa? Hoje o Ibovespa fechou em alta de um vírgula trinta e oito por cento, em recorde histórico. Mas bolsa sobe e cai, e não garante proteção.",
+   0.5
+  ],
+  [
+   "Agora, quem ganha e quem perde. Quem tem parte do dinheiro em aplicações que acompanham a inflação tende a preservar o poder de compra.",
+   0.5
+  ],
+  [
+   "Quem perde é quem deixa o dinheiro parado na conta, sem render, e quem depende de crédito caro para fechar o mês.",
+   0.5
+  ],
+  [
+   "Ninguém escolhe a inflação. Mas você escolhe o que faz com o seu dinheiro. E isso já é uma parte enorme do jogo.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava que nem tudo depende de nós. A inflação não depende de você. Mas o seu extrato depende.",
+   0.5
+  ],
+  [
+   "Então, o que fazer? O primeiro passo é montar ou revisar a sua reserva de emergência.",
+   0.5
+  ],
+  [
+   "Reserva é o dinheiro que cobre de três a seis meses das despesas fixas, aplicado com liquidez, para você não precisar se endividar numa emergência.",
+   0.5
+  ],
+  [
+   "O segundo passo são as dívidas. Juros de cartão rotativo e de cheque especial corroem qualquer ganho que você tenha.",
+   0.5
+  ],
+  [
+   "Pague primeiro o que tem juros mais altos. Essa ordem costuma fazer mais diferença do que parece.",
+   0.5
+  ],
+  [
+   "O terceiro passo é o consumo. Antes de comprar, pergunte: isso é necessidade, ou é impulso?",
+   0.5
+  ],
+  [
+   "Faça essa pergunta com calma. Um dia de espera costuma separar o desejo da necessidade.",
+   0.5
+  ],
+  [
+   "Agora, a ferramenta prática de hoje. Abra o seu extrato do último mês e marque cada gasto como necessidade, escolha ou impulso.",
+   0.5
+  ],
+  [
+   "Some quanto foi para cada grupo. Esse número mostra, com clareza, onde o seu dinheiro está trabalhando, e onde ele só está passando.",
+   0.5
+  ],
+  [
+   "Se o seu dinheiro rende abaixo da inflação, você perde poder de compra, mesmo sem gastar nada. Esse é o ponto que quase ninguém percebe.",
+   0.5
+  ],
+  [
+   "Não se trata de ficar rico do dia para a noite. Trata-se de não ser pego de surpresa.",
+   0.5
+  ],
+  [
+   "Você não controla o preço do dólar, nem a decisão do Banco Central. Você controla o seu orçamento, e isso já é suficiente para começar.",
+   0.5
+  ],
+  [
+   "Por isso, a lição de hoje é clara: entender o número, entender a causa, e agir sobre o que está ao seu alcance.",
+   0.5
+  ],
+  [
+   "Seu dinheiro está trabalhando para você, ou só esperando? Essa é a pergunta que eu deixo para você.",
+   0.5
   ],
   [
    "Qual princípio você vai aplicar primeiro? Me conta nos comentários.",
-   0.6
+   0.5
   ],
   [
-   "Se esse conteúdo te ajudou, inscreva-se no canal Grana e Finanças, e manda pra alguém que precisa ouvir isso.",
-   0.3
+   "Se esse conteúdo te ajudou, inscreva-se no canal Grana e Finanças. E manda pra alguém que precisa ouvir isso.",
+   0.5
+  ],
+  [
+   "Nos próximos vídeos, a gente continua explicando a notícia do dia, do jeito que ela afeta o seu bolso.",
+   0.5
   ]
  ],
  "voice": {
@@ -227,6 +283,76 @@
    "seg": 23,
    "src": "celular-rolando-29302.mp4",
    "offset": 1
+  },
+  {
+   "seg": 24,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 25,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 26,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 27,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 28,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 29,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 30,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 31,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 32,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 33,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 34,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 35,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 36,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 37,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
   }
  ],
  "overlays": [
@@ -248,8 +374,8 @@
    ]
   },
   {
-   "seg": 5,
-   "ate": 5,
+   "seg": 2,
+   "ate": 2,
    "linhas": [
     {
      "t": "4,58%",
@@ -265,8 +391,25 @@
    ]
   },
   {
-   "seg": 12,
-   "ate": 12,
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "R$ 46",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "de poder de compra\nperdidos em R$ 1.000",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 15,
+   "ate": 15,
    "linhas": [
     {
      "t": "Um efeito puxa\no outro",
@@ -276,8 +419,8 @@
    ]
   },
   {
-   "seg": 19,
-   "ate": 19,
+   "seg": 20,
+   "ate": 20,
    "linhas": [
     {
      "t": "Nem tudo depende de você.\nO extrato, sim.",
@@ -293,8 +436,8 @@
    ]
   },
   {
-   "seg": 22,
-   "ate": 22,
+   "seg": 37,
+   "ate": 37,
    "linhas": [
     {
      "t": "Inscreva-se na\nGrana e Finanças",
@@ -312,13 +455,15 @@
  ],
  "impactos_seg": [
   0,
-  5,
-  12,
-  19
+  2,
+  8,
+  15,
+  20
  ],
  "keywords_gold": [
   "ZERO VÍRGULA OITENTA E DOIS",
   "QUATRO VÍRGULA CINQUENTA E OITO",
+  "QUARENTA E SEIS REAIS",
   "UM EFEITO PUXA O OUTRO",
   "EPICTETO",
   "GRANA E FINANÇAS"
