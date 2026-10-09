@@ -1,0 +1,232 @@
+{
+ "segs": [
+  [
+   "Os preços subiram oito décimos em setembro. Zero vírgula oitenta e dois por cento.",
+   0.6
+  ],
+  [
+   "Parece pouco. Mas a inflação veio acima do que os economistas esperavam.",
+   0.5
+  ],
+  [
+   "Inflação é o aumento geral dos preços. Quando ela sobe, cada real compra menos. E corrói quem guarda dinheiro parado.",
+   0.5
+  ],
+  [
+   "Em doze meses, a conta já chega a quatro vírgula cinquenta e oito por cento.",
+   0.6
+  ],
+  [
+   "Isso mexe com os juros. Se a inflação não cai, o Banco Central demora a baixar a taxa.",
+   0.4
+  ],
+  [
+   "E juros altos encarecem tudo: cheque especial, financiamento, cartão parcelado.",
+   0.4
+  ],
+  [
+   "Ou seja, o dinheiro que você deixa parado perde valor. Em silêncio.",
+   0.8
+  ],
+  [
+   "Epicteto ensinava: nem tudo depende de você. Mas o que sai da sua conta, depende.",
+   0.7
+  ],
+  [
+   "Ninguém controla a inflação sozinho. Você controla o seu orçamento.",
+   0.6
+  ],
+  [
+   "Hoje, abra o seu extrato do mês e veja: quanto foi para o que você quer de verdade?",
+   0.6
+  ],
+  [
+   "Seu dinheiro está trabalhando para você, ou só esperando?",
+   0.7
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "voice": {
+  "length_scale": 1.0,
+  "noise_scale": 0.72,
+  "noise_w": 0.9,
+  "pitch_semitons": -1.5
+ },
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 3
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 6
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "0,82%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "inflação de setembro\nacima do esperado",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "4,58%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "em 12 meses",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Parado,\nele perde.",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Nem tudo depende de você.\nO extrato, sim.",
+     "estilo": "Sub",
+     "y": 780
+    },
+    {
+     "t": "Epicteto",
+     "estilo": "Sub",
+     "y": 1000,
+     "t0": 0.8
+    }
+   ]
+  },
+  {
+   "seg": 10,
+   "ate": 10,
+   "linhas": [
+    {
+     "t": "Seu dinheiro trabalha\nou só espera?",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  3,
+  6,
+  11
+ ],
+ "keywords_gold": [
+  "ZERO VÍRGULA OITENTA E DOIS",
+  "QUATRO VÍRGULA CINQUENTA E OITO",
+  "PARADO",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-ipca-setembro-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
