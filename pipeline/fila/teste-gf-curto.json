@@ -1,0 +1,264 @@
+{
+ "segs": [
+  [
+   "Oitenta e dois por cento das famílias brasileiras estão endividadas.",
+   0.6
+  ],
+  [
+   "O país está difícil.",
+   0.25
+  ],
+  [
+   "A inflação sobe. A conta de luz sobe.",
+   0.25
+  ],
+  [
+   "E o salário parece valer cada vez menos.",
+   0.7
+  ],
+  [
+   "Mas deixa eu te fazer uma pergunta desconfortável.",
+   0.5
+  ],
+  [
+   "Até onde isso é culpa do país?",
+   0.35
+  ],
+  [
+   "E onde começa a sua parte?",
+   0.9
+  ],
+  [
+   "Quantas vezes você comprou algo que nem precisava, só pra aliviar um dia ruim?",
+   0.45
+  ],
+  [
+   "Quantas vezes você disse: é só uma parcelinha?",
+   0.8
+  ],
+  [
+   "Você não controla a inflação. Não controla os juros.",
+   0.35
+  ],
+  [
+   "Mas controla o que acontece entre o salário cair e o dinheiro sumir.",
+   0.7
+  ],
+  [
+   "É aí que a maioria perde. Não por falta de dinheiro.",
+   0.3
+  ],
+  [
+   "Por falta de consciência.",
+   0.9
+  ],
+  [
+   "Antes da próxima compra, pare e pergunte:",
+   0.35
+  ],
+  [
+   "eu preciso disso, ou só quero me sentir melhor agora?",
+   0.9
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "voice": {
+  "length_scale": 1.0,
+  "noise_scale": 0.72,
+  "noise_w": 0.9,
+  "pitch_semitons": -1.5
+ },
+ "target": [
+  45,
+  70
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 3
+  },
+  {
+   "seg": 1,
+   "src": "avenida-noite-41161.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 2,
+   "src": "transito-timelapse-4240.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 3,
+   "src": "ampulheta-28901.mp4",
+   "offset": 3,
+   "luz": 0.07
+  },
+  {
+   "seg": 4,
+   "src": "homem-banco-sozinho-25896.mp4",
+   "offset": 5
+  },
+  {
+   "seg": 5,
+   "src": "homem-sozinho-rio-35426.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 6,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 6
+  },
+  {
+   "seg": 7,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "frac": 0.55,
+   "src": "mulheres-shopping-9060.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "mulher-calculando-contas-49131.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 9,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "homem-ansiedade-47206.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 12,
+   "src": "vela-acendendo-3461.mp4",
+   "offset": 2,
+   "luz": 0.07
+  },
+  {
+   "seg": 13,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 15,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "82%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "das famílias brasileiras\nestão endividadas",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Culpa do país?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Ou sua parte?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 12,
+   "ate": 12,
+   "linhas": [
+    {
+     "t": "Consciência",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 14,
+   "ate": 14,
+   "linhas": [
+    {
+     "t": "“Eu preciso disso…\nou só quero me sentir\nmelhor agora?”",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 15,
+   "ate": 15,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  4,
+  9,
+  12,
+  15
+ ],
+ "keywords_gold": [
+  "82%",
+  "OITENTA E DOIS",
+  "SUA PARTE",
+  "CONSCIÊNCIA",
+  "CONTROLA",
+  "PRECISO",
+  "GRANA E FINANÇAS",
+  "PAÍS?",
+  "SUA PARTE?"
+ ],
+ "output": "gf-curto-v3.mp4",
+ "motor": "gf",
+ "pasta": "teste"
+}

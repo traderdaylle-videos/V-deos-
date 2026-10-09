@@ -1,0 +1,71 @@
+name: render
+# Renderiza vídeos fora do Claude. Disparo: um push que adiciona/altera pipeline/fila/*.json
+# (ou workflow_dispatch). Resultado vai para o branch "media", pasta indicada no spec ("pasta").
+# Se falhar, grava <pasta>/<nome>.erro.txt no branch media para o Claude ver.
+on:
+  push:
+    paths: ["pipeline/fila/**.json", "pipeline/render/**", "pipeline/make_video.py", "pipeline/musica*.py", "pipeline/endcard_anim.py", "pipeline/granaefinancas/**", "pipeline/mundonumeral/**", "pipeline/primewin/**"]
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: render
+  cancel-in-progress: false
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 2 }
+      - name: Dependências
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu >/dev/null
+          python3 -m pip install -q --break-system-packages matplotlib numpy pillow kokoro-onnx soundfile piper-tts
+      - name: Voz Kokoro e clipes
+        run: |
+          mkdir -p /tmp/kokoro && cd /tmp/kokoro
+          for f in kokoro-v1.0.onnx voices-v1.0.bin; do
+            [ -s "$f" ] || curl -sL -o "$f" "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/$f"
+          done
+          git clone -q --depth 1 --branch clipes "https://github.com/${GITHUB_REPOSITORY}" /tmp/clipes
+      - name: Renderizar specs novos
+        run: |
+          set -u
+          if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
+            ARQS=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- pipeline/fila | grep '\.json$' || true)
+          else
+            ARQS=$(git ls-files pipeline/fila | grep '\.json$' || true)
+          fi
+          [ -z "$ARQS" ] && { echo "Nenhum spec novo."; exit 0; }
+          mkdir -p /tmp/saida
+          for SPEC in $ARQS; do
+            PASTA=$(python3 -c "import json;print(json.load(open('$SPEC')).get('pasta','outros'))")
+            NOME=$(basename "$SPEC" .json)
+            mkdir -p "/tmp/saida/$PASTA"
+            if bash pipeline/render/render.sh "$SPEC" "/tmp/saida/$PASTA" 2>/tmp/erro.txt; then
+              echo "ok $SPEC"
+            else
+              mkdir -p "/tmp/saida/$PASTA"; { echo "Falha ao renderizar $SPEC"; tail -n 40 /tmp/erro.txt; } > "/tmp/saida/$PASTA/$NOME.erro.txt"
+              echo "falhou $SPEC"
+            fi
+          done
+      - name: Publicar no branch media
+        run: |
+          set -u
+          git config --global user.name traderdaylle-videos
+          git config --global user.email traderdaylle-videos@users.noreply.github.com
+          for TENT in 1 2 3; do
+            rm -rf /tmp/media && git clone -q --depth 1 --branch media "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}" /tmp/media 2>/dev/null \
+              || { mkdir /tmp/media && cd /tmp/media && git init -q -b media && git remote add origin "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}"; cd - >/dev/null; }
+            cd /tmp/media
+            cp -r /tmp/saida/* . 2>/dev/null || true
+            # mantém só 3 dias por pasta (nomes começam com AAAA-MM-DD)
+            LIM=$(date -d '3 days ago' +%F)
+            for d in */; do for f in "$d"*; do n=$(basename "$f"); case "$n" in 20*) [ "${n:0:10}" \< "$LIM" ] && rm -f "$f";; esac; done; done 2>/dev/null || true
+            git add -A
+            if git diff --cached --quiet; then echo "nada a publicar"; cd - >/dev/null; break; fi
+            git commit -qm "render $(date +%F-%H%M)"
+            if git push -q origin HEAD:media; then echo "publicado"; cd - >/dev/null; break; fi
+            echo "push recusado, tentando de novo"; cd - >/dev/null; sleep 5
+          done
