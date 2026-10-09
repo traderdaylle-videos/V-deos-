@@ -1,0 +1,122 @@
+{
+ "segs": [
+  [
+   "intro",
+   "E se o seu dinheiro pudesse trabalhar enquanto você vive a sua vida?"
+  ],
+  [
+   "intro",
+   "Imagina operar na bolsa sem ficar horas na frente da tela."
+  ],
+  [
+   "intro",
+   "Tomar um café tranquilo, passear com a família, sem pressa."
+  ],
+  [
+   "meio",
+   "Muita gente quer investir, mas trava no primeiro passo, por achar que precisa ser especialista."
+  ],
+  [
+   "meio",
+   "Aí começa sozinha, no palpite, e o emocional assume o comando."
+  ],
+  [
+   "meio",
+   "Medo na hora de entrar, ganância na hora de sair, e a conta sofre."
+  ],
+  [
+   "meio",
+   "Uma automação segue a estratégia definida, sem pressa, sem medo e sem hesitar."
+  ],
+  [
+   "meio",
+   "Ela respeita o stop e cumpre as regras do início ao fim."
+  ],
+  [
+   "meio",
+   "Sobra tempo para o que realmente importa: a sua família e a sua liberdade."
+  ],
+  [
+   "recap",
+   "É isso que a Prime Win faz: transforma estratégias em automações."
+  ],
+  [
+   "recap",
+   "E toda automação é testada em ambiente de conta real antes de chegar até você."
+  ],
+  [
+   "recap",
+   "Assim, você não precisa ser especialista para ter método na bolsa."
+  ],
+  [
+   "final_5pi",
+   "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na Profit."
+  ],
+  [
+   "final_fim",
+   "Comenta PRIME aqui embaixo que a gente te manda todas as informações no direct."
+  ],
+  [
+   "final_fim",
+   "Operar envolve risco, e resultado passado não garante resultado futuro."
+  ]
+ ],
+ "photos_meio": [
+  "celular-rolando-29302.mp4",
+  "homem-ansiedade-47206.mp4",
+  "indicadores-negativos-3d-26759.mp4",
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "pai-brincando-filho-7681.mp4"
+ ],
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "keywords_green": [
+  "PRIME WIN",
+  "PRIME",
+  "AUTOMAÇÃO",
+  "AUTOMAÇÕES",
+  "AUTOMATIZADO",
+  "CONTA REAL",
+  "5PI"
+ ],
+ "keywords_orange": [
+  "PERDA",
+  "PREJUÍZO",
+  "QUEBRA",
+  "EMOCIONAL",
+  "MEDO",
+  "GANÂNCIA",
+  "RISCO"
+ ],
+ "kw_color_green": "&HFFE03F&",
+ "kw_color_orange": "&H3FD2FF&",
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "endcard": {
+  "animado": true,
+  "bg_clip": "homem-mar-tranquilo-26667.mp4",
+  "clip_offset": 2
+ },
+ "output": "primewin-2026-10-09-manha.mp4",
+ "photos_intro": [
+  "cafe-manha-musica-43391.mp4",
+  "familia-caminhando-por-do-sol-6472.mp4",
+  "praia-mulher-caminhando-1208.mp4"
+ ],
+ "motor": "video",
+ "pasta": "primewin",
+ "explainer_args": [
+  "--estilo",
+  "linha",
+  "--cenario",
+  "tendencia_alta",
+  "--dur",
+  "13",
+  "--seed",
+  "11",
+  "MÉTODO NO LUGAR",
+  "DO PALPITE"
+ ]
+}
