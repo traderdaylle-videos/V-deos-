@@ -25,6 +25,10 @@ PY
   python3 "$ROOT/pipeline/primewin/explainer_primewin.py" "${ARGS[@]}"
 fi
 
+# explicativo próprio (TikTok): "explainer_script" = caminho (a partir da raiz do repo) de um script que gera explicativo_anim.mp4 e explicativo_final.png
+EXS=$(python3 -c "import json;print(json.load(open('$W/spec.json')).get('explainer_script',''))")
+[ -n "$EXS" ] && (cd "$W" && python3 "$ROOT/$EXS")
+
 case "$MOTOR" in
   gf)      python3 "$ROOT/pipeline/granaefinancas/make_gf_cine.py" "$W" ;;
   ranking) python3 "$ROOT/pipeline/mundonumeral/make_ranking.py" "$W" ;;

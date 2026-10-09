@@ -1,0 +1,88 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Sabe aquele nível que segurava o preço lá embaixo, de onde ele sempre voltava?"
+  ],
+  [
+   "intro",
+   "Quando ele rompe, muita coisa muda."
+  ],
+  [
+   "intro",
+   "O antigo suporte pode virar resistência."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o preço tocou esse nível várias vezes e voltou."
+  ],
+  [
+   "meio",
+   "Esse é o suporte, onde compradores costumavam aparecer."
+  ],
+  [
+   "meio",
+   "Quando o nível é perdido, muitos analistas técnicos passam a observar um reteste por baixo."
+  ],
+  [
+   "meio",
+   "Se o preço sobe até lá e é rejeitado, o suporte virou resistência."
+  ],
+  [
+   "meio",
+   "Mas atenção: o preço também pode voltar a romper, então sempre existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu um reteste assim no gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: suporte perdido, reteste por baixo, possível resistência."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "empresario-grafico-sucesso-26518.mp4",
+  "grafico-closeup-47016.mp4",
+  "investidor-tablet-escritorio-45706.mp4",
+  "mulher-graficos-ipad-45662.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_suporte_vira_resistencia.py",
+ "output": "tiktok-2026-10-09-suporte-vira-resistencia.mp4",
+ "keywords_green": [
+  "ALTA",
+  "COMPRA",
+  "5PI",
+  "FORÇA"
+ ],
+ "keywords_orange": [
+  "BAIXA",
+  "VENDA",
+  "QUEDA",
+  "RISCO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png"
+}
