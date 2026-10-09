@@ -149,6 +149,30 @@
    0.5
   ],
   [
+   "Vamos juntar as peças. A inflação sobe, o Banco Central segura os juros, o crédito encarece e o consumo desacelera.",
+   0.5
+  ],
+  [
+   "Com menos consumo, algumas empresas vendem menos e reduzem contratações. Por isso esse efeito chega até o emprego.",
+   0.5
+  ],
+  [
+   "Isso não quer dizer que você deve parar de viver. Quer dizer que cada compra tem um custo a mais, agora, e um custo lá na frente.",
+   0.5
+  ],
+  [
+   "Pense assim: cada real que você deixa em dívida cara é um real que deixa de trabalhar para o seu futuro.",
+   0.5
+  ],
+  [
+   "Quando você entende a cadeia, deixa de se assustar com a manchete, e passa a decidir com calma.",
+   0.5
+  ],
+  [
+   "E lembre: a notícia de hoje vai mudar amanhã. O que você aprende sobre o seu dinheiro fica.",
+   0.5
+  ],
+  [
    "Nos próximos vídeos, a gente continua explicando a notícia do dia, do jeito que ela afeta o seu bolso.",
    0.5
   ]
@@ -353,6 +377,36 @@
    "seg": 37,
    "src": "casal-contas-problemas-48974.mp4",
    "offset": 1
+  },
+  {
+   "seg": 38,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 39,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 40,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 41,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 42,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 43,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
   }
  ],
  "overlays": [
@@ -436,8 +490,8 @@
    ]
   },
   {
-   "seg": 37,
-   "ate": 37,
+   "seg": 43,
+   "ate": 43,
    "linhas": [
     {
      "t": "Inscreva-se na\nGrana e Finanças",
