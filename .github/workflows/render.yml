@@ -21,7 +21,7 @@ jobs:
       - name: Dependências
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu >/dev/null
-          python3 -m pip install -q --break-system-packages matplotlib numpy pillow kokoro-onnx soundfile piper-tts
+          python3 -m pip install -q --break-system-packages matplotlib numpy scipy pillow kokoro-onnx soundfile piper-tts
       - name: Voz Kokoro e clipes
         run: |
           mkdir -p /tmp/kokoro && cd /tmp/kokoro
@@ -63,6 +63,7 @@ jobs:
             # mantém só 3 dias por pasta (nomes começam com AAAA-MM-DD)
             LIM=$(date -d '3 days ago' +%F)
             for d in */; do for f in "$d"*; do n=$(basename "$f"); case "$n" in 20*) [ "${n:0:10}" \< "$LIM" ] && rm -f "$f";; esac; done; done 2>/dev/null || true
+            for E in */*.erro.txt; do [ -f "${E%.erro.txt}.mp4" ] && rm -f "$E"; done
             git add -A
             if git diff --cached --quiet; then echo "nada a publicar"; cd - >/dev/null; break; fi
             git commit -qm "render $(date +%F-%H%M)"
