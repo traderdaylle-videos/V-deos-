@@ -134,3 +134,23 @@
 - Rotina atual (08/10/2026): **2 posts por dia**, num único disparo às **06:06**, que agenda os posts de ~07:30 e ~12:30. A tarefa estava pausada desde 01/10 e foi reativada pelo usuário.
 - Estilo aprovado: clipes reais por país, fundo em movimento ligado ao tema (ex.: bandeira tremulando), música alegre e interativa, voz Santa mais grave e mais rápida, narração sem pausas falsas.
 - Sempre legendas na tela, hashtags e legenda do post interativa. Paleta próxima à foto de perfil (mapa-múndi com cidades acesas e "1" dourado).
+
+---
+
+## 6. Renderização fora do Claude (08/10/2026, pedido do usuário)
+
+- Vídeos são renderizados no **GitHub Actions** (`.github/workflows/render.yml`), não no Claude.
+- Para renderizar, a tarefa escreve um spec JSON em `pipeline/fila/<nome>.json`, com as chaves:
+  - `motor`: `gf` (make_gf_cine.py) | `video` (make_video.py) | `ranking` (make_ranking.py);
+  - `pasta`: `granaefinancas`, `tiktok`, `primewin`, `mundonumeral` ou `teste`;
+  - `output`: nome do mp4 final (ex.: `gf-curto-v3.mp4`);
+  - `explainer_args` (só Prime Win): argumentos do explainer_primewin.py.
+- Depois: `git add`, `git commit`, `git push` para `main`. O push dispara o render automaticamente.
+- Resultado no branch `media`: `<pasta>/<nome>.mp4` (+ `<nome>-capa.jpg` quando houver capa).
+- Se falhar: `<pasta>/<nome>.erro.txt` com as últimas linhas do erro. Nesse caso, a tarefa anota a falha no resumo e não agenda o post.
+- Polling: a tarefa consulta o branch `media` até o mp4 ou o erro aparecer (checar a cada ~1 min, no máximo ~15 min).
+- Link para o Metricool: `https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/<pasta>/<nome>.mp4`.
+- Limpeza: o workflow apaga os arquivos com data de mais de 3 dias e remove o `.erro.txt` quando o mp4 sai.
+- Testes validados em 08/10/2026: `teste-gf-curto` (motor gf), `teste-primewin` (motor video com explainer), `teste-ranking` (motor ranking). Os specs de teste ficam em `pipeline/fila/teste-*.json`; cada push que os altere gera novo render.
+- Dependências do runner: ffmpeg, fontes DejaVu, matplotlib, numpy, scipy, pillow, kokoro-onnx, soundfile, piper-tts (instaladas pelo workflow).
+- Duração do gf (curto): a faixa é 45–70 s; se o roteiro ficar curto, o render falha com "fora da faixa" e o roteiro precisa ser ampliado.
