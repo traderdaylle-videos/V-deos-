@@ -608,5 +608,37 @@
   "metricool_uuid": "-6273062806988898034",
   "agendado_para": "2026-10-07T15:28:00-03:00",
   "obs": "force-push órfão no media bloqueado pelo classificador; feito push normal (sem limpar primewin antigos); sem clipe novo do Mixkit"
+ },
+ {
+  "data": "2026-10-09",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: dinheiro trabalhando enquanto você vive; começar sem ser especialista, método no lugar do palpite; automação sem medo nem hesitação, tempo livre para a família",
+  "grafico": "linha / tendencia_alta",
+  "titulos": [
+   "MÉTODO NO LUGAR",
+   "DO PALPITE"
+  ],
+  "clipes": [
+   "cafe-manha-musica-43391 (intro)",
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "celular-rolando-29302",
+   "homem-ansiedade-47206",
+   "indicadores-negativos-3d-26759",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "pai-brincando-filho-7681",
+   "contando-dinheiro-23168 (5PI)",
+   "homem-mar-tranquilo-26667 (endcard)"
+  ],
+  "bg_clip": "homem-mar-tranquilo-26667",
+  "cartoes": [],
+  "duracao_s": 65.7,
+  "arquivo": "media:primewin/primewin-2026-10-09-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 391956468,
+  "metricool_uuid": "-7425174275118053645",
+  "agendado_para": "2026-10-09T08:28:00-03:00"
  }
 ]
