@@ -119,7 +119,8 @@
 ## 4b. Estado das tarefas agendadas (09/10/2026)
 
 - Todas as tarefas de vídeo estão **ativas** desde 08/10/2026 à noite e renderizam pelo GitHub (seção 6), com os prompts reescritos:
-  - **Vídeos Grana e Finanças**: 08:54 — Reels/Short (curto, motor gf) e vídeo longo (YouTube). Notifica por PushNotification se o YouTube não agendar.
+  - **Vídeos Grana e Finanças — fase 1 (PRODUÇÃO)**: 08:54 — gera o curto e o longo pelo motor gf, espera o render e grava o manifesto `pipeline/logs/<data>-gf-pronto.json`.
+  - **Vídeos Grana e Finanças — fase 2 (AGENDAMENTO)**: 11:30 — lê o manifesto, confere o branch media e agenda Reels, Short e longo no Metricool (Sonnet).
   - **Agendar posts de imagem @granaefinancas**: 05:52 — 1 post único e 1 carrossel, com Canva (não mudou).
   - **Prime Win (Reels)**: 08:05 (DESEJO) e 20:05 (MAGNETO) — motor video, pasta primewin.
   - **TikTok @traderdaylle**: 10:40 — 2 vídeos, motor video, pasta tiktok.
