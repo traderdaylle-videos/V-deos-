@@ -1,0 +1,88 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Você sabe qual é o preço justo do dia pra quem opera mini índice?"
+  ],
+  [
+   "intro",
+   "Muitos traders olham uma linha chamada VWAP."
+  ],
+  [
+   "intro",
+   "Ela mostra o preço médio do dia, ponderado pelo volume negociado."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: a linha dourada é a VWAP, e o preço gira em volta dela."
+  ],
+  [
+   "meio",
+   "Acima dela, muitos analistas técnicos enxergam compradores no controle."
+  ],
+  [
+   "meio",
+   "Abaixo, enxergam vendedores com mais força."
+  ],
+  [
+   "meio",
+   "Quando o preço volta pra linha, ela costuma funcionar como zona de reação."
+  ],
+  [
+   "meio",
+   "Mas atenção: em dia de notícia forte o preço pode ignorar a VWAP, e sempre existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você usa a VWAP no seu gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: VWAP é o preço médio do dia ponderado pelo volume, e serve de referência."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "homem-analisando-graficos-17415.mp4",
+  "investidor-tablet-45708.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_vwap.py",
+ "output": "tiktok-2026-10-09-vwap.mp4",
+ "keywords_green": [
+  "ALTA",
+  "COMPRA",
+  "5PI",
+  "FORÇA"
+ ],
+ "keywords_orange": [
+  "BAIXA",
+  "VENDA",
+  "QUEDA",
+  "RISCO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png"
+}
