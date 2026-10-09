@@ -1,0 +1,117 @@
+{
+  "segs": [
+    [
+      "intro",
+      "Já pensou em nunca mais precisar clicar em comprar ou vender?"
+    ],
+    [
+      "intro",
+      "Imagine suas operações sendo executadas no automático, seguindo uma estratégia definida, do início ao fim."
+    ],
+    [
+      "intro",
+      "Sem cansaço, sem medo e sem hesitar."
+    ],
+    [
+      "meio",
+      "Agora seja sincero: quantas vezes você entrou atrasado, com medo de perder o movimento?"
+    ],
+    [
+      "meio",
+      "Quantas vezes segurou uma perda achando que o preço ia voltar?"
+    ],
+    [
+      "meio",
+      "É assim que muita gente quebra a conta: não por falta de estratégia, mas pelo emocional."
+    ],
+    [
+      "meio",
+      "Medo, ganância, vontade de recuperar tudo no mesmo dia."
+    ],
+    [
+      "meio",
+      "Uma automação segue a estratégia à risca e respeita o stop."
+    ],
+    [
+      "meio",
+      "Enquanto isso, você vive a sua vida longe da tela."
+    ],
+    [
+      "recap",
+      "É isso que a Prime Win faz: transforma estratégias em automações."
+    ],
+    [
+      "recap",
+      "Toda automação é testada em ambiente de conta real antes de chegar até você."
+    ],
+    [
+      "recap",
+      "Você não precisa mais operar manualmente, se optar por uma automação."
+    ],
+    [
+      "final_5pi",
+      "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na Profit."
+    ],
+    [
+      "final_fim",
+      "Comenta PRIME aqui embaixo que a gente te manda todas as informações no direct."
+    ],
+    [
+      "final_fim",
+      "Operar envolve risco, e resultado passado não garante resultado futuro."
+    ]
+  ],
+  "photos_meio": [
+    "numeros-oculos-47792.mp4",
+    "lucro-bolsa-47012.mp4",
+    "homem-estressado-49225.mp4",
+    "trader-estressado.png",
+    "tendencia-tela-9607.mp4",
+    "homem-mar-tranquilo-26667.mp4"
+  ],
+  "photo_5pi": "investidor-tablet-escritorio-45706.mp4",
+  "explainer_anim": "explicativo_anim.mp4",
+  "explainer_final": "explicativo_final.png",
+  "keywords_green": [
+    "PRIME WIN",
+    "PRIME",
+    "AUTOMAÇÃO",
+    "AUTOMAÇÕES",
+    "AUTOMATIZADO",
+    "CONTA REAL",
+    "5PI"
+  ],
+  "keywords_orange": [
+    "PERDA",
+    "PREJUÍZO",
+    "QUEBRA",
+    "EMOCIONAL",
+    "MEDO",
+    "GANÂNCIA",
+    "RISCO"
+  ],
+  "kw_color_green": "&HFFE03F&",
+  "kw_color_orange": "&H3FD2FF&",
+  "music_mood": "alegre",
+  "speed": 1.15,
+  "endcard": {
+    "animado": true,
+    "bg_clip": "homem-mar-tranquilo-26667.mp4",
+    "clip_offset": 2
+  },
+  "output": "primewin-teste.mp4",
+  "motor": "video",
+  "pasta": "teste",
+  "explainer_args": [
+    "--estilo",
+    "candles",
+    "--cenario",
+    "tendencia_alta",
+    "--dur",
+    "13",
+    "--seed",
+    "11",
+    "Tendência de alta",
+    "Entrada na retração"
+  ]
+}
