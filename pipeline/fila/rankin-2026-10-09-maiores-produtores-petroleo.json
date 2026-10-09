@@ -16,7 +16,7 @@
    "pos": 10,
    "nome": "Kuwait",
    "valor": 2.91,
-   "fala": "Em décimo lugar vem o Kuwait, com dois vírgula noventa e um milhões de barris por dia. Pequeno no mapa, gigante no petróleo.",
+   "fala": "Em décimo lugar vem o Kuwait, com dois vírgula noventa e um milhões de barris por dia.",
    "clip": "mn-cidade-noite-aerea-42342.mp4"
   },
   {
@@ -51,14 +51,14 @@
    "pos": 5,
    "nome": "China",
    "valor": 5.26,
-   "fala": "Em quinto aparece a China, com cinco vírgula vinte e seis. E ainda assim precisa importar muito mais.",
+   "fala": "Em quinto aparece a China, com cinco vírgula vinte e seis.",
    "clip": "mn-bandeira-china-13312.mp4"
   },
   {
    "pos": 4,
    "nome": "Canadá",
    "valor": 5.76,
-   "fala": "Em quarto fica o Canadá, com cinco vírgula setenta e seis. Boa parte vem das areias betuminosas.",
+   "fala": "Em quarto fica o Canadá, com cinco vírgula setenta e seis.",
    "clip": "mn-bandeira-canada-18084.mp4"
   },
   {
@@ -85,7 +85,6 @@
  ],
  "outro": [
   "Você esperava os Estados Unidos tão na frente?",
-  "Os dados são de dois mil e vinte e três, segundo a agência de energia dos Estados Unidos.",
   "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
  ],
  "output": "rankin-2026-10-09-maiores-produtores-petroleo.mp4",
