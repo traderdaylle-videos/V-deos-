@@ -154,3 +154,5 @@
 - Testes validados em 08/10/2026: `teste-gf-curto` (motor gf), `teste-primewin` (motor video com explainer), `teste-ranking` (motor ranking). Os specs de teste ficam em `pipeline/fila/teste-*.json`; cada push que os altere gera novo render.
 - Dependências do runner: ffmpeg, fontes DejaVu, matplotlib, numpy, scipy, pillow, kokoro-onnx, soundfile, piper-tts (instaladas pelo workflow).
 - Duração do gf (curto): a faixa é 45–70 s; se o roteiro ficar curto, o render falha com "fora da faixa" e o roteiro precisa ser ampliado.
+- **Falhas técnicas (08/10/2026, pedido do usuário):** as tarefas corrigem sozinhas problemas do pipeline (repositório, workflow, spec, branch media) sem pedir permissão, registram a correção no log e refazem. Se não conseguirem resolver, avisam com PushNotification em menos de 200 caracteres.
+- **YouTube:** se o Short ou o vídeo longo do YouTube não ficar agendado, a tarefa Grana avisa com PushNotification com a causa exata.
