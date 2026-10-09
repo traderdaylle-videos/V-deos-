@@ -14,7 +14,7 @@
 - **Checar o limite do Metricool antes de produzir**, para não gastar em posts que vão travar.
 - Conferir só **4 a 6 quadros por vídeo**, sem reler o que já foi conferido.
 - Prompts das tarefas enxutos.
-- **Nunca trocar o modelo das tarefas por um mais barato.**
+- **Modelos (atualizado 08/10/2026, pedido do usuário):** tarefas que produzem e agendam posts usam `claude-sonnet-5-5`; a tarefa de Checagem usa `claude-haiku-5-5`. O Opus (`claude-opus-5-5`) fica reservado só para configurar e manter o pipeline, não para postar.
 - Usar primeiro tudo o que está disponível de graça no Claude; só depois considerar conectores ou assinaturas pagas.
 
 ### Mudanças em tarefas agendadas
@@ -28,7 +28,10 @@
 - GitHub: conta `traderdaylle-videos`, repositório público `V-deos-`.
   - Pipeline gratuito na pasta `pipeline/` (seguir `pipeline/README.md`).
   - Clipes e voz no branch `clipes`; vídeos prontos hospedados no branch `media` e enviados ao Metricool pela URL `raw.githubusercontent`.
-- Metricool: brand `7082205` (@granaefinancas e TikTok @traderdaylle); brand `7160301` (rankincuriosos). Plano pago.
+- Metricool (plano pago), contas confirmadas pelo usuário em 08/10/2026:
+  - brand `7082205`: Instagram @granaefinancas, TikTok @traderdaylle, YouTube "Grana e Finanças" (`UCDeUffa8mTd3TOv8_wBV6Qw`);
+  - brand `7160301`: Instagram @pwinautomacoes (Prime Win), TikTok **@rankingcuriosos** (Rankin Curiosos, antigo Mundo Numeral). Use sempre este handle, não "rankincuriosos".
+  - A brand `7212955` (ilarrointeriores) não faz parte deste pipeline.
 - Fuso horário: America/Sao_Paulo.
 
 ---
@@ -87,11 +90,11 @@
 
 ## 4. Prime Win (Instagram + MagnetoV12)
 
-### Rotina
-- **4 Reels por dia**, publicados direto, sem esperar aprovação. Postagem pelo **Metricool** (o Zapier do Instagram foi abandonado).
-- 2 dos 4 Reels são **anúncios do MagnetoV12** com relatórios diários de contas reais (ocultar dados da conta, titular e nome da automação), resultado e % de acerto, com o link da landing page na legenda: https://claude.ai/artifact/YUK1E8u7oTnN6uBZbCFvgd
-- 1 vídeo por dia abre com imagens que despertam desejo de ter uma automação (para quem ainda nem opera na bolsa).
-- 1 vídeo por dia oferece o serviço de **automatizar a estratégia** de quem já tem uma.
+### Rotina (atualizado 08/10/2026)
+- **2 Reels por dia**, publicados direto, sem esperar aprovação. Postagem pelo **Metricool** (o Zapier do Instagram foi abandonado).
+  - Disparo das **08:05** (turno manhã): formato **DESEJO**, para quem ainda não opera na bolsa.
+  - Disparo das **20:05** (turno noite): formato **MAGNETO**, anúncio do MagnetoV12 com relatórios diários de contas reais (ocultar dados da conta, titular e nome da automação), resultado e % de acerto, com o link da landing page na legenda: https://claude.ai/artifact/YUK1E8u7oTnN6uBZbCFvgd
+- Os formatos **SERVIÇO** (turno tarde) e os turnos de almoço e tarde ficam **fora da rotina atual**; só voltam se o usuário pedir.
 
 ### Estilo dos vídeos
 - Objetivo: **persuasão, não educação** — convencer que operar com automação é mais viável ("já pensou em nunca mais clicar em comprar ou vender?"), usando dores reais (prejuízos, quebra de conta, psicológico, decisões emocionais).
@@ -113,9 +116,21 @@
 
 ---
 
-## 5. TikTok rankincuriosos (antigo "Mundo Numeral")
+## 4b. Estado das tarefas agendadas (08/10/2026, pedido do usuário)
 
-- Rankings/comparações animados entre países e empresas (preços, salários etc.). Metricool brand `7160301`.
-- Rotina de 4 posts/dia — **tarefa pausada** desde 01/10; só retomar se o usuário pedir.
+- **Vídeos Grana e Finanças**: diário às 08:54 — 1 Reels no Instagram que também sai como YouTube Short, e 1 vídeo longo no YouTube.
+- **Agendar posts de imagem @granaefinancas**: diário às 05:52 — 1 post único e 1 carrossel.
+- **Prime Win (Reels)**: 08:05 e 20:05 (ver seção 4).
+- **TikTok @traderdaylle**: 10:40 — 2 vídeos por disparo.
+- **Rankin / @rankingcuriosos**: 06:06 (ver seção 5).
+- **Checagem diária**: pausada até os prompts dela serem ajustados para 2 posts por dia na Prime Win e 2 no TikTok.
+- O limite do plano renova na **quarta-feira, 14/10/2026, às 12:00**. Antes disso, não gastar uso à toa: nenhum teste extra sem necessidade.
+
+---
+
+## 5. TikTok @rankingcuriosos (antigo "Mundo Numeral")
+
+- Rankings/comparações animados entre países e empresas (preços, salários etc.). Metricool brand `7160301`, TikTok `rankingcuriosos`.
+- Rotina atual (08/10/2026): **2 posts por dia**, num único disparo às **06:06**, que agenda os posts de ~07:30 e ~12:30. A tarefa estava pausada desde 01/10 e foi reativada pelo usuário.
 - Estilo aprovado: clipes reais por país, fundo em movimento ligado ao tema (ex.: bandeira tremulando), música alegre e interativa, voz Santa mais grave e mais rápida, narração sem pausas falsas.
 - Sempre legendas na tela, hashtags e legenda do post interativa. Paleta próxima à foto de perfil (mapa-múndi com cidades acesas e "1" dourado).
