@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Vídeo de ranking animado do @rankincuriosos (TikTok 9:16, custo zero).
+"""Vídeo de ranking animado do @rankingcuriosos (TikTok 9:16, custo zero).
 
 Uso: python3 make_ranking.py WORKDIR   (lê WORKDIR/spec.json)
 spec.json:
@@ -160,7 +160,7 @@ def frame(t):
         d.text((W / 2, PY + PH - 150), "COMENTA", font=F("Anton-Regular.ttf", 64), fill=NAVY + (int(255 * a),), anchor="mm")
         d.text((W / 2, PY + PH - 75), "qual ranking você quer ver amanhã?", font=F("Montserrat-ExtraBold.ttf", 38), fill=NAVY + (int(255 * a),), anchor="mm")
     d.text((W / 2, H - 45), S.get("fonte", ""), font=fSm, fill=(200, 200, 215, 200), anchor="mm")
-    d.text((W / 2, H - 80), "@rankincuriosos", font=F("Montserrat-ExtraBold.ttf", 30), fill=GOLD2 + (220,), anchor="mm")
+    d.text((W / 2, H - 80), "@rankingcuriosos", font=F("Montserrat-ExtraBold.ttf", 30), fill=GOLD2 + (220,), anchor="mm")
     return im
 
 # trilha do painel: clipes reais por trecho (intro -> comida/cidade, cada item -> bandeira/cidade do país, final -> clipe final)
