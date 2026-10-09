@@ -89,5 +89,27 @@
   "publicado": true,
   "duracao_s": 71.4,
   "obs": "horário 21:00 (melhor que 21:30 pelo getBestTimeToPost)"
+ },
+ {
+  "data": "2026-10-09",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de aço do mundo (2024)",
+  "fonte": "worldsteel, produção de aço bruto 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-09-producao-aco.mp4",
+  "metricool_id": 391909418,
+  "publicado": false,
+  "duracao_s": 69.3
+ },
+ {
+  "data": "2026-10-09",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de petróleo do mundo (2023)",
+  "fonte": "EIA, petróleo e outros líquidos 2023",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-09-maiores-produtores-petroleo.mp4",
+  "metricool_id": 391909470,
+  "publicado": false,
+  "duracao_s": 68.3
  }
 ]
