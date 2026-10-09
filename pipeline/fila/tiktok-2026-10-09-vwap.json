@@ -2,7 +2,7 @@
  "segs": [
   [
    "intro",
-   "Você sabe qual é o preço justo do dia pra quem opera mini índice?"
+   "Você sabe qual é o preço justo do dia no mini índice?"
   ],
   [
    "intro",
@@ -22,15 +22,15 @@
   ],
   [
    "meio",
-   "Abaixo, enxergam vendedores com mais força."
+   "Abaixo, enxergam vendedores."
   ],
   [
    "meio",
-   "Quando o preço volta pra linha, ela costuma funcionar como zona de reação."
+   "Quando o preço volta pra linha, ela costuma ser zona de reação."
   ],
   [
    "meio",
-   "Mas atenção: em dia de notícia forte o preço pode ignorar a VWAP, e sempre existe risco."
+   "Mas atenção: em dia de notícia forte o preço pode ignorá-la, e existe risco."
   ],
   [
    "meio",
@@ -38,7 +38,7 @@
   ],
   [
    "recap",
-   "Recapitulando: VWAP é o preço médio do dia ponderado pelo volume, e serve de referência."
+   "Recapitulando: VWAP é o preço médio do dia ponderado pelo volume."
   ],
   [
    "final_5pi",
