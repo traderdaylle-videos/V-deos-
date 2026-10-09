@@ -1,0 +1,330 @@
+{
+ "segs": [
+  [
+   "Os preços subiram oito décimos em setembro. Zero vírgula oitenta e dois por cento.",
+   0.6
+  ],
+  [
+   "Esse número saiu acima do que os economistas esperavam. E ele diz muito sobre o seu bolso.",
+   0.5
+  ],
+  [
+   "Vamos entender o que aconteceu, por que aconteceu, e o que muda para você. Sem complicação.",
+   0.4
+  ],
+  [
+   "Primeiro, o fato. A inflação mede o aumento geral dos preços que você paga no dia a dia.",
+   0.4
+  ],
+  [
+   "Comida, transporte, aluguel, remédio, conta de luz. Tudo entra nessa conta.",
+   0.5
+  ],
+  [
+   "Em doze meses, a soma chega a quatro vírgula cinquenta e oito por cento.",
+   0.6
+  ],
+  [
+   "Isso significa que, em média, o que custava mil reais agora custa mais do que isso.",
+   0.4
+  ],
+  [
+   "Agora, por que isso acontece. A primeira causa é a demanda: mais gente comprando, preço sobe.",
+   0.4
+  ],
+  [
+   "A segunda é o câmbio. Quando o dólar sobe, tudo que é importado fica mais caro, de combustível a eletrônico.",
+   0.5
+  ],
+  [
+   "E a terceira é a expectativa. Se todo mundo acha que vai subir, os preços acabam subindo mesmo.",
+   0.6
+  ],
+  [
+   "Aqui entra o Banco Central. Para segurar a inflação, ele mantém os juros altos.",
+   0.4
+  ],
+  [
+   "Juros altos fazem o crédito ficar caro. Cheque especial, financiamento e cartão parcelado pesam mais.",
+   0.5
+  ],
+  [
+   "Esse é o efeito em cadeia: inflação, juros altos, crédito caro, e o seu orçamento apertado.",
+   0.6
+  ],
+  [
+   "Quem ganha? Quem tem dinheiro aplicado em investimento que acompanha a inflação.",
+   0.4
+  ],
+  [
+   "Quem perde? Quem deixa o dinheiro parado na conta e quem depende de crédito caro.",
+   0.7
+  ],
+  [
+   "Agora, o que fazer. O primeiro passo é montar ou revisar a sua reserva de emergência.",
+   0.5
+  ],
+  [
+   "Reserva é o dinheiro que cobre de três a seis meses de despesas, em aplicação de liquidez.",
+   0.4
+  ],
+  [
+   "Depois, olhe as dívidas. Juros de cartão e cheque especial corroem qualquer ganho.",
+   0.5
+  ],
+  [
+   "E por último, o consumo. Antes de comprar, pergunte: isso é necessidade, ou é impulso?",
+   0.5
+  ],
+  [
+   "Epicteto ensinava que nem tudo depende de você. A inflação não depende. Mas o seu extrato depende.",
+   0.8
+  ],
+  [
+   "Ninguém controla o preço do dólar ou a decisão do Banco Central. Você controla o seu orçamento.",
+   0.6
+  ],
+  [
+   "Por isso, a lição de hoje é simples: abra o seu extrato, e marque o que foi para o que você quer de verdade.",
+   0.6
+  ],
+  [
+   "Qual princípio você vai aplicar primeiro? Me conta nos comentários.",
+   0.6
+  ],
+  [
+   "Se esse conteúdo te ajudou, inscreva-se no canal Grana e Finanças, e manda pra alguém que precisa ouvir isso.",
+   0.3
+  ]
+ ],
+ "voice": {
+  "length_scale": 1.0,
+  "noise_scale": 0.72,
+  "noise_w": 0.9,
+  "pitch_semitons": -1.5
+ },
+ "target": [
+  240,
+  330
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 12,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 13,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 14,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 15,
+   "src": "homem-estressado-49225.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 16,
+   "src": "cafe-manha-musica-43391.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 17,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 18,
+   "src": "homem-jogando-dinheiro-49133.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 19,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 20,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 21,
+   "src": "fonte-roma-11045.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 22,
+   "src": "dama-justica-12315.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 23,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "0,82%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "inflação de setembro\nacima do esperado",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "4,58%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "em 12 meses",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 12,
+   "ate": 12,
+   "linhas": [
+    {
+     "t": "Um efeito puxa\no outro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 19,
+   "ate": 19,
+   "linhas": [
+    {
+     "t": "Nem tudo depende de você.\nO extrato, sim.",
+     "estilo": "Sub",
+     "y": 780
+    },
+    {
+     "t": "Epicteto",
+     "estilo": "Sub",
+     "y": 1000,
+     "t0": 0.8
+    }
+   ]
+  },
+  {
+   "seg": 22,
+   "ate": 22,
+   "linhas": [
+    {
+     "t": "Inscreva-se na\nGrana e Finanças",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  5,
+  12,
+  19
+ ],
+ "keywords_gold": [
+  "ZERO VÍRGULA OITENTA E DOIS",
+  "QUATRO VÍRGULA CINQUENTA E OITO",
+  "UM EFEITO PUXA O OUTRO",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-ipca-setembro-longo.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "formato": "16:9"
+}
