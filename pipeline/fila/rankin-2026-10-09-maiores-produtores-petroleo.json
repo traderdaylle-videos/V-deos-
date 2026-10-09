@@ -1,0 +1,101 @@
+{
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "titulo": "OS MAIORES PRODUTORES DE PETRÓLEO",
+ "subtitulo": "milhões de barris por dia, em 2023",
+ "unidade": "",
+ "decimais": 2,
+ "fonte": "Fonte: EIA (agência de energia dos EUA), produção de petróleo e outros líquidos 2023",
+ "intro": [
+  "Todo dia o mundo queima milhões de barris de petróleo, e isso move a economia inteira.",
+  "E o maior produtor do planeta não fica no Oriente Médio, o que surpreende muita gente.",
+  "O Brasil aparece nessa lista? Fica até o final pra descobrir quem ficou em primeiro."
+ ],
+ "itens": [
+  {
+   "pos": 10,
+   "nome": "Kuwait",
+   "valor": 2.91,
+   "fala": "Em décimo lugar vem o Kuwait, com dois vírgula noventa e um milhões de barris por dia. Pequeno no mapa, gigante no petróleo.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "Irã",
+   "valor": 3.99,
+   "fala": "Em nono fica o Irã, com três vírgula noventa e nove. Mesmo sob sanções, segue entre os maiores.",
+   "clip": "mn-rodovia-seul-28714.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Emirados Árabes",
+   "valor": 4.16,
+   "fala": "Em oitavo vêm os Emirados Árabes, com quatro vírgula dezesseis. Uma economia que vive de energia.",
+   "clip": "mn-seul-noite-transito-20089.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Brasil",
+   "valor": 4.28,
+   "fala": "Em sétimo está o Brasil, com quatro vírgula vinte e oito. Em grande parte vem do pré-sal.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Iraque",
+   "valor": 4.42,
+   "fala": "Em sexto vem o Iraque, com quatro vírgula quarenta e dois. Um dos maiores produtores da Opep.",
+   "clip": "mn-rodovia-aerea-28790.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "China",
+   "valor": 5.26,
+   "fala": "Em quinto aparece a China, com cinco vírgula vinte e seis. E ainda assim precisa importar muito mais.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Canadá",
+   "valor": 5.76,
+   "fala": "Em quarto fica o Canadá, com cinco vírgula setenta e seis. Boa parte vem das areias betuminosas.",
+   "clip": "mn-bandeira-canada-18084.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Rússia",
+   "valor": 10.75,
+   "fala": "Em terceiro vem a Rússia, com dez vírgula setenta e cinco. Um dos pilares da economia russa.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Arábia Saudita",
+   "valor": 11.13,
+   "fala": "Em segundo fica a Arábia Saudita, com onze vírgula treze. Dona de algumas das maiores reservas do mundo.",
+   "clip": "mn-toquio-noite-20061.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "EUA",
+   "valor": 21.91,
+   "fala": "E em primeiro vêm os Estados Unidos, com vinte e um vírgula noventa e um. Quase o dobro da Arábia Saudita.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava os Estados Unidos tão na frente?",
+  "Os dados são de dois mil e vinte e três, segundo a agência de energia dos Estados Unidos.",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-09-maiores-produtores-petroleo.mp4",
+ "clips_intro": [
+  "mn-aviao-decolando-28000.mp4",
+  "mn-rodovia-aerea-28790.mp4",
+  "mn-cruzamento-rodovia-14845.mp4"
+ ],
+ "clip_final": "mn-terra-girando-34314.mp4",
+ "bg_clip": "mn-bandeira-eua-tremulando-46901.mp4",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}

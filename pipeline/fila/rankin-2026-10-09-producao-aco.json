@@ -1,0 +1,100 @@
+{
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "titulo": "OS MAIORES PRODUTORES DE AÇO",
+ "subtitulo": "milhões de toneladas, em 2024",
+ "unidade": "",
+ "decimais": 1,
+ "fonte": "Fonte: worldsteel (World Steel Association), produção de aço bruto 2024",
+ "intro": [
+  "Prédios, pontes, carros e navios, tudo isso começa no aço.",
+  "E um único país produz mais da metade de todo o aço do planeta, um número que assusta quem vê pela primeira vez.",
+  "O Brasil está nessa lista? Fica até o final pra descobrir quem ficou em primeiro."
+ ],
+ "itens": [
+  {
+   "pos": 10,
+   "nome": "Irã",
+   "valor": 31.0,
+   "fala": "Em décimo lugar vem o Irã, com trinta e um milhões de toneladas.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "Brasil",
+   "valor": 33.7,
+   "fala": "Em nono está o Brasil, com trinta e três vírgula sete. Nosso minério de ferro alimenta siderúrgicas no mundo todo.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Turquia",
+   "valor": 36.9,
+   "fala": "Em oitavo vem a Turquia, com trinta e seis vírgula nove. Ela fornece aço pra uma indústria enorme de eletrodomésticos e carros.",
+   "clip": "mn-bandeira-turquia-18983.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Alemanha",
+   "valor": 37.2,
+   "fala": "Em sétimo fica a Alemanha, com trinta e sete vírgula dois, a maior da Europa.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Coreia do Sul",
+   "valor": 63.5,
+   "fala": "Em sexto vem a Coreia do Sul, com sessenta e três vírgula cinco. Quase o dobro da Alemanha.",
+   "clip": "mn-seul-noite-transito-20089.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Rússia",
+   "valor": 70.7,
+   "fala": "Em quinto aparece a Rússia, com setenta vírgula sete.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "EUA",
+   "valor": 79.5,
+   "fala": "Em quarto ficam os Estados Unidos, com setenta e nove vírgula cinco.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Japão",
+   "valor": 84.0,
+   "fala": "Em terceiro vem o Japão, com oitenta e quatro milhões de toneladas.",
+   "clip": "mn-bandeira-japao-42108.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Índia",
+   "valor": 149.6,
+   "fala": "Em segundo fica a Índia, com cento e quarenta e nove vírgula seis, quase o dobro do Japão.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "China",
+   "valor": 1005.1,
+   "fala": "E em primeiro vem a China, com mais de mil milhões de toneladas. Sozinha, produz mais de cinco vezes o aço da Índia. Isso é mais da metade do mundo inteiro.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  }
+ ],
+ "outro": [
+  "Você imaginava essa diferença da China pro resto do mundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-09-producao-aco.mp4",
+ "clips_intro": [
+  "mn-cruzamento-rodovia-14845.mp4",
+  "mn-rodovia-aerea-28790.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-terra-girando-34314.mp4",
+ "bg_clip": "mn-bandeira-china-13312.mp4",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
