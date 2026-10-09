@@ -303,5 +303,13 @@
   "arquivo": "media:tiktok/tiktok-2026-10-09-suporte-vira-resistencia.mp4",
   "metricool_id": 392077252,
   "horario": "2026-10-09 18:00"
+ },
+ {
+  "data": "2026-10-09",
+  "tema": "VWAP (preço médio do dia ponderado pelo volume)",
+  "arquivo": "media:tiktok/tiktok-2026-10-09-vwap.mp4",
+  "metricool_id": 392206443,
+  "horario": "2026-10-09 13:50",
+  "obs": "recuperação do meio-dia; render exigiu re-push de 1 commit (checkout raso do workflow não vê diff de push com 2+ commits)"
  }
 ]
