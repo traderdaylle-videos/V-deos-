@@ -116,15 +116,18 @@
 
 ---
 
-## 4b. Estado das tarefas agendadas (08/10/2026, pedido do usuário)
+## 4b. Estado das tarefas agendadas (09/10/2026)
 
-- **Vídeos Grana e Finanças**: diário às 08:54 — 1 Reels no Instagram que também sai como YouTube Short, e 1 vídeo longo no YouTube.
-- **Agendar posts de imagem @granaefinancas**: diário às 05:52 — 1 post único e 1 carrossel.
-- **Prime Win (Reels)**: 08:05 e 20:05 (ver seção 4).
-- **TikTok @traderdaylle**: 10:40 — 2 vídeos por disparo.
-- **Rankin / @rankingcuriosos**: 06:06 (ver seção 5).
-- **Checagem diária**: pausada até os prompts dela serem ajustados para 2 posts por dia na Prime Win e 2 no TikTok.
-- O limite do plano renova na **quarta-feira, 14/10/2026, às 12:00**. Antes disso, não gastar uso à toa: nenhum teste extra sem necessidade.
+- Todas as tarefas de vídeo estão **ativas** desde 08/10/2026 à noite e renderizam pelo GitHub (seção 6), com os prompts reescritos:
+  - **Vídeos Grana e Finanças**: 08:54 — Reels/Short (curto, motor gf) e vídeo longo (YouTube). Notifica por PushNotification se o YouTube não agendar.
+  - **Agendar posts de imagem @granaefinancas**: 05:52 — 1 post único e 1 carrossel, com Canva (não mudou).
+  - **Prime Win (Reels)**: 08:05 (DESEJO) e 20:05 (MAGNETO) — motor video, pasta primewin.
+  - **TikTok @traderdaylle**: 10:40 — 2 vídeos, motor video, pasta tiktok.
+  - **Rankin / @rankingcuriosos**: 06:06 — 2 rankings, motor ranking, pasta mundonumeral.
+  - **Checagem diária**: 13:10 e 21:10 (Haiku), dispara tarefas só para o que faltar.
+- Testes de render validados em 08/10/2026 (`teste-gf-curto`, `teste-primewin`, `teste-ranking`). Workflow `render.yml` verde.
+- Ainda não testado: a espera pelo render dentro de uma execução agendada. Se falhar, a tarefa corrige sozinha (seção 6).
+- O limite do plano renova na **quarta-feira, 14/10/2026, às 12:00**. Não gastar uso à toa.
 
 ---
 
