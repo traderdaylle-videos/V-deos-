@@ -111,5 +111,28 @@
   "metricool_id": 391909470,
   "publicado": false,
   "duracao_s": 68.3
+ },
+ {
+  "data": "2026-10-10",
+  "turno": "manha",
+  "horario": "10:00",
+  "tema": "Países que mais gastam com defesa (2024)",
+  "fonte": "SIPRI, Fact Sheet abril/2025",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-10-gastos-militares.mp4",
+  "metricool_id": 392641043,
+  "publicado": false,
+  "duracao_s": 71.6
+ },
+ {
+  "data": "2026-10-10",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de trigo do mundo (2022)",
+  "fonte": "FAO (ONU), produção de trigo 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-10-maiores-produtores-trigo.mp4",
+  "metricool_id": 392641059,
+  "publicado": false,
+  "duracao_s": 68.7,
+  "obs": "1º render falhou (77 s); roteiro reduzido. Abertura usa clipe de grãos de café (só havia esse)"
  }
 ]
