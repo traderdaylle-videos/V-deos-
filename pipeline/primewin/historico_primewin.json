@@ -702,5 +702,35 @@
   "metricool_id": 392687126,
   "metricool_uuid": "-8454593714313147072",
   "agendado_para": "2026-10-10T08:31:00-03:00"
+ },
+ {
+  "data": "2026-10-10",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card3, R$ 505,50, 25 ops, 80%), leitura de fluxo a favor da força do mercado",
+  "grafico": "candles / longo_alta",
+  "titulos": [
+   "LEITURA DE FLUXO",
+   "A FAVOR DA FORÇA"
+  ],
+  "clipes": [
+   "grafico-closeup-47016",
+   "homem-ansiedade-47206",
+   "mulher-graficos-ipad-45662",
+   "familia-caminhando-por-do-sol-6472",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "bg_clip": "praia-mulher-caminhando-1208",
+  "cartoes": [
+   "card3",
+   "card5"
+  ],
+  "duracao_s": 66.7,
+  "arquivo": "media:primewin/primewin-2026-10-10-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 393003376,
+  "metricool_uuid": "1549220037570674826",
+  "agendado_para": "2026-10-10T20:26:00-03:00"
  }
 ]
