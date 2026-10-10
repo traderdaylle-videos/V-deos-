@@ -1,0 +1,85 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Você já viu um candle que parece um tijolo, sem pavios?"
+  ],
+  [
+   "intro",
+   "Ele se chama marubozu, uma palavra japonesa que lembra careca."
+  ],
+  [
+   "intro",
+   "Corpo cheio, sem sombras: o preço abriu numa ponta e fechou na outra."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: depois de candles hesitantes, surge um grande candle verde, sem pavio nenhum."
+  ],
+  [
+   "meio",
+   "Isso mostra que os compradores dominaram o pregão do começo ao fim."
+  ],
+  [
+   "meio",
+   "Por isso, muitos analistas técnicos observam a máxima e a mínima desse candle como zonas de reação."
+  ],
+  [
+   "meio",
+   "Mas atenção: depois de uma alta longa, ele pode marcar exaustão, e existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já operou com marubozu?"
+  ],
+  [
+   "recap",
+   "Recapitulando: marubozu é um candle de corpo cheio, sem sombras, que mostra domínio de um lado."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-analisando-graficos-17415.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "investidor-tablet-45708.mp4",
+  "numeros-oculos-47792.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_marubozu.py",
+ "output": "tiktok-2026-10-10-marubozu.mp4",
+ "keywords_green": [
+  "ALTA",
+  "COMPRA",
+  "5PI",
+  "FORÇA"
+ ],
+ "keywords_orange": [
+  "BAIXA",
+  "VENDA",
+  "QUEDA",
+  "RISCO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
