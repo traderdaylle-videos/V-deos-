@@ -670,5 +670,37 @@
   "metricool_id": 392458743,
   "metricool_uuid": "32699095189965130",
   "agendado_para": "2026-10-09T20:23:00-03:00"
+ },
+ {
+  "data": "2026-10-10",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: acordar e tomar café sem abrir o gráfico; rotina leve na bolsa; quem opera cansado decide no emocional; automação segue entrada, saída e stop; método sem ser especialista",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "TEMPO LIVRE",
+   "COM MÉTODO"
+  ],
+  "clipes": [
+   "homem-cafe-88009 (intro)",
+   "casal-mapa-carro-2718 (intro)",
+   "relaxando-por-do-sol-33968 (intro)",
+   "jovem-trabalhando-computador-44072",
+   "homem-ansiedade-47206",
+   "cansado-computador-14763",
+   "grafico-homem-analisando-47214",
+   "homem-laptop-trabalhando-9756",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [],
+  "duracao_s": 69.2,
+  "arquivo": "media:primewin/primewin-2026-10-10-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 392687126,
+  "metricool_uuid": "-8454593714313147072",
+  "agendado_para": "2026-10-10T08:31:00-03:00"
  }
 ]
