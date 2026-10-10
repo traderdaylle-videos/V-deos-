@@ -16,7 +16,7 @@
    "pos": 10,
    "nome": "Argentina",
    "valor": 22,
-   "fala": "Em décimo lugar vem a Argentina, com vinte e dois milhões de toneladas. Mesmo assim, é um dos grandes exportadores da América do Sul.",
+   "fala": "Em décimo lugar vem a Argentina, com vinte e dois milhões de toneladas.",
    "clip": "mn-bandeira-argentina-18125.mp4"
   },
   {
@@ -37,7 +37,7 @@
    "pos": 7,
    "nome": "Canadá",
    "valor": 34,
-   "fala": "Em sétimo vem o Canadá, com trinta e quatro milhões de toneladas. O clima frio exige variedades de trigo de primavera.",
+   "fala": "Em sétimo vem o Canadá, com trinta e quatro milhões de toneladas.",
    "clip": "mn-bandeira-canada-18084.mp4"
   },
   {
@@ -58,7 +58,7 @@
    "pos": 4,
    "nome": "EUA",
    "valor": 45,
-   "fala": "Em quarto vem os Estados Unidos, com quarenta e cinco milhões. O país tem enormes planícies dedicadas só aos grãos.",
+   "fala": "Em quarto vem os Estados Unidos, com quarenta e cinco milhões.",
    "clip": "mn-bandeira-eua-40711.mp4"
   },
   {
@@ -79,7 +79,7 @@
    "pos": 1,
    "nome": "China",
    "valor": 138,
-   "fala": "E em primeiro vem a China, com cento e trinta e oito milhões de toneladas. Quase um sexto de todo o trigo do planeta. Um gigante em área plantada e em população.",
+   "fala": "E em primeiro vem a China, com cento e trinta e oito milhões de toneladas. Quase um sexto de todo o trigo do planeta.",
    "clip": "mn-bandeira-china-13312.mp4"
   }
  ],
@@ -97,5 +97,5 @@
  "bg_clip": "mn-bandeira-china-13312.mp4",
  "motor": "ranking",
  "pasta": "mundonumeral",
- "versao": 2
+ "versao": 3
 }
