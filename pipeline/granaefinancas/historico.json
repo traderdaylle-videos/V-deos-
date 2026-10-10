@@ -78,5 +78,31 @@
    "BPMoney 30/09/2026",
    "FGV IGP-M setembro/2026"
   ]
+ },
+ {
+  "data": "2026-10-10",
+  "tema": "IPCA de setembro +0,82% (acima do esperado), 4,58% em 12 meses",
+  "formato": "aula de educação financeira (produzido na conversa, recuperação)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-ipca-setembro-curto.mp4",
+   "duracao": 51.5,
+   "capa": "granaefinancas/gf-ipca-setembro-curto-capa-v2.jpg",
+   "gancho": "78,7 STRONG",
+   "metricool": {
+    "reel": 392993815,
+    "short": 392993830
+   },
+   "horario": "20:05"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-ipca-setembro-longo-v2.mp4",
+   "duracao": 241.2,
+   "metricool": 393007728,
+   "horario": "20:45"
+  },
+  "fontes": [
+   "Forbes Brasil 09/10/2026",
+   "IBGE IPCA set/2026"
+  ]
  }
 ]

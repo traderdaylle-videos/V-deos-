@@ -160,3 +160,9 @@
 - Duração do gf (curto): a faixa é 45–70 s; se o roteiro ficar curto, o render falha com "fora da faixa" e o roteiro precisa ser ampliado.
 - **Falhas técnicas (08/10/2026, pedido do usuário):** as tarefas corrigem sozinhas problemas do pipeline (repositório, workflow, spec, branch media) sem pedir permissão, registram a correção no log e refazem. Se não conseguirem resolver, avisam com PushNotification em menos de 200 caracteres.
 - **YouTube:** se o Short ou o vídeo longo do YouTube não ficar agendado, a tarefa Grana avisa com PushNotification com a causa exata.
+- **Correções de 10/10/2026 (causas reais das falhas da Grana):**
+  - As tarefas agendadas precisam chamar **sempre** `add_repo traderdaylle-videos/V-deos-` (push) + `register_repo_root`, mesmo que a pasta exista; sem isso o push dá 403.
+  - O GitHub recusa arquivos acima de 100 MB: o `make_gf_cine.py` agora limita o bitrate (mp4 ≤ ~85 MB) e o `render.sh` falha com erro claro se passar de 95 MB.
+  - Vídeo longo: roteiro de **900 a 1000 palavras** (745 palavras deram 216 s). Se ainda ficar curto, o motor alonga as pausas em vez de falhar.
+  - Ao refazer um spec que deu erro, salvar com novo nome (`-v2`), porque o `.erro.txt` antigo engana a espera.
+  - Disparo manual do workflow exige o input `spec` (renderizar a fila toda estoura o tempo).
