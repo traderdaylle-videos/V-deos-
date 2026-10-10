@@ -1,0 +1,138 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Isso aqui é o relatório de um único dia de uma automação operando sozinha, numa conta real."
+  ],
+  [
+   "intro",
+   "Quinhentos e cinco reais e cinquenta centavos líquidos, vinte e cinco operações e oitenta por cento de acerto."
+  ],
+  [
+   "intro",
+   "E ninguém precisou clicar em comprar ou vender."
+  ],
+  [
+   "meio",
+   "O nome dela é MagnetoV12."
+  ],
+  [
+   "meio",
+   "Ela lê o fluxo em tempo real e só entra quando a força do mercado confirma o movimento."
+  ],
+  [
+   "meio",
+   "Compra quando o fluxo é comprador. Vende quando o fluxo é vendedor. Sempre a favor da tendência."
+  ],
+  [
+   "meio",
+   "Sem medo, sem ganância e sem entrar atrasado."
+  ],
+  [
+   "meio",
+   "Na média, sete de cada dez operações do dia terminam no gain."
+  ],
+  [
+   "meio",
+   "Enquanto isso, você vive a sua vida longe da tela."
+  ],
+  [
+   "recap",
+   "A MagnetoV12 é uma automação da Prime Win para o Profit Pro."
+  ],
+  [
+   "recap",
+   "Como toda automação da Prime Win, ela foi testada em ambiente de conta real antes de chegar até você."
+  ],
+  [
+   "recap",
+   "E a instalação é feita pela nossa equipe, com você, por videochamada."
+  ],
+  [
+   "final_5pi",
+   "E se quiser operar com mais capital, a 5PI libera até cem mil reais para operar na Profit."
+  ],
+  [
+   "final_fim",
+   "Comenta MAGNETO aqui embaixo que a gente te manda o link no direct."
+  ],
+  [
+   "final_fim",
+   "Operar envolve risco, e resultado passado não garante resultado futuro."
+  ]
+ ],
+ "photos_intro": [
+  "card3.png"
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-ansiedade-47206.mp4",
+  "card5.png",
+  "mulher-graficos-ipad-45662.mp4",
+  "familia-caminhando-por-do-sol-6472.mp4"
+ ],
+ "photo_5pi": "maquina-contando-dinheiro-49134.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "clip_offset": {
+  "grafico-closeup-47016.mp4": 1,
+  "homem-ansiedade-47206.mp4": 1,
+  "mulher-graficos-ipad-45662.mp4": 1,
+  "familia-caminhando-por-do-sol-6472.mp4": 1,
+  "maquina-contando-dinheiro-49134.mp4": 1
+ },
+ "pronuncia": {
+  "MagnetoV12": "Maguinéto vê doze",
+  "MAGNETO": "Maguinéto",
+  "gain": "guêin"
+ },
+ "keywords_green": [
+  "MAGNETOV12",
+  "MAGNETO",
+  "PRIME WIN",
+  "PRIME",
+  "AUTOMAÇÃO",
+  "CONTA REAL",
+  "FLUXO",
+  "GAIN",
+  "5PI",
+  "PROFIT PRO"
+ ],
+ "keywords_orange": [
+  "MEDO",
+  "GANÂNCIA",
+  "ATRASADO",
+  "RISCO"
+ ],
+ "kw_color_green": "&HFFE03F&",
+ "kw_color_orange": "&H3FD2FF&",
+ "music_mood": "alegre",
+ "speed": 1.12,
+ "endcard": {
+  "animado": true,
+  "bg_clip": "praia-mulher-caminhando-1208.mp4",
+  "clip_offset": 1,
+  "marca1": "MAGNETO",
+  "marca2": "V12",
+  "tagline": "AUTOMAÇÃO PRIME WIN PARA PROFIT PRO",
+  "botao": "COMENTE MAGNETO",
+  "sub": "e receba o link no direct",
+  "comentario": "MAGNETO"
+ },
+ "output": "primewin-2026-10-10-noite.mp4",
+ "photo_zoom": 0.0005,
+ "motor": "video",
+ "pasta": "primewin",
+ "explainer_args": [
+  "--estilo",
+  "candles",
+  "--cenario",
+  "longo_alta",
+  "--dur",
+  "13",
+  "--seed",
+  "5",
+  "LEITURA DE FLUXO",
+  "A FAVOR DA FORÇA"
+ ]
+}
