@@ -311,5 +311,19 @@
   "metricool_id": 392206443,
   "horario": "2026-10-09 13:50",
   "obs": "recuperação do meio-dia; render exigiu re-push de 1 commit (checkout raso do workflow não vê diff de push com 2+ commits)"
+ },
+ {
+  "data": "2026-10-10",
+  "tema": "Candle Marubozu (corpo cheio, sem sombras)",
+  "arquivo": "media:tiktok/tiktok-2026-10-10-marubozu.mp4",
+  "metricool_id": 392754786,
+  "horario": "2026-10-10 12:00"
+ },
+ {
+  "data": "2026-10-10",
+  "tema": "Cunha descendente (falling wedge): rompimento pra cima",
+  "arquivo": "media:tiktok/tiktok-2026-10-10-cunha-descendente.mp4",
+  "metricool_id": 392754808,
+  "horario": "2026-10-10 18:00"
  }
 ]
