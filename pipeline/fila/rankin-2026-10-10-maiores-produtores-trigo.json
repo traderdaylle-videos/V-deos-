@@ -1,0 +1,101 @@
+{
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "titulo": "OS MAIORES DO TRIGO",
+ "subtitulo": "milhões de toneladas, em 2022",
+ "unidade": "",
+ "decimais": 0,
+ "fonte": "Fonte: FAO (ONU), produção de trigo 2022",
+ "intro": [
+  "Pão, macarrão, bolo e biscoito, tudo isso começa no trigo.",
+  "E apenas três países produzem quase metade do trigo que o mundo inteiro come, um número que surpreende.",
+  "O Brasil está nessa lista? Fica até o final pra descobrir quem ficou em primeiro."
+ ],
+ "itens": [
+  {
+   "pos": 10,
+   "nome": "Argentina",
+   "valor": 22,
+   "fala": "Em décimo lugar vem a Argentina, com vinte e dois milhões de toneladas. Mesmo assim, é um dos grandes exportadores da América do Sul.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "Alemanha",
+   "valor": 23,
+   "fala": "Em nono fica a Alemanha, com vinte e três milhões, a maior produtora da Europa depois da França.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Paquistão",
+   "valor": 26,
+   "fala": "Em oitavo está o Paquistão, com vinte e seis milhões. O trigo é a base da alimentação do país.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Canadá",
+   "valor": 34,
+   "fala": "Em sétimo vem o Canadá, com trinta e quatro milhões de toneladas. O clima frio exige variedades de trigo de primavera.",
+   "clip": "mn-bandeira-canada-18084.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "França",
+   "valor": 35,
+   "fala": "Em sexto aparece a França, com trinta e cinco milhões, a rainha do trigo na Europa.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Austrália",
+   "valor": 36,
+   "fala": "Em quinto fica a Austrália, com trinta e seis milhões, quase tudo voltado à exportação.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "EUA",
+   "valor": 45,
+   "fala": "Em quarto vem os Estados Unidos, com quarenta e cinco milhões. O país tem enormes planícies dedicadas só aos grãos.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Rússia",
+   "valor": 104,
+   "fala": "Em terceiro fica a Rússia, com cento e quatro milhões, mais que o dobro dos Estados Unidos.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Índia",
+   "valor": 108,
+   "fala": "Em segundo vem a Índia, com cento e oito milhões de toneladas, colada na Rússia. O país alimenta mais de um bilhão de pessoas.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "China",
+   "valor": 138,
+   "fala": "E em primeiro vem a China, com cento e trinta e oito milhões de toneladas. Quase um sexto de todo o trigo do planeta. Um gigante em área plantada e em população.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  }
+ ],
+ "outro": [
+  "Você imaginava a China na frente da Rússia e dos Estados Unidos?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-10-maiores-produtores-trigo.mp4",
+ "clips_intro": [
+  "mn-cafe-graos-caindo-4982.mp4",
+  "mn-cruzamento-rodovia-14845.mp4",
+  "mn-rodovia-aerea-28790.mp4"
+ ],
+ "clip_final": "mn-terra-girando-34314.mp4",
+ "bg_clip": "mn-bandeira-china-13312.mp4",
+ "motor": "ranking",
+ "pasta": "mundonumeral",
+ "versao": 2
+}

@@ -1,0 +1,101 @@
+{
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "titulo": "QUEM MAIS GASTA COM DEFESA",
+ "subtitulo": "bilhões de dólares, em 2024",
+ "unidade": "US$ ",
+ "decimais": 1,
+ "fonte": "Fonte: SIPRI, Fact Sheet de abril de 2025 (gasto militar 2024)",
+ "intro": [
+  "Em 2024, o mundo gastou mais com defesa do que em qualquer outro ano da história.",
+  "E um único país sozinho responde por mais de um terço de todo esse gasto, um número que assusta quem vê pela primeira vez.",
+  "Será que o Brasil aparece nessa lista? Fica até o final pra descobrir quem ficou em primeiro."
+ ],
+ "itens": [
+  {
+   "pos": 10,
+   "nome": "Japão",
+   "valor": 55.3,
+   "fala": "Em décimo lugar vem o Japão, com cinquenta e cinco bilhões de dólares. O país está elevando o orçamento de defesa a cada ano.",
+   "clip": "mn-bandeira-japao-42108.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "França",
+   "valor": 64.7,
+   "fala": "Em nono fica a França, com sessenta e quatro vírgula sete bilhões.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Ucrânia",
+   "valor": 64.7,
+   "fala": "Em oitavo vem a Ucrânia, também com sessenta e quatro vírgula sete, em plena guerra.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Arábia Saudita",
+   "valor": 80.3,
+   "fala": "Em sétimo está a Arábia Saudita, com oitenta bilhões, um dos maiores compradores de armas do planeta.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Reino Unido",
+   "valor": 81.8,
+   "fala": "Em sexto aparece o Reino Unido, com oitenta e um vírgula oito.",
+   "clip": "mn-bandeira-reino-unido-42115.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Índia",
+   "valor": 86.1,
+   "fala": "Em quinto vem a Índia, com oitenta e seis bilhões.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Alemanha",
+   "valor": 88.5,
+   "fala": "Em quarto fica a Alemanha, com oitenta e oito vírgula cinco, o maior gasto da Europa ocidental.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Rússia",
+   "valor": 149.0,
+   "fala": "Em terceiro vem a Rússia, com cento e quarenta e nove bilhões, bem acima da Alemanha.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "China",
+   "valor": 314.0,
+   "fala": "Em segundo fica a China, com trezentos e catorze bilhões, mais que o dobro da Rússia.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "EUA",
+   "valor": 997.0,
+   "fala": "E em primeiro vem os Estados Unidos, com novecentos e noventa e sete bilhões de dólares. Isso é mais que o triplo da China.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  }
+ ],
+ "outro": [
+  "Você imaginava essa diferença dos Estados Unidos pro resto do mundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-10-gastos-militares.mp4",
+ "clips_intro": [
+  "mn-aviao-decolando-28000.mp4",
+  "mn-cidade-noite-aerea-42342.mp4",
+  "mn-terra-girando-34314.mp4"
+ ],
+ "clip_final": "mn-terra-girando-34314.mp4",
+ "bg_clip": "mn-bandeira-eua-tremulando-46901.mp4",
+ "motor": "ranking",
+ "pasta": "mundonumeral",
+ "versao": 2
+}
