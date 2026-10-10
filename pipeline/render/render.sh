@@ -37,6 +37,8 @@ esac
 
 OUTFILE=$(python3 -c "import json;print(json.load(open('spec.json')).get('output','video.mp4'))")
 [ -s "$OUTFILE" ] || { echo "ERRO: vídeo não gerado: $OUTFILE" >&2; exit 1; }
+TAM=$(stat -c %s "$OUTFILE")
+[ "$TAM" -lt 95000000 ] || { echo "ERRO: $OUTFILE tem $((TAM/1000000)) MB; o GitHub recusa arquivos acima de 100 MB." >&2; exit 1; }
 cp "$OUTFILE" "$OUT/$NAME.mp4"
 for c in "${OUTFILE%.mp4}_capa.jpg" "capa.jpg"; do [ -s "$c" ] && cp "$c" "$OUT/$NAME-capa.jpg" && break; done || true
 echo "OK: $OUT/$NAME.mp4"

@@ -74,7 +74,14 @@ ls = float(V["length_scale"]); T, files = synth(ls)
 for _ in range(2):
     total = T[-1]["end"] + TAIL
     if TARGET[0] <= total <= TARGET[1]: break
-    ls = max(0.80, min(0.92, ls * (sum(TARGET) / 2) / total)); T, files = synth(ls)
+    ls = max(0.80, min(0.95, ls * (sum(TARGET) / 2) / total)); T, files = synth(ls)
+# (10/10) se ainda ficar curto, alonga as pausas entre frases (até +0,5 s cada) em vez de falhar
+falta = TARGET[0] + 1.0 - (T[-1]["end"] + TAIL)
+if falta > 0 and len(segs) > 1:
+    extra = min(0.5, falta / (len(segs) - 1))
+    segs = [(t, p + extra) for t, p in segs]; desl = 0.0
+    for i, x in enumerate(T):
+        x["start"] += desl; x["end"] += desl; x["pausa"] = segs[i][1]; desl += extra
 END = T[-1]["end"] + TAIL
 if not (TARGET[0] <= END <= TARGET[1]):
     sys.exit(f"ERRO: {END:.1f}s fora da faixa {TARGET} (length_scale {ls:.2f}). Ajuste o roteiro.")
@@ -189,8 +196,10 @@ for s in T:
         L.append(f"Dialogue: 1,{ts(t0)},{ts(t0 + d)},Cap,,0,0,0,,{{\\fad(80,60)}}{gold(c.upper())}"); t0 += d
 open("_legendas.ass", "w").write(head + "\n".join(L) + "\n")
 out = S.get("output", "video.mp4")
+# (10/10) o GitHub recusa arquivos acima de 100 MB: limita o bitrate para o mp4 ficar abaixo de ~85 MB
+MAXRATE = f"{int(min(7000, 85e6 * 8 / END / 1000 - 200))}k"
 run(["ffmpeg", "-y", "-i", "_video.mp4", "-i", "_mix.wav", "-vf", f"ass=_legendas.ass:fontsdir={FONTS}",
-     "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "22", "-maxrate", "7M", "-bufsize", "14M", "-preset", "medium", "-pix_fmt", "yuv420p",
+     "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-crf", "22", "-maxrate", MAXRATE, "-bufsize", MAXRATE, "-preset", "medium", "-pix_fmt", "yuv420p",
      "-c:a", "aac", "-b:a", "192k", "-shortest", "-movflags", "+faststart", out])
 # 5) CAPA (Reels/Short): quadro do vídeo + título grande na faixa central (aparece inteira no grid 3:4 do perfil)
 capa = os.path.splitext(out)[0] + "_capa.jpg"

@@ -6,6 +6,10 @@ on:
   push:
     paths: ["pipeline/fila/**.json", "pipeline/render/**", "pipeline/make_video.py", "pipeline/musica*.py", "pipeline/endcard_anim.py", "pipeline/granaefinancas/**", "pipeline/mundonumeral/**", "pipeline/primewin/**"]
   workflow_dispatch:
+    inputs:
+      spec:
+        description: "Caminho do spec a renderizar (ex.: pipeline/fila/gf-x.json)"
+        required: true
 permissions:
   contents: write
 concurrency:
@@ -33,9 +37,9 @@ jobs:
         run: |
           set -u
           if [ "${{ github.event_name }}" = "push" ] && [ "${{ github.event.before }}" != "0000000000000000000000000000000000000000" ]; then
-            ARQS=$(git diff --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- pipeline/fila | grep '\.json$' || true)
+            ARQS=$(git diff --no-renames --name-only --diff-filter=AM "${{ github.event.before }}" "${{ github.sha }}" -- pipeline/fila | grep '\.json$' || true)
           else
-            ARQS=$(git ls-files pipeline/fila | grep '\.json$' || true)
+            ARQS="${{ github.event.inputs.spec }}"   # disparo manual: só o spec indicado (renderizar a fila toda estoura o tempo)
           fi
           [ -z "$ARQS" ] && { echo "Nenhum spec novo."; exit 0; }
           mkdir -p /tmp/saida
@@ -69,4 +73,5 @@ jobs:
             git commit -qm "render $(date +%F-%H%M)"
             if git push -q origin HEAD:media; then echo "publicado"; cd - >/dev/null; break; fi
             echo "push recusado, tentando de novo"; cd - >/dev/null; sleep 5
+            [ "$TENT" = 3 ] && { echo "::error::push no branch media recusado 3 vezes"; exit 1; }
           done
