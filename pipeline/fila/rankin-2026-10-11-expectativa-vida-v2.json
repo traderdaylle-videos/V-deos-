@@ -15,70 +15,70 @@
    "pos": 10,
    "nome": "Suécia",
    "valor": 83.3,
-   "fala": "Em décimo lugar vem a Suécia, com oitenta e três vírgula três anos. Saúde pública forte e hábitos saudáveis ajudam muito.",
+   "fala": "Em décimo lugar vem a Suécia, com oitenta e três vírgula três anos.",
    "clip": "mn-voando-nuvens-11303.mp4"
   },
   {
    "pos": 9,
    "nome": "Luxemburgo",
    "valor": 83.4,
-   "fala": "Em nono vem Luxemburgo, com oitenta e três vírgula quatro. Um país pequeno e muito rico.",
+   "fala": "Em nono vem Luxemburgo, com oitenta e três vírgula quatro.",
    "clip": "mn-cidade-alemanha-neve-18744.mp4"
   },
   {
    "pos": 8,
    "nome": "Coreia do Sul",
    "valor": 83.4,
-   "fala": "Em oitavo fica a Coreia do Sul, também com oitenta e três vírgula quatro. Em poucas décadas, o país deu um salto enorme na saúde.",
+   "fala": "Em oitavo fica a Coreia do Sul, também com oitenta e três vírgula quatro.",
    "clip": "mn-seul-noite-transito-20089.mp4"
   },
   {
    "pos": 7,
    "nome": "Malta",
    "valor": 83.5,
-   "fala": "Em sétimo aparece Malta, com oitenta e três vírgula cinco, uma ilha no meio do Mediterrâneo.",
+   "fala": "Em sétimo aparece Malta, com oitenta e três vírgula cinco, uma ilha no Mediterrâneo.",
    "clip": "mn-rodovia-aerea-28790.mp4"
   },
   {
    "pos": 6,
    "nome": "Itália",
    "valor": 83.7,
-   "fala": "Em sexto vem a Itália, com oitenta e três vírgula sete. A dieta mediterrânea ganha fama por isso.",
+   "fala": "Em sexto vem a Itália, com oitenta e três vírgula sete. A dieta mediterrânea ajuda.",
    "clip": "mn-bandeira-italia-18897.mp4"
   },
   {
    "pos": 5,
    "nome": "Espanha",
    "valor": 83.9,
-   "fala": "Em quinto fica a Espanha, com oitenta e três vírgula nove, quase empatada com a vizinha Itália.",
+   "fala": "Em quinto fica a Espanha, com oitenta e três vírgula nove.",
    "clip": "mn-bandeira-espanha-42101.mp4"
   },
   {
    "pos": 4,
    "nome": "Japão",
    "valor": 84.0,
-   "fala": "Em quarto vem o Japão, com oitenta e quatro anos redondos. É famoso pela longevidade, e olha que nem é o primeiro.",
+   "fala": "Em quarto vem o Japão, com oitenta e quatro anos redondos. Famoso pela longevidade, e nem é o primeiro.",
    "clip": "mn-bandeira-japao-42108.mp4"
   },
   {
    "pos": 3,
    "nome": "Suíça",
    "valor": 84.1,
-   "fala": "Em terceiro está a Suíça, com oitenta e quatro vírgula um. Além de caro, o país tem um dos melhores sistemas de saúde.",
+   "fala": "Em terceiro está a Suíça, com oitenta e quatro vírgula um.",
    "clip": "mn-bandeira-suica-18128.mp4"
   },
   {
    "pos": 2,
    "nome": "Polinésia Francesa",
    "valor": 84.1,
-   "fala": "Em segundo fica a Polinésia Francesa, com os mesmos oitenta e quatro vírgula um, no meio do Pacífico.",
+   "fala": "Em segundo fica a Polinésia Francesa, com os mesmos oitenta e quatro vírgula um.",
    "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
   },
   {
    "pos": 1,
    "nome": "Hong Kong",
    "valor": 85.2,
-   "fala": "E em primeiro lugar vem Hong Kong, com oitenta e cinco vírgula dois anos. Mais de um ano à frente de todo mundo.",
+   "fala": "E em primeiro lugar vem Hong Kong, com oitenta e cinco vírgula dois anos!",
    "clip": "mn-cidade-noite-aerea-42342.mp4"
   }
  ],
@@ -86,7 +86,7 @@
   "Você esperava Hong Kong em primeiro? E o Brasil, bem longe do top dez.",
   "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
  ],
- "output": "rankin-2026-10-11-expectativa-vida.mp4",
+ "output": "rankin-2026-10-11-expectativa-vida-v2.mp4",
  "music_mood": "alegre",
  "clips_intro": [
   "mn-atletas-pista-32813.mp4",
