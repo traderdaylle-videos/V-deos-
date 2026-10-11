@@ -134,5 +134,28 @@
   "publicado": false,
   "duracao_s": 68.7,
   "obs": "1º render falhou (77 s); roteiro reduzido. Abertura usa clipe de grãos de café (só havia esse)"
+ },
+ {
+  "data": "2026-10-11",
+  "turno": "manha",
+  "horario": "10:00",
+  "tema": "Maiores produtores de soja do mundo (safra 2023/24)",
+  "fonte": "USDA FAS, safra 2023/24",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-11-produtores-soja.mp4",
+  "metricool_id": 393178127,
+  "publicado": false,
+  "duracao_s": 70.5
+ },
+ {
+  "data": "2026-10-11",
+  "turno": "almoco",
+  "horario": "12:00",
+  "tema": "Países com maior expectativa de vida (2023)",
+  "fonte": "Banco Mundial, 2023",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-11-expectativa-vida-v2.mp4",
+  "metricool_id": 393178146,
+  "publicado": false,
+  "duracao_s": 63.6,
+  "obs": "1º render deu 76,5 s; roteiro reduzido (v2)"
  }
 ]
