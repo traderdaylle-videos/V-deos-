@@ -765,5 +765,35 @@
   "metricool_uuid": "-1364744551551449117",
   "agendado_para": "2026-10-11T08:34:00-03:00",
   "nota": "push com 2 commits não disparou o render; disparo manual com input spec funcionou"
+ },
+ {
+  "data": "2026-10-11",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card4, R$ 582,00, 40 ops, 65%), sem hesitar, leitura de fluxo",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "FLUXO CONFIRMADO",
+   "SEM HESITAR"
+  ],
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "numeros-oculos-47792",
+   "homem-estressado-49225",
+   "familia-caminhando-por-do-sol-6472",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [
+   "card4",
+   "card2"
+  ],
+  "duracao_s": 65.9,
+  "arquivo": "media:primewin/primewin-2026-10-11-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 393582069,
+  "metricool_uuid": "749796222193585448",
+  "agendado_para": "2026-10-11T20:22:00-03:00"
  }
 ]
