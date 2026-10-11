@@ -1,0 +1,79 @@
+{
+ "titulo": "MAIORES PRODUTORES DE SOJA",
+ "subtitulo": "milhões de toneladas, safra 2023/24",
+ "unidade": "",
+ "decimais": 0,
+ "destaque": "Brasil",
+ "fonte": "Fonte: USDA, Serviço Agrícola Exterior (FAS), safra 2023/24",
+ "intro": [
+  "A soja virou a base da ração de frango, porco e boi no mundo inteiro, e movimenta bilhões de dólares todo ano.",
+  "Mas só um punhado de países produz quase tudo que o planeta consome. São sete gigantes, segundo o Departamento de Agricultura dos Estados Unidos.",
+  "E o Brasil, que posição ocupa? Fica até o final pra descobrir quem lidera."
+ ],
+ "itens": [
+  {
+   "pos": 7,
+   "nome": "Canadá",
+   "valor": 7,
+   "fala": "Em sétimo lugar vem o Canadá, com sete milhões de toneladas. Plantar soja no frio exige variedades especiais e muita tecnologia.",
+   "clip": "mn-bandeira-canada-18084.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Paraguai",
+   "valor": 11,
+   "fala": "Em sexto fica o Paraguai, com onze milhões de toneladas. Um país pequeno que exporta soja pelo mundo todo.",
+   "clip": "mn-cruzamento-rodovia-14845.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Índia",
+   "valor": 12,
+   "fala": "Em quinto vem a Índia, com doze milhões. Apesar do tamanho, a produção indiana ainda é bem pequena perto dos líderes.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "China",
+   "valor": 21,
+   "fala": "Em quarto está a China, com vinte e um milhões de toneladas. Mesmo assim, ela precisa importar muito mais do que planta.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Argentina",
+   "valor": 48,
+   "fala": "Em terceiro fica a Argentina, com quarenta e oito milhões. Uma das maiores exportadoras de farelo de soja do planeta.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "EUA",
+   "valor": 113,
+   "fala": "Em segundo vêm os Estados Unidos, com cento e treze milhões de toneladas. Já foram o número um por décadas.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Brasil",
+   "valor": 155,
+   "fala": "E em primeiro lugar vem o Brasil, com cento e cinquenta e cinco milhões de toneladas! Quase tanto quanto o segundo e o terceiro colocados somados.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  }
+ ],
+ "outro": [
+  "Você sabia que o Brasil é o maior produtor de soja do mundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-11-produtores-soja.mp4",
+ "music_mood": "alegre",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-rodovia-aerea-28790.mp4",
+  "mn-cruzamento-rodovia-14845.mp4"
+ ],
+ "clip_final": "mn-bandeira-brasil-42080.mp4",
+ "bg_clip": "mn-bandeira-brasil-42080.mp4",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
