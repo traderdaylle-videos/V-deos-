@@ -1,0 +1,85 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Você sabe enxergar uma queda organizada no gráfico?"
+  ],
+  [
+   "intro",
+   "Basta ligar os topos, cada vez mais baixos, com uma linha reta."
+  ],
+  [
+   "intro",
+   "Essa é a linha de tendência de baixa, conhecida como LTB."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o preço tenta subir, esbarra na linha e volta a cair."
+  ],
+  [
+   "meio",
+   "Cada toque mostra que os vendedores ainda mandam naquela região."
+  ],
+  [
+   "meio",
+   "Por isso, muitos analistas técnicos observam essa linha como uma possível zona de resistência."
+  ],
+  [
+   "meio",
+   "Mas atenção: se o preço rompe a linha com força, a queda perde o fôlego, e sinais falsos existem."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você usa linhas de tendência no seu gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: a LTB liga topos descendentes e mostra quem controla o movimento."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "lucro-bolsa-47012.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "tendencia-tela-9607.mp4",
+  "investidor-tablet-escritorio-45706.mp4",
+  "numeros-oculos-47792.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_ltb.py",
+ "output": "tiktok-2026-10-11-linha-tendencia-baixa.mp4",
+ "keywords_green": [
+  "ALTA",
+  "COMPRA",
+  "5PI",
+  "FORÇA"
+ ],
+ "keywords_orange": [
+  "BAIXA",
+  "VENDA",
+  "QUEDA",
+  "RISCO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

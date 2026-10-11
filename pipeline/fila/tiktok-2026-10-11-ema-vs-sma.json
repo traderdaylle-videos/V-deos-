@@ -1,0 +1,85 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Média móvel simples ou exponencial: qual a diferença?"
+  ],
+  [
+   "intro",
+   "Ambas suavizam o preço, mas a EMA dá mais peso aos candles recentes."
+  ],
+  [
+   "intro",
+   "Por isso, ela reage mais rápido a uma mudança de direção."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o preço dispara, a EMA verde acompanha primeiro e a SMA azul vem atrás."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos usam a EMA no curto prazo e a SMA no cenário maior."
+  ],
+  [
+   "meio",
+   "Só que rápida demais também significa mais sinais falsos em mercado lateral, e existe risco."
+  ],
+  [
+   "meio",
+   "Nenhuma das duas prevê o futuro."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: qual você prefere usar, EMA ou SMA?"
+  ],
+  [
+   "recap",
+   "Recapitulando: a EMA reage mais rápido, a SMA é mais calma, e nenhuma é garantia."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "investidor-tablet-45708.mp4",
+  "grafico-closeup-47016.mp4",
+  "empresario-grafico-sucesso-26518.mp4",
+  "homem-analisando-graficos-17415.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_ema_sma.py",
+ "output": "tiktok-2026-10-11-ema-vs-sma.mp4",
+ "keywords_green": [
+  "EMA",
+  "RÁPIDA",
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "SMA",
+  "RISCO",
+  "BAIXA",
+  "LENTA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
