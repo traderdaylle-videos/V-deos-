@@ -732,5 +732,38 @@
   "metricool_id": 393003376,
   "metricool_uuid": "1549220037570674826",
   "agendado_para": "2026-10-10T20:26:00-03:00"
+ },
+ {
+  "data": "2026-10-11",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: começar na bolsa sem ser especialista, sem medo; automação segue entrada, saída e stop; tempo para o que importa",
+  "grafico": "linha / ondas",
+  "titulos": [
+   "COMEÇAR SEM MEDO",
+   "COM MÉTODO"
+  ],
+  "clipes": [
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "homem-cafe-88009 (intro)",
+   "mulher-graficos-ipad-45662",
+   "homem-estressado-49225",
+   "numeros-oculos-47792",
+   "tendencia-tela-9607",
+   "grafico-closeup-47016",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 70.1,
+  "arquivo": "media:primewin/primewin-2026-10-11-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 393224319,
+  "metricool_uuid": "-1364744551551449117",
+  "agendado_para": "2026-10-11T08:34:00-03:00",
+  "nota": "push com 2 commits não disparou o render; disparo manual com input spec funcionou"
  }
 ]
