@@ -1,0 +1,5 @@
+TikTok 10:40 de 12/10/2026
+1) Triângulo descendente — 62,4 s — Metricool 394040955 — 12:30
+2) Candle enforcado — 62,4 s — Metricool 394041017 — 18:05
+Render: workflow verde (~9 min; a espera de 9 min do prompt estourou por pouco, conferido via actions_list e novo fetch do branch media).
+Quadros conferidos: 5 por vídeo, ok. Falhas: nenhuma.
