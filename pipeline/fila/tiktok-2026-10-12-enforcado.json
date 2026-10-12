@@ -1,0 +1,84 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Candle enforcado: um alerta de possível cansaço da alta."
+  ],
+  [
+   "intro",
+   "Ele aparece depois de uma subida, com corpo pequeno no topo e uma sombra inferior bem longa."
+  ],
+  [
+   "intro",
+   "Parece um martelo, mas o contexto é outro."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: depois de vários candles de alta, surge o enforcado."
+  ],
+  [
+   "meio",
+   "Durante o pregão os vendedores empurraram o preço pra baixo, e os compradores só conseguiram recuperar no fechamento."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos esperam o candle seguinte confirmar, fechando abaixo do corpo do enforcado."
+  ],
+  [
+   "meio",
+   "Sem confirmação, vira só um candle, e existe risco de sinal falso."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você espera a confirmação ou entra antes?"
+  ],
+  [
+   "recap",
+   "Recapitulando: sombra longa embaixo, no topo de uma alta, pede cautela e confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "empresario-grafico-sucesso-26518.mp4",
+  "grafico-closeup-47016.mp4",
+  "homem-analisando-graficos-17415.mp4",
+  "investidor-tablet-escritorio-45706.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_enforcado.py",
+ "output": "tiktok-2026-10-12-enforcado.mp4",
+ "keywords_green": [
+  "ALTA",
+  "5PI",
+  "CONFIRMA"
+ ],
+ "keywords_orange": [
+  "ENFORCADO",
+  "RISCO",
+  "BAIXA",
+  "SOMBRA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
