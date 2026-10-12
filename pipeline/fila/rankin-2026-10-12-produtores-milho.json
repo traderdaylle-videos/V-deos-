@@ -1,0 +1,72 @@
+{
+ "titulo": "MAIORES PRODUTORES DE MILHO",
+ "subtitulo": "milhões de toneladas, safra 2023/24",
+ "decimais": 0,
+ "fonte": "Fonte: USDA, safra 2023/24 (projeções de janeiro/2024)",
+ "intro": [
+  "O milho está no pão de queijo, na ração do frango, no etanol e em centenas de produtos que você usa todo dia.",
+  "Mas só alguns países plantam quase todo o milho do planeta, segundo o Departamento de Agricultura dos Estados Unidos.",
+  "E o Brasil, que posição ocupa? Fica até o final pra descobrir quem lidera."
+ ],
+ "itens": [
+  {
+   "pos": 6,
+   "nome": "Ucrânia",
+   "valor": 30,
+   "fala": "Em sexto lugar vem a Ucrânia, com trinta milhões de toneladas. Mesmo com a guerra, ela segue entre os grandes.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Argentina",
+   "valor": 55,
+   "fala": "Em quinto fica a Argentina, com cinquenta e cinco milhões. Grande parte desse milho vai para exportação.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "União Europeia",
+   "valor": 60,
+   "fala": "Em quarto vem a União Europeia, com sessenta milhões de toneladas, somando todos os países do bloco.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Brasil",
+   "valor": 129,
+   "fala": "Em terceiro lugar está o Brasil, com cento e vinte e nove milhões de toneladas! Mais que o dobro da União Europeia.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "China",
+   "valor": 289,
+   "fala": "Em segundo vem a China, com duzentos e oitenta e nove milhões. Um país gigante que consome quase tudo o que planta.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "EUA",
+   "valor": 390,
+   "fala": "E em primeiro lugar vêm os Estados Unidos, com trezentos e noventa milhões de toneladas! Sozinhos, passam de trinta por cento da produção do mundo.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  }
+ ],
+ "outro": [
+  "Você imaginava o Brasil no pódio do milho?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-12-produtores-milho.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-rodovia-aerea-28790.mp4",
+  "mn-cruzamento-rodovia-14845.mp4"
+ ],
+ "clip_final": "mn-bandeira-eua-tremulando-46901.mp4",
+ "bg_clip": "mn-bandeira-eua-closeup-8764.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}

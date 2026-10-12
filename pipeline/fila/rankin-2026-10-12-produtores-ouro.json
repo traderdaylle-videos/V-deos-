@@ -1,0 +1,79 @@
+{
+ "titulo": "MAIORES PRODUTORES DE OURO",
+ "subtitulo": "toneladas extraídas das minas em 2024",
+ "decimais": 0,
+ "fonte": "Fonte: USGS, Mineral Commodity Summaries 2026 (produção de minas 2024)",
+ "intro": [
+  "O ouro guarda valor há milhares de anos, e os bancos centrais do mundo inteiro compram toneladas dele.",
+  "Mas de onde vem tanto metal? Segundo o Serviço Geológico dos Estados Unidos, sete países lideram a extração.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 7,
+   "nome": "México",
+   "valor": 140,
+   "fala": "Em sétimo lugar vem o México, com cento e quarenta toneladas por ano.",
+   "clip": "mn-bandeira-mexico-42113.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Gana",
+   "valor": 149,
+   "fala": "Em sexto fica Gana, na África, com cento e quarenta e nove toneladas. O ouro é um dos principais produtos de exportação do país.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "EUA",
+   "valor": 163,
+   "fala": "Em quinto estão os Estados Unidos, com cento e sessenta e três toneladas.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Canadá",
+   "valor": 200,
+   "fala": "Em quarto vem o Canadá, com duzentas toneladas. Minas profundas, em regiões geladas.",
+   "clip": "mn-bandeira-canada-18084.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Austrália",
+   "valor": 284,
+   "fala": "Em terceiro fica a Austrália, com duzentas e oitenta e quatro toneladas, quase todas vindas de minas gigantes no deserto.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Rússia",
+   "valor": 310,
+   "fala": "Em segundo vem a Rússia, com trezentas e dez toneladas, segundo estimativa do USGS.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "China",
+   "valor": 377,
+   "fala": "E em primeiro lugar vem a China, com trezentas e setenta e sete toneladas! O Brasil produz oitenta e duas, e fica fora desse top sete.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava a China na frente de todo mundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-12-produtores-ouro.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-janela-aviao-por-do-sol-4204.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-bandeira-china-13312.mp4",
+ "bg_clip": "mn-bandeira-china-13312.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
