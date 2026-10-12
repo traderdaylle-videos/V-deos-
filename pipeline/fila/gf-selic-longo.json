@@ -125,6 +125,42 @@
    0.5
   ],
   [
+   "Vamos a um exemplo prático. Uma dívida de mil reais com juro de dez por cento ao mês vira mil e cem no primeiro mês.",
+   0.5
+  ],
+  [
+   "No mês seguinte, a mesma dívida vira mil duzentos e dez reais, porque o juro incide sobre o valor já acrescido.",
+   0.5
+  ],
+  [
+   "É por isso que a dívida cara cresce tão rápido. O juro se acumula, e a conta pesa cada vez mais no seu orçamento.",
+   0.5
+  ],
+  [
+   "Agora, uma distinção importante. A renda fixa, como o Tesouro Selic e os CDBs, costuma acompanhar a taxa básica.",
+   0.5
+  ],
+  [
+   "Quando a Selic cai, o rendimento desses investimentos tende a cair também. Por isso a queda de juros não é só boa notícia.",
+   0.5
+  ],
+  [
+   "Quem tem dinheiro aplicado vê o retorno diminuir, e quem tem dívida vê o custo diminuir devagar.",
+   0.5
+  ],
+  [
+   "O ponto é este: a Selic afeta todo mundo, mas o efeito depende do lado em que você está.",
+   0.5
+  ],
+  [
+   "Se você tem dívida cara, o ganho de quitá-la costuma ser maior do que o rendimento de qualquer aplicação.",
+   0.5
+  ],
+  [
+   "Por isso, antes de investir, vale olhar as dívidas. Pagar o juro alto é a aplicação mais segura que existe.",
+   0.5
+  ],
+  [
    "Nos próximos vídeos, a gente continua explicando a notícia do dia, do jeito que ela afeta o seu bolso.",
    0.5
   ]
@@ -299,6 +335,51 @@
    "seg": 31,
    "src": "corredor-colunas-estatuas-32893.mp4",
    "offset": 1
+  },
+  {
+   "seg": 32,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 33,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 34,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 35,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 36,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 37,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 38,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 39,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 40,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
   }
  ],
  "overlays": [
@@ -342,8 +423,8 @@
    ]
   },
   {
-   "seg": 31,
-   "ate": 31,
+   "seg": 40,
+   "ate": 40,
    "linhas": [
     {
      "t": "Inscreva-se na\nGrana e Finanças",
