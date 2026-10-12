@@ -795,5 +795,37 @@
   "metricool_id": 393582069,
   "metricool_uuid": "749796222193585448",
   "agendado_para": "2026-10-11T20:22:00-03:00"
+ },
+ {
+  "data": "2026-10-12",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: dinheiro trabalhando enquanto você viaja e vive; sem viver na frente da tela; automação segue método, sem emocional",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "casal-mapa-carro-2718 (intro)",
+   "cafe-manha-musica-43391 (intro)",
+   "pai-brincando-filho-7681 (intro)",
+   "jovem-trabalhando-computador-44072",
+   "cansado-computador-14763",
+   "numeros-oculos-47792",
+   "homem-ansiedade-47206",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "bg_clip": "praia-mulher-caminhando-1208",
+  "cartoes": [],
+  "duracao_s": 67.3,
+  "arquivo": "media:primewin/primewin-2026-10-12-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 393925032,
+  "metricool_uuid": "1099247329628997625",
+  "agendado_para": "2026-10-12T08:28:00-03:00"
  }
 ]
