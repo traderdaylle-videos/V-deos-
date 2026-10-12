@@ -1,0 +1,378 @@
+{
+ "segs": [
+  [
+   "A Selic caiu para treze vírgula setenta e cinco por cento. E o seu cartão continua cobrando caro.",
+   0.5
+  ],
+  [
+   "Hoje você vai entender por que a taxa básica de juros cai, mas o crédito do seu dia a dia quase não acompanha.",
+   0.5
+  ],
+  [
+   "Vamos em três partes: o que é a Selic, por que o crédito não acompanha, e o que você faz com isso no seu bolso.",
+   0.5
+  ],
+  [
+   "Primeiro, o que é a Selic. Ela é a taxa básica de juros da economia, definida pelo Banco Central.",
+   0.5
+  ],
+  [
+   "Ela funciona como um termômetro. Quando sobe, o dinheiro fica mais caro em todo o país. Quando cai, fica mais barato.",
+   0.5
+  ],
+  [
+   "Em setembro, o Banco Central cortou a taxa de quatorze para treze vírgula setenta e cinco por cento.",
+   0.5
+  ],
+  [
+   "Esse corte foi uma tentativa de estimular a economia, porque juros mais baixos incentivam o consumo e o investimento.",
+   0.5
+  ],
+  [
+   "Mas o efeito não chega de uma vez. A taxa básica é o ponto de partida, e não o preço final que você paga.",
+   0.5
+  ],
+  [
+   "Agora, a parte que pesa no seu bolso. Quando você pega um empréstimo, o banco não cobra só a Selic.",
+   0.5
+  ],
+  [
+   "Ele soma o custo de captar o dinheiro, a inadimplência esperada, o custo operacional e a margem de lucro.",
+   0.5
+  ],
+  [
+   "Quanto maior o risco que o banco enxerga em você, maior o juro. Por isso dois clientes pagam taxas diferentes.",
+   0.5
+  ],
+  [
+   "Vamos aos produtos. O cheque especial é o empréstimo mais caro do sistema, e costuma ter juros muito altos.",
+   0.5
+  ],
+  [
+   "O cartão de crédito rotativo também. Quando você paga só o mínimo, a dívida cresce quase sem parar.",
+   0.5
+  ],
+  [
+   "O financiamento de carro e de imóvel é mais barato, mas ainda pesa, porque o prazo é longo e o juro se acumula.",
+   0.5
+  ],
+  [
+   "Por isso a queda da Selic chega devagar. O banco primeiro observa o risco, depois reduz a taxa para o cliente.",
+   0.5
+  ],
+  [
+   "Agora, o que o mercado espera. O Boletim Focus projeta a Selic em treze vírgula cinquenta no fim deste ano.",
+   0.5
+  ],
+  [
+   "Isso indica que a queda deve continuar, mas em ritmo lento. Projeção não é garantia, e os números mudam toda semana.",
+   0.5
+  ],
+  [
+   "Para o seu bolso, a mensagem é clara. Não espere a taxa cair para resolver a sua dívida.",
+   0.5
+  ],
+  [
+   "Quando a taxa básica cai, o crédito pode ficar um pouco mais barato. Mas se você já tem dívida cara, o efeito é pequeno.",
+   0.5
+  ],
+  [
+   "Por isso, a prioridade é outra. Quitar a dívida com juro mais alto costuma ser o investimento mais seguro que existe.",
+   0.5
+  ],
+  [
+   "Pense assim: pagar uma dívida de cartão com juro alto é como ganhar um rendimento garantido, sem risco de mercado.",
+   0.5
+  ],
+  [
+   "Agora, a ferramenta prática de hoje. Faça uma lista com todas as suas dívidas, o valor de cada uma e o juro mensal.",
+   0.5
+  ],
+  [
+   "Ordene a lista do juro mais alto para o mais baixo. Essa ordem mostra exatamente onde o seu dinheiro está sendo perdido.",
+   0.5
+  ],
+  [
+   "Depois, veja o que sobra no mês. Separe um valor fixo para atacar a dívida mais cara, sem deixar de pagar as outras.",
+   0.5
+  ],
+  [
+   "E não esqueça da reserva de emergência. Sem ela, qualquer imprevisto vira nova dívida, e o ciclo recomeça.",
+   0.5
+  ],
+  [
+   "A reserva deve cobrir de três a seis meses das despesas fixas, em aplicação com liquidez, como renda fixa de baixo risco.",
+   0.5
+  ],
+  [
+   "Você não controla a decisão do Banco Central. Mas controla quanto paga de juros, e isso muda o seu mês inteiro.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava que nem tudo depende de nós. A Selic não depende de você. Mas o tamanho da sua dívida depende.",
+   0.5
+  ],
+  [
+   "Então, a lição de hoje é simples: entender a taxa, entender o risco que o banco enxerga, e atacar primeiro o juro mais alto.",
+   0.5
+  ],
+  [
+   "Pergunta para você: qual dívida está custando mais caro no seu mês? Me conta nos comentários.",
+   0.5
+  ],
+  [
+   "Se esse conteúdo te ajudou, inscreva-se no canal Grana e Finanças. E manda pra alguém que precisa ouvir isso.",
+   0.5
+  ],
+  [
+   "Nos próximos vídeos, a gente continua explicando a notícia do dia, do jeito que ela afeta o seu bolso.",
+   0.5
+  ]
+ ],
+ "voice": {
+  "length_scale": 1.0,
+  "noise_scale": 0.72,
+  "noise_w": 0.9,
+  "pitch_semitons": -1.5
+ },
+ "target": [
+  240,
+  330
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 12,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 13,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 14,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 15,
+   "src": "homem-estressado-49225.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 16,
+   "src": "cafe-manha-musica-43391.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 17,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 18,
+   "src": "homem-jogando-dinheiro-49133.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 19,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 20,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 21,
+   "src": "fonte-roma-11045.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 22,
+   "src": "dama-justica-12315.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 23,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 24,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 25,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 26,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 27,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 28,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 29,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 30,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 31,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "13,75%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Selic hoje",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 10,
+   "ate": 10,
+   "linhas": [
+    {
+     "t": "O juro do banco\nnão é só a Selic",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 21,
+   "ate": 21,
+   "linhas": [
+    {
+     "t": "Quite primeiro\no juro mais alto",
+     "estilo": "Sub",
+     "y": 780
+    }
+   ]
+  },
+  {
+   "seg": 31,
+   "ate": 31,
+   "linhas": [
+    {
+     "t": "Inscreva-se na\nGrana e Finanças",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  10,
+  21
+ ],
+ "keywords_gold": [
+  "TREZE VÍRGULA SETENTA E CINCO",
+  "JURO",
+  "DÍVIDA",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-selic-longo.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "formato": "16:9"
+}

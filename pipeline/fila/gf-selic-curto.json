@@ -1,0 +1,208 @@
+{
+ "segs": [
+  [
+   "A Selic caiu para treze vírgula setenta e cinco por cento. E o seu cartão continua cobrando caro.",
+   0.5
+  ],
+  [
+   "A Selic é a taxa básica de juros. Ela é o ponto de partida de quase todo crédito no país.",
+   0.5
+  ],
+  [
+   "Em setembro, o Banco Central cortou a taxa de quatorze para treze vírgula setenta e cinco por cento.",
+   0.5
+  ],
+  [
+   "Mesmo assim, o juro do cheque especial, do cartão rotativo e do financiamento continua muito alto.",
+   0.5
+  ],
+  [
+   "Por quê? Porque o banco olha o risco de quem pega o dinheiro, não só a taxa básica.",
+   0.5
+  ],
+  [
+   "Quanto maior o risco que ele enxerga, maior o juro que ele cobra de você.",
+   0.5
+  ],
+  [
+   "E o mercado ainda projeta a Selic em treze vírgula cinquenta no fim deste ano.",
+   0.5
+  ],
+  [
+   "Ou seja, a queda é lenta. E o crédito demora a acompanhar.",
+   0.5
+  ],
+  [
+   "Hoje, a ferramenta prática é simples. Liste todas as suas dívidas, com o juro de cada uma.",
+   0.5
+  ],
+  [
+   "Comece pela que cobra o juro mais alto. Quitar essa dívida é como ganhar um rendimento garantido.",
+   0.5
+  ],
+  [
+   "Você sabe qual dívida está custando mais caro no seu mês?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "voice": {
+  "length_scale": 1.0,
+  "noise_scale": 0.72,
+  "noise_w": 0.9,
+  "pitch_semitons": -1.5
+ },
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "13,75%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Selic hoje",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Caiu de 14% para 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Quanto maior o risco,\nmaior o juro",
+     "estilo": "Sub",
+     "y": 780
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Qual dívida\ncusta mais?",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  2,
+  5,
+  11
+ ],
+ "keywords_gold": [
+  "TREZE VÍRGULA SETENTA E CINCO",
+  "CARTÃO",
+  "DÍVIDA",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-selic-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
