@@ -161,6 +161,30 @@
    0.5
   ],
   [
+   "Quem decide a Selic é o Copom, o comitê de política monetária do Banco Central. Ele se reúne em datas marcadas ao longo do ano.",
+   0.5
+  ],
+  [
+   "Nessas reuniões, o comitê avalia a inflação, a atividade econômica e as expectativas do mercado antes de mexer na taxa.",
+   0.5
+  ],
+  [
+   "Por isso a decisão de um corte nunca é automática. Ela depende de quanto a inflação está sob controle e do cenário fiscal.",
+   0.5
+  ],
+  [
+   "Para acompanhar, vale olhar três coisas: a decisão do Copom, o comunicado que a acompanha e o Boletim Focus, que reúne as projeções do mercado.",
+   0.5
+  ],
+  [
+   "O Focus é publicado toda semana, e mostra onde o mercado acha que a Selic vai parar. Ele não decide nada, mas orienta as expectativas.",
+   0.5
+  ],
+  [
+   "Agora, uma pergunta que vale fazer ao seu banco: qual é a taxa do empréstimo, e quanto do juro é o custo do dinheiro e quanto é o risco?",
+   0.5
+  ],
+  [
    "Nos próximos vídeos, a gente continua explicando a notícia do dia, do jeito que ela afeta o seu bolso.",
    0.5
   ]
@@ -380,6 +404,36 @@
    "seg": 40,
    "src": "homem-pensativo-duvida-47495.mp4",
    "offset": 1
+  },
+  {
+   "seg": 41,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 42,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 43,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 44,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 45,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 46,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
   }
  ],
  "overlays": [
@@ -423,8 +477,8 @@
    ]
   },
   {
-   "seg": 40,
-   "ate": 40,
+   "seg": 46,
+   "ate": 46,
    "linhas": [
     {
      "t": "Inscreva-se na\nGrana e Finanças",
