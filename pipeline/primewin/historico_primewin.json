@@ -827,5 +827,35 @@
   "metricool_id": 393925032,
   "metricool_uuid": "1099247329628997625",
   "agendado_para": "2026-10-12T08:28:00-03:00"
+ },
+ {
+  "data": "2026-10-12",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card5), automação lê fluxo, sem emocional",
+  "grafico": "candles / ondas",
+  "titulos": [
+   "ENTRADAS AUTOMÁTICAS",
+   "SEM HESITAR"
+  ],
+  "clipes": [
+   "mulher-graficos-ipad-45662",
+   "homem-ansiedade-47206",
+   "cansado-computador-14763",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "bg_clip": "praia-mulher-caminhando-1208",
+  "cartoes": [
+   "card5",
+   "card1"
+  ],
+  "duracao_s": 67.6,
+  "arquivo": "media:primewin/primewin-2026-10-12-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 394464122,
+  "metricool_uuid": "294885953462224096",
+  "agendado_para": "2026-10-12T20:23:00-03:00"
  }
 ]
