@@ -1,0 +1,15 @@
+Grana e Finanças - 11/10/2026 (Selic)
+
+Tema: Selic cai para 13,75%, mas o crédito e o cartão seguem caros.
+Fontes: Copom 16/09/2026; Boletim Focus 05/10/2026.
+
+Render (GitHub, motor gf, fora do Claude):
+- gf-selic-curto.mp4: 53,5 s, 23 MB. Capa: gf-selic-curto-capa-v2.jpg (com título; a capa v1 saiu sem título porque o spec não tinha a chave "capa").
+- gf-selic-longo.mp4: 241,0 s, 82 MB (abaixo de 100 MB). Capa: gf-selic-longo-capa.jpg, sem título (o spec não tinha a chave "capa").
+
+Agendamentos no Metricool (marca 7082205):
+- Reels Instagram 22:40, id 393636646 (capa com título).
+- Short YouTube 22:40, id 393636666.
+- Longo YouTube 22:45, id 393636714.
+
+Pendências: a tarefa de produção/agendamento não conseguia dar push no repositório (403). Foi substituída por "PRODUÇÃO e AGENDAMENTO (08:54)"; as tarefas antigas (08:54 e 11:30) foram desligadas.
