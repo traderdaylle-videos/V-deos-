@@ -1,0 +1,194 @@
+{
+ "segs": [
+  [
+   "O desemprego caiu para cinco vírgula três por cento. É o menor nível para o trimestre desde dois mil e doze.",
+   0.5
+  ],
+  [
+   "Segundo o IBGE, no trimestre de junho a agosto, cinco milhões e oitocentas mil pessoas ainda estavam sem trabalho.",
+   0.5
+  ],
+  [
+   "Quando o mercado de trabalho esquenta, a renda tende a subir. E as empresas passam a disputar profissionais.",
+   0.5
+  ],
+  [
+   "Só que emprego em alta também tem um efeito colateral: os preços de serviços costumam ficar mais firmes.",
+   0.5
+  ],
+  [
+   "Por isso, o Banco Central observa esse número de perto na hora de decidir a taxa de juros.",
+   0.5
+  ],
+  [
+   "Ou seja, um bom dado no emprego pode significar juros mais altos por mais tempo.",
+   0.5
+  ],
+  [
+   "Mas nada disso é garantia. A economia muda toda semana, e um número bom hoje pode piorar amanhã.",
+   0.5
+  ],
+  [
+   "A lição é simples: não dependa do cenário para ter segurança. Monte a sua reserva de emergência.",
+   0.5
+  ],
+  [
+   "Ferramenta prática: some quanto você gasta por mês com o essencial e multiplique por seis.",
+   0.5
+  ],
+  [
+   "Você tem reserva para seis meses de gastos? Me conta nos comentários.",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "5,3%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Desemprego hoje",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "5,8 milhões sem trabalho",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Emprego em alta,\njuro mais alto",
+     "estilo": "Sub",
+     "y": 780
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Monte sua\nreserva",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 10,
+   "ate": 10,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  5,
+  10
+ ],
+ "keywords_gold": [
+  "CINCO VÍRGULA TRÊS POR CENTO",
+  "DESEMPREGO",
+  "RESERVA",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-desemprego-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "DESEMPREGO EM 5,3%: O QUE MUDA NO SEU BOLSO"
+}
