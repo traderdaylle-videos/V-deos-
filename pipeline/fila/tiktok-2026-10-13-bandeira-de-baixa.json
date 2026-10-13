@@ -1,0 +1,85 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Bandeira de baixa: uma pausa no meio de uma queda forte."
+  ],
+  [
+   "intro",
+   "Primeiro vem o mastro, uma descida rápida."
+  ],
+  [
+   "intro",
+   "Depois o preço respira num canal inclinado pra cima, que é a bandeira."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o mastro, a bandeira e o rompimento."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento da linha de baixo da bandeira, com aumento de volume, como possível continuação da queda."
+  ],
+  [
+   "meio",
+   "Já o rompimento falso é comum, então a confirmação importa."
+  ],
+  [
+   "meio",
+   "Quanto menor e mais comportada a bandeira, mais limpo costuma ser o padrão."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já operou esse padrão?"
+  ],
+  [
+   "recap",
+   "Recapitulando: queda forte, pausa inclinada pra cima e rompimento pra baixo com volume."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-tempo-real-47018.mp4",
+  "lucro-bolsa-47012.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "investidor-tablet-45708.mp4",
+  "mulher-graficos-ipad-45662.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_bandeira_baixa.py",
+ "output": "tiktok-2026-10-13-bandeira-de-baixa.mp4",
+ "keywords_green": [
+  "5PI",
+  "CONFIRMA",
+  "VOLUME"
+ ],
+ "keywords_orange": [
+  "BANDEIRA",
+  "BAIXA",
+  "QUEDA",
+  "RISCO",
+  "MASTRO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.15,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
