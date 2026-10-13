@@ -1,0 +1,39 @@
+{
+ "data": "2026-10-13",
+ "tema": "Ibovespa +8,82% em 5 dias (recorde, 209.066 pts) e dólar abaixo de R$ 5 (R$ 4,985)",
+ "gancho": "A bolsa subiu 8,82% em 5 dias. E o dólar caiu para menos de 5 reais. (hook alternativo avaliado: 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-bolsa-dolar-curto.mp4",
+  "duracao": 58.5,
+  "capa": "granaefinancas/gf-bolsa-dolar-curto-capa-v2.jpg",
+  "titulo_youtube": "Bolsa +8,82% e dólar abaixo de R$ 5: e você?",
+  "metricool": {
+   "reel": 394888624,
+   "short": 394888668
+  },
+  "horario": "09:45 (reel), 09:50 (short)"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-bolsa-dolar-longo.mp4",
+  "duracao": 259.4,
+  "capa": "granaefinancas/gf-bolsa-dolar-longo-capa.jpg (sem título)",
+  "titulo_youtube": "Bolsa +8,82% em 5 dias e dólar abaixo de R$ 5: o que muda no seu bolso",
+  "capitulos": [
+   "0:00 O que aconteceu",
+   "0:23 Os números",
+   "1:09 Por que subiu",
+   "2:09 O que muda no bolso",
+   "2:27 Pegadinhas do recorde",
+   "3:18 O que fazer",
+   "4:02 Conclusão"
+  ],
+  "metricool": 394888727,
+  "horario": "09:55"
+ },
+ "fontes": [
+  "Money Times 09/10/2026",
+  "SBT News 09/10/2026",
+  "Paraná Shop 12/10/2026",
+  "CNN Brasil 06/10/2026"
+ ]
+}

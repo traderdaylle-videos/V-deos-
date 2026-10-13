@@ -130,5 +130,34 @@
       "Copom 16/09/2026 (corte de 14,00% para 13,75%)",
       "Boletim Focus 05/10/2026"
     ]
+  },
+  {
+    "data": "2026-10-13",
+    "tema": "Ibovespa +8,82% em 5 dias (recorde, 209.066 pts) e dólar abaixo de R$ 5 (R$ 4,985)",
+    "formato": "aula de educação financeira (tarefa agendada)",
+    "curto": {
+      "arquivo": "granaefinancas/gf-bolsa-dolar-curto.mp4",
+      "duracao": 58.5,
+      "capa": "granaefinancas/gf-bolsa-dolar-curto-capa-v2.jpg",
+      "gancho": "84,4 STRONG",
+      "metricool": {
+        "reel": 394888624,
+        "short": 394888668
+      },
+      "horario": "09:45"
+    },
+    "longo": {
+      "arquivo": "granaefinancas/gf-bolsa-dolar-longo.mp4",
+      "duracao": 259.4,
+      "capa": "granaefinancas/gf-bolsa-dolar-longo-capa.jpg (sem título)",
+      "metricool": 394888727,
+      "horario": "09:55"
+    },
+    "fontes": [
+      "Money Times 09/10/2026",
+      "SBT News 09/10/2026",
+      "Paraná Shop 12/10/2026",
+      "CNN Brasil 06/10/2026"
+    ]
   }
 ]
