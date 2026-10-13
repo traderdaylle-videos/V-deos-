@@ -889,5 +889,35 @@
   "metricool_id": 394836340,
   "metricool_uuid": "3227517044683459081",
   "agendado_para": "2026-10-13T08:22:00-03:00"
+ },
+ {
+  "data": "2026-10-13",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card3 +R$505,50, 25 ops, 80%); fluxo, sem medo/ganância, 5PI",
+  "grafico": "candles / tendencia_baixa",
+  "titulos": [
+   "UMA REGRA",
+   "EM CADA ENTRADA"
+  ],
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "homem-estressado-49225",
+   "tendencia-tela-9607",
+   "homem-mar-tranquilo-26667",
+   "contando-dinheiro-23168 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [
+   "card3",
+   "card2"
+  ],
+  "duracao_s": 66.7,
+  "arquivo": "media:primewin/primewin-2026-10-13-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 395410256,
+  "metricool_uuid": "-7654048756021440995",
+  "agendado_para": "2026-10-13T20:24:00-03:00"
  }
 ]
