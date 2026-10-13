@@ -179,5 +179,27 @@
   "metricool_id": 393851695,
   "publicado": false,
   "duracao_s": 63.7
+ },
+ {
+  "data": "2026-10-13",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de minério de ferro do mundo (2024)",
+  "fonte": "USGS MCS 2026, produção 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-13-minerio-ferro.mp4",
+  "metricool_id": 394749710,
+  "publicado": false,
+  "duracao_s": 62.7
+ },
+ {
+  "data": "2026-10-13",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de cobre do mundo (2023)",
+  "fonte": "USGS MCS 2024, produção de minas 2023",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-13-produtores-cobre.mp4",
+  "metricool_id": 394749757,
+  "publicado": false,
+  "duracao_s": 65.1
  }
 ]
