@@ -1,0 +1,214 @@
+{
+ "segs": [
+  [
+   "A bolsa subiu oito vírgula oitenta e dois por cento em cinco dias. E o dólar caiu para menos de cinco reais.",
+   0.5
+  ],
+  [
+   "Foi a maior alta semanal em seis anos, e o Ibovespa fechou em duzentos e nove mil pontos, um recorde.",
+   0.5
+  ],
+  [
+   "Por que isso acontece? Quando os investidores esperam juros menores, as empresas passam a valer mais.",
+   0.5
+  ],
+  [
+   "Juro menor deixa a renda fixa menos atraente. O dinheiro vai atrás das ações.",
+   0.5
+  ],
+  [
+   "O dólar caiu quatro vírgula quatro por cento na semana, porque o apetite por mercados emergentes aumentou.",
+   0.5
+  ],
+  [
+   "Dólar mais baixo costuma baratear importados, eletrônicos e viagens. Mas ajuda menos quem vende para fora.",
+   0.5
+  ],
+  [
+   "Só que recorde não é garantia. Na terça-feira passada, a bolsa já devolveu meio por cento.",
+   0.5
+  ],
+  [
+   "Em semanas assim, muita gente compra no topo e vende no susto.",
+   0.5
+  ],
+  [
+   "Ferramenta prática: antes de investir, monte sua reserva de emergência e defina por quanto tempo o dinheiro pode ficar parado.",
+   0.5
+  ],
+  [
+   "Quem tem prazo longo suporta a oscilação. Quem tem prazo curto, não.",
+   0.5
+  ],
+  [
+   "Você investe pelo que entende, ou pelo que está na manchete?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-mar-tranquilo-26667.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+8,82%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Ibovespa em 5 dias",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Recorde: 209 mil pontos",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Dólar: -4,4% na semana",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Recorde não é\ngarantia",
+     "estilo": "Sub",
+     "y": 780
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Reserva de emergência\nvem primeiro",
+     "estilo": "Sub",
+     "y": 780
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  6,
+  11
+ ],
+ "keywords_gold": [
+  "OITO VÍRGULA OITENTA E DOIS",
+  "RECORDE",
+  "DÓLAR",
+  "RESERVA",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-bolsa-dolar-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
