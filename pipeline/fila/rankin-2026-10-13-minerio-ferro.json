@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE MINÉRIO DE FERRO",
+ "subtitulo": "milhões de toneladas extraídas em 2024",
+ "decimais": 0,
+ "fonte": "Fonte: USGS, Mineral Commodity Summaries 2026 (produção de minério utilizável, 2024)",
+ "intro": [
+  "O minério de ferro vira aço, e o aço vira prédio, carro e ponte no mundo inteiro.",
+  "Segundo o Serviço Geológico dos Estados Unidos, oito países dominam essa extração.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "Canadá",
+   "valor": 54,
+   "fala": "Em oitavo vem o Canadá, com cinquenta e quatro milhões de toneladas. Boa parte vai para a siderurgia americana.",
+   "clip": "mn-bandeira-canada-18084.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "África do Sul",
+   "valor": 66,
+   "fala": "Em sétimo fica a África do Sul, com sessenta e seis milhões.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Irã",
+   "valor": 90,
+   "fala": "Em sexto aparece o Irã, com noventa milhões de toneladas.",
+   "clip": "mn-terra-girando-34314.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Rússia",
+   "valor": 91,
+   "fala": "Em quinto vem a Rússia, com noventa e um milhões, quase empatada com o Irã. Lá as minas ficam perto da fronteira com o Cazaquistão.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Índia",
+   "valor": 270,
+   "fala": "Em quarto fica a Índia, com duzentos e setenta milhões, num empate com a China.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "China",
+   "valor": 270,
+   "fala": "Em terceiro vem a China, também com duzentos e setenta milhões de toneladas. Eles compram minério para fazer aço o ano inteiro.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Brasil",
+   "valor": 440,
+   "fala": "Em segundo lugar está o Brasil, com quatrocentos e quarenta milhões de toneladas! Uma das maiores riquezas do nosso país.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Austrália",
+   "valor": 930,
+   "fala": "E em primeiro vem a Austrália, com novecentos e trinta milhões, mais que o dobro do Brasil! Quase tudo sai por navio, rumo à Ásia.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava o Brasil em segundo lugar?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-13-minerio-ferro.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-rodovia-aerea-28790.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-bandeira-brasil-42080.mp4",
+ "bg_clip": "mn-bandeira-australia-9184.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}

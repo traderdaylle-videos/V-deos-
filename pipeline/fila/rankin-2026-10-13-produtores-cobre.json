@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE COBRE",
+ "subtitulo": "milhões de toneladas extraídas em 2023",
+ "decimais": 2,
+ "fonte": "Fonte: USGS, Mineral Commodity Summaries 2024 (produção de minas, 2023)",
+ "intro": [
+  "O cobre está nos fios, nos celulares e nos carros elétricos, e a demanda só cresce.",
+  "Segundo o Serviço Geológico dos Estados Unidos, oito países concentram a maior parte da extração.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "Austrália",
+   "valor": 0.81,
+   "fala": "Em oitavo vem a Austrália, com oitocentas e dez mil toneladas. Boa parte do metal vai direto para exportação.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Indonésia",
+   "valor": 0.84,
+   "fala": "Em sétimo fica a Indonésia, com oitocentas e quarenta mil.",
+   "clip": "mn-aviao-decolando-28000.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Rússia",
+   "valor": 0.91,
+   "fala": "Em sexto aparece a Rússia, com novecentas e dez mil toneladas. O país tem enormes jazidas na Sibéria.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "EUA",
+   "valor": 1.1,
+   "fala": "Em quinto estão os Estados Unidos, com um milhão e cem mil toneladas.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "China",
+   "valor": 1.7,
+   "fala": "Em quarto vem a China, com um milhão e setecentas mil toneladas. Mesmo assim, ainda importa cobre em grande escala.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "R.D. Congo",
+   "valor": 2.5,
+   "fala": "Em terceiro fica a República Democrática do Congo, com dois milhões e meio de toneladas. É o maior produtor da África, e também de cobalto.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Peru",
+   "valor": 2.6,
+   "fala": "Em segundo vem o Peru, com dois milhões e seiscentas mil, vizinho do Brasil.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Chile",
+   "valor": 5.0,
+   "fala": "E em primeiro lugar vem o Chile, com cinco milhões de toneladas, quase o dobro do segundo! O Brasil fica fora dessa lista. O metal responde por mais da metade das exportações chilenas.",
+   "clip": "mn-alpes-suica-31939.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava o Chile tão na frente?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-13-produtores-cobre.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-rodovia-seul-28714.mp4",
+  "mn-toquio-noite-20061.mp4"
+ ],
+ "clip_final": "mn-bandeira-eua-40711.mp4",
+ "bg_clip": "mn-cidade-noite-aerea-42342.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
