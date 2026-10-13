@@ -857,5 +857,37 @@
   "metricool_id": 394464122,
   "metricool_uuid": "294885953462224096",
   "agendado_para": "2026-10-12T20:23:00-03:00"
+ },
+ {
+  "data": "2026-10-13",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: a bolsa cabendo na rotina, tempo para viajar e família; automação segue entrada, saída e stop sem humor",
+  "grafico": "candles / longo_alta",
+  "titulos": [
+   "UMA ENTRADA",
+   "UM MOVIMENTO LONGO"
+  ],
+  "clipes": [
+   "praia-mulher-caminhando-1208 (intro)",
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "relaxando-por-do-sol-33968 (intro)",
+   "escritorio-entediado-48609",
+   "olho-laptop-46575",
+   "cansado-computador-14763",
+   "indicadores-negativos-3d-26759",
+   "grafico-tempo-real-47018",
+   "homem-mar-tranquilo-26667",
+   "contando-dinheiro-23168 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [],
+  "duracao_s": 63.8,
+  "arquivo": "media:primewin/primewin-2026-10-13-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 394836340,
+  "metricool_uuid": "3227517044683459081",
+  "agendado_para": "2026-10-13T08:22:00-03:00"
  }
 ]
