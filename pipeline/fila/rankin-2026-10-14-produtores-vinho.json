@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE VINHO",
+ "subtitulo": "milhões de hectolitros produzidos em 2024",
+ "decimais": 1,
+ "fonte": "Fonte: OIV, World Wine Production Outlook 2024",
+ "intro": [
+  "Uma garrafa de vinho pode vir de vinhedos do outro lado do planeta, e a ordem dos maiores produtores mudou.",
+  "Segundo a Organização Internacional da Vinha e do Vinho, oito países lideram a produção mundial.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "África do Sul",
+   "valor": 8.8,
+   "fala": "Em oitavo vem a África do Sul, com oito vírgula oito milhões de hectolitros.",
+   "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Chile",
+   "valor": 9.3,
+   "fala": "Em sétimo fica o Chile, com nove vírgula três. O país caiu em relação a dois mil e vinte e três.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Austrália",
+   "valor": 10.2,
+   "fala": "Em sexto aparece a Austrália, com dez vírgula dois milhões de hectolitros.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Argentina",
+   "valor": 10.9,
+   "fala": "Em quinto vem a Argentina, com dez vírgula nove, vizinha do Brasil e forte no vinho malbec.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "EUA",
+   "valor": 23.6,
+   "fala": "Em quarto estão os Estados Unidos, com vinte e três vírgula seis. A Califórnia produz quase tudo isso.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Espanha",
+   "valor": 33.6,
+   "fala": "Em terceiro vem a Espanha, com trinta e três vírgula seis, uma safra bem maior que a do ano anterior.",
+   "clip": "mn-bandeira-espanha-42101.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "França",
+   "valor": 36.9,
+   "fala": "Em segundo fica a França, com trinta e seis vírgula nove. A queda foi forte, de quase onze milhões a menos.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Itália",
+   "valor": 41.0,
+   "fala": "E em primeiro lugar vem a Itália, com quarenta e um milhões de hectolitros, e retomou a liderança do vinho. O Brasil fica fora dessa lista.",
+   "clip": "mn-bandeira-italia-18897.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava a França só em segundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-14-produtores-vinho.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-voando-nuvens-11303.mp4",
+  "mn-cidade-alemanha-neve-18744.mp4"
+ ],
+ "clip_final": "mn-bandeira-italia-18897.mp4",
+ "bg_clip": "mn-bandeira-italia-18897.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}

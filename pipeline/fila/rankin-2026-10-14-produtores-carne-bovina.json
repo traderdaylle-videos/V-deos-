@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE CARNE BOVINA",
+ "subtitulo": "milhões de toneladas produzidas em 2022",
+ "decimais": 2,
+ "fonte": "Fonte: USDA FAS, Livestock and Poultry: World Markets and Trade",
+ "intro": [
+  "O churrasco do fim de semana tem um peso enorme na economia, e o Brasil está bem no topo disso.",
+  "Segundo o Departamento de Agricultura dos Estados Unidos, oito países produzem a maior parte da carne bovina do mundo.",
+  "E em que posição o Brasil aparece? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "França",
+   "valor": 1.58,
+   "fala": "Em oitavo vem a França, com um milhão e quinhentas e oitenta mil toneladas.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Austrália",
+   "valor": 1.88,
+   "fala": "Em sétimo fica a Austrália, com um milhão e oitocentas e oitenta mil. Uma grande parte vai para exportação.",
+   "clip": "mn-bandeira-australia-9184.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "México",
+   "valor": 2.18,
+   "fala": "Em sexto aparece o México, com dois milhões e cento e oitenta mil toneladas.",
+   "clip": "mn-bandeira-mexico-42113.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Argentina",
+   "valor": 3.14,
+   "fala": "Em quinto vem a Argentina, com três milhões e cento e quarenta mil, famosa pelos cortes e pelo asado.",
+   "clip": "mn-bandeira-argentina-18125.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Índia",
+   "valor": 4.35,
+   "fala": "Em quarto está a Índia, com quatro milhões e trezentas e cinquenta mil toneladas.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "China",
+   "valor": 7.18,
+   "fala": "Em terceiro fica a China, com sete milhões e cento e oitenta mil. O país consome tanto que ainda importa muita carne.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Brasil",
+   "valor": 10.35,
+   "fala": "E em segundo lugar vem o Brasil, com dez milhões e trezentas e cinquenta mil toneladas! É o maior exportador de carne bovina do mundo.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "EUA",
+   "valor": 12.89,
+   "fala": "Em primeiro, os Estados Unidos, com doze milhões e oitocentas e noventa mil toneladas, o maior produtor do planeta.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava o Brasil tão perto do primeiro lugar?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-14-produtores-carne-bovina.mp4",
+ "clips_intro": [
+  "mn-cheeseburger-escuro-47191.mp4",
+  "mn-homem-comendo-burger-372.mp4",
+  "mn-queijo-derretendo-burger-12016.mp4"
+ ],
+ "clip_final": "mn-bandeira-brasil-42080.mp4",
+ "bg_clip": "mn-bandeira-brasil-42080.mp4",
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
