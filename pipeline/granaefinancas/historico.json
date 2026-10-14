@@ -1,163 +1,189 @@
 [
-  {
-    "data": "2026-09-28",
-    "tema": "Endividamento recorde (82% das famílias) + inflação/conta de luz",
-    "principios": [
-      "dicotomia do controle (Epicteto)",
-      "o desejo (Sêneca, Carta 2)",
-      "premeditação dos males",
-      "desconforto voluntário (Sêneca, Carta 18)",
-      "hábito (Epicteto) + revisão noturna (Sêneca)"
-    ],
-    "curto": "media:granaefinancas/2026-09-28-endividamento-curto.mp4",
-    "longo": "media:youtube/2026-09-28-endividamento-estoicismo.mp4",
-    "metricool": {
-      "reel_18h": 383437088,
-      "short_18h": 383443487,
-      "youtube_16h": 383443372
-    }
-  },
-  {
-    "data": "2026-09-29",
-    "tema": "Inflação 2026 prevista em 4,99% (Focus 28/09): dinheiro parado perde poder de compra (R$ 1.000 → R$ 952)",
-    "principios": [
-      "o tempo é o único bem nosso (Sêneca, Carta 1)",
-      "o universo é transformação (Marco Aurélio)",
-      "enquanto adiamos, a vida passa (Sêneca)"
-    ],
-    "curto": "media:granaefinancas/2026-09-29-inflacao-curto.mp4",
-    "longo": "media:youtube/2026-09-29-inflacao-estoicismo.mp4",
-    "gancho": "#23 Estatística, 84 STRONG",
-    "produzido_em": "2026-09-28 (chat, aprovado pelo usuário)",
-    "metricool": {
-      "reel_18h": 383569931,
-      "short_18h": 383570003,
-      "youtube_16h": 383584306
-    }
-  },
-  {
-    "data": "2026-09-30",
-    "tema": "Dólar cai para R$ 5,17 (-0,81%) e Ibovespa fecha setembro com +5% após inflação dos EUA (PCE) abaixo do esperado; 2º Reels: IGP-M +1,57% em setembro, reajuste de aluguel de 3,34% em outubro",
-    "formato": "aula de educação financeira sobre a notícia (produzido na conversa, recuperação do dia)",
-    "curto": {
-      "arquivo": "granaefinancas/2026-09-30-dolar-curto.mp4",
-      "duracao": 64.1,
-      "gancho": "Nobody Tells You (76,6)",
-      "metricool": {
-        "reel": 385391035,
-        "short": 385391066
-      },
-      "horario": "19:15"
-    },
-    "reels2": {
-      "arquivo": "granaefinancas/2026-09-30-aluguel-curto.mp4",
-      "duracao": 62.8,
-      "gancho": "The Deadline (83,0)",
-      "metricool": {
-        "reel": 385397036
-      },
-      "horario": "20:30"
-    },
-    "longo": {
-      "arquivo": "youtube/2026-09-30-dolar-inflacao-eua.mp4",
-      "duracao": 283.7,
-      "metricool": 385409259,
-      "horario": "19:50",
-      "capitulos": [
-        "0:00 Abertura",
-        "0:42 O fato",
-        "1:03 Por que a inflação americana mexe no dólar",
-        "1:50 O que muda no seu bolso",
-        "2:50 Quem ganha e quem perde",
-        "3:12 O que fazer com o seu dinheiro",
-        "3:53 O que depende de você"
-      ]
-    },
-    "fontes": [
-      "InfoMoney 30/09/2026",
-      "BPMoney 30/09/2026",
-      "FGV IGP-M setembro/2026"
-    ]
-  },
-  {
-    "data": "2026-10-10",
-    "tema": "IPCA de setembro +0,82% (acima do esperado), 4,58% em 12 meses",
-    "formato": "aula de educação financeira (produzido na conversa, recuperação)",
-    "curto": {
-      "arquivo": "granaefinancas/gf-ipca-setembro-curto.mp4",
-      "duracao": 51.5,
-      "capa": "granaefinancas/gf-ipca-setembro-curto-capa-v2.jpg",
-      "gancho": "78,7 STRONG",
-      "metricool": {
-        "reel": 392993815,
-        "short": 392993830
-      },
-      "horario": "20:05"
-    },
-    "longo": {
-      "arquivo": "granaefinancas/gf-ipca-setembro-longo-v2.mp4",
-      "duracao": 241.2,
-      "metricool": 393007728,
-      "horario": "20:45"
-    },
-    "fontes": [
-      "Forbes Brasil 09/10/2026",
-      "IBGE IPCA set/2026"
-    ]
-  },
-  {
-    "data": "2026-10-11",
-    "tema": "Selic cai para 13,75%, mas o crédito e o cartão seguem caros",
-    "formato": "aula de educação financeira (produzido na conversa, fora do Claude pelo GitHub)",
-    "curto": {
-      "arquivo": "granaefinancas/gf-selic-curto.mp4",
-      "duracao": 53.5,
-      "capa": "granaefinancas/gf-selic-curto-capa-v2.jpg",
-      "metricool": {
-        "reel": 393636646,
-        "short": 393636666
-      },
-      "horario": "22:40"
-    },
-    "longo": {
-      "arquivo": "granaefinancas/gf-selic-longo.mp4",
-      "duracao": 241.0,
-      "capa": "granaefinancas/gf-selic-longo-capa.jpg (sem título)",
-      "metricool": 393636714,
-      "horario": "22:45"
-    },
-    "fontes": [
-      "Copom 16/09/2026 (corte de 14,00% para 13,75%)",
-      "Boletim Focus 05/10/2026"
-    ]
-  },
-  {
-    "data": "2026-10-13",
-    "tema": "Ibovespa +8,82% em 5 dias (recorde, 209.066 pts) e dólar abaixo de R$ 5 (R$ 4,985)",
-    "formato": "aula de educação financeira (tarefa agendada)",
-    "curto": {
-      "arquivo": "granaefinancas/gf-bolsa-dolar-curto.mp4",
-      "duracao": 58.5,
-      "capa": "granaefinancas/gf-bolsa-dolar-curto-capa-v2.jpg",
-      "gancho": "84,4 STRONG",
-      "metricool": {
-        "reel": 394888624,
-        "short": 394888668
-      },
-      "horario": "09:45"
-    },
-    "longo": {
-      "arquivo": "granaefinancas/gf-bolsa-dolar-longo.mp4",
-      "duracao": 259.4,
-      "capa": "granaefinancas/gf-bolsa-dolar-longo-capa.jpg (sem título)",
-      "metricool": 394888727,
-      "horario": "09:55"
-    },
-    "fontes": [
-      "Money Times 09/10/2026",
-      "SBT News 09/10/2026",
-      "Paraná Shop 12/10/2026",
-      "CNN Brasil 06/10/2026"
-    ]
+ {
+  "data": "2026-09-28",
+  "tema": "Endividamento recorde (82% das famílias) + inflação/conta de luz",
+  "principios": [
+   "dicotomia do controle (Epicteto)",
+   "o desejo (Sêneca, Carta 2)",
+   "premeditação dos males",
+   "desconforto voluntário (Sêneca, Carta 18)",
+   "hábito (Epicteto) + revisão noturna (Sêneca)"
+  ],
+  "curto": "media:granaefinancas/2026-09-28-endividamento-curto.mp4",
+  "longo": "media:youtube/2026-09-28-endividamento-estoicismo.mp4",
+  "metricool": {
+   "reel_18h": 383437088,
+   "short_18h": 383443487,
+   "youtube_16h": 383443372
   }
+ },
+ {
+  "data": "2026-09-29",
+  "tema": "Inflação 2026 prevista em 4,99% (Focus 28/09): dinheiro parado perde poder de compra (R$ 1.000 → R$ 952)",
+  "principios": [
+   "o tempo é o único bem nosso (Sêneca, Carta 1)",
+   "o universo é transformação (Marco Aurélio)",
+   "enquanto adiamos, a vida passa (Sêneca)"
+  ],
+  "curto": "media:granaefinancas/2026-09-29-inflacao-curto.mp4",
+  "longo": "media:youtube/2026-09-29-inflacao-estoicismo.mp4",
+  "gancho": "#23 Estatística, 84 STRONG",
+  "produzido_em": "2026-09-28 (chat, aprovado pelo usuário)",
+  "metricool": {
+   "reel_18h": 383569931,
+   "short_18h": 383570003,
+   "youtube_16h": 383584306
+  }
+ },
+ {
+  "data": "2026-09-30",
+  "tema": "Dólar cai para R$ 5,17 (-0,81%) e Ibovespa fecha setembro com +5% após inflação dos EUA (PCE) abaixo do esperado; 2º Reels: IGP-M +1,57% em setembro, reajuste de aluguel de 3,34% em outubro",
+  "formato": "aula de educação financeira sobre a notícia (produzido na conversa, recuperação do dia)",
+  "curto": {
+   "arquivo": "granaefinancas/2026-09-30-dolar-curto.mp4",
+   "duracao": 64.1,
+   "gancho": "Nobody Tells You (76,6)",
+   "metricool": {
+    "reel": 385391035,
+    "short": 385391066
+   },
+   "horario": "19:15"
+  },
+  "reels2": {
+   "arquivo": "granaefinancas/2026-09-30-aluguel-curto.mp4",
+   "duracao": 62.8,
+   "gancho": "The Deadline (83,0)",
+   "metricool": {
+    "reel": 385397036
+   },
+   "horario": "20:30"
+  },
+  "longo": {
+   "arquivo": "youtube/2026-09-30-dolar-inflacao-eua.mp4",
+   "duracao": 283.7,
+   "metricool": 385409259,
+   "horario": "19:50",
+   "capitulos": [
+    "0:00 Abertura",
+    "0:42 O fato",
+    "1:03 Por que a inflação americana mexe no dólar",
+    "1:50 O que muda no seu bolso",
+    "2:50 Quem ganha e quem perde",
+    "3:12 O que fazer com o seu dinheiro",
+    "3:53 O que depende de você"
+   ]
+  },
+  "fontes": [
+   "InfoMoney 30/09/2026",
+   "BPMoney 30/09/2026",
+   "FGV IGP-M setembro/2026"
+  ]
+ },
+ {
+  "data": "2026-10-10",
+  "tema": "IPCA de setembro +0,82% (acima do esperado), 4,58% em 12 meses",
+  "formato": "aula de educação financeira (produzido na conversa, recuperação)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-ipca-setembro-curto.mp4",
+   "duracao": 51.5,
+   "capa": "granaefinancas/gf-ipca-setembro-curto-capa-v2.jpg",
+   "gancho": "78,7 STRONG",
+   "metricool": {
+    "reel": 392993815,
+    "short": 392993830
+   },
+   "horario": "20:05"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-ipca-setembro-longo-v2.mp4",
+   "duracao": 241.2,
+   "metricool": 393007728,
+   "horario": "20:45"
+  },
+  "fontes": [
+   "Forbes Brasil 09/10/2026",
+   "IBGE IPCA set/2026"
+  ]
+ },
+ {
+  "data": "2026-10-11",
+  "tema": "Selic cai para 13,75%, mas o crédito e o cartão seguem caros",
+  "formato": "aula de educação financeira (produzido na conversa, fora do Claude pelo GitHub)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-selic-curto.mp4",
+   "duracao": 53.5,
+   "capa": "granaefinancas/gf-selic-curto-capa-v2.jpg",
+   "metricool": {
+    "reel": 393636646,
+    "short": 393636666
+   },
+   "horario": "22:40"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-selic-longo.mp4",
+   "duracao": 241.0,
+   "capa": "granaefinancas/gf-selic-longo-capa.jpg (sem título)",
+   "metricool": 393636714,
+   "horario": "22:45"
+  },
+  "fontes": [
+   "Copom 16/09/2026 (corte de 14,00% para 13,75%)",
+   "Boletim Focus 05/10/2026"
+  ]
+ },
+ {
+  "data": "2026-10-13",
+  "tema": "Ibovespa +8,82% em 5 dias (recorde, 209.066 pts) e dólar abaixo de R$ 5 (R$ 4,985)",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-bolsa-dolar-curto.mp4",
+   "duracao": 58.5,
+   "capa": "granaefinancas/gf-bolsa-dolar-curto-capa-v2.jpg",
+   "gancho": "84,4 STRONG",
+   "metricool": {
+    "reel": 394888624,
+    "short": 394888668
+   },
+   "horario": "09:45"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-bolsa-dolar-longo.mp4",
+   "duracao": 259.4,
+   "capa": "granaefinancas/gf-bolsa-dolar-longo-capa.jpg (sem título)",
+   "metricool": 394888727,
+   "horario": "09:55"
+  },
+  "fontes": [
+   "Money Times 09/10/2026",
+   "SBT News 09/10/2026",
+   "Paraná Shop 12/10/2026",
+   "CNN Brasil 06/10/2026"
+  ]
+ },
+ {
+  "data": "2026-10-14",
+  "tema": "Boletim Focus 13/10: inflação de 2026 esperada em 5,22% (era 5,01%), Selic de 13,25% no fim do ano",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-focus-inflacao-curto.mp4",
+   "duracao": 57.5,
+   "capa": "granaefinancas/gf-focus-inflacao-curto-capa.jpg",
+   "gancho": "100 STRONG",
+   "metricool": {
+    "reel": 395835597,
+    "short": 395835642
+   },
+   "horario": "09:55"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-focus-inflacao-longo.mp4",
+   "duracao": 262.2,
+   "capa": "granaefinancas/gf-focus-inflacao-longo-capa.jpg (sem título)",
+   "metricool": 395835725,
+   "horario": "10:05"
+  },
+  "fontes": [
+   "Boletim Focus 13/10/2026 (via InfoMoney e TrendsCE)"
+  ]
+ }
 ]

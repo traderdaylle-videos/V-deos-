@@ -1,0 +1,37 @@
+{
+ "data": "2026-10-14",
+ "tema": "Boletim Focus 13/10: inflação de 2026 esperada em 5,22% (era 5,01%), Selic de 13,25% no fim do ano",
+ "gancho": "Seus R$ 1.000 parados compram só R$ 950 no fim do ano. (hookscore 100)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-focus-inflacao-curto.mp4",
+  "duracao": 57.5,
+  "capa": "granaefinancas/gf-focus-inflacao-curto-capa.jpg",
+  "metricool": {
+   "reel": 395835597,
+   "short": 395835642
+  },
+  "horario": "09:55 (reel) / 10:00 (short)",
+  "titulo_short": "Inflação de 2026: mercado espera 5,22%"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-focus-inflacao-longo.mp4",
+  "duracao": 262.2,
+  "capa": "granaefinancas/gf-focus-inflacao-longo-capa.jpg (sem título)",
+  "metricool": 395835725,
+  "horario": "10:05",
+  "titulo": "Inflação de 2026 sobe para 5,22%: o que isso muda no seu bolso",
+  "capitulos": [
+   "0:00 Seus mil reais parados e a inflação",
+   "0:20 O que é o Boletim Focus",
+   "1:05 Inflação alta, Selic e juros",
+   "2:00 O efeito no seu dinheiro parado",
+   "2:35 O que você pode fazer",
+   "3:40 Resumo e pergunta do dia"
+  ]
+ },
+ "fontes": [
+  "InfoMoney, Boletim Focus 13/10/2026",
+  "TrendsCE 13/10/2026"
+ ],
+ "falhas": []
+}
