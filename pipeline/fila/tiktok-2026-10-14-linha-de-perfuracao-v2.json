@@ -2,39 +2,39 @@
  "segs": [
   [
    "intro",
-   "Como saber se o mercado está em tendência de baixa?"
+   "Existe um candle que mostra compradores reagindo no meio de uma queda."
   ],
   [
    "intro",
-   "Muitos traders olham os topos e os fundos do gráfico."
+   "Ele se chama linha de perfuração."
   ],
   [
    "intro",
-   "Na tendência de baixa, cada topo fica mais baixo que o anterior, e cada fundo também."
+   "Depois de um candle vermelho grande, abre um candle verde que fecha acima da metade do anterior."
   ],
   [
    "meio",
-   "Olha o gráfico: cada rali termina abaixo do topo anterior."
+   "Olha o gráfico: o preço abre em queda, mas os compradores empurram ele de volta."
   ],
   [
    "meio",
-   "Os vendedores vão ganhando espaço a cada nova queda."
+   "O fechamento passa do meio do candle vermelho."
   ],
   [
    "meio",
-   "Muitos analistas técnicos observam essa região de repique como zona de atenção para vendas."
+   "Muitos analistas técnicos enxergam aí uma possível perda de força dos vendedores."
   ],
   [
    "meio",
-   "Mas cuidado: se o preço romper o último topo, a tendência pode estar mudando, e existe risco."
+   "Mas atenção: sem confirmação no candle seguinte, o sinal pode falhar, e existe risco."
   ],
   [
    "meio",
-   "Me conta nos comentários: você opera a favor ou contra a tendência?"
+   "Me conta nos comentários: você espera a confirmação antes de agir?"
   ],
   [
    "recap",
-   "Recapitulando: tendência de baixa é uma sequência de topos e fundos cada vez mais baixos."
+   "Recapitulando: linha de perfuração é um candle verde que fecha acima da metade do vermelho anterior."
   ],
   [
    "final_5pi",
@@ -54,25 +54,25 @@
   ]
  ],
  "photos_meio": [
+  "lucro-bolsa-47012.mp4",
+  "investidor-tablet-45708.mp4",
   "grafico-tempo-real-47018.mp4",
   "homem-analisando-graficos-17415.mp4",
-  "mulher-graficos-ipad-45662.mp4",
-  "tendencia-tela-9607.mp4",
-  "grafico-homem-analisando-47214.mp4"
+  "mulher-graficos-ipad-45662.mp4"
  ],
- "explainer_script": "pipeline/tiktok/explainer_tendencia-de-baixa.py",
- "output": "tiktok-2026-10-14-tendencia-de-baixa.mp4",
+ "explainer_script": "pipeline/tiktok/explainer_linha_de_perfuracao.py",
+ "output": "tiktok-2026-10-14-linha-de-perfuracao-v2.mp4",
  "keywords_green": [
   "5PI",
-  "ROMPE",
-  "CUIDADO"
+  "COMPRA",
+  "REAÇÃO",
+  "ALTA"
  ],
  "keywords_orange": [
-  "BAIXA",
-  "VENDA",
   "QUEDA",
+  "VENDA",
   "RISCO",
-  "TOPO"
+  "BAIXA"
  ],
  "music_mood": "alegre",
  "speed": 1.15,
