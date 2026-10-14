@@ -919,5 +919,37 @@
   "metricool_id": 395410256,
   "metricool_uuid": "-7654048756021440995",
   "agendado_para": "2026-10-13T20:24:00-03:00"
+ },
+ {
+  "data": "2026-10-14",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: bolsa cabendo na rotina; almoço/viagem sem tela; automação segue entrada, saída e stop sem humor",
+  "grafico": "candles / fibo_baixa",
+  "titulos": [
+   "ENTRADA NO PONTO",
+   "COM REGRA DEFINIDA"
+  ],
+  "clipes": [
+   "casal-mapa-carro-2718 (intro)",
+   "cafe-manha-musica-43391 (intro)",
+   "pai-brincando-filho-7681 (intro)",
+   "jovem-trabalhando-computador-44072",
+   "homem-ansiedade-47206",
+   "numeros-oculos-47792",
+   "grafico-closeup-47016",
+   "homem-laptop-trabalhando-9756",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 65.8,
+  "arquivo": "media:primewin/primewin-2026-10-14-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 395778998,
+  "metricool_uuid": "-4344119736959809713",
+  "agendado_para": "2026-10-14T08:22:00-03:00"
  }
 ]
