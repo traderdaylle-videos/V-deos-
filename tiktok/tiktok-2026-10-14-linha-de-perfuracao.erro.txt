@@ -1,0 +1,2 @@
+Falha ao renderizar pipeline/fila/tiktok-2026-10-14-linha-de-perfuracao.json
+python3: can't open file '/home/runner/work/V-deos-/V-deos-/pipeline/tiktok/explainer_linha-de-perfuracao.py': [Errno 2] No such file or directory

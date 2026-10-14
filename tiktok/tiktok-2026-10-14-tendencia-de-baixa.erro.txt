@@ -1,0 +1,2 @@
+Falha ao renderizar pipeline/fila/tiktok-2026-10-14-tendencia-de-baixa.json
+python3: can't open file '/home/runner/work/V-deos-/V-deos-/pipeline/tiktok/explainer_tendencia-de-baixa.py': [Errno 2] No such file or directory
