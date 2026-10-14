@@ -201,5 +201,27 @@
   "metricool_id": 394749757,
   "publicado": false,
   "duracao_s": 65.1
+ },
+ {
+  "data": "2026-10-14",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de vinho do mundo (2024)",
+  "fonte": "OIV, World Wine Production Outlook 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-14-produtores-vinho.mp4",
+  "metricool_id": 395697143,
+  "publicado": false,
+  "duracao_s": 62.4
+ },
+ {
+  "data": "2026-10-14",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de carne bovina do mundo (2022)",
+  "fonte": "USDA FAS, Livestock and Poultry: World Markets and Trade",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-14-produtores-carne-bovina.mp4",
+  "metricool_id": 395697208,
+  "publicado": false,
+  "duracao_s": 65.8
  }
 ]
