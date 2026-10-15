@@ -1,0 +1,84 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Sabe o padrão que muitos traders procuram no fim de uma queda?"
+  ],
+  [
+   "intro",
+   "É o ombro-cabeça-ombro invertido."
+  ],
+  [
+   "intro",
+   "Ele forma três fundos: o do meio é o mais baixo, e os das pontas ficam parecidos."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o preço faz o ombro esquerdo, afunda na cabeça e tenta de novo no ombro direito."
+  ],
+  [
+   "meio",
+   "A linha de pescoço liga os topos entre os fundos."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento dessa linha como zona de atenção para compra."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sem volume, o rompimento pode ser falso, e existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu esse padrão no seu gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: três fundos, cabeça mais baixa e atenção à linha de pescoço."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "lucro-bolsa-47012.mp4",
+  "grafico-closeup-47016.mp4",
+  "investidor-tablet-45708.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "empresario-grafico-sucesso-26518.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_oco_invertido.py",
+ "output": "tiktok-2026-10-15-oco-invertido.mp4",
+ "keywords_green": [
+  "ROMPE",
+  "5PI",
+  "CUIDADO"
+ ],
+ "keywords_orange": [
+  "COMPRA",
+  "ALTA",
+  "FUNDO",
+  "FUNDOS"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
