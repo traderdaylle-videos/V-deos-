@@ -982,5 +982,36 @@
   "metricool_id": 396358647,
   "metricool_uuid": "-8809791200052557427",
   "agendado_para": "2026-10-14T20:25:00-03:00"
+ },
+ {
+  "data": "2026-10-15",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: acordar sem pressa, estratégia em movimento; quem trava na hora de começar; automação segue entrada, saída e stop sem emocional",
+  "grafico": "candles / ondas",
+  "titulos": [
+   "TRÊS OPERAÇÕES",
+   "SEM HESITAR"
+  ],
+  "clipes": [
+   "relaxando-por-do-sol-33968 (intro)",
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "cafe-manha-musica-43391 (intro)",
+   "escritorio-entediado-48609",
+   "olho-laptop-46575",
+   "cansado-computador-14763",
+   "indicadores-negativos-3d-26759",
+   "grafico-tempo-real-47018",
+   "homem-mar-tranquilo-26667",
+   "contando-dinheiro-23168 (5PI)",
+   "casal-mapa-carro-2718 (endcard)"
+  ],
+  "bg_clip": "casal-mapa-carro-2718",
+  "duracao_s": 67.2,
+  "arquivo": "media:primewin/primewin-2026-10-15-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 396728510,
+  "metricool_uuid": "-4342254346166842082",
+  "agendado_para": "2026-10-15T08:24:00-03:00"
  }
 ]
