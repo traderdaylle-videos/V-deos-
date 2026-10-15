@@ -223,5 +223,27 @@
   "metricool_id": 395697208,
   "publicado": false,
   "duracao_s": 65.8
+ },
+ {
+  "data": "2026-10-15",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de arroz do mundo (2022)",
+  "fonte": "FAO (FAOSTAT), 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-15-produtores-arroz.mp4",
+  "metricool_id": 396650341,
+  "publicado": false,
+  "duracao_s": 71.6
+ },
+ {
+  "data": "2026-10-15",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de batata do mundo (2022)",
+  "fonte": "FAO (FAOSTAT), 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-15-produtores-batata.mp4",
+  "metricool_id": 396650400,
+  "publicado": false,
+  "duracao_s": 66.2
  }
 ]
