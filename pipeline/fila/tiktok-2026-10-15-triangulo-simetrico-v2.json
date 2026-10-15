@@ -13,12 +13,20 @@
    "Os topos descem e os fundos sobem, formando uma compressão do preço."
   ],
   [
+   "intro",
+   "Ele costuma aparecer quando o mercado está indeciso, esperando uma direção."
+  ],
+  [
    "meio",
    "Olha o gráfico: as duas linhas vão se aproximando."
   ],
   [
    "meio",
    "Isso mostra um equilíbrio entre compradores e vendedores."
+  ],
+  [
+   "meio",
+   "Quanto mais as linhas se aproximam, mais perto fica a decisão."
   ],
   [
    "meio",
@@ -61,7 +69,7 @@
   "mulher-graficos-ipad-45662.mp4"
  ],
  "explainer_script": "pipeline/tiktok/explainer_triangulo_simetrico.py",
- "output": "tiktok-2026-10-15-triangulo-simetrico.mp4",
+ "output": "tiktok-2026-10-15-triangulo-simetrico-v2.mp4",
  "keywords_green": [
   "ROMPE",
   "5PI",
@@ -80,5 +88,5 @@
  "photo_5pi": "contando-dinheiro-23168.mp4",
  "explainer_anim": "explicativo_anim.mp4",
  "explainer_final": "explicativo_final.png",
- "rev": 1
+ "rev": 2
 }
