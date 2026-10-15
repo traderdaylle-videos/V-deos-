@@ -1013,5 +1013,36 @@
   "metricool_id": 396728510,
   "metricool_uuid": "-4342254346166842082",
   "agendado_para": "2026-10-15T08:24:00-03:00"
+ },
+ {
+  "data": "2026-10-15",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "MAGNETO: relatório de um dia (card5), regra de entrada sem hesitar",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NO PONTO",
+   "SEM MEXER NA MÃO"
+  ],
+  "clipes": [
+   "lucro-bolsa-47012",
+   "homem-ansiedade-47206",
+   "grafico-homem-analisando-47214",
+   "homem-mar-tranquilo-26667",
+   "tendencia-tela-9607",
+   "dinheiro-transacao-18247 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [
+   "card5",
+   "card2"
+  ],
+  "duracao_s": 68.8,
+  "arquivo": "media:primewin/primewin-2026-10-15-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 397284256,
+  "metricool_uuid": "-2767492883654228422",
+  "agendado_para": "2026-10-15T20:23:00-03:00"
  }
 ]
