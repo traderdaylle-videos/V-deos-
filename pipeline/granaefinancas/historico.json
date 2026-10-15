@@ -185,5 +185,32 @@
   "fontes": [
    "Boletim Focus 13/10/2026 (via InfoMoney e TrendsCE)"
   ]
+ },
+ {
+  "data": "2026-10-15",
+  "tema": "CPI dos EUA de setembro: inflação 3,7% em 12 meses (+0,6% no mês), gasolina +9,1%; efeito em Fed, dólar e importados",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-eua-cpi-curto.mp4",
+   "duracao": 56.5,
+   "capa": "granaefinancas/gf-eua-cpi-curto-capa.jpg",
+   "gancho": "83,1 STRONG",
+   "metricool": {
+    "reel": 396784903,
+    "short": 396784959
+   },
+   "horario": "09:55"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-eua-cpi-longo.mp4",
+   "duracao": 281.2,
+   "capa": "granaefinancas/gf-eua-cpi-longo-capa.jpg (sem título)",
+   "metricool": 396785051,
+   "horario": "10:10"
+  },
+  "fontes": [
+   "Money Times 14/10/2026 (CPI EUA)",
+   "BPMoney 14/10/2026"
+  ]
  }
 ]

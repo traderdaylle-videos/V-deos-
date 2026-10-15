@@ -1,0 +1,36 @@
+{
+ "data": "2026-10-15",
+ "tema": "CPI dos EUA de setembro: inflação 3,7% em 12 meses (+0,6% no mês), gasolina +9,1%; efeito em Fed, dólar e importados",
+ "gancho": "Inflação dos EUA em 3,7%: o que muda no seu bolso aqui? (hookscore 83,1 STRONG)",
+ "fonte": "Departamento do Trabalho dos EUA via Money Times (14/10/2026); BPMoney/Avenue",
+ "curto": {
+  "arquivo": "granaefinancas/gf-eua-cpi-curto.mp4",
+  "duracao": 56.5,
+  "capa": "granaefinancas/gf-eua-cpi-curto-capa.jpg",
+  "horario_reel": "09:55",
+  "horario_short": "10:00",
+  "metricool": {
+   "reel": 396784903,
+   "short": 396784959
+  },
+  "titulo_short": "Inflação dos EUA em 3,7%: o que muda aqui?"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-eua-cpi-longo.mp4",
+  "duracao": 281.2,
+  "horario": "10:10",
+  "metricool": 396785051,
+  "titulo": "Inflação dos EUA em 3,7%: o que isso muda no dólar e no seu bolso",
+  "capitulos": [
+   "0:00 Introdução",
+   "0:16 O que aconteceu nos EUA",
+   "1:10 Por que o Fed importa",
+   "2:01 Como chega ao dólar e ao Brasil",
+   "2:39 Impacto no seu bolso",
+   "3:12 O que você pode fazer",
+   "3:54 Resumo"
+  ]
+ },
+ "legenda_reel": "Inflação dos EUA em 3,7%: o que muda no seu bolso aqui? ... Pergunta: quanto do seu mês depende do dólar? Fonte: Dept. do Trabalho dos EUA via Money Times. #educacaofinanceira #dolar #inflacao #investimentos #financaspessoais",
+ "obs": "curto-v2 (spec) também renderizado; usado o render original gf-eua-cpi-curto.mp4"
+}
