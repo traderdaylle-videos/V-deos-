@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE ARROZ",
+ "subtitulo": "milhões de toneladas de arroz em casca, 2022",
+ "fonte": "Fonte: FAO (FAOSTAT), 2022",
+ "output": "rankin-2026-10-15-produtores-arroz.mp4",
+ "intro": [
+  "O arroz é a base da comida de mais de metade do planeta, e quase toda a produção está concentrada em poucos países.",
+  "Segundo a FAO, o órgão de alimentação da ONU, oito países lideram o ranking mundial.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "Filipinas",
+   "valor": 19.8,
+   "fala": "Em oitavo vem as Filipinas, com dezenove vírgula oito milhões de toneladas. O arroz é o prato principal do país.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Mianmar",
+   "valor": 24.7,
+   "fala": "Em sétimo fica Mianmar, com vinte e quatro vírgula sete. Quase toda a produção vem de grandes planícies irrigadas.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Tailândia",
+   "valor": 34.3,
+   "fala": "Em sexto aparece a Tailândia, com trinta e quatro vírgula três, uma das maiores exportadoras de arroz do mundo.",
+   "clip": "mn-bandeira-tailandia-19086.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Vietnã",
+   "valor": 42.7,
+   "fala": "Em quinto vem o Vietnã, com quarenta e dois vírgula sete. O país virou potência exportadora nas últimas décadas.",
+   "clip": "mn-seul-noite-transito-20089.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Indonésia",
+   "valor": 54.7,
+   "fala": "Em quarto fica a Indonésia, com cinquenta e quatro vírgula sete milhões de toneladas. É um arquipélago com milhares de ilhas cultivadas.",
+   "clip": "mn-rodovia-aerea-28790.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Bangladesh",
+   "valor": 57.2,
+   "fala": "Em terceiro vem Bangladesh, com cinquenta e sete vírgula dois. Um país pequeno, mas com gente demais pra alimentar.",
+   "clip": "mn-aviao-decolando-28000.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "China",
+   "valor": 255.2,
+   "fala": "Em segundo fica a China, com duzentos e cinquenta e cinco vírgula dois milhões de toneladas. Mesmo assim, ela alimenta mais de um bilhão de pessoas.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Índia",
+   "valor": 265.1,
+   "fala": "E em primeiro lugar vem a Índia, com duzentos e sessenta e cinco vírgula um. Ela ultrapassou a China e hoje é a maior produtora de arroz do planeta.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava a China só em segundo?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-voando-nuvens-11303.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-bandeira-india-42085.mp4",
+ "bg_clip": "mn-bandeira-india-42085.mp4",
+ "decimais": 1,
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}

@@ -1,0 +1,86 @@
+{
+ "titulo": "MAIORES PRODUTORES DE BATATA",
+ "subtitulo": "milhões de toneladas de batata, 2022",
+ "fonte": "Fonte: FAO (FAOSTAT), 2022",
+ "output": "rankin-2026-10-15-produtores-batata.mp4",
+ "intro": [
+  "A batata alimenta o mundo inteiro, mas a ordem dos maiores produtores pode te surpreender.",
+  "Segundo a FAO, o órgão de alimentação da ONU, oito países lideram a produção mundial.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir quem é o número um."
+ ],
+ "itens": [
+  {
+   "pos": 8,
+   "nome": "França",
+   "valor": 8.1,
+   "fala": "Em oitavo vem a França, com oito vírgula um milhões de toneladas, a terra das batatas fritas.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Bangladesh",
+   "valor": 10.1,
+   "fala": "Em sétimo fica Bangladesh, com dez vírgula um. O país planta batata em quase todo o inverno.",
+   "clip": "mn-aviao-decolando-28000.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Alemanha",
+   "valor": 10.7,
+   "fala": "Em sexto aparece a Alemanha, com dez vírgula sete. Lá, a batata é item obrigatório em quase toda refeição.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "EUA",
+   "valor": 17.8,
+   "fala": "Em quinto vêm os Estados Unidos, com dezessete vírgula oito milhões de toneladas. Boa parte vira batata frita e salgadinho.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Rússia",
+   "valor": 18.9,
+   "fala": "Em quarto fica a Rússia, com dezoito vírgula nove. Os russos consomem mais de cem quilos por pessoa por ano.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Ucrânia",
+   "valor": 20.9,
+   "fala": "Em terceiro vem a Ucrânia, com vinte vírgula nove. Mesmo em guerra, segue entre os maiores do mundo.",
+   "clip": "mn-cruzamento-rodovia-14845.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Índia",
+   "valor": 56.2,
+   "fala": "Em segundo fica a Índia, com cinquenta e seis vírgula dois milhões de toneladas. Hoje a batata cresce mais rápido lá do que em muitos países ricos.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "China",
+   "valor": 95.6,
+   "fala": "E em primeiro lugar vem a China, com noventa e cinco vírgula seis. Sozinha, produz quase o dobro da Índia.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava a Ucrânia no pódio?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-voando-nuvens-11303.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-bandeira-china-13312.mp4",
+ "bg_clip": "mn-bandeira-china-13312.mp4",
+ "decimais": 1,
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
