@@ -1,0 +1,241 @@
+{
+ "segs": [
+  [
+   "Inflação dos EUA em três vírgula sete por cento. O que muda no seu bolso aqui?",
+   0.6
+  ],
+  [
+   "O índice de preços ao consumidor americano subiu zero vírgula seis por cento em setembro, e três vírgula sete por cento em doze meses.",
+   0.6
+  ],
+  [
+   "O principal motivo foi a gasolina, que subiu nove vírgula um por cento em um único mês.",
+   0.5
+  ],
+  [
+   "Inflação é o aumento geral dos preços. Quando ela sobe, cada dólar compra menos.",
+   0.5
+  ],
+  [
+   "O Fed, o banco central americano, quer inflação de dois por cento. Acima disso, os juros por lá ficam altos por mais tempo. Hoje estão entre três vírgula cinco e três vírgula setenta e cinco.",
+   0.5
+  ],
+  [
+   "Juros altos lá atraem investidores para o dólar e para os títulos americanos. Isso tende a pressionar moedas como o real.",
+   0.5
+  ],
+  [
+   "Dólar mais caro encarece importados, combustível e viagens.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: nem tudo depende de você. Mas como você organiza o seu dinheiro, depende.",
+   0.7
+  ],
+  [
+   "Hoje, liste o que você paga que depende do dólar. Quanto disso pesa no seu mês?",
+   0.6
+  ],
+  [
+   "Seu orçamento aguenta um dólar mais caro? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 3
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 2
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 6
+  },
+  {
+   "seg": 11,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "EUA: 3,7%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "inflação em 12 meses",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "+0,6%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "em setembro\n(CPI dos EUA)",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Gasolina\n+9,1%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Juros dos EUA:\n3,50% a 3,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Dólar caro =\nimportado caro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Nem tudo depende de você.\nO seu dinheiro, sim.",
+     "estilo": "Sub",
+     "y": 780
+    },
+    {
+     "t": "Epicteto",
+     "estilo": "Sub",
+     "y": 1000,
+     "t0": 0.8
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "O que no seu mês\ndepende do dólar?",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  7,
+  9
+ ],
+ "keywords_gold": [
+  "TRÊS VÍRGULA SETE",
+  "NOVE VÍRGULA UM",
+  "DÓLAR",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-eua-cpi-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "INFLAÇÃO DOS EUA EM 3,7%: O QUE MUDA AQUI"
+}
