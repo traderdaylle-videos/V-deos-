@@ -1,0 +1,237 @@
+{
+ "segs": [
+  [
+   "Dólar sobe um vírgula quinze por cento em um dia e fecha a cinco reais e nove centavos. Seu orçamento aguenta?",
+   0.6
+  ],
+  [
+   "Na quinta-feira, o dólar fechou a cinco vírgula zero oito sete reais, o maior valor desde dois de outubro.",
+   0.6
+  ],
+  [
+   "Câmbio é o preço de uma moeda em outra. Quando o dólar sobe, o real compra menos lá fora.",
+   0.5
+  ],
+  [
+   "Curioso: lá fora, o dólar perdeu força naquele dia. Aqui, subiu. A oscilação veio mais de dentro.",
+   0.5
+  ],
+  [
+   "Com incerteza, o investidor busca proteção, e o dólar é o refúgio clássico. Mais procura, preço maior.",
+   0.5
+  ],
+  [
+   "No seu bolso, dólar mais caro encarece importados, eletrônicos, passagens e parte do combustível.",
+   0.5
+  ],
+  [
+   "Mas atenção: no ano, o dólar ainda acumula queda de sete vírgula três por cento. Um dia de susto não faz uma tendência.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: algumas coisas dependem de nós, outras não. O dólar não depende. O seu orçamento, sim.",
+   0.7
+  ],
+  [
+   "Hoje, anote três gastos seus ligados ao dólar. Se ele subir dez por cento, quanto isso pesa no seu mês?",
+   0.6
+  ],
+  [
+   "Seu plano aguenta um dia de susto? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  6,
+  9
+ ],
+ "keywords_gold": [
+  "UM VÍRGULA QUINZE",
+  "CINCO VÍRGULA ZERO OITO SETE",
+  "DÓLAR",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "Dólar: +1,15%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "em um dia",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "R$ 5,087",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "maior valor desde 2/out",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Lá fora: dólar fraco\nAqui: dólar forte",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Dólar caro =\nimportado caro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "-7,3%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "no ano, mesmo com a alta",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Algumas coisas dependem\nde nós, outras não.",
+     "estilo": "Sub",
+     "y": 780
+    },
+    {
+     "t": "Epicteto",
+     "estilo": "Sub",
+     "y": 1000,
+     "t0": 0.8
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "O que no seu mês\ndepende do dólar?",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-dolar-5-09-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "DÓLAR SOBE 1,15% E FECHA A R$ 5,09: SEU ORÇAMENTO AGUENTA?"
+}
