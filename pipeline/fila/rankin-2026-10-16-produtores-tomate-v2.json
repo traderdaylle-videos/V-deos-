@@ -2,7 +2,7 @@
  "titulo": "MAIORES PRODUTORES DE TOMATE",
  "subtitulo": "milhões de toneladas de tomate, 2022",
  "fonte": "Fonte: FAO (FAOSTAT), 2022",
- "output": "rankin-2026-10-16-produtores-tomate.mp4",
+ "output": "rankin-2026-10-16-produtores-tomate-v2.mp4",
  "intro": [
   "O tomate está na sua pizza, no seu molho e no seu ketchup, mas quem planta mais é um país só.",
   "Segundo a FAO, o órgão de alimentação da ONU, dez países lideram a produção mundial.",
@@ -13,70 +13,70 @@
    "pos": 10,
    "nome": "Espanha",
    "valor": 3.7,
-   "fala": "Em décimo vem a Espanha, com três vírgula sete milhões de toneladas. Os tomates espanhóis abastecem boa parte da Europa.",
+   "fala": "Em décimo vem a Espanha, com três vírgula sete milhões de toneladas.",
    "clip": "mn-bandeira-espanha-42101.mp4"
   },
   {
    "pos": 9,
    "nome": "Nigéria",
    "valor": 3.7,
-   "fala": "Em nono fica a Nigéria, com três vírgula sete também. É a maior produtora da África ao sul do Saara.",
+   "fala": "Em nono fica a Nigéria, com três vírgula sete também.",
    "clip": "mn-rodovia-aerea-28790.mp4"
   },
   {
    "pos": 8,
    "nome": "Brasil",
    "valor": 3.8,
-   "fala": "Em oitavo está o Brasil, com três vírgula oito milhões de toneladas. Muito dele vira molho e extrato de tomate.",
+   "fala": "Em oitavo está o Brasil, com três vírgula oito. Muito dele vira molho e extrato.",
    "clip": "mn-bandeira-brasil-42080.mp4"
   },
   {
    "pos": 7,
    "nome": "México",
    "valor": 4.2,
-   "fala": "Em sétimo vem o México, com quatro vírgula dois. O país exporta tomate fresco pros Estados Unidos o ano inteiro.",
+   "fala": "Em sétimo vem o México, com quatro vírgula dois.",
    "clip": "mn-bandeira-mexico-42113.mp4"
   },
   {
    "pos": 6,
    "nome": "Itália",
    "valor": 6.1,
-   "fala": "Em sexto aparece a Itália, com seis vírgula um. Sem tomate, não existe molho de macarrão italiano.",
+   "fala": "Em sexto aparece a Itália, com seis vírgula um. Sem tomate, não existe molho italiano.",
    "clip": "mn-bandeira-italia-18897.mp4"
   },
   {
    "pos": 5,
    "nome": "Egito",
    "valor": 6.3,
-   "fala": "Em quinto fica o Egito, com seis vírgula três milhões de toneladas, graças ao delta do rio Nilo.",
+   "fala": "Em quinto fica o Egito, com seis vírgula três, graças ao rio Nilo.",
    "clip": "mn-aviao-decolando-28000.mp4"
   },
   {
    "pos": 4,
    "nome": "EUA",
    "valor": 10.2,
-   "fala": "Em quarto vêm os Estados Unidos, com dez vírgula dois. A Califórnia sozinha planta a maior parte do tomate industrial americano.",
+   "fala": "Em quarto vêm os Estados Unidos, com dez vírgula dois.",
    "clip": "mn-bandeira-eua-40711.mp4"
   },
   {
    "pos": 3,
    "nome": "Turquia",
    "valor": 13.0,
-   "fala": "Em terceiro vem a Turquia, com treze milhões de toneladas. É uma das maiores exportadoras de pasta de tomate.",
+   "fala": "Em terceiro vem a Turquia, com treze milhões de toneladas.",
    "clip": "mn-bandeira-turquia-18983.mp4"
   },
   {
    "pos": 2,
    "nome": "Índia",
    "valor": 20.7,
-   "fala": "Em segundo fica a Índia, com vinte vírgula sete milhões de toneladas. Aqui o tomate está em quase todo prato.",
+   "fala": "Em segundo fica a Índia, com vinte vírgula sete milhões.",
    "clip": "mn-bandeira-india-42085.mp4"
   },
   {
    "pos": 1,
    "nome": "China",
    "valor": 68.2,
-   "fala": "E em primeiro lugar vem a China, com sessenta e oito vírgula dois. Produz mais que o triplo da segunda colocada.",
+   "fala": "E em primeiro lugar vem a China, com sessenta e oito vírgula dois. Mais que o triplo da segunda.",
    "clip": "mn-bandeira-china-13312.mp4"
   }
  ],
