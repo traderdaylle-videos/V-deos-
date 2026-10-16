@@ -1,0 +1,87 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Três candles de baixa seguidos depois de uma alta."
+  ],
+  [
+   "intro",
+   "Isso é o padrão três corvos negros."
+  ],
+  [
+   "intro",
+   "Cada candle abre dentro do corpo do anterior e fecha cada vez mais baixo."
+  ],
+  [
+   "intro",
+   "Mostra vendedores assumindo o controle depois de uma subida."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: três corpos vermelhos, quase sem sombras, descendo em sequência."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam esse padrão como zona de atenção para uma possível reversão."
+  ],
+  [
+   "meio",
+   "Quanto maiores os corpos, mais forte tende a ser o sinal."
+  ],
+  [
+   "meio",
+   "Mas cuidado: o padrão pode falhar, e existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você espera confirmação antes de agir?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta anterior, três candles de baixa e atenção à confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "numeros-oculos-47792.mp4",
+  "investidor-tablet-escritorio-45706.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_tres_corvos_negros.py",
+ "output": "tiktok-2026-10-16-tres-corvos-negros.mp4",
+ "keywords_green": [
+  "5PI",
+  "CORVOS"
+ ],
+ "keywords_orange": [
+  "BAIXA",
+  "VENDEDORES",
+  "CUIDADO",
+  "CANDLES"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

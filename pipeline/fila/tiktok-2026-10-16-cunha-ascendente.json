@@ -1,0 +1,87 @@
+{
+ "segs": [
+  [
+   "intro",
+   "O que acontece quando o preço sobe, mas perde força?"
+  ],
+  [
+   "intro",
+   "Isso pode ser uma cunha ascendente."
+  ],
+  [
+   "intro",
+   "O preço faz topos e fundos mais altos, só que as duas linhas vão se fechando."
+  ],
+  [
+   "intro",
+   "A alta continua, mas cada vez mais curta, e isso indica cansaço."
+  ],
+  [
+   "meio",
+   "As linhas de topo e fundo apontam pra cima e se aproximam."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento da linha de baixo como zona de atenção."
+  ],
+  [
+   "meio",
+   "Isso pode sinalizar o fim da alta e uma possível reversão."
+  ],
+  [
+   "meio",
+   "Mas cuidado: o rompimento pode ser falso, e existe risco."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você espera o rompimento ou o reteste?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta cansada, linhas fechando e atenção ao rompimento pra baixo."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-tempo-real-47018.mp4",
+  "investidor-tablet-escritorio-45706.mp4",
+  "tendencia-tela-9607.mp4",
+  "numeros-oculos-47792.mp4",
+  "mulher-graficos-ipad-45662.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_cunha_ascendente.py",
+ "output": "tiktok-2026-10-16-cunha-ascendente.mp4",
+ "keywords_green": [
+  "ASCENDENTE",
+  "5PI"
+ ],
+ "keywords_orange": [
+  "ROMPE",
+  "CUIDADO",
+  "CUNHA",
+  "RISCO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
