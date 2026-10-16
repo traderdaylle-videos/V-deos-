@@ -1,0 +1,93 @@
+{
+ "titulo": "MAIORES PRODUTORES DE CACAU",
+ "subtitulo": "milhões de toneladas de cacau em grão, 2022",
+ "fonte": "Fonte: FAO (FAOSTAT), 2022",
+ "output": "rankin-2026-10-16-produtores-cacau-v2.mp4",
+ "intro": [
+  "Todo chocolate nasce de um grão, e esse grão vem de pouquíssimos países.",
+  "Segundo a FAO, só nove países concentram quase todo o cacau do mundo.",
+  "E o Brasil, tá nessa lista? Fica até o final pra descobrir o número um."
+ ],
+ "itens": [
+  {
+   "pos": 9,
+   "nome": "República Dominicana",
+   "valor": 0.08,
+   "fala": "Em nono vem a República Dominicana, com zero vírgula zero oito milhão de toneladas.",
+   "clip": "mn-voando-nuvens-11303.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Peru",
+   "valor": 0.17,
+   "fala": "Em oitavo fica o Peru, com zero vírgula dezessete. Hoje exporta cacau fino pro mundo todo.",
+   "clip": "mn-aviao-decolando-28000.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Brasil",
+   "valor": 0.27,
+   "fala": "Em sétimo está o Brasil, com zero vírgula vinte e sete. A Bahia ainda é o coração dessa produção.",
+   "clip": "mn-bandeira-brasil-42080.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "Nigéria",
+   "valor": 0.28,
+   "fala": "Em sexto vem a Nigéria, com zero vírgula vinte e oito, quase empatada com o Brasil.",
+   "clip": "mn-rodovia-aerea-28790.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Camarões",
+   "valor": 0.3,
+   "fala": "Em quinto aparece Camarões, com zero vírgula trinta.",
+   "clip": "mn-cruzamento-rodovia-14845.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "Equador",
+   "valor": 0.34,
+   "fala": "Em quarto vem o Equador, com zero vírgula trinta e quatro. Líder em cacau fino na América do Sul.",
+   "clip": "mn-cidade-noite-aerea-42342.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Indonésia",
+   "valor": 0.67,
+   "fala": "Em terceiro fica a Indonésia, com zero vírgula sessenta e sete.",
+   "clip": "mn-seul-noite-transito-20089.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Gana",
+   "valor": 1.1,
+   "fala": "Em segundo vem Gana, com um vírgula um milhão de toneladas. Um país pequeno que abastece boa parte dos chocolates do planeta.",
+   "clip": "mn-terra-girando-34314.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "Costa do Marfim",
+   "valor": 2.2,
+   "fala": "E em primeiro lugar, com folga, a Costa do Marfim: dois vírgula dois milhões de toneladas. Quase metade do cacau do mundo sai de um único país.",
+   "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava a Costa do Marfim tão na frente?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-voando-nuvens-11303.mp4",
+  "mn-cidade-noite-aerea-42342.mp4"
+ ],
+ "clip_final": "mn-terra-girando-34314.mp4",
+ "bg_clip": "mn-terra-girando-34314.mp4",
+ "decimais": 2,
+ "unidade": "",
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral"
+}
