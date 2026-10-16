@@ -1044,5 +1044,37 @@
   "metricool_id": 397284256,
   "metricool_uuid": "-2767492883654228422",
   "agendado_para": "2026-10-15T20:23:00-03:00"
+ },
+ {
+  "data": "2026-10-16",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: manhã livre do relógio do pregão; viajar e passear sem acompanhar cada movimento; automação segue entrada, saída e stop, método no lugar do palpite",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "COM MÉTODO"
+  ],
+  "clipes": [
+   "casal-mapa-carro-2718 (intro)",
+   "mn-alpes-suica-31939 (intro)",
+   "homem-estrada-35809 (intro)",
+   "relogio-parede-28886",
+   "cansado-computador-14763",
+   "jovem-trabalhando-computador-44072",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "familia-caminhando-por-do-sol-6472",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 65.4,
+  "arquivo": "media:primewin/primewin-2026-10-16-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 397655463,
+  "metricool_uuid": "4478068286153378361",
+  "agendado_para": "2026-10-16T08:31:00-03:00"
  }
 ]
