@@ -1,0 +1,37 @@
+{
+ "data": "2026-10-16",
+ "tema": "Dólar sobe 1,15% e fecha a R$ 5,087 (maior valor desde 2/out; -7,33% no ano); câmbio, importados/exportadores e orçamento",
+ "gancho": "Dólar sobe 1,15% em um dia e fecha a R$ 5,09. Seu orçamento aguenta?",
+ "fonte": "InfoMoney e O Fluminense/Piranot (fechamento 15/10/2026)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-5-09-curto.mp4",
+  "duracao": 56.4,
+  "capa": "granaefinancas/gf-dolar-5-09-curto-capa.jpg",
+  "horario_reel": "09:55",
+  "horario_short": "10:00",
+  "metricool": {
+   "reel": 397702760,
+   "short": 397702798
+  },
+  "titulo_short": "Dólar sobe 1,15% e fecha a R$ 5,09: e o seu bolso?"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-5-09-longo.mp4",
+  "duracao": 245.6,
+  "horario": "10:10",
+  "metricool": 397702905,
+  "titulo": "Dólar sobe 1,15% em um dia: o que isso muda no seu bolso",
+  "capitulos": [
+   "0:00 Introdução",
+   "0:20 O que aconteceu com o dólar",
+   "0:48 O quadro maior: dólar no ano",
+   "1:00 O que é câmbio",
+   "1:16 Por que o dólar sobe e desce",
+   "2:02 Quem ganha e quem perde",
+   "2:47 Epicteto e o que depende de você",
+   "2:57 Passo a passo no seu orçamento",
+   "3:29 Resumo e pergunta final"
+  ]
+ },
+ "obs": "longo renderizado do spec gf-dolar-5-09-longo (887 palavras, 245 s); spec -v2 (948 palavras) também na fila, não usado."
+}

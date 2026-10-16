@@ -212,5 +212,32 @@
    "Money Times 14/10/2026 (CPI EUA)",
    "BPMoney 14/10/2026"
   ]
+ },
+ {
+  "data": "2026-10-16",
+  "tema": "Dólar sobe 1,15% e fecha a R$ 5,087 (maior valor desde 2/out; -7,33% no ano); câmbio, importados/exportadores e orçamento",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-dolar-5-09-curto.mp4",
+   "duracao": 56.4,
+   "capa": "granaefinancas/gf-dolar-5-09-curto-capa.jpg",
+   "gancho": "88 STRONG (variante)",
+   "metricool": {
+    "reel": 397702760,
+    "short": 397702798
+   },
+   "horario": "09:55"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-dolar-5-09-longo.mp4",
+   "duracao": 245.6,
+   "capa": "granaefinancas/gf-dolar-5-09-longo-capa.jpg (sem título)",
+   "metricool": 397702905,
+   "horario": "10:10"
+  },
+  "fontes": [
+   "InfoMoney 15/10/2026",
+   "O Fluminense 15/10/2026"
+  ]
  }
 ]
