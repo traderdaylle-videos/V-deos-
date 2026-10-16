@@ -2,7 +2,7 @@
  "titulo": "MAIORES PRODUTORES DE TOMATE",
  "subtitulo": "milhões de toneladas de tomate, 2022",
  "fonte": "Fonte: FAO (FAOSTAT), 2022",
- "output": "rankin-2026-10-16-produtores-tomate-v2.mp4",
+ "output": "rankin-2026-10-16-produtores-tomate-v3.mp4",
  "intro": [
   "O tomate está na sua pizza, no seu molho e no seu ketchup, mas quem planta mais é um país só.",
   "Segundo a FAO, o órgão de alimentação da ONU, dez países lideram a produção mundial.",
@@ -13,7 +13,7 @@
    "pos": 10,
    "nome": "Espanha",
    "valor": 3.7,
-   "fala": "Em décimo vem a Espanha, com três vírgula sete milhões de toneladas.",
+   "fala": "Em décimo vem a Espanha, com três vírgula sete milhões de toneladas. Os tomates espanhóis abastecem boa parte da Europa.",
    "clip": "mn-bandeira-espanha-42101.mp4"
   },
   {
@@ -34,7 +34,7 @@
    "pos": 7,
    "nome": "México",
    "valor": 4.2,
-   "fala": "Em sétimo vem o México, com quatro vírgula dois.",
+   "fala": "Em sétimo vem o México, com quatro vírgula dois. O país exporta tomate fresco pros Estados Unidos.",
    "clip": "mn-bandeira-mexico-42113.mp4"
   },
   {
@@ -55,14 +55,14 @@
    "pos": 4,
    "nome": "EUA",
    "valor": 10.2,
-   "fala": "Em quarto vêm os Estados Unidos, com dez vírgula dois.",
+   "fala": "Em quarto vêm os Estados Unidos, com dez vírgula dois. A Califórnia planta a maior parte do tomate industrial americano.",
    "clip": "mn-bandeira-eua-40711.mp4"
   },
   {
    "pos": 3,
    "nome": "Turquia",
    "valor": 13.0,
-   "fala": "Em terceiro vem a Turquia, com treze milhões de toneladas.",
+   "fala": "Em terceiro vem a Turquia, com treze milhões de toneladas. É uma das maiores exportadoras de pasta de tomate.",
    "clip": "mn-bandeira-turquia-18983.mp4"
   },
   {
