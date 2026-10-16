@@ -69,6 +69,14 @@
    0.5
   ],
   [
+   "Muita gente comete o erro de correr para comprar dólar depois de uma alta. Comprar por medo, depois de uma subida, é um dos erros mais comuns do investidor iniciante.",
+   0.5
+  ],
+  [
+   "O outro erro é o contrário: vender tudo em pânico quando o mercado cai. Em ambos os casos, a decisão é guiada pela emoção do momento, e não pelo seu planejamento.",
+   0.5
+  ],
+  [
    "É aqui que entra a filosofia estoica, que serve de pano de fundo para este canal. Epicteto, filósofo da Roma antiga, ensinava que algumas coisas dependem de nós, e outras não.",
    0.5
   ],
@@ -251,6 +259,16 @@
    "seg": 25,
    "src": "grafico-tempo-real-47018.mp4",
    "offset": 4
+  },
+  {
+   "seg": 26,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 4
+  },
+  {
+   "seg": 27,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 4
   }
  ],
  "overlays": [
@@ -322,8 +340,8 @@
    ]
   },
   {
-   "seg": 17,
-   "ate": 17,
+   "seg": 19,
+   "ate": 19,
    "linhas": [
     {
      "t": "Epicteto",
@@ -333,8 +351,8 @@
    ]
   },
   {
-   "seg": 20,
-   "ate": 20,
+   "seg": 22,
+   "ate": 22,
    "linhas": [
     {
      "t": "US$ 1.000:\nR$ 5.087 → ~R$ 5.600",
@@ -344,8 +362,8 @@
    ]
   },
   {
-   "seg": 23,
-   "ate": 23,
+   "seg": 25,
+   "ate": 25,
    "linhas": [
     {
      "t": "Se o dólar subir 10%,\nseu orçamento aguenta?",
@@ -355,8 +373,8 @@
    ]
   },
   {
-   "seg": 25,
-   "ate": 25,
+   "seg": 27,
+   "ate": 27,
    "linhas": [
     {
      "t": "Inscreva-se na\nGrana e Finanças",
@@ -372,7 +390,7 @@
    ]
   }
  ],
- "output": "gf-dolar-5-09-longo.mp4",
+ "output": "gf-dolar-5-09-longo-v2.mp4",
  "motor": "gf",
  "pasta": "granaefinancas",
  "formato": "16:9"
