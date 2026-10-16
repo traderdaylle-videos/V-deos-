@@ -1076,5 +1076,36 @@
   "metricool_id": 397655463,
   "metricool_uuid": "4478068286153378361",
   "agendado_para": "2026-10-16T08:31:00-03:00"
+ },
+ {
+  "data": "2026-10-16",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card4 R$582, 40 ops, 65%); sem preço médio contra a posição; 5PI",
+  "grafico": "linha / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "homem-estressado-49225",
+   "lucro-bolsa-47012",
+   "homem-mar-tranquilo-26667",
+   "tendencia-tela-9607",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "praia-mulher-caminhando-1208 (endcard)"
+  ],
+  "bg_clip": "praia-mulher-caminhando-1208",
+  "cartoes": [
+   "card4",
+   "card1"
+  ],
+  "duracao_s": 67.9,
+  "arquivo": "media:primewin/primewin-2026-10-16-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 398202265,
+  "metricool_uuid": "1675731174582143847",
+  "agendado_para": "2026-10-16T20:24:00-03:00"
  }
 ]
