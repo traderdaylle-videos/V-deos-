@@ -13,6 +13,7 @@
 - Renderizar os vídeos **fora do Claude** (ex.: GitHub Actions), mantendo a mesma voz, os mesmos clipes e o `make_gf_cine.py`.
 - **Checar o limite do Metricool antes de produzir**, para não gastar em posts que vão travar.
 - Conferir só **4 a 6 quadros por vídeo**, sem reler o que já foi conferido.
+- **Checagem diária só avisa em falha (16/10/2026, pedido do usuário):** se todas as postagens do dia estiverem agendadas ou publicadas, a execução não envia mensagem nem resumo e não gasta tokens com relatório. Só avisa (PushNotification ou resumo curto) quando alguma postagem faltar ou falhar.
 - Prompts das tarefas enxutos.
 - **Modelos (atualizado 08/10/2026, pedido do usuário):** tarefas que produzem e agendam posts usam `claude-sonnet-5-5`; a tarefa de Checagem usa `claude-haiku-5-5`. O Opus (`claude-opus-5-5`) fica reservado só para configurar e manter o pipeline, não para postar.
 - Usar primeiro tudo o que está disponível de graça no Claude; só depois considerar conectores ou assinaturas pagas.
@@ -56,6 +57,7 @@
 - **Sempre produzidos pelo pipeline do GitHub** (`pipeline/granaefinancas`, `make_gf_cine.py`), **nunca refeitos do zero**.
 - Sempre 2 vídeos por assunto: um **curto** (~60 s, Instagram + YouTube Shorts) e um **longo** (~4,5 min, só YouTube). O longo é feito a partir do curto aprovado.
 - Antes de cada vídeo, pesquisar os assuntos financeiros em alta.
+- **Notícias de empresas e ações (16/10/2026, pedido do usuário):** incluir nos roteiros notícias sobre ações de empresas e de grandes companhias, sempre que houver assunto relevante do dia. Associar cada notícia ao cotidiano do espectador (preço de produto, emprego, conta de luz, cartão, aposentadoria, compras). Detalhar o que a empresa faz (setor, produto ou serviço principal e como ganha dinheiro), com fonte e números conferidos. Não recomendar compra ou venda de ação.
 - **Conteúdo = educação financeira** (29/09): pegar a notícia do dia e ensinar sobre ela — o que aconteceu, por que acontece, o que afeta (ex.: "dólar subiu 5%" → importados, inflação, mercado americano). O estoicismo fica só como ideia de fundo (responsabilidade sobre o próprio dinheiro), sem dominar o roteiro.
 - Padrão aprovado ("sensacional", 28/09): clipes reais em tela cheia, frases de impacto com número grande, legendas no terço inferior, um princípio real com paráfrase fiel, ferramenta prática + pergunta-espelho.
 - CTA final: "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças".
@@ -125,7 +127,7 @@
   - **Prime Win (Reels)**: 08:05 (DESEJO) e 20:05 (MAGNETO) — motor video, pasta primewin.
   - **TikTok @traderdaylle**: 10:40 — 2 vídeos, motor video, pasta tiktok.
   - **Rankin / @rankingcuriosos**: 06:06 — 2 rankings, motor ranking, pasta mundonumeral.
-  - **Checagem diária**: 13:10 e 21:10 (Haiku), dispara tarefas só para o que faltar.
+  - **Checagem diária**: 13:10 e 21:10 (Haiku), dispara tarefas só para o que faltar. Pedido de 16/10/2026: só avisar em caso de falha (ver seção 1). Mudança no prompt da tarefa pendente de confirmação do usuário.
 - Testes de render validados em 08/10/2026 (`teste-gf-curto`, `teste-primewin`, `teste-ranking`). Workflow `render.yml` verde.
 - Ainda não testado: a espera pelo render dentro de uma execução agendada. Se falhar, a tarefa corrige sozinha (seção 6).
 - O limite do plano renova na **quarta-feira, 14/10/2026, às 12:00**. Não gastar uso à toa.
