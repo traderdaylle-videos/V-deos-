@@ -1,0 +1,43 @@
+{
+ "data": "2026-10-17",
+ "tema": "Brent passa de US$ 110 o barril (1ª vez desde maio) por oferta de energia; petróleo → gasolina/diesel/frete/preço; dólar R$ 5,0728 (-0,28%) e Ibovespa 205.430 (+0,54%) em 16/10",
+ "gancho": "Petróleo acima de 110 dólares: quanto isso pesa no seu bolso? (80 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-petroleo-110-curto.mp4",
+  "duracao": 55.5,
+  "capa": "granaefinancas/gf-petroleo-110-curto-capa.jpg",
+  "horario": "09:55",
+  "metricool": {
+   "reel": 398472987,
+   "short": 398473002
+  },
+  "titulo_short": "Petróleo passa de US$ 110: quanto pesa no seu bolso?"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-petroleo-110-longo-v2.mp4",
+  "duracao": 272.4,
+  "capa": "granaefinancas/gf-petroleo-110-longo-v2-capa.jpg (sem título)",
+  "horario": "10:10",
+  "metricool": 398482743,
+  "titulo": "Petróleo a US$ 110: como isso chega à gasolina e ao seu bolso",
+  "capitulos": [
+   "0:00 Introdução",
+   "0:17 O que aconteceu",
+   "0:40 Por que o petróleo subiu",
+   "1:13 Do poço ao posto",
+   "1:30 Por que a gasolina não muda no mesmo dia",
+   "1:58 Dólar e Ibovespa no dia",
+   "2:13 O efeito no seu bolso",
+   "2:58 Erros comuns",
+   "3:06 O que depende de você",
+   "3:23 Passo a passo no orçamento",
+   "3:58 Resumo e pergunta"
+  ],
+  "obs": "v1 descartado (continha aviso de recomendação); v2 sem o aviso"
+ },
+ "fontes": [
+  "BPMoney 16/10/2026 (Brent)",
+  "Metrópoles 16/10/2026 (Brent, Ibovespa)",
+  "Campo Grande News 16/10/2026 (dólar e Ibovespa)"
+ ]
+}

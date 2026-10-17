@@ -239,5 +239,33 @@
    "InfoMoney 15/10/2026",
    "O Fluminense 15/10/2026"
   ]
+ },
+ {
+  "data": "2026-10-17",
+  "tema": "Brent passa de US$ 110 o barril (1ª vez desde maio) por oferta de energia; petróleo → gasolina/diesel/frete/preço; dólar R$ 5,0728 (-0,28%) e Ibovespa 205.430 (+0,54%) em 16/10",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-petroleo-110-curto.mp4",
+   "duracao": 55.5,
+   "capa": "granaefinancas/gf-petroleo-110-curto-capa.jpg",
+   "horario": "09:55",
+   "metricool": {
+    "reel": 398472987,
+    "short": 398473002
+   },
+   "gancho": "80 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-petroleo-110-longo-v2.mp4",
+   "duracao": 272.4,
+   "capa": "granaefinancas/gf-petroleo-110-longo-v2-capa.jpg (sem título)",
+   "horario": "10:10",
+   "metricool": 398482743
+  },
+  "fontes": [
+   "BPMoney 16/10/2026 (Brent)",
+   "Metrópoles 16/10/2026 (Brent, Ibovespa)",
+   "Campo Grande News 16/10/2026 (dólar e Ibovespa)"
+  ]
  }
 ]
