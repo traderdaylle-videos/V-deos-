@@ -267,5 +267,27 @@
   "metricool_id": 397934554,
   "publicado": false,
   "duracao_s": 63.7
+ },
+ {
+  "data": "2026-10-17",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de laranja do mundo (2020)",
+  "fonte": "FAO (FAOSTAT) 2020",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-17-producao-laranja.mp4",
+  "metricool_id": 398405047,
+  "publicado": false,
+  "duracao_s": 70.9
+ },
+ {
+  "data": "2026-10-17",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de banana do mundo (2022)",
+  "fonte": "FAO (FAOSTAT) 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-17-producao-banana.mp4",
+  "metricool_id": 398405077,
+  "publicado": false,
+  "duracao_s": 66.1
  }
 ]
