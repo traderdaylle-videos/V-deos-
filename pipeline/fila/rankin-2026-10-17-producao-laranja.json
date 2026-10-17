@@ -1,0 +1,100 @@
+{
+  "titulo": "MAIORES PRODUTORES DE LARANJA",
+  "subtitulo": "milhões de toneladas de laranja, 2020",
+  "fonte": "Fonte: FAO (FAOSTAT), 2020",
+  "output": "rankin-2026-10-17-producao-laranja.mp4",
+  "intro": [
+    "Aquele copo de suco de laranja de manhã depende de pouquíssimos países no mundo inteiro.",
+    "Segundo a FAO, só dez países colhem a maior parte das laranjas do planeta.",
+    "E o Brasil, tá nessa lista? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Itália",
+      "valor": 1.8,
+      "fala": "Em décimo lugar vem a Itália, com um vírgula oito milhão de toneladas. Famosa pelas laranjas vermelhas da Sicília.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Irã",
+      "valor": 2.2,
+      "fala": "Em nono fica o Irã, com dois vírgula dois. Produz muito e consome quase tudo dentro de casa.",
+      "clip": "mn-terra-girando-34314.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Indonésia",
+      "valor": 2.7,
+      "fala": "Em oitavo vem a Indonésia, com dois vírgula sete. Um país tropical com milhares de ilhas.",
+      "clip": "mn-aviao-decolando-28000.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Egito",
+      "valor": 3.2,
+      "fala": "Em sétimo aparece o Egito, com três vírgula dois. Exporta laranja pro mundo árabe e pra Europa.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Espanha",
+      "valor": 3.3,
+      "fala": "Em sexto vem a Espanha, com três vírgula três. É a maior exportadora de laranja da Europa.",
+      "clip": "mn-bandeira-espanha-42101.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "México",
+      "valor": 4.6,
+      "fala": "Em quinto fica o México, com quatro vírgula seis milhões de toneladas.",
+      "clip": "mn-bandeira-mexico-42113.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "EUA",
+      "valor": 4.8,
+      "fala": "Em quarto vêm os Estados Unidos, com quatro vírgula oito. A Flórida e a Califórnia puxam essa colheita.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "China",
+      "valor": 7.5,
+      "fala": "Em terceiro vem a China, com sete vírgula cinco milhões de toneladas.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Índia",
+      "valor": 9.9,
+      "fala": "Em segundo lugar fica a Índia, com nove vírgula nove. Quase dez milhões de toneladas num único ano.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Brasil",
+      "valor": 16.7,
+      "fala": "E em primeiro, com bastante folga, está o Brasil, com dezesseis vírgula sete milhões de toneladas. Quase o dobro da segunda colocada.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava o Brasil tão na frente assim?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-rodovia-aerea-28790.mp4"
+  ],
+  "clip_final": "mn-bandeira-brasil-42080.mp4",
+  "bg_clip": "mn-bandeira-brasil-42080.mp4",
+  "decimais": 1,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}

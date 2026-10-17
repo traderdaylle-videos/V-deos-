@@ -1,0 +1,100 @@
+{
+  "titulo": "MAIORES PRODUTORES DE BANANA",
+  "subtitulo": "milhões de toneladas de banana, 2022",
+  "fonte": "Fonte: FAO (FAOSTAT), 2022",
+  "output": "rankin-2026-10-17-producao-banana.mp4",
+  "intro": [
+    "A banana é uma das frutas mais comidas do mundo, e um país sozinho colhe mais que o resto.",
+    "Segundo a FAO, esses dez países lideram a produção global de banana.",
+    "E o Brasil, tá nessa lista? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Tanzânia",
+      "valor": 3.5,
+      "fala": "Em décimo lugar vem a Tanzânia, com três vírgula cinco milhões de toneladas. Lá a banana é a base da comida de muita gente.",
+      "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Angola",
+      "valor": 4.6,
+      "fala": "Em nono fica Angola, com quatro vírgula seis. A banana cresce por quase todo o país.",
+      "clip": "mn-rodovia-seul-28714.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Guatemala",
+      "valor": 4.8,
+      "fala": "Em oitavo vem a Guatemala, com quatro vírgula oito. Grande parte vai pra exportação.",
+      "clip": "mn-cruzamento-rodovia-14845.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Filipinas",
+      "valor": 5.9,
+      "fala": "Em sétimo aparecem as Filipinas, com cinco vírgula nove. Uma das maiores exportadoras da Ásia.",
+      "clip": "mn-seul-noite-transito-20089.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Equador",
+      "valor": 6.1,
+      "fala": "Em sexto fica o Equador, com seis vírgula um. É o maior exportador de banana do planeta.",
+      "clip": "mn-voando-nuvens-11303.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Brasil",
+      "valor": 6.9,
+      "fala": "Em quinto vem o Brasil, com seis vírgula nove milhões de toneladas. Mas quase tudo fica aqui mesmo, no nosso prato.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Nigéria",
+      "valor": 8.0,
+      "fala": "Em quarto está a Nigéria, com oito vírgula zero.",
+      "clip": "mn-aviao-decolando-28000.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Indonésia",
+      "valor": 9.2,
+      "fala": "Em terceiro vem a Indonésia, com nove vírgula dois milhões de toneladas.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "China",
+      "valor": 12.1,
+      "fala": "Em segundo fica a China, com doze vírgula um.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Índia",
+      "valor": 34.5,
+      "fala": "E em primeiro lugar está a Índia, com trinta e quatro vírgula cinco milhões de toneladas. Quase o triplo da China.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava a Índia tão distante de todo mundo?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-rodovia-aerea-28790.mp4"
+  ],
+  "clip_final": "mn-bandeira-india-42085.mp4",
+  "bg_clip": "mn-bandeira-india-42085.mp4",
+  "decimais": 1,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
