@@ -1,0 +1,87 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Quando o preço sobe e desce sempre entre dois níveis, sem sair deles."
+  ],
+  [
+   "intro",
+   "Esse é o padrão retângulo."
+  ],
+  [
+   "intro",
+   "Em cima fica a resistência, embaixo o suporte."
+  ],
+  [
+   "intro",
+   "É um mercado lateral, em pausa."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o preço bate na resistência, volta ao suporte e repete."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento de uma das linhas como zona de atenção."
+  ],
+  [
+   "meio",
+   "Mas cuidado: rompimento falso é comum, e existe risco."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento fora do retângulo."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você opera dentro do retângulo ou espera o rompimento?"
+  ],
+  [
+   "recap",
+   "Recapitulando: suporte, resistência, mercado lateral e rompimento com confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "grafico-closeup-47016.mp4",
+  "investidor-tablet-escritorio-45706.mp4",
+  "empresario-grafico-sucesso-26518.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_retangulo.py",
+ "output": "tiktok-2026-10-17-retangulo-lateral.mp4",
+ "keywords_green": [
+  "5PI",
+  "RETÂNGULO"
+ ],
+ "keywords_orange": [
+  "RESISTÊNCIA",
+  "SUPORTE",
+  "ROMPIMENTO",
+  "LATERAL"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
