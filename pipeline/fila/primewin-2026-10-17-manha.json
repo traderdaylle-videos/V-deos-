@@ -1,0 +1,122 @@
+{
+  "segs": [
+    [
+      "intro",
+      "E se o seu fim de semana não dependesse do que o mercado está fazendo?"
+    ],
+    [
+      "intro",
+      "Imagina tomar café com calma, passear com a família e curtir o seu tempo, sem ficar preso a uma tela."
+    ],
+    [
+      "intro",
+      "Muita gente quer essa tranquilidade e acha que ela está longe."
+    ],
+    [
+      "meio",
+      "Quem pensa em entrar na bolsa costuma achar que precisa ser especialista e acompanhar tudo, o dia inteiro."
+    ],
+    [
+      "meio",
+      "Só que a ansiedade pesa, e com o emocional no comando, o medo de perder o movimento vira pressa de entrar."
+    ],
+    [
+      "meio",
+      "Os números mudam a cada segundo, e decidir cansado quase nunca dá certo."
+    ],
+    [
+      "meio",
+      "Uma automação segue a estratégia definida, com entrada, saída e stop, sem pressa e sem hesitar."
+    ],
+    [
+      "meio",
+      "É disciplina no lugar do impulso, e você não precisa começar sabendo tudo."
+    ],
+    [
+      "meio",
+      "Enquanto ela trabalha, o seu tempo volta para quem importa."
+    ],
+    [
+      "recap",
+      "É isso que a Prime Win faz: transforma estratégias em automações."
+    ],
+    [
+      "recap",
+      "E toda automação é testada em ambiente de conta real antes de chegar até você."
+    ],
+    [
+      "recap",
+      "Assim, você ganha método na bolsa, sem viver preso à tela."
+    ],
+    [
+      "final_5pi",
+      "E se você quer operar com capital maior, a 5PI é uma mesa proprietária que libera até cem mil reais para operar na Profit."
+    ],
+    [
+      "final_fim",
+      "Comenta PRIME aqui embaixo que a gente te manda todas as informações no direct."
+    ],
+    [
+      "final_fim",
+      "Operar envolve risco, e resultado passado não garante resultado futuro."
+    ]
+  ],
+  "photos_meio": [
+    "escritorio-entediado-48609.mp4",
+    "homem-ansiedade-47206.mp4",
+    "numeros-oculos-47792.mp4",
+    "grafico-tempo-real-47018.mp4",
+    "homem-laptop-trabalhando-9756.mp4",
+    "homem-mar-tranquilo-26667.mp4"
+  ],
+  "photo_5pi": "contando-dinheiro-23168.mp4",
+  "explainer_anim": "explicativo_anim.mp4",
+  "explainer_final": "explicativo_final.png",
+  "keywords_green": [
+    "PRIME WIN",
+    "PRIME",
+    "AUTOMAÇÃO",
+    "AUTOMAÇÕES",
+    "AUTOMATIZADO",
+    "CONTA REAL",
+    "5PI"
+  ],
+  "keywords_orange": [
+    "PERDA",
+    "PREJUÍZO",
+    "QUEBRA",
+    "EMOCIONAL",
+    "MEDO",
+    "GANÂNCIA",
+    "RISCO"
+  ],
+  "kw_color_green": "&HFFE03F&",
+  "kw_color_orange": "&H3FD2FF&",
+  "music_mood": "alegre",
+  "speed": 1.15,
+  "endcard": {
+    "animado": true,
+    "bg_clip": "casal-mapa-carro-2718.mp4",
+    "clip_offset": 2
+  },
+  "output": "primewin-2026-10-17-manha.mp4",
+  "photos_intro": [
+    "familia-caminhando-por-do-sol-6472.mp4",
+    "cafe-manha-musica-43391.mp4",
+    "mn-alpes-suica-31939.mp4"
+  ],
+  "motor": "video",
+  "pasta": "primewin",
+  "explainer_args": [
+    "--estilo",
+    "candles",
+    "--cenario",
+    "tendencia_alta",
+    "--dur",
+    "13",
+    "--seed",
+    "7",
+    "VÁRIAS ENTRADAS",
+    "NUMA SÓ TENDÊNCIA"
+  ]
+}
