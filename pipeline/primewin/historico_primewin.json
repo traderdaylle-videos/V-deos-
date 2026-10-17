@@ -1107,5 +1107,37 @@
   "metricool_id": 398202265,
   "metricool_uuid": "1675731174582143847",
   "agendado_para": "2026-10-16T20:24:00-03:00"
+ },
+ {
+  "data": "2026-10-17",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: fim de semana livre da tela; café e passeio em família; automação segue entrada, saída e stop, disciplina no lugar do impulso",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "cafe-manha-musica-43391 (intro)",
+   "mn-alpes-suica-31939 (intro)",
+   "escritorio-entediado-48609",
+   "homem-ansiedade-47206",
+   "numeros-oculos-47792",
+   "grafico-tempo-real-47018",
+   "homem-laptop-trabalhando-9756",
+   "homem-mar-tranquilo-26667",
+   "contando-dinheiro-23168 (5PI)",
+   "casal-mapa-carro-2718 (endcard)"
+  ],
+  "bg_clip": "casal-mapa-carro-2718",
+  "cartoes": [],
+  "duracao_s": 67.0,
+  "arquivo": "media:primewin/primewin-2026-10-17-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 398445554,
+  "metricool_uuid": "5337809448911978504",
+  "agendado_para": "2026-10-17T08:27:00-03:00"
  }
 ]
