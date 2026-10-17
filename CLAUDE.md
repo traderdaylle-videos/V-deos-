@@ -15,6 +15,7 @@
 - Conferir só **4 a 6 quadros por vídeo**, sem reler o que já foi conferido.
 - **Checagem diária só avisa em falha (16/10/2026, pedido do usuário):** se todas as postagens do dia estiverem agendadas ou publicadas, a execução não envia mensagem nem resumo e não gasta tokens com relatório. Só avisa (PushNotification ou resumo curto) quando alguma postagem faltar ou falhar.
 - Prompts das tarefas enxutos.
+- **Mensagens só quando necessárias (16/10/2026, pedido do usuário):** antes de cada mensagem, avaliar se ela vale o gasto de tokens. Sem cordialidade nas respostas ao usuário: direto ao ponto.
 - **Modelos (atualizado 08/10/2026, pedido do usuário):** tarefas que produzem e agendam posts usam `claude-sonnet-5-5`; a tarefa de Checagem usa `claude-haiku-5-5`. O Opus (`claude-opus-5-5`) fica reservado só para configurar e manter o pipeline, não para postar.
 - Usar primeiro tudo o que está disponível de graça no Claude; só depois considerar conectores ou assinaturas pagas.
 
