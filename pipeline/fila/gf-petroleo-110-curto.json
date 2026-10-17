@@ -1,0 +1,237 @@
+{
+ "segs": [
+  [
+   "Petróleo acima de cento e dez dólares o barril. Quanto isso pesa no seu bolso?",
+   0.6
+  ],
+  [
+   "Na sexta-feira, o Brent passou de cento e dez dólares pela primeira vez desde maio, com alta de mais de três por cento no dia.",
+   0.6
+  ],
+  [
+   "O motivo é oferta: ataques dos houthis à Arábia Saudita e Rússia e Ucrânia atingindo a energia um do outro.",
+   0.5
+  ],
+  [
+   "Petróleo é a matéria-prima da gasolina e do diesel. A Petrobras extrai, refina e vende esses combustíveis.",
+   0.5
+  ],
+  [
+   "Mas o posto não muda no mesmo dia. O repasse depende de câmbio, política de preços e impostos.",
+   0.5
+  ],
+  [
+   "Aqui, o dólar fechou a cinco reais e sete centavos, e o Ibovespa subiu pouco mais de meio por cento.",
+   0.5
+  ],
+  [
+   "Diesel move o frete, e frete entra no preço de tudo. Combustível caro vira inflação aos poucos.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: algumas coisas dependem de nós, outras não. O barril não depende. O seu planejamento, sim.",
+   0.7
+  ],
+  [
+   "Hoje, some o que você gasta por mês com combustível e transporte. Se subir dez por cento, quanto pesa?",
+   0.6
+  ],
+  [
+   "Seu orçamento aguenta? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  5,
+  9
+ ],
+ "keywords_gold": [
+  "CENTO E DEZ DÓLARES",
+  "PETRÓLEO",
+  "BRENT",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "casal-mapa-carro-2718.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "Petróleo: US$ 110",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "por barril",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Brent > US$ 110",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "1ª vez desde maio",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Petróleo →\ngasolina e diesel",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Dólar: R$ 5,07",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Ibovespa: +0,54%",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Diesel caro =\nfrete caro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Algumas coisas dependem\nde nós, outras não.",
+     "estilo": "Sub",
+     "y": 780
+    },
+    {
+     "t": "Epicteto",
+     "estilo": "Sub",
+     "y": 1000,
+     "t0": 0.8
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Se o combustível\nsubir 10%, quanto pesa?",
+     "estilo": "Sub",
+     "y": 800
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-petroleo-110-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "PETRÓLEO PASSA DE US$ 110: QUANTO ISSO PESA NO SEU BOLSO?"
+}
