@@ -2,7 +2,7 @@
   "titulo": "MAIORES PRODUTORES DE CANA-DE-AÇÚCAR",
   "subtitulo": "milhões de toneladas de cana, 2024",
   "fonte": "Fonte: FAO (FAOSTAT), 2024",
-  "output": "rankin-2026-10-18-producao-cana.mp4",
+  "output": "rankin-2026-10-18-producao-cana-v2.mp4",
   "intro": [
     "Do açúcar do seu café ao etanol do tanque, tudo começa na cana.",
     "Segundo a FAO, esses dez países lideram a produção mundial de cana-de-açúcar.",
@@ -20,21 +20,21 @@
       "pos": 9,
       "nome": "EUA",
       "valor": 31.6,
-      "fala": "Em nono ficam os Estados Unidos, com trinta e um vírgula seis. Boa parte vem da Flórida e da Louisiana.",
+      "fala": "Em nono ficam os Estados Unidos, com trinta e um vírgula seis.",
       "clip": "mn-bandeira-eua-40711.mp4"
     },
     {
       "pos": 8,
       "nome": "Colômbia",
       "valor": 31.9,
-      "fala": "Em oitavo vem a Colômbia, com trinta e um vírgula nove. Lá a cana vira açúcar e também etanol.",
+      "fala": "Em oitavo vem a Colômbia, com trinta e um vírgula nove.",
       "clip": "mn-cidade-noite-aerea-42342.mp4"
     },
     {
       "pos": 7,
       "nome": "Indonésia",
       "valor": 32.0,
-      "fala": "Em sétimo aparece a Indonésia, com trinta e dois vírgula zero. A maior parte fica na ilha de Java.",
+      "fala": "Em sétimo aparece a Indonésia, com trinta e dois vírgula zero.",
       "clip": "mn-seul-noite-transito-20089.mp4"
     },
     {
@@ -55,14 +55,14 @@
       "pos": 4,
       "nome": "Paquistão",
       "valor": 84.2,
-      "fala": "Em quarto está o Paquistão, com oitenta e quatro vírgula dois. A cana ocupa milhões de campos no país.",
+      "fala": "Em quarto está o Paquistão, com oitenta e quatro vírgula dois.",
       "clip": "mn-rodovia-seul-28714.mp4"
     },
     {
       "pos": 3,
       "nome": "China",
       "valor": 102.1,
-      "fala": "Em terceiro vem a China, com cento e dois vírgula um. Cultivada principalmente no sul do país.",
+      "fala": "Em terceiro vem a China, com cento e dois vírgula um.",
       "clip": "mn-bandeira-china-13312.mp4"
     },
     {
