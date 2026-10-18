@@ -289,5 +289,27 @@
   "metricool_id": 398405077,
   "publicado": false,
   "duracao_s": 66.1
+ },
+ {
+  "data": "2026-10-18",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de maçã do mundo (2022)",
+  "fonte": "FAO (FAOSTAT), 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-18-producao-maca-v2.mp4",
+  "metricool_id": 399021624,
+  "publicado": false,
+  "duracao_s": 71.0
+ },
+ {
+  "data": "2026-10-18",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de cana-de-açúcar do mundo (2024)",
+  "fonte": "FAO (FAOSTAT), 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-18-producao-cana-v3.mp4",
+  "metricool_id": 399021663,
+  "publicado": false,
+  "duracao_s": 66.1
  }
 ]
