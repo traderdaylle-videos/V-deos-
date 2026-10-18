@@ -144,12 +144,12 @@
    "ate": 2,
    "linhas": [
     {
-     "t": "VALE  •  29/10",
+     "t": "VALE",
      "estilo": "Num",
      "y": 700
     },
     {
-     "t": "minério de ferro",
+     "t": "29/10  •  minério de ferro",
      "estilo": "Sub",
      "y": 960,
      "t0": 0.3
@@ -161,12 +161,12 @@
    "ate": 3,
    "linhas": [
     {
-     "t": "ITAÚ  •  03/11",
+     "t": "ITAÚ",
      "estilo": "Num",
      "y": 700
     },
     {
-     "t": "banco: crédito e juros",
+     "t": "03/11  •  banco: crédito e juros",
      "estilo": "Sub",
      "y": 960,
      "t0": 0.3
@@ -178,12 +178,12 @@
    "ate": 4,
    "linhas": [
     {
-     "t": "PETROBRAS  •  10/11",
+     "t": "PETROBRAS",
      "estilo": "Num",
      "y": 700
     },
     {
-     "t": "petróleo, gasolina e diesel",
+     "t": "10/11  •  petróleo e combustíveis",
      "estilo": "Sub",
      "y": 960,
      "t0": 0.3
@@ -224,7 +224,7 @@
    ]
   }
  ],
- "output": "gf-balancos-3t26-curto.mp4",
+ "output": "gf-balancos-3t26-curto-v2.mp4",
  "motor": "gf",
  "pasta": "granaefinancas",
  "capa": "BALANÇOS 3T26: 3 GIGANTES MOSTRAM O LUCRO ATÉ 10/11"

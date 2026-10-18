@@ -333,12 +333,12 @@
     {
      "t": "3 gigantes",
      "estilo": "Num",
-     "y": 700
+     "y": 640
     },
     {
      "t": "mostram o lucro",
      "estilo": "Sub",
-     "y": 960,
+     "y": 850,
      "t0": 0.3
     }
    ]
@@ -370,14 +370,14 @@
    "ate": 8,
    "linhas": [
     {
-     "t": "VALE  •  29/10",
+     "t": "VALE",
      "estilo": "Num",
-     "y": 700
+     "y": 640
     },
     {
-     "t": "minério de ferro",
+     "t": "29/10  •  minério de ferro",
      "estilo": "Sub",
-     "y": 960,
+     "y": 850,
      "t0": 0.3
     }
    ]
@@ -387,14 +387,14 @@
    "ate": 11,
    "linhas": [
     {
-     "t": "ITAÚ  •  03/11",
+     "t": "ITAÚ",
      "estilo": "Num",
-     "y": 700
+     "y": 640
     },
     {
-     "t": "banco: crédito e juros",
+     "t": "03/11  •  banco: crédito e juros",
      "estilo": "Sub",
-     "y": 960,
+     "y": 850,
      "t0": 0.3
     }
    ]
@@ -404,14 +404,14 @@
    "ate": 14,
    "linhas": [
     {
-     "t": "PETROBRAS  •  10/11",
+     "t": "PETROBRAS",
      "estilo": "Num",
-     "y": 700
+     "y": 640
     },
     {
-     "t": "petróleo, gasolina e diesel",
+     "t": "10/11  •  petróleo e combustíveis",
      "estilo": "Sub",
-     "y": 960,
+     "y": 850,
      "t0": 0.3
     }
    ]
@@ -450,7 +450,7 @@
    ]
   }
  ],
- "output": "gf-balancos-3t26-longo.mp4",
+ "output": "gf-balancos-3t26-longo-v2.mp4",
  "motor": "gf",
  "pasta": "granaefinancas",
  "formato": "16:9"
