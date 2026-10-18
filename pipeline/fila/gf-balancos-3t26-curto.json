@@ -1,0 +1,231 @@
+{
+ "segs": [
+  [
+   "Até dez de novembro, três gigantes mostram o lucro. O seu bolso sente?",
+   0.6
+  ],
+  [
+   "Terça, dia vinte, abre a temporada de balanços. Balanço é o boletim da empresa: quanto vendeu, gastou e sobrou.",
+   0.6
+  ],
+  [
+   "A Vale divulga dia vinte e nove. Ela extrai minério de ferro, matéria-prima do aço de carros e prédios.",
+   0.5
+  ],
+  [
+   "O Itaú vem dia três de novembro. Banco ganha emprestando: cobra mais pelo crédito do que paga a quem guarda dinheiro.",
+   0.5
+  ],
+  [
+   "A Petrobras fecha a fila dia dez. Ela extrai e vende petróleo, gasolina e diesel.",
+   0.5
+  ],
+  [
+   "E você com isso? Os resultados mexem com ações, dividendos e fundos de investimento e previdência que têm essas empresas.",
+   0.5
+  ],
+  [
+   "Eles também mostram a saúde da economia. Banco emprestando menos significa crédito apertado.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: algumas coisas dependem de nós, outras não. O lucro delas não depende. Entender o que você possui, sim.",
+   0.7
+  ],
+  [
+   "Antes do preço, descubra como a empresa ganha dinheiro. Você sabe de onde vem o lucro da sua carteira?",
+   0.6
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  5,
+  9
+ ],
+ "keywords_gold": [
+  "TRÊS GIGANTES",
+  "BALANÇOS",
+  "LUCRO",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "3 gigantes",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "mostram o lucro",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Temporada de balanços\n3T26: dia 20",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "VALE  •  29/10",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "minério de ferro",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "ITAÚ  •  03/11",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "banco: crédito e juros",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "PETROBRAS  •  10/11",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "petróleo, gasolina e diesel",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Ações • dividendos\nfundos • previdência",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Balanço = saúde\nda economia",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Como a empresa\nganha dinheiro?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-balancos-3t26-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "BALANÇOS 3T26: 3 GIGANTES MOSTRAM O LUCRO ATÉ 10/11"
+}
