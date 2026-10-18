@@ -1,0 +1,38 @@
+import matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt, numpy as np
+from matplotlib.animation import FuncAnimation, FFMpegWriter
+from matplotlib.patches import Rectangle
+BG="#0d1117"
+y=np.array([100, 105, 110, 113, 113.2, 106, 100.5, 106, 112.8, 107, 101, 106, 112.9, 106, 100.8, 95, 90, 86])
+x=np.arange(len(y))
+fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor(BG)
+fig.text(0.5,0.93,"Topo triplo",ha="center",va="center",fontsize=40,fontweight="bold",color="white")
+fig.text(0.5,0.855,"Três topos na mesma região\ne rompimento da linha de pescoço",ha="center",va="center",fontsize=21,color="#c9d1d9",linespacing=1.3)
+fig.text(0.5,0.80,"━ Linha de pescoço",ha="center",fontsize=20,color="#3fb950",fontweight="bold")
+fig.text(0.5,0.772,"━ Preço",ha="center",fontsize=20,color="#58a6ff",fontweight="bold")
+ax=fig.add_axes([0.05,0.285,0.9,0.43]); ax.set_facecolor(BG)
+ax.set_xlim(-0.5,len(y)); ax.set_ylim(80,122); ax.set_xticks([]); ax.set_yticks([])
+for s in ax.spines.values(): s.set_visible(False)
+ln,=ax.plot([0,16.5],[100,100],color="#3fb950",lw=4,alpha=0)
+lt=ax.text(0.2,100-5,"LINHA DE PESCOÇO",fontsize=17,fontweight="bold",color="#3fb950",alpha=0)
+lb0=ax.text(4,116,"TOPO 1",fontsize=16,fontweight="bold",color="#e3b341",ha="center",alpha=0)
+lb1=ax.text(8,116,"TOPO 2",fontsize=16,fontweight="bold",color="#e3b341",ha="center",alpha=0)
+lb2=ax.text(12,116,"TOPO 3",fontsize=16,fontweight="bold",color="#e3b341",ha="center",alpha=0)
+line,=ax.plot([],[],color="#58a6ff",lw=4)
+rom=ax.text(11.5,86,"ROMPIMENTO",fontsize=21,fontweight="bold",color="#f85149",ha="center",alpha=0)
+foot=fig.text(0.5,0.245,"Espere o fechamento abaixo da linha",ha="center",fontsize=18,color="#e3b341",fontweight="bold",alpha=0)
+FPS=30; PER=14; HOLD=3*FPS; DRAW=PER*(len(y)-1)
+def up(f):
+    for o in (ln,lt): o.set_alpha(1)
+    t=min(f/PER,len(y)-1)
+    xs=np.linspace(0,t,max(2,int(t*8)))
+    line.set_data(xs,np.interp(xs,x,y))
+    if t>=4: lb0.set_alpha(1)
+    if t>=8: lb1.set_alpha(1)
+    if t>=12: lb2.set_alpha(1)
+    if f>=DRAW:
+        a=min(1,(f-DRAW)/FPS)
+        for o in (rom,foot): o.set_alpha(a)
+anim=FuncAnimation(fig,up,frames=DRAW+HOLD,blit=False)
+anim.save("explicativo_anim.mp4",writer=FFMpegWriter(fps=FPS,codec="libx264",extra_args=["-pix_fmt","yuv420p"]))
+up(DRAW+HOLD); fig.savefig("explicativo_final.png",facecolor=BG); print("ok")

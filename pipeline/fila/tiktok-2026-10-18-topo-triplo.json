@@ -1,0 +1,83 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Três tentativas de subir, e o preço falha nas três."
+  ],
+  [
+   "intro",
+   "Esse é o topo triplo, um padrão que muitos analistas associam a perda de força da alta."
+  ],
+  [
+   "intro",
+   "O preço toca a mesma região três vezes e recua, formando uma linha de pescoço embaixo."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: topo um, topo dois, topo três, todos quase na mesma altura."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento da linha de pescoço como zona de atenção."
+  ],
+  [
+   "meio",
+   "Mas cuidado: rompimento falso é comum, e existe risco."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento abaixo da linha antes de qualquer conclusão."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu o preço falhar três vezes no mesmo lugar?"
+  ],
+  [
+   "recap",
+   "Recapitulando: três topos parecidos, linha de pescoço e rompimento com confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "numeros-oculos-47792.mp4",
+  "investidor-tablet-45708.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_topo_triplo.py",
+ "output": "tiktok-2026-10-18-topo-triplo.mp4",
+ "keywords_green": [
+  "5PI",
+  "LINHA DE PESCOÇO"
+ ],
+ "keywords_orange": [
+  "TOPO TRIPLO",
+  "ROMPIMENTO",
+  "TRÊS",
+  "TOPOS"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

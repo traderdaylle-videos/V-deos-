@@ -1,0 +1,36 @@
+import matplotlib; matplotlib.use("Agg")
+import matplotlib.pyplot as plt, numpy as np
+from matplotlib.animation import FuncAnimation, FFMpegWriter
+from matplotlib.patches import Rectangle
+BG="#0d1117"
+y=np.array([112, 110, 106, 101, 97, 95, 96, 100, 104, 108, 111.5, 109, 106.5, 105.5, 107, 110, 113, 116, 120, 124])
+x=np.arange(len(y))
+fig=plt.figure(figsize=(7.2,12.8),dpi=150); fig.patch.set_facecolor(BG)
+fig.text(0.5,0.93,"Copo e alça",ha="center",va="center",fontsize=40,fontweight="bold",color="white")
+fig.text(0.5,0.855,"Curva em U, pequena pausa\ne rompimento da borda",ha="center",va="center",fontsize=21,color="#c9d1d9",linespacing=1.3)
+fig.text(0.5,0.80,"━ Borda do copo",ha="center",fontsize=20,color="#f85149",fontweight="bold")
+fig.text(0.5,0.772,"━ Preço",ha="center",fontsize=20,color="#58a6ff",fontweight="bold")
+ax=fig.add_axes([0.05,0.285,0.9,0.43]); ax.set_facecolor(BG)
+ax.set_xlim(-0.5,len(y)); ax.set_ylim(88,128); ax.set_xticks([]); ax.set_yticks([])
+for s in ax.spines.values(): s.set_visible(False)
+ln,=ax.plot([0,19.5],[112,112],color="#f85149",lw=4,alpha=0)
+lt=ax.text(0.2,112+1.5,"BORDA DO COPO",fontsize=17,fontweight="bold",color="#f85149",alpha=0)
+lb0=ax.text(5,91,"COPO",fontsize=16,fontweight="bold",color="#e3b341",ha="center",alpha=0)
+lb1=ax.text(13,101,"ALÇA",fontsize=16,fontweight="bold",color="#e3b341",ha="center",alpha=0)
+line,=ax.plot([],[],color="#58a6ff",lw=4)
+rom=ax.text(17,125,"ROMPIMENTO",fontsize=21,fontweight="bold",color="#f85149",ha="center",alpha=0)
+foot=fig.text(0.5,0.245,"Rompimento precisa de confirmação",ha="center",fontsize=18,color="#e3b341",fontweight="bold",alpha=0)
+FPS=30; PER=14; HOLD=3*FPS; DRAW=PER*(len(y)-1)
+def up(f):
+    for o in (ln,lt): o.set_alpha(1)
+    t=min(f/PER,len(y)-1)
+    xs=np.linspace(0,t,max(2,int(t*8)))
+    line.set_data(xs,np.interp(xs,x,y))
+    if t>=5: lb0.set_alpha(1)
+    if t>=13: lb1.set_alpha(1)
+    if f>=DRAW:
+        a=min(1,(f-DRAW)/FPS)
+        for o in (rom,foot): o.set_alpha(a)
+anim=FuncAnimation(fig,up,frames=DRAW+HOLD,blit=False)
+anim.save("explicativo_anim.mp4",writer=FFMpegWriter(fps=FPS,codec="libx264",extra_args=["-pix_fmt","yuv420p"]))
+up(DRAW+HOLD); fig.savefig("explicativo_final.png",facecolor=BG); print("ok")
