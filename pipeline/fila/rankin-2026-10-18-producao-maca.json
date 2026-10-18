@@ -1,0 +1,100 @@
+{
+  "titulo": "MAIORES PRODUTORES DE MAÇÃ",
+  "subtitulo": "milhões de toneladas de maçã, 2022",
+  "fonte": "Fonte: FAO (FAOSTAT), 2022",
+  "output": "rankin-2026-10-18-producao-maca.mp4",
+  "intro": [
+    "A maçã é uma das frutas mais vendidas do mundo, e um único país colhe quase metade de tudo.",
+    "Segundo a FAO, esses dez países lideram a produção global de maçã.",
+    "E o Brasil, tá nessa lista? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Chile",
+      "valor": 1.48,
+      "fala": "Em décimo lugar vem o Chile, com um vírgula quatro oito milhões de toneladas. Grande parte vai pra exportação.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "França",
+      "valor": 1.79,
+      "fala": "Em nono fica a França, com um vírgula sete nove. Boa parte vira suco e sidra.",
+      "clip": "mn-bandeira-franca-42086.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Irã",
+      "valor": 1.99,
+      "fala": "Em oitavo vem o Irã, com um vírgula nove nove. Um dos grandes produtores do Oriente Médio.",
+      "clip": "mn-rodovia-aerea-28790.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Itália",
+      "valor": 2.26,
+      "fala": "Em sétimo aparece a Itália, com dois vírgula dois seis. Famosa pelas maçãs dos Alpes.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Rússia",
+      "valor": 2.38,
+      "fala": "Em sexto fica a Rússia, com dois vírgula três oito. O frio do país não impede a colheita.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Índia",
+      "valor": 2.59,
+      "fala": "Em quinto vem a Índia, com dois vírgula cinco nove milhões de toneladas. A maioria nasce nas montanhas do Himalaia.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Polônia",
+      "valor": 4.26,
+      "fala": "Em quarto está a Polônia, com quatro vírgula dois seis. É a maior produtora da Europa. Exporta pra dezenas de países.",
+      "clip": "mn-voando-nuvens-11303.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "EUA",
+      "valor": 4.43,
+      "fala": "Em terceiro ficam os Estados Unidos, com quatro vírgula quatro três. Washington é o estado que mais colhe.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Turquia",
+      "valor": 4.82,
+      "fala": "Em segundo vem a Turquia, com quatro vírgula oito dois. Mais que muitos países europeus.",
+      "clip": "mn-bandeira-turquia-18983.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "China",
+      "valor": 47.57,
+      "fala": "E em primeiro lugar está a China, com quarenta e sete vírgula cinco sete milhões de toneladas. Quase dez vezes mais que a Turquia, a segunda.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava a China tão distante de todo mundo?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-rodovia-aerea-28790.mp4"
+  ],
+  "clip_final": "mn-bandeira-china-13312.mp4",
+  "bg_clip": "mn-bandeira-china-13312.mp4",
+  "decimais": 2,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}

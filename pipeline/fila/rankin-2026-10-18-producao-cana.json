@@ -1,0 +1,100 @@
+{
+  "titulo": "MAIORES PRODUTORES DE CANA-DE-AÇÚCAR",
+  "subtitulo": "milhões de toneladas de cana, 2024",
+  "fonte": "Fonte: FAO (FAOSTAT), 2024",
+  "output": "rankin-2026-10-18-producao-cana.mp4",
+  "intro": [
+    "Do açúcar do seu café ao etanol do tanque, tudo começa na cana.",
+    "Segundo a FAO, esses dez países lideram a produção mundial de cana-de-açúcar.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Austrália",
+      "valor": 29.9,
+      "fala": "Em décimo lugar vem a Austrália, com vinte e nove vírgula nove milhões de toneladas.",
+      "clip": "mn-bandeira-australia-9184.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "EUA",
+      "valor": 31.6,
+      "fala": "Em nono ficam os Estados Unidos, com trinta e um vírgula seis. Boa parte vem da Flórida e da Louisiana.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Colômbia",
+      "valor": 31.9,
+      "fala": "Em oitavo vem a Colômbia, com trinta e um vírgula nove. Lá a cana vira açúcar e também etanol.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Indonésia",
+      "valor": 32.0,
+      "fala": "Em sétimo aparece a Indonésia, com trinta e dois vírgula zero. A maior parte fica na ilha de Java.",
+      "clip": "mn-seul-noite-transito-20089.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "México",
+      "valor": 53.1,
+      "fala": "Em sexto fica o México, com cinquenta e três vírgula um. Abastece o açúcar do mercado americano.",
+      "clip": "mn-bandeira-mexico-42113.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Tailândia",
+      "valor": 82.4,
+      "fala": "Em quinto vem a Tailândia, com oitenta e dois vírgula quatro milhões de toneladas. Também é um dos maiores exportadores de açúcar.",
+      "clip": "mn-bandeira-tailandia-19086.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Paquistão",
+      "valor": 84.2,
+      "fala": "Em quarto está o Paquistão, com oitenta e quatro vírgula dois. A cana ocupa milhões de campos no país.",
+      "clip": "mn-rodovia-seul-28714.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "China",
+      "valor": 102.1,
+      "fala": "Em terceiro vem a China, com cento e dois vírgula um. Cultivada principalmente no sul do país.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Índia",
+      "valor": 453.2,
+      "fala": "Em segundo fica a Índia, com quatrocentos e cinquenta e três vírgula dois milhões de toneladas. Lá, a cana alimenta milhares de usinas de açúcar.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Brasil",
+      "valor": 759.7,
+      "fala": "E em primeiro lugar está o Brasil, com setecentos e cinquenta e nove vírgula sete milhões de toneladas. Quase uma vez e meia a produção da Índia.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava o Brasil tão na frente?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-rodovia-aerea-28790.mp4"
+  ],
+  "clip_final": "mn-bandeira-brasil-42080.mp4",
+  "bg_clip": "mn-bandeira-brasil-42080.mp4",
+  "decimais": 1,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
