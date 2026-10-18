@@ -267,5 +267,32 @@
    "Metrópoles 16/10/2026 (Brent, Ibovespa)",
    "Campo Grande News 16/10/2026 (dólar e Ibovespa)"
   ]
+ },
+ {
+  "data": "2026-10-18",
+  "tema": "Temporada de balanços do 3T26 começa em 20/10: Vale (29/10), Itaú (3/11), Petrobras (10/11); como cada empresa ganha dinheiro e o que muda para o espectador",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-balancos-3t26-curto-v2.mp4",
+   "duracao": 53.1,
+   "capa": "granaefinancas/gf-balancos-3t26-curto-v2-capa.jpg",
+   "horario": "10:05",
+   "metricool": {
+    "reel": 399105736,
+    "short": 399105759
+   },
+   "gancho": "83 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-balancos-3t26-longo-v2.mp4",
+   "duracao": 274.2,
+   "capa": "granaefinancas/gf-balancos-3t26-longo-v2-capa.jpg (sem título)",
+   "metricool": 399105807,
+   "horario": "10:20"
+  },
+  "fontes": [
+   "BPMoney 13/10/2026 (calendário 3T26)",
+   "InfoMoney 13/10/2026 (calendário 3T26)"
+  ]
  }
 ]
