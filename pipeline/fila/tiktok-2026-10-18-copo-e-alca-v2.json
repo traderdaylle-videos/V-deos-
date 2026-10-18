@@ -1,0 +1,91 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma curva em forma de U, uma pequena pausa, e depois o impulso."
+  ],
+  [
+   "intro",
+   "Esse é o padrão copo e alça."
+  ],
+  [
+   "intro",
+   "O preço cai devagar, volta ao mesmo nível e forma uma pausa curta, a alça."
+  ],
+  [
+   "intro",
+   "Quanto mais arredondado o copo, mais limpo costuma ser o desenho para quem estuda o gráfico."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o copo arredondado, a borda no topo e a alça logo depois."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento da borda como zona de atenção."
+  ],
+  [
+   "meio",
+   "O volume costuma diminuir na alça e aumentar quando o preço tenta sair do desenho."
+  ],
+  [
+   "meio",
+   "Mas cuidado: rompimento falso é comum, e existe risco."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento acima da borda e o volume aumentar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere esperar a alça ou entrar no primeiro rompimento?"
+  ],
+  [
+   "recap",
+   "Recapitulando: copo, borda, alça e rompimento com confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "empresario-grafico-sucesso-26518.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_copo_alca.py",
+ "output": "tiktok-2026-10-18-copo-e-alca-v2.mp4",
+ "keywords_green": [
+  "5PI",
+  "COPO E ALÇA"
+ ],
+ "keywords_orange": [
+  "BORDA",
+  "ALÇA",
+  "ROMPIMENTO",
+  "COPO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
