@@ -1203,5 +1203,36 @@
   "metricool_uuid": "-5258262882229336292",
   "agendado_para": "2026-10-18T08:35:00-03:00",
   "obs": "v1 descartado: clipe homem-pensativo-duvida-47495 tem chroma verde; não usar"
+ },
+ {
+  "data": "2026-10-18",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card1: R$ 417,50, 23 ops, 82,61%); sem medo/ganância; testada em conta real",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "SEM HESITAR"
+  ],
+  "clipes": [
+   "homem-ansiedade-47206",
+   "grafico-closeup-47016",
+   "celular-rolando-29302",
+   "cansado-computador-14763",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [
+   "card1",
+   "card4"
+  ],
+  "duracao_s": 67.5,
+  "arquivo": "media:primewin/primewin-2026-10-18-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 399496028,
+  "metricool_uuid": "6914978380404770508",
+  "agendado_para": "2026-10-18T20:23:00-03:00"
  }
 ]
