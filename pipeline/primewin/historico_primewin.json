@@ -1170,5 +1170,38 @@
   "metricool_id": 398820403,
   "metricool_uuid": "156399293841819647",
   "agendado_para": "2026-10-17T20:34:00-03:00"
+ },
+ {
+  "data": "2026-10-18",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: domingo livre da tela, sem cabeça na segunda; quem quer começar sem saber tudo; automação segue entrada, saída e stop",
+  "grafico": "linha / ondas",
+  "titulos": [
+   "ENTRADAS E SAÍDAS",
+   "SEM CLICAR"
+  ],
+  "clipes": [
+   "praia-mulher-caminhando-1208 (intro)",
+   "homem-cafe-88009 (intro)",
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "homem-ansiedade-47206",
+   "cansado-computador-14763",
+   "celular-rolando-29302",
+   "grafico-closeup-47016",
+   "jovem-trabalhando-computador-44072",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [],
+  "duracao_s": 68.4,
+  "arquivo": "media:primewin/primewin-2026-10-18-manha-v2.mp4",
+  "canal": "metricool",
+  "metricool_id": 399070686,
+  "metricool_uuid": "-5258262882229336292",
+  "agendado_para": "2026-10-18T08:35:00-03:00",
+  "obs": "v1 descartado: clipe homem-pensativo-duvida-47495 tem chroma verde; não usar"
  }
 ]
