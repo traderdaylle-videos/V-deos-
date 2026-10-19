@@ -294,5 +294,33 @@
    "BPMoney 13/10/2026 (calendário 3T26)",
    "InfoMoney 13/10/2026 (calendário 3T26)"
   ]
+ },
+ {
+  "data": "2026-10-19",
+  "tema": "Semana de balanços do 3T26: WEG (21/10) e Bradesco (22/10); como cada empresa ganha dinheiro e o que muda para o espectador",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-balancos-weg-bradesco-curto-v2.mp4",
+   "duracao": 59.9,
+   "capa": "granaefinancas/gf-balancos-weg-bradesco-curto-v2-capa.jpg",
+   "horario": "09:55",
+   "metricool": {
+    "reel": 399968065,
+    "short": 399968116
+   },
+   "gancho": "83 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-balancos-weg-bradesco-longo.mp4",
+   "duracao": 264.0,
+   "capa": "sem título (automática)",
+   "horario": "10:20",
+   "metricool": 399968236
+  },
+  "fontes": [
+   "Money Times 19/10/2026 (Ibovespa 205.430,33 pts, -1,74% na semana; dólar R$ 5,0735)",
+   "Rankia 15/10/2026 (calendário 3T26: WEG 21/10, Bradesco 22/10)",
+   "Boletim Focus 13/10/2026 (Selic 13,25%, IPCA 5,22%)"
+  ]
  }
 ]

@@ -1,0 +1,42 @@
+{
+ "data": "2026-10-19",
+ "tema": "Semana de balanços do 3T26: WEG (21/10) e Bradesco (22/10); como cada empresa ganha dinheiro e o que muda para o espectador",
+ "gancho": "Até quinta, WEG e Bradesco mostram quanto lucraram. Seu dinheiro sente? (83 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-balancos-weg-bradesco-curto-v2.mp4",
+  "duracao": 59.9,
+  "capa": "granaefinancas/gf-balancos-weg-bradesco-curto-v2-capa.jpg",
+  "horario": "09:55 (reel) / 10:05 (short)",
+  "metricool": {
+   "reel": 399968065,
+   "short": 399968116
+  },
+  "titulo_short": "WEG e Bradesco mostram o lucro até quinta"
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-balancos-weg-bradesco-longo.mp4",
+  "duracao": 264.0,
+  "capa": "sem título (automática)",
+  "horario": "10:20",
+  "metricool": 399968236,
+  "titulo": "Balanços da WEG e do Bradesco: o que muda no seu bolso",
+  "capitulos": [
+   "0:00 Introdução",
+   "0:27 O que é um balanço",
+   "0:41 WEG: motores e energia",
+   "1:08 Bradesco: como um banco ganha dinheiro",
+   "1:38 O clima do mercado: Ibovespa, dólar e juros",
+   "2:25 O que isso muda para você",
+   "3:00 Como ler uma notícia de balanço",
+   "3:19 Erros comuns",
+   "3:32 O que depende de você",
+   "3:44 Passo a passo e resumo"
+  ]
+ },
+ "fontes": [
+  "Money Times 19/10/2026 (Ibovespa 205.430,33 pts, -1,74% na semana; dólar R$ 5,0735)",
+  "Rankia 15/10/2026 (calendário 3T26: WEG 21/10, Bradesco 22/10)",
+  "Boletim Focus 13/10/2026 (Selic 13,25%, IPCA 5,22%)"
+ ],
+ "obs": "curto v1 descartado (overlay do gancho com quebra); v2 corrigido"
+}
