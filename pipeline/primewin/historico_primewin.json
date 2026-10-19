@@ -1266,5 +1266,36 @@
   "metricool_id": 399904253,
   "metricool_uuid": "337575571402146305",
   "agendado_para": "2026-10-19T08:25:00-03:00"
+ },
+ {
+  "data": "2026-10-19",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (R$ 424,50, 14 ops, 85,71%); lê o fluxo; sem medo/ganância; testada em conta real",
+  "grafico": "candles / ondas",
+  "titulos": [
+   "ENTRADAS E SAÍDAS",
+   "SEM CLICAR"
+  ],
+  "clipes": [
+   "grafico-tempo-real-47018",
+   "tendencia-tela-9607",
+   "homem-estressado-49225",
+   "celular-rolando-29302",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [
+   "card5",
+   "card3"
+  ],
+  "duracao_s": 67.5,
+  "arquivo": "media:primewin/primewin-2026-10-19-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 400568248,
+  "metricool_uuid": "-1143690469027065980",
+  "agendado_para": "2026-10-19T20:23:00-03:00"
  }
 ]
