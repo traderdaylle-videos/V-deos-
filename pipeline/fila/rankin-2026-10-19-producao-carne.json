@@ -1,0 +1,36 @@
+{
+  "titulo": "PRODUTORES DE CARNE",
+  "subtitulo": "milhões de toneladas de carne, 2022",
+  "fonte": "Fonte: FAO via Our World in Data, 2022",
+  "output": "rankin-2026-10-19-producao-carne.mp4",
+  "intro": [
+    "Bife, frango, porco: quanta carne o mundo produz em um único ano?",
+    "Segundo a FAO, esses dez países lideram a produção mundial de carne.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {"pos": 10, "nome": "Paquistão", "valor": 5.2, "fala": "Em décimo lugar vem o Paquistão, com cinco vírgula dois milhões de toneladas.", "clip": "mn-rodovia-seul-28714.mp4"},
+    {"pos": 9, "nome": "Argentina", "valor": 6.3, "fala": "Em nono fica a Argentina, com seis vírgula três. O país é famoso pelo churrasco.", "clip": "mn-bandeira-argentina-18125.mp4"},
+    {"pos": 8, "nome": "Alemanha", "valor": 7.0, "fala": "Em oitavo aparece a Alemanha, com sete vírgula zero.", "clip": "mn-cidade-alemanha-neve-18744.mp4"},
+    {"pos": 7, "nome": "Espanha", "valor": 7.6, "fala": "Em sétimo vem a Espanha, com sete vírgula seis. Lá, a carne de porco domina.", "clip": "mn-bandeira-espanha-42101.mp4"},
+    {"pos": 6, "nome": "México", "valor": 7.9, "fala": "Em sexto fica o México, com sete vírgula nove.", "clip": "mn-bandeira-mexico-42113.mp4"},
+    {"pos": 5, "nome": "Índia", "valor": 10.6, "fala": "Em quinto vem a Índia, com dez vírgula seis milhões de toneladas.", "clip": "mn-bandeira-india-42085.mp4"},
+    {"pos": 4, "nome": "Rússia", "valor": 12.2, "fala": "Em quarto está a Rússia, com doze vírgula dois.", "clip": "mn-bandeira-russia-18097.mp4"},
+    {"pos": 3, "nome": "Brasil", "valor": 30.4, "fala": "Em terceiro lugar está o Brasil, com trinta vírgula quatro milhões de toneladas. Mais que o dobro da Rússia.", "clip": "mn-bandeira-brasil-42080.mp4"},
+    {"pos": 2, "nome": "EUA", "valor": 47.5, "fala": "Em segundo ficam os Estados Unidos, com quarenta e sete vírgula cinco milhões de toneladas.", "clip": "mn-bandeira-eua-40711.mp4"},
+    {"pos": 1, "nome": "China", "valor": 92.9, "fala": "E em primeiro lugar vem a China, com noventa e dois vírgula nove milhões de toneladas. Quase o dobro dos Estados Unidos.", "clip": "mn-bandeira-china-13312.mp4"}
+  ],
+  "outro": [
+    "Você esperava o Brasil no pódio?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": ["mn-terra-girando-34314.mp4", "mn-voando-nuvens-11303.mp4", "mn-rodovia-aerea-28790.mp4"],
+  "clip_final": "mn-bandeira-brasil-42080.mp4",
+  "bg_clip": "mn-bandeira-brasil-42080.mp4",
+  "decimais": 1,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
