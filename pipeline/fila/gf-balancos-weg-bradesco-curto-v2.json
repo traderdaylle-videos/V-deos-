@@ -116,12 +116,12 @@
    "ate": 0,
    "linhas": [
     {
-     "t": "WEG e Bradesco",
+     "t": "2 gigantes",
      "estilo": "Num",
      "y": 700
     },
     {
-     "t": "mostram o lucro",
+     "t": "WEG e Bradesco mostram o lucro",
      "estilo": "Sub",
      "y": 960,
      "t0": 0.3
@@ -218,7 +218,7 @@
    ]
   }
  ],
- "output": "gf-balancos-weg-bradesco-curto.mp4",
+ "output": "gf-balancos-weg-bradesco-curto-v2.mp4",
  "motor": "gf",
  "pasta": "granaefinancas",
  "capa": "WEG E BRADESCO MOSTRAM O LUCRO ATÉ QUINTA (22/10)"
