@@ -1,0 +1,91 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Três tentativas de cair, e o preço parou no mesmo lugar."
+  ],
+  [
+   "intro",
+   "Esse é o padrão fundo triplo."
+  ],
+  [
+   "intro",
+   "O preço toca a mesma região de suporte três vezes e volta, sem conseguir descer mais."
+  ],
+  [
+   "intro",
+   "Entre os fundos, os topos formam a linha de pescoço, que muitos analistas técnicos acompanham."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: três fundos alinhados e a linha de pescoço acima deles."
+  ],
+  [
+   "meio",
+   "Muitos analistas observam o rompimento dessa linha como zona de atenção para uma possível reversão."
+  ],
+  [
+   "meio",
+   "Quanto mais vezes o suporte aguenta, mais importante ele costuma ficar."
+  ],
+  [
+   "meio",
+   "Mas cuidado: rompimento falso é comum, e o suporte também pode ceder."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento acima da linha e o volume aumentar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere esperar a confirmação ou antecipar o rompimento?"
+  ],
+  [
+   "recap",
+   "Recapitulando: três fundos, linha de pescoço e rompimento com confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_fundo_triplo.py",
+ "output": "tiktok-2026-10-19-fundo-triplo.mp4",
+ "keywords_green": [
+  "5PI",
+  "FUNDO TRIPLO"
+ ],
+ "keywords_orange": [
+  "LINHA DE PESCOÇO",
+  "SUPORTE",
+  "ROMPIMENTO",
+  "FUNDOS"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

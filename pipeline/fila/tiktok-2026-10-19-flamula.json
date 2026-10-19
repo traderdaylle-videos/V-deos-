@@ -1,0 +1,91 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma subida forte, uma pausa curta, e depois o movimento continua."
+  ],
+  [
+   "intro",
+   "Esse é o padrão flâmula, ou pennant."
+  ],
+  [
+   "intro",
+   "Primeiro vem o mastro, uma alta rápida e forte."
+  ],
+  [
+   "intro",
+   "Depois o preço entra num pequeno triângulo, com oscilações cada vez menores."
+  ],
+  [
+   "meio",
+   "Olha o gráfico: o mastro, as duas linhas se aproximando e a pausa no meio."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam o rompimento da linha de cima como zona de atenção."
+  ],
+  [
+   "meio",
+   "O volume costuma diminuir durante a flâmula e aumentar quando o preço tenta sair."
+  ],
+  [
+   "meio",
+   "Mas cuidado: o rompimento pode ser falso, e o preço pode até voltar pro lado contrário."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento fora do triângulo e o volume aumentar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu uma flâmula no seu gráfico favorito?"
+  ],
+  [
+   "recap",
+   "Recapitulando: mastro, flâmula e rompimento com confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-homem-analisando-47214.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "numeros-oculos-47792.mp4",
+  "investidor-tablet-45708.mp4",
+  "empresario-grafico-sucesso-26518.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_flamula.py",
+ "output": "tiktok-2026-10-19-flamula.mp4",
+ "keywords_green": [
+  "5PI",
+  "FLÂMULA"
+ ],
+ "keywords_orange": [
+  "MASTRO",
+  "ROMPIMENTO",
+  "TRIÂNGULO",
+  "FLÂMULA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
