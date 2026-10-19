@@ -1,0 +1,36 @@
+{
+  "titulo": "PRODUTORES DE LEITE",
+  "subtitulo": "milhões de toneladas de leite, último ano disponível",
+  "fonte": "Fonte: Our World in Data / FAO, 2020-2023",
+  "output": "rankin-2026-10-19-producao-leite.mp4",
+  "intro": [
+    "Todo dia, bilhões de pessoas tomam leite, comem queijo e iogurte. Mas quem produz tudo isso?",
+    "Segundo a FAO, estes dez países lideram a produção mundial de leite.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {"pos": 10, "nome": "Nova Zelândia", "valor": 21.1, "fala": "Em décimo lugar vem a Nova Zelândia, com vinte e um vírgula um milhões de toneladas. Um país pequeno, mas famoso pelos laticínios.", "clip": "mn-voando-nuvens-11303.mp4"},
+    {"pos": 9, "nome": "Turquia", "valor": 21.6, "fala": "Em nono fica a Turquia, com vinte e um vírgula seis.", "clip": "mn-bandeira-turquia-18983.mp4"},
+    {"pos": 8, "nome": "França", "valor": 25.0, "fala": "Em oitavo aparece a França, com vinte e cinco vírgula zero. Terra de queijos famosos no mundo todo.", "clip": "mn-bandeira-franca-42086.mp4"},
+    {"pos": 7, "nome": "Rússia", "valor": 33.0, "fala": "Em sétimo vem a Rússia, com trinta e três vírgula zero.", "clip": "mn-bandeira-russia-18097.mp4"},
+    {"pos": 6, "nome": "Alemanha", "valor": 33.2, "fala": "Em sexto fica a Alemanha, com trinta e três vírgula dois.", "clip": "mn-cidade-alemanha-neve-18744.mp4"},
+    {"pos": 5, "nome": "Brasil", "valor": 35.9, "fala": "Em quinto lugar está o Brasil, com trinta e cinco vírgula nove milhões de toneladas. Um dos maiores do planeta.", "clip": "mn-bandeira-brasil-42080.mp4"},
+    {"pos": 4, "nome": "China", "valor": 39.9, "fala": "Em quarto vem a China, com trinta e nove vírgula nove.", "clip": "mn-bandeira-china-13312.mp4"},
+    {"pos": 3, "nome": "Paquistão", "valor": 62.6, "fala": "Em terceiro, e essa surpreende muita gente, vem o Paquistão, com sessenta e dois vírgula seis milhões de toneladas.", "clip": "mn-rodovia-aerea-28790.mp4"},
+    {"pos": 2, "nome": "EUA", "valor": 102.7, "fala": "Em segundo ficam os Estados Unidos, com cento e dois vírgula sete milhões de toneladas.", "clip": "mn-bandeira-eua-40711.mp4"},
+    {"pos": 1, "nome": "Índia", "valor": 213.8, "fala": "E em primeiro lugar vem a Índia, com duzentos e treze vírgula oito milhões de toneladas. Mais que o dobro dos Estados Unidos.", "clip": "mn-bandeira-india-42085.mp4"}
+  ],
+  "outro": [
+    "Você esperava o Paquistão no pódio?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": ["mn-terra-girando-34314.mp4", "mn-cafe-enchendo-xicara-236.mp4", "mn-queijo-derretendo-burger-12016.mp4"],
+  "clip_final": "mn-bandeira-india-42085.mp4",
+  "bg_clip": "mn-bandeira-india-42085.mp4",
+  "decimais": 1,
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
