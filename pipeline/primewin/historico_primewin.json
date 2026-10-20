@@ -1297,5 +1297,37 @@
   "metricool_id": 400568248,
   "metricool_uuid": "-1143690469027065980",
   "agendado_para": "2026-10-19T20:23:00-03:00"
+ },
+ {
+  "data": "2026-10-20",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: buscar o filho na escola e viagem em casal sem prender à tela; quem adia por achar que precisa entender tudo; automação segue entrada, saída e stop",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "pai-brincando-filho-7681 (intro)",
+   "casal-mapa-carro-2718 (intro)",
+   "relaxando-por-do-sol-33968 (intro)",
+   "jovem-trabalhando-computador-44072",
+   "cansado-computador-14763",
+   "homem-ansiedade-47206",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "grafico-closeup-47016",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "homem-mar-tranquilo-26667 (endcard)"
+  ],
+  "bg_clip": "homem-mar-tranquilo-26667",
+  "cartoes": [],
+  "duracao_s": 67.6,
+  "arquivo": "media:primewin/primewin-2026-10-20-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 400981192,
+  "metricool_uuid": "8002835273367570545",
+  "agendado_para": "2026-10-20T08:26:00-03:00"
  }
 ]
