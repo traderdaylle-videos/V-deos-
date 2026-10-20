@@ -1329,5 +1329,36 @@
   "metricool_id": 400981192,
   "metricool_uuid": "8002835273367570545",
   "agendado_para": "2026-10-20T08:26:00-03:00"
+ },
+ {
+  "data": "2026-10-20",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card2: R$ 254,50, 15 ops, 66,67%); lê o fluxo; sem medo/ganância; testada em conta real",
+  "grafico": "candles / fibo_baixa",
+  "titulos": [
+   "ALVO EM FIBONACCI",
+   "SEM EMOÇÃO"
+  ],
+  "clipes": [
+   "homem-ansiedade-47206",
+   "grafico-closeup-47016",
+   "cansado-computador-14763",
+   "celular-rolando-29302",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [
+   "card2",
+   "card4"
+  ],
+  "duracao_s": 67.2,
+  "arquivo": "media:primewin/primewin-2026-10-20-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 401607152,
+  "metricool_uuid": "-2110144165551521744",
+  "agendado_para": "2026-10-20T20:25:00-03:00"
  }
 ]
