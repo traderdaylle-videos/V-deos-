@@ -1,0 +1,200 @@
+{
+ "segs": [
+  [
+   "Azzas sobe treze vírgula vinte e cinco por cento num dia. O que isso muda no seu bolso?",
+   0.5
+  ],
+  [
+   "Segunda, o varejo brilhou na Bolsa. A C&A subiu sete vírgula quarenta por cento. A Magalu, seis vírgula quarenta e oito.",
+   0.5
+  ],
+  [
+   "A Azzas é um grupo de moda, dono de marcas de calçados e roupas. A Magazine Luiza vende eletrodomésticos e eletrônicos.",
+   0.5
+  ],
+  [
+   "O Ibovespa caiu zero vírgula dezessete por cento.",
+   0.5
+  ],
+  [
+   "O juro futuro para dois mil e vinte e sete ficou em treze vírgula quarenta e oito por cento ao ano.",
+   0.5
+  ],
+  [
+   "Varejo vive de gente comprando parcelado. Com o crédito caro, a venda sofre.",
+   0.5
+  ],
+  [
+   "A rede Ri Happy pediu recuperação extrajudicial para renegociar mais de oitocentos milhões de reais em dívidas.",
+   0.5
+  ],
+  [
+   "Ação subir não quer dizer empresa tranquila. A ação é o preço de hoje. A dívida é a conta de amanhã.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: algumas coisas dependem de nós, outras não. O juro não depende de você. Sua dívida, sim.",
+   0.7
+  ],
+  [
+   "Antes de parcelar, pergunte: cabe no meu bolso sem o crédito? Qual compra você vai adiar?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  4,
+  9
+ ],
+ "keywords_gold": [
+  "AZZAS",
+  "VAREJO",
+  "JURO",
+  "CRÉDITO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+13,25%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Azzas num dia",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Varejo na Bolsa\nC&A +7,40%\nMagalu +6,48%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Juro futuro 2027\n13,48% ao ano",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Ri Happy pede\nrecuperação extrajudicial",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Ação = preço de hoje\nDívida = conta de amanhã",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Essa compra cabe\nsem o crédito?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-varejo-azzas-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "AZZAS SOBE 13,25% NUM DIA: E O SEU BOLSO?"
+}
