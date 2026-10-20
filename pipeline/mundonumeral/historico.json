@@ -333,5 +333,27 @@
   "metricool_id": 400231555,
   "publicado": false,
   "duracao_s": 67.2
+ },
+ {
+  "data": "2026-10-20",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de algodão do mundo (safra 2023/24)",
+  "fonte": "ICAC, Cotton Review, ago/2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-20-producao-algodao.mp4",
+  "metricool_id": 400892006,
+  "publicado": false,
+  "duracao_s": 70.1
+ },
+ {
+  "data": "2026-10-20",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Maiores produtores de chá preto do mundo (2022)",
+  "fonte": "FAO, Tea Market Review 2022",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-20-producao-cha-preto.mp4",
+  "metricool_id": 400892072,
+  "publicado": false,
+  "duracao_s": 68.3
  }
 ]
