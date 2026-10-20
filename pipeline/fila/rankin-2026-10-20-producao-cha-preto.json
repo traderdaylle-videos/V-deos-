@@ -1,0 +1,100 @@
+{
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral",
+  "titulo": "PRODUTORES DE CHÁ PRETO",
+  "subtitulo": "mil toneladas de chá preto, 2022",
+  "decimais": 0,
+  "fonte": "Fonte: FAO, Tea Market Review 2022 (Tabela 1)",
+  "output": "rankin-2026-10-20-producao-cha-preto.mp4",
+  "intro": [
+    "Depois da água, o chá é a bebida mais consumida do planeta. E o chá preto é o mais popular de todos.",
+    "Segundo a FAO, estes dez países lideram a produção mundial de chá preto em dois mil e vinte e dois.",
+    "Será que o Brasil aparece? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Uganda",
+      "valor": 75,
+      "fala": "Em décimo lugar vem Uganda, com setenta e cinco mil toneladas.",
+      "clip": "mn-voando-nuvens-11303.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Argentina",
+      "valor": 76.89,
+      "fala": "Em nono fica a Argentina, com setenta e sete mil toneladas. Sim, o chá também cresce na América do Sul.",
+      "clip": "mn-bandeira-argentina-18125.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Vietnã",
+      "valor": 80,
+      "fala": "Em oitavo aparece o Vietnã, com oitenta mil toneladas.",
+      "clip": "mn-bandeira-tailandia-19086.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Bangladesh",
+      "valor": 93.83,
+      "fala": "Em sétimo vem Bangladesh, com noventa e quatro mil toneladas.",
+      "clip": "mn-seul-noite-transito-20089.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Indonésia",
+      "valor": 101.77,
+      "fala": "Em sexto fica a Indonésia, com cento e duas mil toneladas.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Turquia",
+      "valor": 245.77,
+      "fala": "Em quinto vem a Turquia, com duzentas e quarenta e seis mil toneladas. Lá o chá é quase um símbolo nacional.",
+      "clip": "mn-bandeira-turquia-18983.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Sri Lanka",
+      "valor": 249.69,
+      "fala": "Em quarto fica o Sri Lanka, com duzentas e cinquenta mil toneladas, a terra do famoso chá do Ceilão.",
+      "clip": "mn-rodovia-aerea-28790.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "China",
+      "valor": 466.6,
+      "fala": "Em terceiro, e essa surpreende muita gente, vem a China, com quatrocentas e sessenta e sete mil toneladas de chá preto. O país produz muito mais chá verde.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Quênia",
+      "valor": 540.31,
+      "fala": "Em segundo vem o Quênia, com quinhentas e quarenta mil toneladas.",
+      "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Índia",
+      "valor": 1346.99,
+      "fala": "E em primeiro lugar vem a Índia, com um milhão trezentas e quarenta e sete mil toneladas. Mais que o dobro do segundo colocado.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava o Quênia acima da China?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-cafe-xicara-graos-4992.mp4",
+    "mn-cafe-servindo-43941.mp4",
+    "mn-terra-girando-34314.mp4"
+  ],
+  "clip_final": "mn-bandeira-india-42085.mp4",
+  "bg_clip": "mn-bandeira-india-42085.mp4"
+}
