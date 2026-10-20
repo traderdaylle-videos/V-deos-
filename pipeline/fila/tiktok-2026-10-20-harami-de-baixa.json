@@ -1,0 +1,79 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Um candle gigante de alta e, logo depois, um candle pequeno escondido dentro dele."
+  ],
+  [
+   "intro",
+   "Esse é o harami de baixa."
+  ],
+  [
+   "intro",
+   "O candle pequeno fica dentro do corpo do grande e mostra que a força compradora hesitou."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam esse padrão como um sinal de dúvida no fim de uma alta."
+  ],
+  [
+   "meio",
+   "Cuidado: em mercado lateral, o harami aparece toda hora e quase não significa nada."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam um candle seguinte de baixa para confirmar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já usou o harami na sua análise?"
+  ],
+  [
+   "recap",
+   "Recapitulando: candle grande de alta, candle pequeno dentro e confirmação depois."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-homem-analisando-47214.mp4",
+  "grafico-tempo-real-47018.mp4",
+  "numeros-oculos-47792.mp4",
+  "investidor-tablet-45708.mp4",
+  "empresario-grafico-sucesso-26518.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_harami_baixa.py",
+ "output": "tiktok-2026-10-20-harami-de-baixa.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "HARAMI",
+  "BAIXA",
+  "CONFIRMAR",
+  "DÚVIDA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

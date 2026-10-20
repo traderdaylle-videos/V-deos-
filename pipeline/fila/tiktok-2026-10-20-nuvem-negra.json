@@ -1,0 +1,80 @@
+{
+ "segs": [
+  [
+   "intro",
+   "A alta vinha forte, e de repente um candle vermelho cobre o candle verde como uma nuvem."
+  ],
+  [
+   "intro",
+   "Esse é o padrão nuvem negra, ou dark cloud cover."
+  ],
+  [
+   "intro",
+   "Mas o preço perde força e fecha abaixo da metade do corpo do candle verde."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam essa região como possível enfraquecimento da alta."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sozinho ele pode falhar, e a alta pode simplesmente continuar."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o próximo candle fechar abaixo da mínima da nuvem."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu uma nuvem negra no seu gráfico favorito?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta, abertura acima, fechamento abaixo do meio e confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_nuvem_negra.py",
+ "output": "tiktok-2026-10-20-nuvem-negra.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "NUVEM",
+  "NEGRA",
+  "VERMELHO",
+  "ABAIXO",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
