@@ -10,11 +10,19 @@
   ],
   [
    "intro",
+   "Harami vem do japonês e lembra uma mulher grávida: o candle grande é a mãe."
+  ],
+  [
+   "intro",
    "O candle pequeno fica dentro do corpo do grande e mostra que a força compradora hesitou."
   ],
   [
    "meio",
    "Muitos analistas técnicos observam esse padrão como um sinal de dúvida no fim de uma alta."
+  ],
+  [
+   "meio",
+   "Repare que ele não diz que o preço vai cair, só que o movimento perdeu ritmo."
   ],
   [
    "meio",
@@ -57,7 +65,7 @@
   "empresario-grafico-sucesso-26518.mp4"
  ],
  "explainer_script": "pipeline/tiktok/explainer_harami_baixa.py",
- "output": "tiktok-2026-10-20-harami-de-baixa.mp4",
+ "output": "tiktok-2026-10-20-harami-de-baixa-v2.mp4",
  "keywords_green": [
   "5PI",
   "ALTA"

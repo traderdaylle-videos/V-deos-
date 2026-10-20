@@ -10,11 +10,19 @@
   ],
   [
    "intro",
+   "Ele aparece depois de uma alta: o candle abre acima do fechamento anterior."
+  ],
+  [
+   "intro",
    "Mas o preço perde força e fecha abaixo da metade do corpo do candle verde."
   ],
   [
    "meio",
    "Muitos analistas técnicos observam essa região como possível enfraquecimento da alta."
+  ],
+  [
+   "meio",
+   "Quanto maior o candle vermelho, mais forte tende a ser o sinal."
   ],
   [
    "meio",
@@ -57,7 +65,7 @@
   "tendencia-tela-9607.mp4"
  ],
  "explainer_script": "pipeline/tiktok/explainer_nuvem_negra.py",
- "output": "tiktok-2026-10-20-nuvem-negra.mp4",
+ "output": "tiktok-2026-10-20-nuvem-negra-v2.mp4",
  "keywords_green": [
   "5PI",
   "ALTA"
