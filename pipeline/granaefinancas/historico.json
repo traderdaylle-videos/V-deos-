@@ -322,5 +322,31 @@
    "Rankia 15/10/2026 (calendário 3T26: WEG 21/10, Bradesco 22/10)",
    "Boletim Focus 13/10/2026 (Selic 13,25%, IPCA 5,22%)"
   ]
+ },
+ {
+  "data": "2026-10-20",
+  "tema": "Varejo dispara na Bolsa (Azzas +13,25%, C&A +7,40%, Magalu +6,48%) com juro futuro 2027 em 13,48%; como cada empresa ganha dinheiro, Ri Happy e dívida",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-varejo-azzas-curto.mp4",
+   "duracao": 56.5,
+   "capa": "granaefinancas/gf-varejo-azzas-curto-capa.jpg",
+   "horario": "09:58",
+   "metricool": {
+    "reel": 401038028,
+    "short": 401038071
+   },
+   "gancho": "81,8 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-varejo-azzas-longo.mp4",
+   "duracao": 262.7,
+   "capa": "granaefinancas/gf-varejo-azzas-longo-capa.jpg",
+   "metricool": 401038172,
+   "horario": "10:20"
+  },
+  "fontes": [
+   "InfoMoney 19/10/2026 (Ibovespa 205.079,25 pts, -0,17%; dólar R$ 5,048; DI 2027 13,479%; Azzas +13,25%, C&A +7,40%, Magalu +6,48%; Ri Happy R$ 800 mi)"
+  ]
  }
 ]
