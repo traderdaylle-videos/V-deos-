@@ -451,5 +451,21 @@
   "arquivo": "media:tiktok/tiktok-2026-10-19-flamula.mp4",
   "metricool_id": 400054488,
   "horario": "2026-10-19 18:30"
+ },
+ {
+  "data": "2026-10-20",
+  "tema": "Nuvem negra (dark cloud cover): abertura acima, fechamento abaixo do meio do candle verde",
+  "arquivo": "media:tiktok/tiktok-2026-10-20-nuvem-negra-v2.mp4",
+  "metricool_id": 401130624,
+  "horario": "2026-10-20 12:30",
+  "obs": "v1 falhou (roteiro curto, 163 palavras); v2 com 188"
+ },
+ {
+  "data": "2026-10-20",
+  "tema": "Harami de baixa (candle pequeno dentro do grande candle de alta)",
+  "arquivo": "media:tiktok/tiktok-2026-10-20-harami-de-baixa-v2.mp4",
+  "metricool_id": 401130749,
+  "horario": "2026-10-20 18:30",
+  "obs": "v1 falhou (roteiro curto, 161 palavras); v2 com 192"
  }
 ]
