@@ -1,0 +1,37 @@
+{
+ "data": "2026-10-21",
+ "tema": "Bolsa perto do recorde (Ibovespa +1,57%, dólar R$ 5,02, juro futuro 2029 de 12,709% a 12,580%); Hapvida +7,55% e B3 +5,38%, como ganham dinheiro e ação x orçamento",
+ "gancho": "Hapvida sobe sete vírgula cinquenta e cinco por cento num dia. O que isso muda no seu bolso?",
+ "curto": {
+  "arquivo": "gf-bolsa-hapvida-curto.mp4",
+  "capa": "gf-bolsa-hapvida-curto-capa.jpg",
+  "horario": "10:05",
+  "ids": {
+   "reel": 402082412,
+   "short": 402082457
+  },
+  "titulo_short": "Hapvida +7,55% num dia: e o seu bolso?"
+ },
+ "longo": {
+  "arquivo": "gf-bolsa-hapvida-longo.mp4",
+  "capa": "gf-bolsa-hapvida-longo-capa.jpg",
+  "horario": "10:35",
+  "id": 402082547,
+  "titulo": "Hapvida +7,55% num dia: o que isso muda no seu bolso? Aula de educação financeira",
+  "capitulos": [
+   "0:00 Hapvida +7,55%",
+   "0:31 O que é o Ibovespa",
+   "0:58 Juros futuros",
+   "1:33 Hapvida",
+   "2:00 B3",
+   "2:18 Natura e bancos",
+   "2:48 Ação x orçamento",
+   "3:35 Epicteto",
+   "3:48 3 passos"
+  ]
+ },
+ "fontes": [
+  "Money Times 20/10/2026 (Ibovespa 208.295,98 pts, +1,57%; dólar R$ 5,0189)",
+  "Diário do Sudoeste 20/10/2026 (DI jan/2029 12,709%→12,580%; Hapvida +7,55%, B3 +5,38%, Natura +7,75%, Bradesco +2,89%, Itaú +1,88%)"
+ ]
+}

@@ -348,5 +348,32 @@
   "fontes": [
    "InfoMoney 19/10/2026 (Ibovespa 205.079,25 pts, -0,17%; dólar R$ 5,048; DI 2027 13,479%; Azzas +13,25%, C&A +7,40%, Magalu +6,48%; Ri Happy R$ 800 mi)"
   ]
+ },
+ {
+  "data": "2026-10-21",
+  "tema": "Bolsa perto do recorde (Ibovespa +1,57%, dólar R$ 5,02, juro futuro 2029 de 12,709% a 12,580%); Hapvida +7,55% e B3 +5,38%, como ganham dinheiro e ação x orçamento",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-bolsa-hapvida-curto.mp4",
+   "duracao": 57.2,
+   "capa": "granaefinancas/gf-bolsa-hapvida-curto-capa.jpg",
+   "horario": "10:05",
+   "metricool": {
+    "reel": 402082412,
+    "short": 402082457
+   },
+   "gancho": "80,1 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-bolsa-hapvida-longo.mp4",
+   "duracao": 267.0,
+   "capa": "granaefinancas/gf-bolsa-hapvida-longo-capa.jpg",
+   "horario": "10:35",
+   "metricool": 402082547
+  },
+  "fontes": [
+   "Money Times 20/10/2026 (Ibovespa 208.295,98 pts, +1,57%; dólar R$ 5,0189)",
+   "Diário do Sudoeste 20/10/2026 (DI jan/2029 12,709%→12,580%; Hapvida +7,55%, B3 +5,38%, Natura +7,75%, Bradesco +2,89%, Itaú +1,88%)"
+  ]
  }
 ]
