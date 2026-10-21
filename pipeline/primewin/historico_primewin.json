@@ -1360,5 +1360,37 @@
   "metricool_id": 401607152,
   "metricool_uuid": "-2110144165551521744",
   "agendado_para": "2026-10-20T20:25:00-03:00"
+ },
+ {
+  "data": "2026-10-21",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: quarta com café tranquilo e caminhada na praia; quem adia por medo de não saber; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "SEM ANSIEDADE"
+  ],
+  "clipes": [
+   "cafe-manha-musica-43391 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "homem-estrada-35809 (intro)",
+   "escritorio-entediado-48609",
+   "casal-contas-problemas-48974",
+   "homem-analisando-graficos-17415",
+   "grafico-tempo-real-47018",
+   "homem-laptop-trabalhando-9756",
+   "homem-ansiedade-47206",
+   "contando-dinheiro-23168 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [],
+  "duracao_s": 66.2,
+  "arquivo": "media:primewin/primewin-2026-10-21-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 402023913,
+  "metricool_uuid": "-831399333077103684",
+  "agendado_para": "2026-10-21T08:30:00-03:00"
  }
 ]
