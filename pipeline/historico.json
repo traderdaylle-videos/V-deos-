@@ -467,5 +467,19 @@
   "metricool_id": 401130749,
   "horario": "2026-10-20 18:30",
   "obs": "v1 falhou (roteiro curto, 161 palavras); v2 com 192"
+ },
+ {
+  "data": "2026-10-21",
+  "tema": "Pinça de topo (tweezer top): duas máximas iguais e rejeição",
+  "arquivo": "media:tiktok/tiktok-2026-10-21-pinca-de-topo.mp4",
+  "metricool_id": 402168133,
+  "horario": "2026-10-21 12:30"
+ },
+ {
+  "data": "2026-10-21",
+  "tema": "Canal de baixa (duas linhas paralelas descendentes)",
+  "arquivo": "media:tiktok/tiktok-2026-10-21-canal-de-baixa.mp4",
+  "metricool_id": 402168188,
+  "horario": "2026-10-21 18:30"
  }
 ]
