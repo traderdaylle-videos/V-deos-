@@ -1,0 +1,201 @@
+{
+ "segs": [
+  [
+   "Hapvida sobe sete vírgula cinquenta e cinco por cento num dia. O que isso muda no seu bolso?",
+   0.5
+  ],
+  [
+   "Terça, o Ibovespa subiu um vírgula cinquenta e sete por cento, perto do recorde.",
+   0.5
+  ],
+  [
+   "O dólar caiu para cinco reais e dois centavos.",
+   0.5
+  ],
+  [
+   "Os juros futuros para dois mil e vinte e nove caíram de doze vírgula setenta para doze vírgula cinquenta e oito por cento.",
+   0.5
+  ],
+  [
+   "A Hapvida é operadora de planos de saúde, com hospitais próprios. Ela ganha com a mensalidade de milhões de clientes.",
+   0.5
+  ],
+  [
+   "A B3, a Bolsa brasileira, subiu cinco vírgula trinta e oito por cento. Ela ganha taxas sobre as negociações.",
+   0.5
+  ],
+  [
+   "Juro menor costuma baratear o crédito e animar empresas de consumo e de serviços.",
+   0.5
+  ],
+  [
+   "Mas ação subir não paga a sua mensalidade. O preço da ação é o humor de hoje. O seu orçamento é de todo mês.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: cuide do que depende de você. O juro não depende. O seu orçamento, sim.",
+   0.7
+  ],
+  [
+   "Hoje, some o que você paga por mês de plano, cartão e financiamento. Qual parcela dá para renegociar?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  7
+ ],
+ "keywords_gold": [
+  "HAPVIDA",
+  "JURO",
+  "BOLSA",
+  "B3",
+  "ORÇAMENTO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+7,55%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Hapvida num dia",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Ibovespa\n+1,57%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Juro futuro\n12,70% → 12,58%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "B3 +5,38%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Ação ≠ orçamento",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Some suas parcelas",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-bolsa-hapvida-curto.mp4",
+ "capa": "HAPVIDA +7,55% NUM DIA: E O SEU BOLSO?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
