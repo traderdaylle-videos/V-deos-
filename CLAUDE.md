@@ -169,3 +169,11 @@
   - Vídeo longo: roteiro de **900 a 1000 palavras** (745 palavras deram 216 s). Se ainda ficar curto, o motor alonga as pausas em vez de falhar.
   - Ao refazer um spec que deu erro, salvar com novo nome (`-v2`), porque o `.erro.txt` antigo engana a espera.
   - Disparo manual do workflow exige o input `spec` (renderizar a fila toda estoura o tempo).
+
+---
+
+## 7. Novas páginas de vídeo (21/10/2026, pedido do usuário)
+
+- Vídeos das novas páginas (quiz e lógica, inglês em 60 s, empresas que quebraram) **podem usar vídeos exportados do Canva** como clipes, quando houver vídeo disponível na conta do usuário (Canva Pro).
+- **Não alterar** os canais que já funcionam (Grana e Finanças, TikTok @traderdaylle, Prime Win, Rankin @rankingcuriosos) para usar Canva.
+- Antes de criar cada página nova, mostrar ao usuário o que será produzido.
