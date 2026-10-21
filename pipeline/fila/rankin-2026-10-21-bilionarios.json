@@ -1,0 +1,100 @@
+{
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral",
+  "titulo": "PAÍSES COM MAIS BILIONÁRIOS",
+  "subtitulo": "número de bilionários, lista Forbes 2025",
+  "decimais": 0,
+  "fonte": "Fonte: Forbes, lista de Bilionários do Mundo 2025",
+  "output": "rankin-2026-10-21-bilionarios.mp4",
+  "intro": [
+    "Existe um clube onde para entrar é preciso ter mais de um bilhão de dólares.",
+    "Segundo a Forbes, estes dez países reúnem o maior número de bilionários em dois mil e vinte e cinco.",
+    "Será que o Brasil aparece? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Reino Unido",
+      "valor": 55,
+      "fala": "Em décimo lugar vem o Reino Unido, com cinquenta e cinco bilionários. Londres é um dos grandes centros financeiros do mundo.",
+      "clip": "mn-bandeira-reino-unido-42115.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Brasil",
+      "valor": 56,
+      "fala": "Em nono está o Brasil, com cinquenta e seis bilionários. Isso mesmo, o Brasil entra no top dez.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Hong Kong",
+      "valor": 66,
+      "fala": "Em oitavo fica Hong Kong, com sessenta e seis. Uma cidade pequena, mas com muito dinheiro circulando.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Itália",
+      "valor": 74,
+      "fala": "Em sétimo vem a Itália, com setenta e quatro bilionários, entre moda e carros de luxo.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Canadá",
+      "valor": 76,
+      "fala": "Em sexto aparece o Canadá, com setenta e seis bilionários, bem na frente dos italianos.",
+      "clip": "mn-bandeira-canada-18084.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Rússia",
+      "valor": 140,
+      "fala": "Em quinto fica a Rússia, com cento e quarenta bilionários, muitos ligados a petróleo, gás e metais.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Alemanha",
+      "valor": 171,
+      "fala": "Em quarto vem a Alemanha, com cento e setenta e um bilionários, na maior economia da Europa.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Índia",
+      "valor": 205,
+      "fala": "Em terceiro, a Índia, com duzentos e cinco bilionários. Uma economia gigante que não para de crescer.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "China",
+      "valor": 450,
+      "fala": "Em segundo vem a China, com quatrocentos e cinquenta bilionários, ligados a tecnologia, indústria e comércio.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Estados Unidos",
+      "valor": 902,
+      "fala": "E em primeiro lugar, os Estados Unidos, com novecentos e dois bilionários. Mais que o dobro da China.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava o Brasil entre os dez primeiros?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-cidade-noite-aerea-42342.mp4",
+    "mn-toquio-noite-20061.mp4"
+  ],
+  "clip_final": "mn-bandeira-eua-tremulando-46901.mp4",
+  "bg_clip": "mn-bandeira-eua-closeup-8764.mp4"
+}

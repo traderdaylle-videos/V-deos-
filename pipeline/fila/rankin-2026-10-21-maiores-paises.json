@@ -1,0 +1,100 @@
+{
+  "unidade": "",
+  "destaque": "Brasil",
+  "music_mood": "alegre",
+  "motor": "ranking",
+  "pasta": "mundonumeral",
+  "titulo": "OS MAIORES PAÍSES DO MUNDO",
+  "subtitulo": "área total, em milhões de km²",
+  "decimais": 2,
+  "fonte": "Fonte: CIA World Factbook (área total)",
+  "output": "rankin-2026-10-21-maiores-paises.mp4",
+  "intro": [
+    "O mapa do mundo engana. Alguns países são gigantes de verdade.",
+    "Segundo o World Factbook, estes são os dez maiores países do planeta em área total.",
+    "Qual posição será que o Brasil ocupa? Fica até o final pra descobrir o número um."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Argélia",
+      "valor": 2.38,
+      "fala": "Em décimo lugar vem a Argélia, com dois milhões e trezentos e oitenta mil quilômetros quadrados. É o maior país da África.",
+      "clip": "mn-janela-aviao-por-do-sol-4204.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Cazaquistão",
+      "valor": 2.72,
+      "fala": "Em nono fica o Cazaquistão, com dois milhões e setecentos e vinte mil.",
+      "clip": "mn-rodovia-aerea-28790.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Argentina",
+      "valor": 2.78,
+      "fala": "Em oitavo vem a Argentina, com dois milhões e setecentos e oitenta mil, nossa vizinha do sul.",
+      "clip": "mn-bandeira-argentina-18125.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Índia",
+      "valor": 3.29,
+      "fala": "Em sétimo aparece a Índia, com três milhões e duzentos e noventa mil.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Austrália",
+      "valor": 7.69,
+      "fala": "Em sexto fica a Austrália, com sete milhões e setecentos mil. Um país que é também um continente.",
+      "clip": "mn-bandeira-australia-9184.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Brasil",
+      "valor": 8.52,
+      "fala": "Em quinto está o Brasil, com oito milhões e quinhentos e vinte mil quilômetros quadrados. Quinto maior do mundo.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "China",
+      "valor": 9.6,
+      "fala": "Em quarto vem a China, com nove milhões e seiscentos mil quilômetros quadrados.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Estados Unidos",
+      "valor": 9.83,
+      "fala": "Em terceiro ficam os Estados Unidos, com nove milhões e oitocentos e trinta mil.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Canadá",
+      "valor": 9.98,
+      "fala": "Em segundo vem o Canadá, com quase dez milhões de quilômetros quadrados.",
+      "clip": "mn-bandeira-canada-18084.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Rússia",
+      "valor": 17.1,
+      "fala": "E em primeiro lugar, a Rússia, com dezessete milhões e cem mil. Quase o dobro do segundo colocado.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava o Brasil em quinto lugar?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-aviao-decolando-28000.mp4"
+  ],
+  "clip_final": "mn-bandeira-russia-18097.mp4",
+  "bg_clip": "mn-bandeira-russia-18097.mp4"
+}
