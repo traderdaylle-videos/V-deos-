@@ -22,7 +22,8 @@ import musica
 W = sys.argv[1]
 os.chdir(W)
 S = json.load(open("spec.json"))
-FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+# Fonte de impacto (Inter Black, licença OFL), versionada em pipeline/teorias/fonts
+FONT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fonts", "Inter-Black.otf")
 FPS = 30
 GAP = 0.35  # pausa entre frases, em segundos
 # Paleta da página (azul-noite, mais suave aos olhos)
@@ -70,20 +71,21 @@ open("lista.txt", "w").write("".join(f"file '{c}'\n" for c in clipes))
 run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "lista.txt", "-c", "copy", "base.mp4"])
 
 # 3) Título, selo e legendas (cada frase na sua janela de tempo)
-open("titulo.txt", "w").write(S.get("titulo", "TEORIA DA CONSPIRAÇÃO"))
+open("titulo.txt", "w").write(textwrap.fill(S.get("titulo", "TEORIA DA CONSPIRAÇÃO").upper(), 13))
 open("selo.txt", "w").write("TEORIA DE ENTRETENIMENTO")
 # Gancho: o título aparece desde o primeiro quadro, com faixa escura para leitura
 F = [
     f"drawbox=x=0:y=ih*0.56:w=iw:h=ih*0.30:color={COR_FUNDO}@0.78:t=fill",
-    f"drawtext=fontfile={FONT}:textfile=titulo.txt:fontsize=72:fontcolor={COR_TITULO}"
-    f":x=(w-text_w)/2:y=170:box=1:boxcolor={COR_FUNDO}@0.65:boxborderw=20",
-    f"drawtext=fontfile={FONT}:textfile=selo.txt:fontsize=34:fontcolor={COR_SELO}"
-    ":x=(w-text_w)/2:y=290",
+    f"drawtext=fontfile={FONT}:textfile=titulo.txt:fontsize=112:fontcolor={COR_TITULO}"
+    f":x=(w-text_w)/2:y=120:line_spacing=6:borderw=9:bordercolor=0x000000:shadowx=4:shadowy=4",
+    f"drawtext=fontfile={FONT}:textfile=selo.txt:fontsize=40:fontcolor={COR_SELO}"
+    ":x=(w-text_w)/2:y=h*0.50:borderw=5:bordercolor=0x000000",
 ]
 for i, (a, b, txt) in enumerate(caps):
-    open(f"cap{i}.txt", "w").write(textwrap.fill(txt, 24))
-    F.append(f"drawtext=fontfile={FONT}:textfile=cap{i}.txt:fontsize=58:fontcolor={COR_TEXTO}"
-             f":line_spacing=10:x=(w-text_w)/2:y=h*0.62"
+    open(f"cap{i}.txt", "w").write(textwrap.fill(txt.upper(), 18))
+    F.append(f"drawtext=fontfile={FONT}:textfile=cap{i}.txt:fontsize=76:fontcolor={COR_TEXTO}"
+             f":line_spacing=8:borderw=8:bordercolor=0x000000:shadowx=4:shadowy=4"
+             f":x=(w-text_w)/2:y=h*0.58"
              f":enable=between(t\\,{a:.2f}\\,{b:.2f})")
 
 # 4) Trilha de suspense (gerada por código, sem direitos autorais) + "impacto" no primeiro segundo
