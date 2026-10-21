@@ -177,3 +177,16 @@
 - Vídeos das novas páginas (quiz e lógica, inglês em 60 s, empresas que quebraram) **podem usar vídeos exportados do Canva** como clipes, quando houver vídeo disponível na conta do usuário (Canva Pro).
 - **Não alterar** os canais que já funcionam (Grana e Finanças, TikTok @traderdaylle, Prime Win, Rankin @rankingcuriosos) para usar Canva.
 - Antes de criar cada página nova, mostrar ao usuário o que será produzido.
+
+---
+
+## 8. Página de teorias (21/10/2026, pedido do usuário)
+
+- Tema: teorias absurdas que fazem sentido, sempre marcadas como "teoria de entretenimento, sem comprovação científica". Tom dark e de suspense.
+- **Paleta:** fundo quase preto `#040507`, título vermelho-sangue `#D64545`, selo dourado escuro `#C9A227`, texto cinza-claro `#E6E6E6`.
+- **Trilha:** mood `sombrio` (`pipeline/musica.py`): ritmo lento, menor, com drone grave. Gerada por código, sem direitos autorais.
+- **Voz:** Kokoro local, `pm_santa` (grátis). Nada de ElevenLabs enquanto os créditos estiverem baixos.
+- **Gancho:** a primeira frase já dá o motivo para continuar assistindo, com o título visível desde o primeiro quadro e um impacto sonoro no primeiro segundo.
+- **Monetização:** duração de 61 a 72 s (regra do TikTok, seção 3), narração própria, trilha própria e fotos de banco com licença livre (Unsplash).
+- **Fotos do Unsplash:** só no teste até o pipeline ser aprovado para produção.
+- Nome e bio: a definir com o usuário.

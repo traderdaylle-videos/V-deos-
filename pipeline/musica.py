@@ -16,6 +16,8 @@ def gerar(path, dur, sr=44100, bpm=118, seed=0, mood="padrao"):
         prog=[[60,64,67],[55,59,62],[57,60,64],[53,57,60]]; bpm=124; beat=60/bpm
     if mood=="misterio":   # suspense: ré menor, mais lento, acordes graves (páginas de teorias)
         prog=[[50,53,57],[46,50,53],[43,46,50],[45,49,52]]; bpm=92; beat=60/bpm
+    if mood=="sombrio":    # dark: mais lento, menor, com drone grave e tremolo (páginas de suspense)
+        prog=[[50,53,57],[46,50,53],[48,51,55],[45,49,52]]; bpm=66; beat=60/bpm
     f=lambda m:440*2**((m-69)/12)
     nb=int(dur/beat)+1
     for b in range(nb):
@@ -35,6 +37,9 @@ def gerar(path, dur, sr=44100, bpm=118, seed=0, mood="padrao"):
         for k in range(4):
             m=ch[k%3]+12+(12 if k==3 else 0); pl=int(beat/4*sr); pt=np.arange(pl)/sr
             put(np.sin(2*np.pi*f(m)*pt)*np.exp(-pt*18)*0.08,s+k*beat/4)
+    if mood=="sombrio":    # drone grave: ré (D1) com quinta e oitava desafinada, tremolo lento
+        drone=(np.sin(2*np.pi*f(38)*t)+0.5*np.sin(2*np.pi*f(45)*t)+0.35*np.sin(2*np.pi*f(38)*1.006*t))
+        out+=drone*(0.5+0.5*np.sin(2*np.pi*0.11*t))*0.09
     # fade in/out
     fi=int(0.5*sr); out[:fi]*=np.linspace(0,1,fi); fo=int(1.5*sr); out[-fo:]*=np.linspace(1,0,fo)
     out=out/np.abs(out).max()*0.9

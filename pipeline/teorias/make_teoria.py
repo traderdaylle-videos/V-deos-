@@ -26,10 +26,10 @@ FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FPS = 30
 GAP = 0.35  # pausa entre frases, em segundos
 # Paleta da página (azul-noite, mais suave aos olhos)
-COR_FUNDO = "0x0B1220"     # faixa das legendas
-COR_TITULO = "0x5EEAD4"    # ciano-água
-COR_SELO = "0xF6C177"      # dourado suave
-COR_TEXTO = "0xF1F5F9"     # branco-gelo
+COR_FUNDO = "0x040507"     # quase preto (faixa das legendas)
+COR_TITULO = "0xD64545"    # vermelho-sangue suave
+COR_SELO = "0xC9A227"      # dourado escuro
+COR_TEXTO = "0xE6E6E6"     # cinza-claro
 SR_MUSICA = 24000
 
 
