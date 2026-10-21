@@ -355,5 +355,27 @@
   "metricool_id": 400892072,
   "publicado": false,
   "duracao_s": 68.3
+ },
+ {
+  "data": "2026-10-21",
+  "turno": "tarde",
+  "horario": "18:30",
+  "tema": "Países com mais bilionários (Forbes 2025)",
+  "fonte": "Forbes, Bilionários do Mundo 2025",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-21-bilionarios.mp4",
+  "metricool_id": 402330764,
+  "publicado": false,
+  "duracao_s": 70.6
+ },
+ {
+  "data": "2026-10-21",
+  "turno": "noite",
+  "horario": "21:30",
+  "tema": "Os maiores países do mundo em área total",
+  "fonte": "CIA World Factbook",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-21-maiores-paises.mp4",
+  "metricool_id": 402330877,
+  "publicado": false,
+  "duracao_s": 66.8
  }
 ]
