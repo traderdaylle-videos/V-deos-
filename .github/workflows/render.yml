@@ -24,7 +24,7 @@ jobs:
         with: { fetch-depth: 2 }
       - name: Dependências
         run: |
-          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu >/dev/null
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-dejavu fonts-liberation >/dev/null
           python3 -m pip install -q --break-system-packages matplotlib numpy scipy pillow kokoro-onnx soundfile piper-tts
       - name: Voz Kokoro e clipes
         run: |
