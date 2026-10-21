@@ -40,6 +40,15 @@ def gerar(path, dur, sr=44100, bpm=118, seed=0, mood="padrao"):
     if mood=="sombrio":    # drone grave: ré (D1) com quinta e oitava desafinada, tremolo lento
         drone=(np.sin(2*np.pi*f(38)*t)+0.5*np.sin(2*np.pi*f(45)*t)+0.35*np.sin(2*np.pi*f(38)*1.006*t))
         out+=drone*(0.5+0.5*np.sin(2*np.pi*0.11*t))*0.09
+        # batida de coração grave (suspense) e acorde dissonante a cada 4 compassos
+        ht=np.arange(int(0.25*sr))/sr
+        thump=np.sin(2*np.pi*(40+20*np.exp(-ht*20))*ht)*np.exp(-ht*12)*0.35
+        for k in range(int(dur/(beat*2))):
+            put(thump,k*beat*2)
+        st=np.arange(int(beat*3*sr))/sr
+        stab=(np.sin(2*np.pi*f(50)*st)+np.sin(2*np.pi*f(51)*st)+np.sin(2*np.pi*f(38)*st))*np.exp(-st*1.5)*0.05
+        for k in range(int(dur/(beat*16))):
+            put(stab,k*beat*16)
     # fade in/out
     fi=int(0.5*sr); out[:fi]*=np.linspace(0,1,fi); fo=int(1.5*sr); out[-fo:]*=np.linspace(1,0,fo)
     out=out/np.abs(out).max()*0.9
