@@ -14,6 +14,8 @@ def gerar(path, dur, sr=44100, bpm=118, seed=0, mood="padrao"):
     prog=[[57,60,64],[53,57,60],[48,55,60],[55,59,62]]   # Am F C G
     if mood=="alegre":   # bom astral: I-V-vi-IV em Dó maior, mais rápido
         prog=[[60,64,67],[55,59,62],[57,60,64],[53,57,60]]; bpm=124; beat=60/bpm
+    if mood=="misterio":   # suspense: ré menor, mais lento, acordes graves (páginas de teorias)
+        prog=[[50,53,57],[46,50,53],[43,46,50],[45,49,52]]; bpm=92; beat=60/bpm
     f=lambda m:440*2**((m-69)/12)
     nb=int(dur/beat)+1
     for b in range(nb):

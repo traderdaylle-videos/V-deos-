@@ -16,6 +16,8 @@ import json, os, sys, subprocess as sp, textwrap
 import numpy as np
 import soundfile as sf
 from kokoro_onnx import Kokoro
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.abspath(__file__)), ".."))  # pipeline/musica.py
+import musica
 
 W = sys.argv[1]
 os.chdir(W)
@@ -23,6 +25,12 @@ S = json.load(open("spec.json"))
 FONT = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
 FPS = 30
 GAP = 0.35  # pausa entre frases, em segundos
+# Paleta da página (azul-noite, mais suave aos olhos)
+COR_FUNDO = "0x0B1220"     # faixa das legendas
+COR_TITULO = "0x5EEAD4"    # ciano-água
+COR_SELO = "0xF6C177"      # dourado suave
+COR_TEXTO = "0xF1F5F9"     # branco-gelo
+SR_MUSICA = 24000
 
 
 def run(a):
@@ -64,21 +72,36 @@ run(["ffmpeg", "-y", "-f", "concat", "-safe", "0", "-i", "lista.txt", "-c", "cop
 # 3) Título, selo e legendas (cada frase na sua janela de tempo)
 open("titulo.txt", "w").write(S.get("titulo", "TEORIA DA CONSPIRAÇÃO"))
 open("selo.txt", "w").write("TEORIA DE ENTRETENIMENTO")
+# Gancho: o título aparece desde o primeiro quadro, com faixa escura para leitura
 F = [
-    "drawbox=x=0:y=ih*0.56:w=iw:h=ih*0.30:color=0x050A07@0.72:t=fill",
-    f"drawtext=fontfile={FONT}:textfile=titulo.txt:fontsize=72:fontcolor=0x00C853"
-    ":x=(w-text_w)/2:y=170:box=1:boxcolor=0x050A07@0.6:boxborderw=20",
-    f"drawtext=fontfile={FONT}:textfile=selo.txt:fontsize=34:fontcolor=0xE8B84A"
+    f"drawbox=x=0:y=ih*0.56:w=iw:h=ih*0.30:color={COR_FUNDO}@0.78:t=fill",
+    f"drawtext=fontfile={FONT}:textfile=titulo.txt:fontsize=72:fontcolor={COR_TITULO}"
+    f":x=(w-text_w)/2:y=170:box=1:boxcolor={COR_FUNDO}@0.65:boxborderw=20",
+    f"drawtext=fontfile={FONT}:textfile=selo.txt:fontsize=34:fontcolor={COR_SELO}"
     ":x=(w-text_w)/2:y=290",
 ]
 for i, (a, b, txt) in enumerate(caps):
     open(f"cap{i}.txt", "w").write(textwrap.fill(txt, 24))
-    F.append(f"drawtext=fontfile={FONT}:textfile=cap{i}.txt:fontsize=58:fontcolor=0xEDEDED"
+    F.append(f"drawtext=fontfile={FONT}:textfile=cap{i}.txt:fontsize=58:fontcolor={COR_TEXTO}"
              f":line_spacing=10:x=(w-text_w)/2:y=h*0.62"
              f":enable=between(t\\,{a:.2f}\\,{b:.2f})")
 
+# 4) Trilha de suspense (gerada por código, sem direitos autorais) + "impacto" no primeiro segundo
+import musica
+musica.gerar("_trilha.wav", total + 0.5, sr=SR_MUSICA, mood=S.get("trilha", "misterio"))
+trilha, _ = sf.read("_trilha.wav", dtype="float32")
+n_imp = int(0.9 * SR_MUSICA)
+tt = np.arange(n_imp) / SR_MUSICA
+impacto = (np.sin(2 * np.pi * (60 + 40 * np.exp(-tt * 12)) * tt) * np.exp(-tt * 5) * 0.7).astype(np.float32)
+trilha[:n_imp] += impacto[:len(trilha[:n_imp])]
+sf.write("trilha_final.wav", trilha, SR_MUSICA)
+
 saida = S.get("output", "teoria.mp4")
-run(["ffmpeg", "-y", "-i", "base.mp4", "-i", "narracao.wav", "-vf", ",".join(F),
-     "-map", "0:v", "-map", "1:a", "-shortest", "-c:v", "libx264", "-preset", "veryfast",
-     "-crf", "23", "-pix_fmt", "yuv420p", "-c:a", "aac", "-b:a", "128k", saida])
+filtro = (f"[0:v]{','.join(F)}[v];"
+          "[1:a]volume=1.0[fala];[2:a]volume=0.16[musica];"
+          "[fala][musica]amix=inputs=2:duration=first:dropout_transition=0[a]")
+run(["ffmpeg", "-y", "-i", "base.mp4", "-i", "narracao.wav", "-i", "trilha_final.wav",
+     "-filter_complex", filtro, "-map", "[v]", "-map", "[a]", "-shortest",
+     "-c:v", "libx264", "-preset", "veryfast", "-crf", "23", "-pix_fmt", "yuv420p",
+     "-c:a", "aac", "-b:a", "128k", saida])
 print("ok", saida, round(total, 1), "s")
