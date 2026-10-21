@@ -1,0 +1,21 @@
+{
+  "motor": "teoria",
+  "pasta": "teorias",
+  "output": "teoria-matrix-teste.mp4",
+  "titulo": "VIVEMOS NUMA MATRIX?",
+  "voice": "pm_santa",
+  "speed": 1.0,
+  "fotos": ["matrix-1.jpg", "matrix-2.jpg", "matrix-3.jpg"],
+  "fotos_url": {
+    "matrix-1.jpg": "https://images.unsplash.com/photo-1774029539511-6c7fb80aad7c?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+    "matrix-2.jpg": "https://images.unsplash.com/photo-1781787346847-179b5c773b08?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb",
+    "matrix-3.jpg": "https://images.unsplash.com/photo-1774901128302-e2bbd154da44?ixlib=rb-4.1.0&q=85&fm=jpg&crop=entropy&cs=srgb"
+  },
+  "segs": [
+    "E se tudo ao seu redor fosse código?",
+    "Essa é a teoria da simulação. Ela diz que o mundo que você percebe pode ser um programa de computador.",
+    "O filósofo Nick Bostrom, em 2003, argumentou que, se civilizações avançadas conseguirem simular mundos inteiros, é provável que já estejamos dentro de uma simulação.",
+    "Na Matrix, a realidade é falsa. Na vida real, um celular e algoritmos que escolhem o que você vê já fazem parte desse jogo.",
+    "Teoria de entretenimento, sem comprovação científica. Você acredita que tudo é uma simulação? Comente aqui."
+  ]
+}

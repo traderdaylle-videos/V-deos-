@@ -4,7 +4,7 @@ name: render
 # Se falhar, grava <pasta>/<nome>.erro.txt no branch media para o Claude ver.
 on:
   push:
-    paths: ["pipeline/fila/**.json", "pipeline/render/**", "pipeline/make_video.py", "pipeline/musica*.py", "pipeline/endcard_anim.py", "pipeline/granaefinancas/**", "pipeline/mundonumeral/**", "pipeline/primewin/**"]
+    paths: ["pipeline/fila/**.json", "pipeline/render/**", "pipeline/make_video.py", "pipeline/musica*.py", "pipeline/endcard_anim.py", "pipeline/granaefinancas/**", "pipeline/mundonumeral/**", "pipeline/primewin/**", "pipeline/teorias/**"]
   workflow_dispatch:
     inputs:
       spec:

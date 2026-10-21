@@ -15,6 +15,15 @@ cp /tmp/clipes/clipes/*.mp4 "$W"/ 2>/dev/null || true
 cp "$ROOT"/pipeline/fotos/* "$W"/ 2>/dev/null || true
 cp "$ROOT"/pipeline/primewin/magneto/* "$W"/ 2>/dev/null || true
 
+# fotos de fora do repositório (ex.: Unsplash): spec "fotos_url" = {"nome.jpg": "https://..."}; o runner baixa aqui
+python3 - "$W" <<'PY'
+import json, os, subprocess, sys
+w = sys.argv[1]
+s = json.load(open(os.path.join(w, "spec.json")))
+for nome, url in (s.get("fotos_url") or {}).items():
+    subprocess.run(["curl", "-sSL", "--fail", "-o", os.path.join(w, nome), url], check=True)
+PY
+
 MOTOR=$(python3 -c "import json,sys;print(json.load(open('$W/spec.json')).get('motor','video'))")
 cd "$W"
 if python3 -c "import json,sys;sys.exit(0 if json.load(open('spec.json')).get('explainer_args') else 1)"; then
@@ -32,6 +41,7 @@ EXS=$(python3 -c "import json;print(json.load(open('$W/spec.json')).get('explain
 case "$MOTOR" in
   gf)      python3 "$ROOT/pipeline/granaefinancas/make_gf_cine.py" "$W" ;;
   ranking) python3 "$ROOT/pipeline/mundonumeral/make_ranking.py" "$W" ;;
+  teoria)  python3 "$ROOT/pipeline/teorias/make_teoria.py" "$W" ;;
   *)       python3 "$ROOT/pipeline/make_video.py" "$W" ;;
 esac
 
