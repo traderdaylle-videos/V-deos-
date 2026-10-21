@@ -1,0 +1,87 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Preço caindo, mas sempre dentro de um corredor: isso é um canal de baixa."
+  ],
+  [
+   "intro",
+   "Ele é formado por duas linhas paralelas inclinadas para baixo."
+  ],
+  [
+   "intro",
+   "A linha de cima liga os topos cada vez mais baixos."
+  ],
+  [
+   "intro",
+   "A linha de baixo liga os fundos, também cada vez mais baixos."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam a linha de cima como região de possível pressão vendedora."
+  ],
+  [
+   "meio",
+   "E a linha de baixo, como região onde a queda costuma desacelerar."
+  ],
+  [
+   "meio",
+   "Mas cuidado: o preço pode romper o canal e mudar de comportamento."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o fechamento fora das linhas antes de tirar conclusões."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere observar o canal ou esperar o rompimento?"
+  ],
+  [
+   "recap",
+   "Recapitulando: topos e fundos descendentes, duas linhas paralelas e atenção ao rompimento."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "lucro-bolsa-47012.mp4",
+  "mulher-graficos-ipad-45662.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_canal_baixa.py",
+ "output": "tiktok-2026-10-21-canal-de-baixa.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "CANAL",
+  "BAIXA",
+  "LINHAS",
+  "PARALELAS",
+  "ROMPIMENTO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

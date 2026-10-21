@@ -1,0 +1,88 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Dois candles, a mesma máxima, e a alta pode estar perdendo o fôlego."
+  ],
+  [
+   "intro",
+   "Esse é o padrão pinça de topo, ou tweezer top."
+  ],
+  [
+   "intro",
+   "Depois de uma alta, um candle verde sobe até uma máxima."
+  ],
+  [
+   "intro",
+   "No dia seguinte, um candle vermelho toca quase o mesmo ponto e é rejeitado."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam essa região como possível resistência, onde os compradores não conseguiram avançar."
+  ],
+  [
+   "meio",
+   "Quanto mais tocadas na mesma máxima, mais relevante a região tende a ser."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sozinha a pinça pode falhar, e o preço pode seguir subindo."
+  ],
+  [
+   "meio",
+   "Por isso muitos esperam o candle seguinte fechar abaixo do corpo vermelho."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu uma pinça de topo no seu gráfico favorito?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta, duas máximas iguais, rejeição e confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4",
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_pinca_topo.py",
+ "output": "tiktok-2026-10-21-pinca-de-topo.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "PINÇA",
+  "TOPO",
+  "MÁXIMA",
+  "REJEIÇÃO",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
