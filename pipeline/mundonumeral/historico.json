@@ -377,5 +377,27 @@
   "metricool_id": 402330877,
   "publicado": false,
   "duracao_s": 66.8
+ },
+ {
+  "data": "2026-10-22",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Países com mais Patrimônios da UNESCO (2026)",
+  "fonte": "UNESCO via Guinness e Business Today, 2026",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-22-patrimonio-unesco-v3.mp4",
+  "metricool_id": 402992152,
+  "publicado": false,
+  "duracao_s": 65.9
+ },
+ {
+  "data": "2026-10-22",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Países com mais prêmios Nobel (laureados até 2025)",
+  "fonte": "Wikipedia, Nobel laureates by country, até 2025",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-22-premios-nobel-v3.mp4",
+  "metricool_id": 402992221,
+  "publicado": false,
+  "duracao_s": 69.1
  }
 ]
