@@ -1,0 +1,100 @@
+{
+  "titulo": "PAÍSES CAMPEÕES DO NOBEL",
+  "subtitulo": "laureados desde 1901, em 10 países",
+  "unidade": "",
+  "decimais": 0,
+  "destaque": "Brasil",
+  "fonte": "Fonte: Wikipedia, Nobel laureates by country (até 2025)",
+  "intro": [
+    "Um prêmio criado em 1901 mudou a ciência e a história do mundo.",
+    "Estes são os dez países com mais laureados do Nobel, contando quem recebeu o prêmio por cada país.",
+    "Será que o Brasil aparece? Fica até o final pra descobrir quem lidera."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Áustria",
+      "valor": 25,
+      "fala": "Em décimo lugar vem a Áustria, com vinte e cinco laureados. Um país pequeno com uma história enorme na ciência.",
+      "clip": "mn-alpes-suica-31939.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Suíça",
+      "valor": 27,
+      "fala": "Em nono fica a Suíça, com vinte e sete. Aqui entram gigantes da física e da química.",
+      "clip": "mn-bandeira-suica-18128.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Canadá",
+      "valor": 29,
+      "fala": "Em oitavo vem o Canadá, com vinte e nove laureados. Pesquisa de ponta em universidades como a de Toronto.",
+      "clip": "mn-bandeira-canada-18084.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Rússia",
+      "valor": 30,
+      "fala": "Em sétimo a Rússia, contando a União Soviética, com trinta. Muitos prêmios vieram da física.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Japão",
+      "valor": 33,
+      "fala": "Em sexto aparece o Japão, com trinta e três. É o país asiático que mais ganhou.",
+      "clip": "mn-bandeira-japao-42108.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Suécia",
+      "valor": 34,
+      "fala": "Em quinto fica a Suécia, com trinta e quatro. Foi lá que o prêmio nasceu, e é onde ele é entregue todo ano.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "França",
+      "valor": 78,
+      "fala": "Em quarto vem a França, com setenta e oito. Marie Curie, que ganhou duas vezes, é a mais famosa.",
+      "clip": "mn-bandeira-franca-42086.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Alemanha",
+      "valor": 116,
+      "fala": "Em terceiro a Alemanha, com cento e dezesseis. Einstein está nessa conta.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Reino Unido",
+      "valor": 144,
+      "fala": "Em segundo fica o Reino Unido, com cento e quarenta e quatro laureados.",
+      "clip": "mn-bandeira-reino-unido-42115.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "EUA",
+      "valor": 425,
+      "fala": "E em primeiro lugar, bem longe de todo mundo, os Estados Unidos, com quatrocentos e vinte e cinco laureados.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava essa diferença dos Estados Unidos pro resto?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-22-premios-nobel-v3.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-toquio-noite-20061.mp4"
+  ],
+  "clip_final": "mn-bandeira-eua-tremulando-46901.mp4",
+  "bg_clip": "mn-bandeira-eua-closeup-8764.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
