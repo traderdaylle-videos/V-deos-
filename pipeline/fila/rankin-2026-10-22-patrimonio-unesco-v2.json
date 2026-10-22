@@ -36,7 +36,7 @@
       "pos": 7,
       "nome": "México",
       "valor": 36,
-      "fala": "Em sétimo vem o México, com trinta e seis. As pirâmides de Teotihuacán e Chichén Itzá estão aí.",
+      "fala": "Em sétimo vem o México, com trinta e seis. As pirâmides de Teotihuacán estão aí.",
       "clip": "mn-bandeira-mexico-42113.mp4"
     },
     {
@@ -50,7 +50,7 @@
       "pos": 5,
       "nome": "Espanha",
       "valor": 50,
-      "fala": "Em quinto fica a Espanha, com cinquenta. Tem a Alhambra, em Granada, e as obras de Gaudí, em Barcelona.",
+      "fala": "Em quinto fica a Espanha, com cinquenta. Tem a Alhambra, em Granada, e as obras de Gaudí.",
       "clip": "mn-bandeira-espanha-42101.mp4"
     },
     {
@@ -64,21 +64,21 @@
       "pos": 3,
       "nome": "França",
       "valor": 56,
-      "fala": "Em terceiro, a França, com cinquenta e seis. O Palácio de Versalhes e o Monte Saint-Michel estão na conta.",
+      "fala": "Em terceiro, a França, com cinquenta e seis. Versalhes e o Monte Saint-Michel estão na conta.",
       "clip": "mn-bandeira-franca-42086.mp4"
     },
     {
       "pos": 2,
       "nome": "China",
       "valor": 61,
-      "fala": "Em segundo fica a China, com sessenta e um. A Grande Muralha e a Cidade Proibida estão na lista.",
+      "fala": "Em segundo fica a China, com sessenta e um. A Grande Muralha está na lista.",
       "clip": "mn-bandeira-china-13312.mp4"
     },
     {
       "pos": 1,
       "nome": "Itália",
       "valor": 62,
-      "fala": "E em primeiro lugar vem a Itália, com sessenta e dois sítios. Roma, Florença e Veneza estão na lista, e é o maior número do planeta.",
+      "fala": "E em primeiro lugar vem a Itália, com sessenta e dois sítios. Roma, Florença e Veneza estão na lista.",
       "clip": "mn-bandeira-italia-18897.mp4"
     }
   ],
@@ -86,7 +86,7 @@
     "Você esperava ver a Itália na frente da China?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-22-patrimonio-unesco.mp4",
+  "output": "rankin-2026-10-22-patrimonio-unesco-v2.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-terra-girando-34314.mp4",

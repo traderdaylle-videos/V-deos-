@@ -29,21 +29,21 @@
       "pos": 8,
       "nome": "Canadá",
       "valor": 29,
-      "fala": "Em oitavo vem o Canadá, com vinte e nove.",
+      "fala": "Em oitavo vem o Canadá, com vinte e nove laureados. Pesquisa de ponta em universidades como a de Toronto.",
       "clip": "mn-bandeira-canada-18084.mp4"
     },
     {
       "pos": 7,
       "nome": "Rússia",
       "valor": 30,
-      "fala": "Em sétimo a Rússia, contando a União Soviética, com trinta.",
+      "fala": "Em sétimo a Rússia, contando a União Soviética, com trinta. Muitos prêmios vieram da física.",
       "clip": "mn-bandeira-russia-18097.mp4"
     },
     {
       "pos": 6,
       "nome": "Japão",
       "valor": 33,
-      "fala": "Em sexto aparece o Japão, com trinta e três.",
+      "fala": "Em sexto aparece o Japão, com trinta e três. É o país asiático que mais ganhou.",
       "clip": "mn-bandeira-japao-42108.mp4"
     },
     {
@@ -57,21 +57,21 @@
       "pos": 4,
       "nome": "França",
       "valor": 78,
-      "fala": "Em quarto vem a França, com setenta e oito.",
+      "fala": "Em quarto vem a França, com setenta e oito. Marie Curie, que ganhou duas vezes, é a mais famosa.",
       "clip": "mn-bandeira-franca-42086.mp4"
     },
     {
       "pos": 3,
       "nome": "Alemanha",
       "valor": 116,
-      "fala": "Em terceiro a Alemanha, com cento e dezesseis.",
+      "fala": "Em terceiro a Alemanha, com cento e dezesseis. Einstein está nessa conta.",
       "clip": "mn-cidade-alemanha-neve-18744.mp4"
     },
     {
       "pos": 2,
       "nome": "Reino Unido",
       "valor": 144,
-      "fala": "Em segundo fica o Reino Unido, com cento e quarenta e quatro.",
+      "fala": "Em segundo fica o Reino Unido, com cento e quarenta e quatro laureados.",
       "clip": "mn-bandeira-reino-unido-42115.mp4"
     },
     {
@@ -86,7 +86,7 @@
     "Você esperava essa diferença dos Estados Unidos pro resto?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-22-premios-nobel.mp4",
+  "output": "rankin-2026-10-22-premios-nobel-v2.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-terra-girando-34314.mp4",
