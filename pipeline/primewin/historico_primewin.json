@@ -1423,5 +1423,37 @@
   "metricool_id": 402647215,
   "metricool_uuid": "902087008327453695",
   "agendado_para": "2026-10-21T20:26:00-03:00"
+ },
+ {
+  "data": "2026-10-22",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: quinta livre para viajar e passear com a família; quem trava na hora de começar; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "candles / ondas",
+  "titulos": [
+   "COMPRA NO FUNDO",
+   "SAÍDA NO TOPO"
+  ],
+  "clipes": [
+   "casal-mapa-carro-2718 (intro)",
+   "familia-caminhando-por-do-sol-6472 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "cafe-manha-musica-43391",
+   "homem-estressado-49225",
+   "olho-laptop-46575",
+   "jovem-trabalhando-computador-44072",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 65.5,
+  "arquivo": "media:primewin/primewin-2026-10-22-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 403045511,
+  "metricool_uuid": "-6339319519735625369",
+  "agendado_para": "2026-10-22T08:32:00-03:00"
  }
 ]
