@@ -1,0 +1,39 @@
+{
+ "data": "2026-10-22",
+ "tema": "WEG (balanço 3T26: lucro R$ 1,66 bi +0,9%, abaixo do consenso R$ 1,71 bi) cai 7,34%; Ibovespa -0,86%, dólar R$ 5,027; câmbio, tarifas dos EUA, ação x orçamento",
+ "gancho": "Você investe? A WEG lucrou um bilhão e seiscentos e sessenta milhões de reais, e a ação caiu sete vírgula trinta e quatro por cento.",
+ "gancho_score": "78,2 STRONG (versão escrita)",
+ "curto": {
+  "arquivo": "gf-bolsa-weg-curto-v2.mp4",
+  "capa": "gf-bolsa-weg-curto-v2-capa.jpg",
+  "horario": "09:55",
+  "ids": {
+   "reel": 403095965,
+   "short": 403096005
+  },
+  "titulo_short": "WEG lucra R$ 1,66 bi e a ação cai 7,34%: por quê?"
+ },
+ "longo": {
+  "arquivo": "gf-bolsa-weg-longo.mp4",
+  "capa": "gf-bolsa-weg-longo-capa.jpg",
+  "horario": "10:25",
+  "id": 403096125,
+  "titulo": "WEG lucra R$ 1,66 bi e a ação cai 7,34%: o que isso muda no seu bolso? Aula",
+  "capitulos": [
+   "0:00 WEG: lucro de R$ 1,66 bi e ação em queda",
+   "0:18 Como foi o dia na Bolsa",
+   "0:39 O que a WEG faz e como ganha dinheiro",
+   "1:02 Receita, lucro e Ebitda do 3T26",
+   "1:53 Câmbio, tarifas dos EUA e margem",
+   "2:15 Por que a ação caiu 7,34%",
+   "2:34 Hapvida e o humor do mercado",
+   "3:08 O que muda no seu cotidiano",
+   "3:44 Epicteto e o que depende de você",
+   "4:02 3 passos práticos"
+  ]
+ },
+ "fontes": [
+  "Seu Dinheiro 21/10/2026 (WEG 3T26: receita R$ 10,8 bi +5,7%, lucro R$ 1,66 bi +0,9%, Ebitda R$ 2,34 bi, margem 21,6%; WEGE3 -7%)",
+  "Diário do Sudoeste 21/10/2026 (Ibovespa 206.495,23 pts, -0,86%; dólar R$ 5,027; DI jan/2027 13,473%; Hapvida -8,48%; WEG -7,34%)"
+ ]
+}

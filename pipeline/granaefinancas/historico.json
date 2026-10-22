@@ -375,5 +375,32 @@
    "Money Times 20/10/2026 (Ibovespa 208.295,98 pts, +1,57%; dólar R$ 5,0189)",
    "Diário do Sudoeste 20/10/2026 (DI jan/2029 12,709%→12,580%; Hapvida +7,55%, B3 +5,38%, Natura +7,75%, Bradesco +2,89%, Itaú +1,88%)"
   ]
+ },
+ {
+  "data": "2026-10-22",
+  "tema": "WEG (balanço 3T26: lucro R$ 1,66 bi +0,9%, abaixo do consenso R$ 1,71 bi) cai 7,34%; Ibovespa -0,86%, dólar R$ 5,027; câmbio, tarifas dos EUA, ação x orçamento",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-bolsa-weg-curto-v2.mp4",
+   "duracao": 53.9,
+   "capa": "granaefinancas/gf-bolsa-weg-curto-v2-capa.jpg",
+   "horario": "09:55",
+   "metricool": {
+    "reel": 403095965,
+    "short": 403096005
+   },
+   "gancho": "78,2 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-bolsa-weg-longo.mp4",
+   "duracao": 282.0,
+   "capa": "granaefinancas/gf-bolsa-weg-longo-capa.jpg",
+   "horario": "10:25",
+   "metricool": 403096125
+  },
+  "fontes": [
+   "Seu Dinheiro 21/10/2026 (WEG 3T26: receita R$ 10,8 bi +5,7%, lucro R$ 1,66 bi +0,9%, Ebitda R$ 2,34 bi, margem 21,6%; WEGE3 -7%)",
+   "Diário do Sudoeste 21/10/2026 (Ibovespa 206.495,23 pts, -0,86%; dólar R$ 5,027; DI jan/2027 13,473%; Hapvida -8,48%; WEG -7,34%)"
+  ]
  }
 ]
