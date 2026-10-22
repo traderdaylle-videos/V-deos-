@@ -1,0 +1,197 @@
+{
+ "segs": [
+  [
+   "Você investe? A WEG lucrou um bilhão e seiscentos e sessenta milhões de reais, e a ação caiu sete vírgula trinta e quatro por cento.",
+   0.5
+  ],
+  [
+   "Quarta, vinte e um de outubro, saiu o balanço do terceiro trimestre. O lucro cresceu só zero vírgula nove por cento.",
+   0.5
+  ],
+  [
+   "O mercado esperava um bilhão e setecentos e dez milhões. A margem também veio abaixo.",
+   0.5
+  ],
+  [
+   "A WEG fabrica motores elétricos e equipamentos de energia. O exterior é cerca de sessenta e três por cento da receita.",
+   0.5
+  ],
+  [
+   "O Citi aponta o real forte e as tarifas americanas como pressão.",
+   0.5
+  ],
+  [
+   "No mesmo dia, o Ibovespa caiu zero vírgula oitenta e seis por cento, e a Hapvida, que subiu ontem, caiu oito vírgula quarenta e oito.",
+   0.5
+  ],
+  [
+   "Ação não mede só lucro. Mede expectativa, e a expectativa muda num dia.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: cuide do que depende de você. A cotação não depende. O seu plano, sim.",
+   0.7
+  ],
+  [
+   "Hoje, abra seu fundo e veja em quais empresas ele investe. Qual pesa mais?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  2,
+  5,
+  7
+ ],
+ "keywords_gold": [
+  "WEG",
+  "BALANÇO",
+  "AÇÃO",
+  "LUCRO",
+  "DÓLAR",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-7,34%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "WEG num dia",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Lucro\n+0,9%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Esperado\nR$ 1,71 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Real forte +\ntarifas EUA",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Ibovespa -0,86%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "O que depende de você",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-bolsa-weg-curto.mp4",
+ "capa": "WEG LUCRA R$ 1,66 BI E A AÇÃO CAI 7,34%",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
