@@ -1,0 +1,80 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma queda longa, e de repente um candle com uma sombra enorme embaixo. Esse é o doji libélula."
+  ],
+  [
+   "intro",
+   "Ele se forma quando o preço abre e fecha praticamente no mesmo ponto, lá no topo do candle."
+  ],
+  [
+   "meio",
+   "Essa sombra mostra que os vendedores empurraram o preço pra baixo durante o período."
+  ],
+  [
+   "meio",
+   "Mas os compradores reagiram e levaram o preço de volta até onde ele tinha aberto."
+  ],
+  [
+   "meio",
+   "Depois de uma queda, muitos analistas técnicos observam esse candle como sinal de possível perda de força vendedora."
+  ],
+  [
+   "meio",
+   "E por ser um candle de indecisão, muitos esperam o candle seguinte fechar acima da máxima para confirmar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere esperar a confirmação ou agir no próprio doji?"
+  ],
+  [
+   "recap",
+   "Recapitulando: abre e fecha na máxima, sombra inferior longa e atenção à confirmação depois de uma queda."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4",
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_doji_libelula.py",
+ "output": "tiktok-2026-10-22-doji-libelula.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "DOJI",
+  "LIBÉLULA",
+  "SOMBRA",
+  "LONGA",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

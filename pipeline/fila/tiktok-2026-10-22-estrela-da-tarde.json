@@ -1,0 +1,84 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma alta forte, um candle hesitante e uma queda brusca. Isso é a estrela da tarde."
+  ],
+  [
+   "intro",
+   "É um padrão de três candles que muitos analistas técnicos associam ao possível fim de uma alta."
+  ],
+  [
+   "intro",
+   "O primeiro candle é verde e grande, mostrando compradores no controle."
+  ],
+  [
+   "intro",
+   "O segundo é pequeno, com corpo curto, e mostra que a força compradora começou a diminuir."
+  ],
+  [
+   "meio",
+   "O terceiro é vermelho e grande, e fecha abaixo do meio do primeiro candle."
+  ],
+  [
+   "meio",
+   "Quando isso acontece, muitos observam a região como possível zona de pressão vendedora."
+  ],
+  [
+   "meio",
+   "E o preço pode simplesmente continuar subindo depois dele, por isso muitos esperam confirmação."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu a estrela da tarde num gráfico seu?"
+  ],
+  [
+   "recap",
+   "Recapitulando: candle verde grande, candle pequeno no meio e candle vermelho grande fechando abaixo da metade do primeiro."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_estrela_tarde.py",
+ "output": "tiktok-2026-10-22-estrela-da-tarde.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "ESTRELA",
+  "TARDE",
+  "VERMELHO",
+  "PEQUENO",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
