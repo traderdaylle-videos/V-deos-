@@ -1455,5 +1455,36 @@
   "metricool_id": 403045511,
   "metricool_uuid": "-6339319519735625369",
   "agendado_para": "2026-10-22T08:32:00-03:00"
+ },
+ {
+  "data": "2026-10-22",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório card3 (+R$ 505,50, 25 ops, 80%), automação opera sozinha, testada em conta real",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "homem-ansiedade-47206",
+   "grafico-closeup-47016",
+   "celular-rolando-29302",
+   "tendencia-tela-9607",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "familia-caminhando-por-do-sol-6472 (endcard)"
+  ],
+  "bg_clip": "familia-caminhando-por-do-sol-6472",
+  "cartoes": [
+   "card3",
+   "card4"
+  ],
+  "duracao_s": 66.7,
+  "arquivo": "media:primewin/primewin-2026-10-22-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 403664792,
+  "metricool_uuid": "-2456467314004245306",
+  "agendado_para": "2026-10-22T20:38:00-03:00"
  }
 ]
