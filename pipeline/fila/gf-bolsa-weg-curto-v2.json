@@ -109,11 +109,6 @@
    "seg": 9,
    "src": "investidor-tablet-escritorio-45706.mp4",
    "offset": 1
-  },
-  {
-   "seg": 10,
-   "src": "dinheiro-transacao-18247.mp4",
-   "offset": 1
   }
  ],
  "overlays": [
@@ -179,8 +174,8 @@
    ]
   },
   {
-   "seg": 8,
-   "ate": 8,
+   "seg": 7,
+   "ate": 7,
    "linhas": [
     {
      "t": "O que depende de você",
@@ -190,7 +185,7 @@
    ]
   }
  ],
- "output": "gf-bolsa-weg-curto.mp4",
+ "output": "gf-bolsa-weg-curto-v2.mp4",
  "capa": "WEG LUCRA R$ 1,66 BI E A AÇÃO CAI 7,34%",
  "motor": "gf",
  "pasta": "granaefinancas"
