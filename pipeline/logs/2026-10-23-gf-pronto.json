@@ -1,0 +1,65 @@
+{
+ "data": "2026-10-23",
+ "tema": "Vale cai quase 12% em outubro (-3,97% em 22/10, R$ 61,49); minério de ferro, aço plano, Ibovespa -1,15%; previdência/fundos",
+ "gancho": "Você tem previdência? A Vale perdeu 12% em outubro. (hookscore 80,8 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-vale-minerio-curto.mp4",
+  "duracao": 55.0,
+  "capa": "granaefinancas/gf-vale-minerio-curto-capa.jpg",
+  "horario": "09:57",
+  "titulo_short": "Vale perde 12% em outubro: sua previdência tem?",
+  "ids": {
+   "reel": 404119125,
+   "short": 404119147
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-vale-minerio-longo.mp4",
+  "duracao": 272.8,
+  "horario": "10:27",
+  "titulo": "Vale cai 12% em outubro: o que isso tem a ver com a sua previdência",
+  "capitulos": [
+   [
+    "0:00",
+    "Vale cai quase 12% em outubro"
+   ],
+   [
+    "0:44",
+    "O que a Vale faz"
+   ],
+   [
+    "1:12",
+    "O preço do minério e a demanda por aço"
+   ],
+   [
+    "1:48",
+    "Mercado global e bancos"
+   ],
+   [
+    "2:27",
+    "O que isso tem a ver com o seu fundo"
+   ],
+   [
+    "2:54",
+    "Ação que cai é prejuízo?"
+   ],
+   [
+    "3:13",
+    "O balanço da Vale"
+   ],
+   [
+    "3:29",
+    "Epicteto e o que depende de você"
+   ],
+   [
+    "3:44",
+    "3 passos práticos"
+   ]
+  ],
+  "id": 404119224
+ },
+ "fontes": [
+  "Suno 22/10/2026 (Ibovespa -1,15% a 204.120,12 pts; dólar R$ 5,038; Vale -3,97%, quase -12% em outubro; Bradesco -2,08%; Itaú -1,84%)",
+  "Diário do Sudoeste 22/10/2026 (Vale R$ 61,49; minério Dalian -1,62% a 669 iuanes/t; aço plano -7,2% em setembro; Brent +4% a US$ 113,17; Nasdaq -2,60%; DI jan/2027 13,501%)"
+ ]
+}

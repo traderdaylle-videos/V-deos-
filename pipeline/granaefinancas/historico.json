@@ -402,5 +402,32 @@
    "Seu Dinheiro 21/10/2026 (WEG 3T26: receita R$ 10,8 bi +5,7%, lucro R$ 1,66 bi +0,9%, Ebitda R$ 2,34 bi, margem 21,6%; WEGE3 -7%)",
    "Diário do Sudoeste 21/10/2026 (Ibovespa 206.495,23 pts, -0,86%; dólar R$ 5,027; DI jan/2027 13,473%; Hapvida -8,48%; WEG -7,34%)"
   ]
+ },
+ {
+  "data": "2026-10-23",
+  "tema": "Vale cai quase 12% em outubro (-3,97% em 22/10, R$ 61,49); minério de ferro, aço plano, Ibovespa -1,15%; previdência/fundos",
+  "formato": "aula de educação financeira (tarefa agendada)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-vale-minerio-curto.mp4",
+   "duracao": 55.0,
+   "capa": "granaefinancas/gf-vale-minerio-curto-capa.jpg",
+   "horario": "09:57",
+   "metricool": {
+    "reel": 404119125,
+    "short": 404119147
+   },
+   "gancho": "80,8 STRONG"
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-vale-minerio-longo.mp4",
+   "duracao": 272.8,
+   "capa": "granaefinancas/gf-vale-minerio-longo-capa.jpg",
+   "horario": "10:27",
+   "metricool": 404119224
+  },
+  "fontes": [
+   "Suno 22/10/2026 (Ibovespa -1,15% a 204.120,12 pts; dólar R$ 5,038; Vale -3,97%, quase -12% em outubro; Bradesco -2,08%; Itaú -1,84%)",
+   "Diário do Sudoeste 22/10/2026 (Vale R$ 61,49; minério Dalian -1,62% a 669 iuanes/t; aço plano -7,2% em setembro; Brent +4% a US$ 113,17; Nasdaq -2,60%; DI jan/2027 13,501%)"
+  ]
  }
 ]
