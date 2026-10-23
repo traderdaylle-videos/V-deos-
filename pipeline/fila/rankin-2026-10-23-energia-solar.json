@@ -1,0 +1,100 @@
+{
+  "titulo": "PAÍSES COM MAIS ENERGIA SOLAR",
+  "subtitulo": "capacidade instalada em gigawatts, em 10 países",
+  "unidade": "",
+  "decimais": 0,
+  "destaque": "Brasil",
+  "fonte": "Fonte: IRENA, capacidade solar instalada em 2024",
+  "intro": [
+    "O sol é de graça, mas transformar a luz dele em energia custa bilhões.",
+    "Estes são os dez países com mais capacidade solar instalada no mundo, medida em gigawatts.",
+    "Será que o Brasil aparece? Fica até o final pra descobrir quem lidera."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Coreia do Sul",
+      "valor": 27,
+      "fala": "Em décimo lugar vem a Coreia do Sul, com vinte e sete gigawatts. Um país pequeno, mas que investe forte em tecnologia.",
+      "clip": "mn-seul-noite-transito-20089.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Itália",
+      "valor": 36,
+      "fala": "Em nono vem a Itália, com trinta e seis gigawatts. Ela foi pioneira na Europa e ainda aposta no sol.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Austrália",
+      "valor": 38,
+      "fala": "Em oitavo a Austrália, com trinta e oito. Lá muita casa tem painel no telhado. Lá muita casa tem painel no telhado e sol de sobra.",
+      "clip": "mn-bandeira-australia-9184.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Espanha",
+      "valor": 38,
+      "fala": "Em sétimo a Espanha, também com trinta e oito, empatada com a Austrália. Um dos países mais ensolarados da Europa.",
+      "clip": "mn-bandeira-espanha-42101.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Brasil",
+      "valor": 53,
+      "fala": "Em sexto está o Brasil, com cinquenta e três gigawatts, e o sol brasileiro não para de crescer. É o que mais cresce por aqui, e já reduz muita conta de luz.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Alemanha",
+      "valor": 90,
+      "fala": "Em quinto vem a Alemanha, com noventa gigawatts, mesmo com pouco sol. Mesmo com pouco sol, a Alemanha apostou cedo nessa energia.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Japão",
+      "valor": 92,
+      "fala": "Em quarto vem o Japão, com noventa e dois gigawatts. Ilhas e montanhas, e pouco espaço, então os painéis vão até nos telhados.",
+      "clip": "mn-bandeira-japao-42108.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Índia",
+      "valor": 97,
+      "fala": "Em terceiro vem a Índia, com noventa e sete gigawatts. O país tem sol de sobra e uma das maiores populações do planeta.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "EUA",
+      "valor": 177,
+      "fala": "Em segundo ficam os Estados Unidos, com cento e setenta e sete gigawatts. Um número que cresce a cada ano.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "China",
+      "valor": 888,
+      "fala": "E em primeiro lugar vem a China, com oitocentos e oitenta e oito gigawatts. Sozinha, passa de quase metade do mundo. Quase metade de todos os painéis do planeta estão lá.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava essa diferença da China pro resto?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-23-energia-solar.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-voando-nuvens-11303.mp4",
+    "mn-rodovia-aerea-28790.mp4"
+  ],
+  "clip_final": "mn-bandeira-china-13312.mp4",
+  "bg_clip": "mn-terra-girando-34314.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
