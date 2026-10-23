@@ -399,5 +399,27 @@
   "metricool_id": 402992221,
   "publicado": false,
   "duracao_s": 69.1
+ },
+ {
+  "data": "2026-10-23",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Países com mais energia solar (capacidade instalada 2024)",
+  "fonte": "IRENA 2024 via Il Sole 24 Ore",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-23-energia-solar-v2.mp4",
+  "metricool_id": 404008714,
+  "publicado": false,
+  "duracao_s": 70.6
+ },
+ {
+  "data": "2026-10-23",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Países com mais energia eólica (capacidade instalada 2024)",
+  "fonte": "IRENA 2024 via Il Sole 24 Ore",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-23-energia-eolica-v2.mp4",
+  "metricool_id": 404008769,
+  "publicado": false,
+  "duracao_s": 64.8
  }
 ]
