@@ -15,14 +15,14 @@
       "pos": 10,
       "nome": "Coreia do Sul",
       "valor": 27,
-      "fala": "Em décimo lugar vem a Coreia do Sul, com vinte e sete gigawatts. Um país pequeno, mas que investe forte em tecnologia.",
+      "fala": "Em décimo lugar vem a Coreia do Sul, com vinte e sete gigawatts.",
       "clip": "mn-seul-noite-transito-20089.mp4"
     },
     {
       "pos": 9,
       "nome": "Itália",
       "valor": 36,
-      "fala": "Em nono vem a Itália, com trinta e seis gigawatts. Ela foi pioneira na Europa e ainda aposta no sol.",
+      "fala": "Em nono vem a Itália, com trinta e seis gigawatts.",
       "clip": "mn-bandeira-italia-18897.mp4"
     },
     {
@@ -36,7 +36,7 @@
       "pos": 7,
       "nome": "Espanha",
       "valor": 38,
-      "fala": "Em sétimo a Espanha, também com trinta e oito, empatada com a Austrália. Um dos países mais ensolarados da Europa.",
+      "fala": "Em sétimo a Espanha, também com trinta e oito, empatada com a Austrália.",
       "clip": "mn-bandeira-espanha-42101.mp4"
     },
     {
@@ -57,21 +57,21 @@
       "pos": 4,
       "nome": "Japão",
       "valor": 92,
-      "fala": "Em quarto vem o Japão, com noventa e dois gigawatts. Ilhas e montanhas, e pouco espaço, então os painéis vão até nos telhados.",
+      "fala": "Em quarto vem o Japão, com noventa e dois gigawatts.",
       "clip": "mn-bandeira-japao-42108.mp4"
     },
     {
       "pos": 3,
       "nome": "Índia",
       "valor": 97,
-      "fala": "Em terceiro vem a Índia, com noventa e sete gigawatts. O país tem sol de sobra e uma das maiores populações do planeta.",
+      "fala": "Em terceiro vem a Índia, com noventa e sete gigawatts.",
       "clip": "mn-bandeira-india-42085.mp4"
     },
     {
       "pos": 2,
       "nome": "EUA",
       "valor": 177,
-      "fala": "Em segundo ficam os Estados Unidos, com cento e setenta e sete gigawatts. Um número que cresce a cada ano.",
+      "fala": "Em segundo ficam os Estados Unidos, com cento e setenta e sete gigawatts.",
       "clip": "mn-bandeira-eua-40711.mp4"
     },
     {
@@ -86,7 +86,7 @@
     "Você esperava essa diferença da China pro resto?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-23-energia-solar.mp4",
+  "output": "rankin-2026-10-23-energia-solar-v2.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-terra-girando-34314.mp4",

@@ -15,35 +15,35 @@
       "pos": 10,
       "nome": "Suécia",
       "valor": 17,
-      "fala": "Em décimo lugar vem a Suécia, com dezessete gigawatts. Frio, vento e muita floresta ajudam a produzir energia.",
+      "fala": "Em décimo lugar vem a Suécia, com dezessete gigawatts.",
       "clip": "mn-cidade-noite-aerea-42342.mp4"
     },
     {
       "pos": 9,
       "nome": "Canadá",
       "valor": 18,
-      "fala": "Em nono vem o Canadá, com dezoito gigawatts. Um território enorme, com muito espaço para turbinas.",
+      "fala": "Em nono vem o Canadá, com dezoito gigawatts.",
       "clip": "mn-bandeira-canada-18084.mp4"
     },
     {
       "pos": 8,
       "nome": "França",
       "valor": 24,
-      "fala": "Em oitavo vem a França, com vinte e quatro gigawatts. O país mistura energia nuclear com vento.",
+      "fala": "Em oitavo vem a França, com vinte e quatro gigawatts.",
       "clip": "mn-bandeira-franca-42086.mp4"
     },
     {
       "pos": 7,
       "nome": "Reino Unido",
       "valor": 31,
-      "fala": "Em sétimo vem o Reino Unido, com trinta e um gigawatts. As turbinas ficam muitas vezes no mar, onde o vento é mais forte.",
+      "fala": "Em sétimo vem o Reino Unido, com trinta e um gigawatts.",
       "clip": "mn-bandeira-reino-unido-42115.mp4"
     },
     {
       "pos": 6,
       "nome": "Espanha",
       "valor": 32,
-      "fala": "Em sexto vem a Espanha, com trinta e dois gigawatts. Os ventos do litoral e do interior ajudam muito.",
+      "fala": "Em sexto vem a Espanha, com trinta e dois gigawatts.",
       "clip": "mn-bandeira-espanha-42101.mp4"
     },
     {
@@ -71,7 +71,7 @@
       "pos": 2,
       "nome": "EUA",
       "valor": 153,
-      "fala": "Em segundo ficam os Estados Unidos, com cento e cinquenta e três gigawatts. Os campos do meio do país são cheios de turbinas gigantes.",
+      "fala": "Em segundo ficam os Estados Unidos, com cento e cinquenta e três gigawatts.",
       "clip": "mn-bandeira-eua-40711.mp4"
     },
     {
@@ -86,7 +86,7 @@
     "Você esperava o Brasil tão bem colocado?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-23-energia-eolica.mp4",
+  "output": "rankin-2026-10-23-energia-eolica-v2.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-terra-girando-34314.mp4",
