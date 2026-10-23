@@ -1,0 +1,192 @@
+{
+ "segs": [
+  [
+   "Você tem previdência? A Vale perdeu doze por cento em outubro, e ela pode estar no seu plano.",
+   0.5
+  ],
+  [
+   "Na quinta, vinte e dois de outubro, a ação caiu três vírgula noventa e sete por cento, para sessenta e um reais e quarenta e nove.",
+   0.5
+  ],
+  [
+   "A Vale é mineradora. Ela extrai minério de ferro, matéria-prima do aço, e vende para fábricas do mundo todo.",
+   0.5
+  ],
+  [
+   "Em Dalian, na China, o minério caiu um vírgula sessenta e dois por cento no dia. Preço menor, lucro menor por tonelada.",
+   0.5
+  ],
+  [
+   "E o aço encolheu: as vendas de aço plano caíram sete vírgula dois por cento em setembro.",
+   0.5
+  ],
+  [
+   "O Ibovespa recuou um vírgula quinze por cento. Empresa grande pesa no índice, e pesa no seu fundo.",
+   0.5
+  ],
+  [
+   "Ação cai quando o mercado espera lucro menor. O balanço da Vale sai em vinte e nove de outubro.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: cuide do que depende de você. O minério não depende. O peso de uma empresa na sua carteira, sim.",
+   0.7
+  ],
+  [
+   "Hoje, abra o extrato da previdência ou do fundo e veja quanto a Vale pesa. É muito?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  3,
+  5,
+  7
+ ],
+ "keywords_gold": [
+  "VALE",
+  "MINÉRIO",
+  "AÇÃO",
+  "PREVIDÊNCIA",
+  "IBOVESPA",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-12%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Vale em outubro",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Vale -3,97%\nR$ 61,49",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Minério\n-1,62%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Aço plano\n-7,2%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Ibovespa -1,15%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "O que depende de você",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-vale-minerio-curto.mp4",
+ "capa": "VALE PERDE 12% EM OUTUBRO: SUA PREVIDÊNCIA TEM?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
