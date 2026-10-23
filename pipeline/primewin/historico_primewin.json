@@ -1486,5 +1486,37 @@
   "metricool_id": 403664792,
   "metricool_uuid": "-2456467314004245306",
   "agendado_para": "2026-10-22T20:38:00-03:00"
+ },
+ {
+  "data": "2026-10-23",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: sexta que termina cedo e fim de semana de verdade; quem adia por medo do primeiro clique; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "linha / longo_alta",
+  "titulos": [
+   "UMA ENTRADA",
+   "UM MOVIMENTO LONGO"
+  ],
+  "clipes": [
+   "pai-brincando-filho-7681 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "cafe-manha-musica-43391 (intro)",
+   "numeros-oculos-47792",
+   "homem-estressado-49225",
+   "cansado-computador-14763",
+   "tendencia-tela-9607",
+   "mulher-graficos-ipad-45662",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 69.6,
+  "arquivo": "media:primewin/primewin-2026-10-23-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 404060343,
+  "metricool_uuid": "7028293483623894368",
+  "agendado_para": "2026-10-23T08:27:00-03:00"
  }
 ]
