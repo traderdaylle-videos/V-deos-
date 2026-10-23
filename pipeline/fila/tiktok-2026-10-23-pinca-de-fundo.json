@@ -1,0 +1,79 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma queda longa, e de repente dois candles que tocam exatamente a mesma mínima. Essa é a pinça de fundo."
+  ],
+  [
+   "intro",
+   "Ela é formada por dois candles seguidos, cujas mínimas ficam praticamente no mesmo nível, no fim de uma queda."
+  ],
+  [
+   "meio",
+   "O primeiro candle mostra os vendedores ainda no controle, empurrando o preço pra baixo."
+  ],
+  [
+   "meio",
+   "O segundo candle volta ao mesmo ponto, mas os compradores reagem e não deixam o preço cair mais."
+  ],
+  [
+   "meio",
+   "Esse nível repetido mostra uma região onde os vendedores perderam força, e muitos analistas técnicos observam isso como possível suporte."
+  ],
+  [
+   "meio",
+   "Mas cuidado: o preço pode perder essa mínima, e muitos esperam o candle seguinte fechar acima dos dois pra confirmar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu uma pinça de fundo funcionar ou falhar no seu gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: duas mínimas iguais depois de uma queda, reação dos compradores e atenção à confirmação."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "homem-estressado-49225.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "lucro-bolsa-47012.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_pinca_fundo.py",
+ "output": "tiktok-2026-10-23-pinca-de-fundo.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "PINÇA",
+  "FUNDO",
+  "MÍNIMA",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

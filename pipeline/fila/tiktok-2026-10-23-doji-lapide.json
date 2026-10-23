@@ -1,0 +1,80 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma alta longa, e de repente um candle com uma sombra enorme em cima. Esse é o doji lápide."
+  ],
+  [
+   "intro",
+   "Ele se forma quando o preço abre e fecha praticamente no mesmo ponto, lá embaixo, na mínima do candle."
+  ],
+  [
+   "meio",
+   "Essa sombra mostra que os compradores empurraram o preço pra cima durante o período."
+  ],
+  [
+   "meio",
+   "Mas os vendedores reagiram e levaram o preço de volta até o ponto onde ele tinha aberto."
+  ],
+  [
+   "meio",
+   "Depois de uma alta, muitos analistas técnicos observam esse candle como sinal de possível perda de força compradora."
+  ],
+  [
+   "meio",
+   "Mas atenção: ele é um candle de indecisão, e muitos esperam o candle seguinte fechar abaixo da mínima pra confirmar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere esperar a confirmação ou agir no próprio doji?"
+  ],
+  [
+   "recap",
+   "Recapitulando: abre e fecha na mínima, sombra superior longa e atenção à confirmação depois de uma alta."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "grafico-closeup-47016.mp4",
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_doji_lapide.py",
+ "output": "tiktok-2026-10-23-doji-lapide.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "DOJI",
+  "LÁPIDE",
+  "SOMBRA",
+  "LONGA",
+  "CONFIRMAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
