@@ -1518,5 +1518,36 @@
   "metricool_id": 404060343,
   "metricool_uuid": "7028293483623894368",
   "agendado_para": "2026-10-23T08:27:00-03:00"
+ },
+ {
+  "data": "2026-10-23",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card1), fluxo, sem emocional, tempo livre",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "ALVO EM 161,8%"
+  ],
+  "clipes": [
+   "olho-laptop-46575",
+   "numeros-oculos-47792",
+   "jovem-trabalhando-computador-44072",
+   "mulher-graficos-ipad-45662",
+   "praia-mulher-caminhando-1208",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "cafe-manha-musica-43391 (endcard)"
+  ],
+  "bg_clip": "cafe-manha-musica-43391",
+  "cartoes": [
+   "card1",
+   "card2"
+  ],
+  "duracao_s": 67.5,
+  "arquivo": "media:primewin/primewin-2026-10-23-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 404644170,
+  "metricool_uuid": "3084943947470687530",
+  "agendado_para": "2026-10-23T20:26:00-03:00"
  }
 ]
