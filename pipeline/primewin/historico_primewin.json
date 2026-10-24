@@ -1549,5 +1549,37 @@
   "metricool_id": 404644170,
   "metricool_uuid": "3084943947470687530",
   "agendado_para": "2026-10-23T20:26:00-03:00"
+ },
+ {
+  "data": "2026-10-24",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: sábado livre sem relógio nem tela; café e praia; quem adia por medo de não saber começar; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "candles / tendencia_alta",
+  "titulos": [
+   "VÁRIAS ENTRADAS",
+   "NUMA SÓ TENDÊNCIA"
+  ],
+  "clipes": [
+   "cafe-manha-musica-43391 (intro)",
+   "praia-mulher-caminhando-1208 (intro)",
+   "pai-brincando-filho-7681 (intro)",
+   "homem-estressado-49225",
+   "numeros-oculos-47792",
+   "cansado-computador-14763",
+   "mulher-graficos-ipad-45662",
+   "tendencia-tela-9607",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [],
+  "duracao_s": 67.9,
+  "arquivo": "media:primewin/primewin-2026-10-24-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 404927098,
+  "metricool_uuid": "4498991161073288797",
+  "agendado_para": "2026-10-24T08:32:00-03:00"
  }
 ]
