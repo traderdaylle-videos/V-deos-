@@ -33,10 +33,6 @@
    0.5
   ],
   [
-   "Quando a conta de luz alivia, ela pesa menos no orçamento de toda casa. E quando as passagens caem, o custo de viajar e de transportar pessoas também diminui.",
-   0.5
-  ],
-  [
    "Do outro lado, parte dos alimentos e a gasolina continuaram subindo e pressionaram o índice. São itens que a gente compra toda semana, e por isso a inflação parece maior na prática.",
    0.5
   ],
@@ -81,15 +77,15 @@
    0.5
   ],
   [
+   "E o que acontece no mercado financeiro? O dólar comercial fechou a sexta-feira em quatro reais e noventa e nove centavos, uma queda de zero vírgula nove por cento no dia.",
+   0.5
+  ],
+  [
    "Na semana, o dólar acumulou queda de um vírgula sessenta e quatro por cento. Dólar mais baixo costuma aliviar o preço de produtos importados e de itens que usam insumos de fora.",
    0.5
   ],
   [
    "O Ibovespa, principal índice da Bolsa brasileira, subiu zero vírgula quarenta e sete por cento, para duzentos e cinco mil pontos. Em outubro, ele acumula alta de dez por cento.",
-   0.5
-  ],
-  [
-   "Os juros futuros também recuaram. O contrato para janeiro de dois mil e vinte e nove ficou em doze vírgula cinquenta e nove por cento, uma queda de zero vírgula onze ponto percentual.",
    0.5
   ],
   [
@@ -117,7 +113,7 @@
    0.5
   ],
   [
-   "Por isso, na hora de comparar uma aplicação, não olhe só quanto ela rende. Olhe quanto ela rende acima da inflação.",
+   "O filósofo estoico Epicteto ensinava a separar o que depende de nós do que não depende. A inflação do país não depende de você. A forma como você organiza o seu dinheiro, sim.",
    0.5
   ],
   [
@@ -144,9 +140,9 @@
  ],
  "impactos_seg": [
   0,
-  5,
+  3,
   10,
-  20
+  26
  ],
  "keywords_gold": [
   "INFLAÇÃO",
@@ -325,11 +321,6 @@
    "seg": 32,
    "src": "tendencia-tela-9607.mp4",
    "offset": 1
-  },
-  {
-   "seg": 33,
-   "src": "celular-rolando-29302.mp4",
-   "offset": 1
   }
  ],
  "overlays": [
@@ -373,8 +364,8 @@
    ]
   },
   {
-   "seg": 10,
-   "ate": 10,
+   "seg": 9,
+   "ate": 9,
    "linhas": [
     {
      "t": "12 meses: 4,62%",
@@ -384,8 +375,8 @@
    ]
   },
   {
-   "seg": 12,
-   "ate": 12,
+   "seg": 11,
+   "ate": 11,
    "linhas": [
     {
      "t": "Outubro/2025: 0,18%",
@@ -395,8 +386,8 @@
    ]
   },
   {
-   "seg": 14,
-   "ate": 14,
+   "seg": 13,
+   "ate": 13,
    "linhas": [
     {
      "t": "Teto da meta: 4,5%",
@@ -406,8 +397,8 @@
    ]
   },
   {
-   "seg": 16,
-   "ate": 16,
+   "seg": 15,
+   "ate": 15,
    "linhas": [
     {
      "t": "Selic 13,75%",
@@ -417,8 +408,8 @@
    ]
   },
   {
-   "seg": 20,
-   "ate": 20,
+   "seg": 19,
+   "ate": 19,
    "linhas": [
     {
      "t": "Dólar R$ 4,99",
@@ -439,8 +430,8 @@
    ]
   },
   {
-   "seg": 24,
-   "ate": 24,
+   "seg": 22,
+   "ate": 22,
    "linhas": [
     {
      "t": "Petrobras +1,47%",
@@ -450,11 +441,22 @@
    ]
   },
   {
-   "seg": 25,
-   "ate": 25,
+   "seg": 23,
+   "ate": 23,
    "linhas": [
     {
      "t": "Banco do Brasil +3,34%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 24,
+   "ate": 24,
+   "linhas": [
+    {
+     "t": "CSN +12,41%",
      "estilo": "Tit",
      "y": 820
     }
@@ -465,7 +467,7 @@
    "ate": 26,
    "linhas": [
     {
-     "t": "CSN +12,41%",
+     "t": "R$ 1.000 → R$ 1.046,20",
      "estilo": "Tit",
      "y": 820
     }
@@ -476,15 +478,15 @@
    "ate": 28,
    "linhas": [
     {
-     "t": "R$ 1.000 → R$ 1.046,20",
+     "t": "Epicteto",
      "estilo": "Tit",
      "y": 820
     }
    ]
   },
   {
-   "seg": 31,
-   "ate": 31,
+   "seg": 29,
+   "ate": 29,
    "linhas": [
     {
      "t": "3 passos práticos",
