@@ -1,5 +1,5 @@
 {
-  "titulo": "QUEM MAIS FABRICA VEÍCULOS",
+  "titulo": "A FÁBRICA DO MUNDO",
   "subtitulo": "milhões de veículos produzidos em 2024",
   "unidade": "",
   "decimais": 2,
@@ -35,14 +35,14 @@
       "pos": 7,
       "nome": "Alemanha",
       "valor": 4.07,
-      "fala": "Em sétimo vem a Alemanha, com quatro milhões e sessenta e nove mil.",
+      "fala": "Em sétimo vem a Alemanha, com quatro milhões e sessenta e nove mil. Terra da Volkswagen e da BMW.",
       "clip": "mn-cidade-alemanha-neve-18744.mp4"
     },
     {
       "pos": 6,
       "nome": "Coreia do Sul",
       "valor": 4.13,
-      "fala": "Em sexto aparece a Coreia do Sul, com quatro milhões e cento e vinte e sete mil.",
+      "fala": "Em sexto aparece a Coreia do Sul, com quatro milhões e cento e vinte e sete mil. Sede da Hyundai e da Kia.",
       "clip": "mn-seul-noite-transito-20089.mp4"
     },
     {
@@ -85,7 +85,7 @@
     "Você esperava que a China estivesse tão na frente?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-24-veiculos-v2.mp4",
+  "output": "rankin-2026-10-24-veiculos-v3.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-rodovia-aerea-28790.mp4",
