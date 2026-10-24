@@ -421,5 +421,27 @@
   "metricool_id": 404008769,
   "publicado": false,
   "duracao_s": 64.8
+ },
+ {
+  "data": "2026-10-24",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de veículos do mundo (2024)",
+  "fonte": "OICA, produção mundial de veículos 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-24-veiculos-v3.mp4",
+  "metricool_id": 404886496,
+  "publicado": false,
+  "duracao_s": 64.4
+ },
+ {
+  "data": "2026-10-24",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Países com mais geração hidrelétrica (2025)",
+  "fonte": "Ember, geração hidrelétrica 2025 (Venezuela 2024)",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-24-hidreletrica-v2.mp4",
+  "metricool_id": 404886514,
+  "publicado": false,
+  "duracao_s": 65.5
  }
 ]
