@@ -1,0 +1,63 @@
+{
+ "data": "2026-10-24",
+ "tema": "IPCA-15 de outubro 0,32% (esperado 0,45%; set 0,70%; 12 meses 4,62%, acima do teto); dólar R$ 4,993 (-0,90%), Ibovespa +0,47%; Selic 13,75%; Petrobras, Banco do Brasil, CSN; poder de compra",
+ "gancho": "Inflação de 0,32% e dólar a R$ 4,99: seu dinheiro rende mais? (hookscore 81,6 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ipca15-curto.mp4",
+  "duracao": 59.5,
+  "capa": "granaefinancas/gf-ipca15-curto-capa.jpg",
+  "horario": "10:00",
+  "titulo_short": "Inflação 0,32%: por que 12 meses subiram?",
+  "legenda_reel": "Inflação de 0,32% e dólar a R$ 4,99: seu dinheiro rende mais que os preços? (+ pergunta, fonte, CTA, 5 hashtags)",
+  "ids": {
+   "reel": 404962919,
+   "short": 404962932
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ipca15-longo.mp4",
+  "duracao": 280.9,
+  "capa": "granaefinancas/gf-ipca15-longo-capa.jpg",
+  "horario": "10:30",
+  "titulo": "IPCA-15 de 0,32%: por que a inflação de 12 meses subiu?",
+  "capitulos": [
+   [
+    "0:00",
+    "Inflação de outubro: 0,32%"
+   ],
+   [
+    "0:20",
+    "O que é o IPCA-15"
+   ],
+   [
+    "1:11",
+    "Por que o acumulado em 12 meses subiu"
+   ],
+   [
+    "2:04",
+    "Inflação, Selic e juros"
+   ],
+   [
+    "2:36",
+    "Dólar, Bolsa e empresas"
+   ],
+   [
+    "3:42",
+    "Rendimento real"
+   ],
+   [
+    "4:01",
+    "Epicteto e o que depende de você"
+   ],
+   [
+    "4:11",
+    "3 passos práticos"
+   ]
+  ],
+  "id": 404976280
+ },
+ "fontes": [
+  "O Tempo/Folhapress 23/10/2026 (IPCA-15 0,32%; set 0,70%; Bloomberg 0,45%; 12 meses 4,62%; Focus IPCA 2026 5,22%, Selic fim de 2026 13,25%)",
+  "Diário do Sudoeste 23/10/2026 (Ibovespa 205.082,56 +0,47%, mês +10,06%; dólar R$ 4,993 -0,90%, semana -1,64%; Petrobras +1,47%, BB +3,34%, CSN +12,41%, Usiminas +4,74%)"
+ ]
+}
