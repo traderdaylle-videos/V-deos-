@@ -1,0 +1,100 @@
+{
+  "titulo": "QUEM MAIS GERA ENERGIA DA ÁGUA",
+  "subtitulo": "geração hidrelétrica em terawatts-hora",
+  "unidade": "",
+  "decimais": 0,
+  "destaque": "Brasil",
+  "fonte": "Fonte: Ember, geração hidrelétrica 2025 (Venezuela 2024)",
+  "intro": [
+    "Rios e barragens movem as luzes de bilhões de pessoas, mas poucos países concentram quase toda essa energia.",
+    "A conta é feita em terawatts-hora, que são bilhões de quilowatts-hora gerados num ano.",
+    "E o Brasil, será que está no pódio? Fica até o final pra descobrir quem ficou em primeiro."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Venezuela",
+      "valor": 73,
+      "fala": "Em décimo lugar vem a Venezuela, com setenta e três. Boa parte da luz do país vem das águas.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Japão",
+      "valor": 74,
+      "fala": "Em nono aparece o Japão, com setenta e quatro.",
+      "clip": "mn-bandeira-japao-42108.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Vietnã",
+      "valor": 102,
+      "fala": "Em oitavo vem o Vietnã, com cento e dois. Os rios do país alimentam grandes usinas.",
+      "clip": "mn-cidade-noite-aerea-42342.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Noruega",
+      "valor": 145,
+      "fala": "Em sétimo fica a Noruega, com cento e quarenta e cinco. Quase toda a eletricidade norueguesa vem de hidrelétricas.",
+      "clip": "mn-bandeira-noruega-18086.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Índia",
+      "valor": 178,
+      "fala": "Em sexto está a Índia, com cento e setenta e oito.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Rússia",
+      "valor": 200,
+      "fala": "Em quinto vem a Rússia, com duzentos.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "EUA",
+      "valor": 242,
+      "fala": "Em quarto ficam os Estados Unidos, com duzentos e quarenta e dois.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Canadá",
+      "valor": 345,
+      "fala": "Em terceiro, o Canadá, com trezentos e quarenta e cinco. Mais da metade da luz canadense vem da água.",
+      "clip": "mn-bandeira-canada-18084.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Brasil",
+      "valor": 389,
+      "fala": "Em segundo fica o Brasil, com trezentos e oitenta e nove. Aqui a água é a maior fonte de eletricidade do país.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "China",
+      "valor": 1396,
+      "fala": "E em primeiro, a China, com mil trezentos e noventa e seis. Mais de três vezes o Brasil.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    }
+  ],
+  "outro": [
+    "Você imaginava o Brasil em segundo lugar?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-24-hidreletrica.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-voando-nuvens-11303.mp4",
+    "mn-janela-aviao-por-do-sol-4204.mp4",
+    "mn-cidade-noite-aerea-42342.mp4"
+  ],
+  "clip_final": "mn-terra-girando-34314.mp4",
+  "bg_clip": "mn-terra-girando-34314.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}

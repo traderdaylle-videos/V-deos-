@@ -1,0 +1,100 @@
+{
+  "titulo": "QUEM MAIS FABRICA VEÍCULOS",
+  "subtitulo": "milhões de veículos produzidos em 2024",
+  "unidade": "",
+  "decimais": 2,
+  "destaque": "Brasil",
+  "fonte": "Fonte: OICA, produção mundial de veículos 2024",
+  "intro": [
+    "Todo ano o mundo fabrica quase noventa e dois milhões de veículos, e a maior parte sai de pouquíssimos países.",
+    "São carros, caminhonetes, ônibus e caminhões, contados pela organização internacional dos fabricantes.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir quem ficou em primeiro."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Tailândia",
+      "valor": 1.47,
+      "fala": "Em décimo lugar vem a Tailândia, com um milhão e quatrocentos e sessenta e nove mil veículos. Uma potência de fábricas no Sudeste Asiático.",
+      "clip": "mn-bandeira-tailandia-19086.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Espanha",
+      "valor": 2.38,
+      "fala": "Em nono fica a Espanha, com dois milhões e trezentos e setenta e sete mil.",
+      "clip": "mn-bandeira-espanha-42101.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Brasil",
+      "valor": 2.55,
+      "fala": "Em oitavo está o Brasil, com dois milhões e quinhentos e cinquenta mil. É a maior fábrica de veículos da América do Sul.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Alemanha",
+      "valor": 4.07,
+      "fala": "Em sétimo vem a Alemanha, com quatro milhões e sessenta e nove mil. Terra da Volkswagen, da BMW e da Mercedes.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Coreia do Sul",
+      "valor": 4.13,
+      "fala": "Em sexto aparece a Coreia do Sul, com quatro milhões e cento e vinte e sete mil. Sede da Hyundai e da Kia.",
+      "clip": "mn-seul-noite-transito-20089.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "México",
+      "valor": 4.2,
+      "fala": "Em quinto fica o México, com quatro milhões e duzentos mil. A maior parte vai para exportação.",
+      "clip": "mn-bandeira-mexico-42113.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Índia",
+      "valor": 6.01,
+      "fala": "Em quarto vem a Índia, com seis milhões e catorze mil. Um mercado gigante que não para de crescer.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Japão",
+      "valor": 8.23,
+      "fala": "Em terceiro o Japão, com oito milhões e duzentos e trinta e quatro mil. Casa da Toyota, a maior montadora do mundo.",
+      "clip": "mn-bandeira-japao-42108.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "EUA",
+      "valor": 10.56,
+      "fala": "Em segundo ficam os Estados Unidos, com dez milhões e quinhentos e sessenta e dois mil.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "China",
+      "valor": 31.28,
+      "fala": "E em primeiro, a China, com trinta e um milhões e duzentos e oitenta e um mil. Quase o triplo dos Estados Unidos.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava que a China estivesse tão na frente?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-24-veiculos.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-rodovia-aerea-28790.mp4",
+    "mn-rodovia-seul-28714.mp4",
+    "mn-cruzamento-rodovia-14845.mp4"
+  ],
+  "clip_final": "mn-seul-noite-transito-20089.mp4",
+  "bg_clip": "mn-cruzamento-rodovia-14845.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
