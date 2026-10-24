@@ -1,0 +1,75 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma alta forte, uma pausa curtinha e, de repente, o preço dispara de novo. Esse é o padrão dos três métodos de alta."
+  ],
+  [
+   "meio",
+   "Primeiro vem um candle de alta grande, mostrando que os compradores estão no comando."
+  ],
+  [
+   "meio",
+   "Depois surgem três candles pequenos e de baixa, que ficam dentro do corpo daquele primeiro candle."
+  ],
+  [
+   "meio",
+   "No quinto candle, os compradores voltam e fecham acima da máxima do primeiro, retomando a tendência."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam esse padrão como sinal de que a alta pode continuar, mas ele pode falhar, principalmente sem volume."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu os três métodos de alta aparecerem no seu gráfico?"
+  ],
+  [
+   "recap",
+   "Recapitulando: candle de alta forte, três pequenos de pausa e um quinto que rompe a máxima."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "grafico-closeup-47016.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "tendencia-tela-9607.mp4",
+  "lucro-bolsa-47012.mp4",
+  "homem-estressado-49225.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_tres_metodos_alta.py",
+ "output": "tiktok-2026-10-24-tres-metodos-alta.mp4",
+ "keywords_green": [
+  "5PI",
+  "ALTA"
+ ],
+ "keywords_orange": [
+  "TRÊS",
+  "MÉTODOS",
+  "MÁXIMA",
+  "CONTINUAÇÃO"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
