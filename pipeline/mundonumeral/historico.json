@@ -443,5 +443,27 @@
   "metricool_id": 404886514,
   "publicado": false,
   "duracao_s": 65.5
+ },
+ {
+  "data": "2026-10-25",
+  "turno": "manha",
+  "horario": "07:30",
+  "tema": "Maiores produtores de café do mundo (2024/25)",
+  "fonte": "USDA, Coffee: World Markets and Trade 2024/25",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-25-cafe-v2.mp4",
+  "metricool_id": 405546943,
+  "publicado": false,
+  "duracao_s": 67.7
+ },
+ {
+  "data": "2026-10-25",
+  "turno": "almoco",
+  "horario": "12:30",
+  "tema": "Países mais visitados do mundo (turistas internacionais 2024)",
+  "fonte": "UN Tourism, World Tourism Barometer 2024",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-25-turismo-v2.mp4",
+  "metricool_id": 405546958,
+  "publicado": false,
+  "duracao_s": 70.7
  }
 ]
