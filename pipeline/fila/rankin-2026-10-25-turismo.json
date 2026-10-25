@@ -1,0 +1,99 @@
+{
+  "titulo": "OS PAÍSES MAIS VISITADOS",
+  "subtitulo": "milhões de turistas internacionais em 2024",
+  "unidade": "",
+  "decimais": 1,
+  "destaque": "Brasil",
+  "fonte": "Fonte: UN Tourism, World Tourism Barometer 2024",
+  "intro": [
+    "Em 2024, o mundo fez mais de um bilhão e cem milhões de viagens internacionais, e uns poucos países receberam a maior parte.",
+    "E o Brasil, será que aparece? Fica até o final pra descobrir quem ficou em primeiro."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Reino Unido",
+      "valor": 39.4,
+      "fala": "Em décimo lugar vem o Reino Unido, com trinta e nove milhões e quatrocentos mil visitantes. Londres puxa quase tudo.",
+      "clip": "mn-bandeira-reino-unido-42115.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Alemanha",
+      "valor": 39.6,
+      "fala": "Em nono fica a Alemanha, com trinta e nove milhões e seiscentos mil. Feiras de negócios e castelos atraem gente o ano todo.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Tailândia",
+      "valor": 39.8,
+      "fala": "Em oitavo vem a Tailândia, com trinta e nove milhões e oitocentos mil. Praias e comida de rua fazem fama.",
+      "clip": "mn-bandeira-tailandia-19086.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "México",
+      "valor": 45.0,
+      "fala": "Em sétimo está o México, com quarenta e cinco milhões. Cancún sozinha recebe milhões de turistas.",
+      "clip": "mn-bandeira-mexico-42113.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Turquia",
+      "valor": 51.2,
+      "fala": "Em sexto aparece a Turquia, com cinquenta e um milhões e duzentos mil. Istambul fica entre a Europa e a Ásia.",
+      "clip": "mn-bandeira-turquia-18983.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Itália",
+      "valor": 64.5,
+      "fala": "Em quinto vem a Itália, com sessenta e quatro milhões e quinhentos mil. Roma, Veneza e Florença no mesmo país.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "China",
+      "valor": 65.7,
+      "fala": "Em quarto fica a China, com sessenta e cinco milhões e setecentos mil, e voltando a crescer.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Estados Unidos",
+      "valor": 79.3,
+      "fala": "Em terceiro, os Estados Unidos, com setenta e nove milhões e trezentos mil visitantes.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Espanha",
+      "valor": 83.7,
+      "fala": "Em segundo fica a Espanha, com oitenta e três milhões e setecentos mil. Sol e praia o ano inteiro.",
+      "clip": "mn-bandeira-espanha-42101.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "França",
+      "valor": 89.4,
+      "fala": "E em primeiro lugar vem a França, com oitenta e nove milhões e quatrocentos mil. Mais gente do que a população inteira do país.",
+      "clip": "mn-bandeira-franca-42086.mp4"
+    }
+  ],
+  "outro": [
+    "Você esperava a França na frente dos Estados Unidos?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-25-turismo.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-aviao-decolando-28000.mp4",
+    "mn-janela-aviao-por-do-sol-4204.mp4",
+    "mn-voando-nuvens-11303.mp4"
+  ],
+  "clip_final": "mn-bandeira-franca-42086.mp4",
+  "bg_clip": "mn-terra-girando-34314.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
