@@ -1612,5 +1612,37 @@
   "metricool_id": 405330209,
   "metricool_uuid": "-2748821621905996437",
   "agendado_para": "2026-10-24T20:28:00-03:00"
+ },
+ {
+  "data": "2026-10-25",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: domingo inteiro seu, almoço em família sem olhar o celular; quem adia por medo de começar; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "candles / fibo_baixa",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "ALVO EM 161,8%"
+  ],
+  "clipes": [
+   "familia-caminhando-por-do-sol-6472",
+   "casal-mapa-carro-2718",
+   "celular-rolando-29302",
+   "jovem-trabalhando-computador-44072",
+   "olho-laptop-46575",
+   "escritorio-entediado-48609",
+   "mulher-graficos-ipad-45662",
+   "tendencia-tela-9607",
+   "homem-mar-tranquilo-26667",
+   "contando-dinheiro-23168 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [],
+  "duracao_s": 66.1,
+  "arquivo": "media:primewin/primewin-2026-10-25-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 405601567,
+  "metricool_uuid": "-591192696573703061",
+  "agendado_para": "2026-10-25T08:30:00-03:00"
  }
 ]
