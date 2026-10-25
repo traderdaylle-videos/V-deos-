@@ -1,0 +1,221 @@
+{
+ "segs": [
+  [
+   "Petróleo a cento e dezesseis dólares: por que isso mexe no seu bolso?",
+   0.5
+  ],
+  [
+   "O barril do Brent fechou a sexta a cento e dezesseis dólares e setenta e dois centavos. Alta de três por cento, o maior nível desde abril.",
+   0.5
+  ],
+  [
+   "O motivo é o medo de ataques no Golfo Pérsico. Risco de guerra encarece o petróleo, mesmo sem faltar óleo.",
+   0.5
+  ],
+  [
+   "A Petrobras extrai, refina e vende combustível. Mas está há cento e quarenta e cinco dias sem reajustar o diesel.",
+   0.5
+  ],
+  [
+   "A defasagem do diesel, segundo a Abicom, chegou a cento e oito por cento. A diretoria revê os preços nesta segunda.",
+   0.5
+  ],
+  [
+   "Por que importa? O diesel move caminhões. Se sobe, frete, comida e produtos de mercado podem subir também.",
+   0.5
+  ],
+  [
+   "Na Bolsa, a Petrobras subiu um vírgula quarenta e sete por cento. O dólar caiu para quatro noventa e nove.",
+   0.5
+  ],
+  [
+   "É alerta de inflação, não previsão. Juros altos, como a Selic de treze vírgula setenta e cinco, tentam segurar os preços.",
+   0.5
+  ],
+  [
+   "Hoje, veja quais gastos fixos dependem de transporte. Mercado, delivery e passagem pesam mais. Seu orçamento aguenta?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "fumaca-50951.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "homem-estrada-35809.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "US$ 116,72",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Brent, barril de petróleo",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Alta de 3% em 1 dia",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "145 dias sem\nreajuste do diesel",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Defasagem: 108%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Diesel move\no frete",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Petrobras +1,47%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Seu orçamento\naguenta?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  3,
+  6,
+  9
+ ],
+ "keywords_gold": [
+  "PETRÓLEO",
+  "BRENT",
+  "PETROBRAS",
+  "DIESEL",
+  "INFLAÇÃO",
+  "SELIC",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-petroleo-curto.mp4",
+ "capa": "BRENT A US$ 116,72: O QUE MUDA NO SEU BOLSO?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
