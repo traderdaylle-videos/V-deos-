@@ -1,0 +1,99 @@
+{
+  "titulo": "O MUNDO DO CAFÉ",
+  "subtitulo": "milhões de sacas de 60 kg em 2024/25",
+  "unidade": "",
+  "decimais": 2,
+  "destaque": "Brasil",
+  "fonte": "Fonte: USDA, Coffee: World Markets and Trade 2024/25",
+  "intro": [
+    "O mundo bebe mais de dois bilhões de xícaras de café por dia, e poucos países produzem quase tudo.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir quem ficou em primeiro."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "México",
+      "valor": 3.87,
+      "fala": "Em décimo vem o México, com quase quatro milhões de sacas. Grão de altitude.",
+      "clip": "mn-bandeira-mexico-42113.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Peru",
+      "valor": 3.88,
+      "fala": "Em nono fica o Peru, com três milhões e oitocentas e oitenta mil sacas. Muito café orgânico sai de lá.",
+      "clip": "mn-cafe-xicara-graos-4992.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Honduras",
+      "valor": 5.52,
+      "fala": "Em oitavo vem Honduras, com cinco milhões e quinhentas e vinte mil sacas. O café é o principal produto de exportação.",
+      "clip": "mn-cafe-graos-caindo-4982.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "Índia",
+      "valor": 6.2,
+      "fala": "Em sétimo aparece a Índia, com seis milhões e duzentas mil sacas. Cresce à sombra de especiarias.",
+      "clip": "mn-cafe-po-filtro-4984.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Uganda",
+      "valor": 6.7,
+      "fala": "Em sexto fica Uganda, com seis milhões e setecentas mil sacas.",
+      "clip": "mn-cafe-graos-bule-4985.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Etiópia",
+      "valor": 10.63,
+      "fala": "Em quinto vem a Etiópia, com dez milhões e seiscentas mil sacas. É o berço do café.",
+      "clip": "mn-cafe-servindo-43941.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Indonésia",
+      "valor": 10.7,
+      "fala": "Em quarto está a Indonésia, com dez milhões e setecentas mil sacas. Quase empatada com a Etiópia.",
+      "clip": "mn-cafe-cafeteira-3578.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Colômbia",
+      "valor": 13.2,
+      "fala": "Em terceiro, a Colômbia, com treze milhões e duzentas mil sacas. Famosa pelo café suave e de alta qualidade.",
+      "clip": "mn-cafe-latte-art-810.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "Vietnã",
+      "valor": 29.0,
+      "fala": "Em segundo fica o Vietnã, com vinte e nove milhões de sacas. É o rei do café robusta.",
+      "clip": "mn-cafe-maquina-xicara-41865.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "Brasil",
+      "valor": 64.7,
+      "fala": "E em primeiro lugar vem o Brasil, com sessenta e quatro milhões e setecentas mil sacas. Mais que o dobro do segundo.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    }
+  ],
+  "outro": [
+    "Você imaginava o Brasil tão na frente?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-25-cafe-v2.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-cafe-graos-caindo-4982.mp4",
+    "mn-cafe-enchendo-xicara-236.mp4",
+    "mn-cafe-xicara-graos-4992.mp4"
+  ],
+  "clip_final": "mn-bandeira-brasil-42080.mp4",
+  "bg_clip": "mn-cafe-graos-bule-4985.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
