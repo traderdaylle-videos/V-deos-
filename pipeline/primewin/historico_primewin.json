@@ -1644,5 +1644,36 @@
   "metricool_id": 405601567,
   "metricool_uuid": "-591192696573703061",
   "agendado_para": "2026-10-25T08:30:00-03:00"
+ },
+ {
+  "data": "2026-10-28",
+  "turno": "noite",
+  "formato": "magneto",
+  "angulo": "magneto: relatório de um dia (card4) + card1; fluxo, sem medo/ganância; testada em conta real; instalação por videochamada",
+  "grafico": "candles / fibo_alta",
+  "titulos": [
+   "ENTRADA NA RETRAÇÃO",
+   "ALVO EM 161,8%"
+  ],
+  "clipes": [
+   "cansado-computador-14763",
+   "tendencia-tela-9607",
+   "homem-estressado-49225",
+   "grafico-tempo-real-47018",
+   "homem-mar-tranquilo-26667",
+   "investidor-tablet-escritorio-45706 (5PI)",
+   "relaxando-por-do-sol-33968 (endcard)"
+  ],
+  "bg_clip": "relaxando-por-do-sol-33968",
+  "cartoes": [
+   "card4",
+   "card1"
+  ],
+  "duracao_s": 65.9,
+  "arquivo": "media:primewin/primewin-2026-10-28-noite.mp4",
+  "canal": "metricool",
+  "metricool_id": 409521655,
+  "metricool_uuid": "1799400186888536764",
+  "agendado_para": "2026-10-28T20:32:00-03:00"
  }
 ]
