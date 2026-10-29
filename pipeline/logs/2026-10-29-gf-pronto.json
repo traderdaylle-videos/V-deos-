@@ -1,0 +1,66 @@
+{
+ "data": "2026-10-29",
+ "tema": "Ibovespa -2,68% a 171.006 pts (menor nível desde agosto; outubro -8,23%); dólar ~R$ 5,34; Petrobras, Vale, Itaú; previdência/fundos e prazo; Fed mantém juros",
+ "gancho": "Ibovespa cai para 171 mil pontos: por que isso afeta sua aposentadoria? (hookscore 83,0 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ibovespa-queda-curto.mp4",
+  "duracao": 54.1,
+  "capa": "granaefinancas/gf-ibovespa-queda-curto-capa.jpg",
+  "horario": "10:05/10:10",
+  "titulo_short": "Ibovespa cai 2,68%: e a sua aposentadoria?",
+  "ids": {
+   "reel": 410019877,
+   "short": 410019894
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ibovespa-queda-longo.mp4",
+  "duracao": 259.2,
+  "capa": "granaefinancas/gf-ibovespa-queda-longo-capa.jpg",
+  "horario": "10:35",
+  "titulo": "Ibovespa cai 2,68%: o que isso muda na sua aposentadoria?",
+  "capitulos": [
+   [
+    "0:00",
+    "Ibovespa cai 2,68%"
+   ],
+   [
+    "0:14",
+    "O que o Ibovespa mede"
+   ],
+   [
+    "0:21",
+    "Petrobras, Vale e Itaú"
+   ],
+   [
+    "1:09",
+    "Juros, Fed e contas públicas"
+   ],
+   [
+    "1:47",
+    "Dólar e preços"
+   ],
+   [
+    "2:20",
+    "Previdência e fundos têm ações"
+   ],
+   [
+    "2:56",
+    "Prazo e reserva de emergência"
+   ],
+   [
+    "3:33",
+    "Epicteto: o que depende de você"
+   ],
+   [
+    "3:57",
+    "4 passos práticos"
+   ]
+  ],
+  "id": 410019957
+ },
+ "fontes": [
+  "Forbes Brasil 28/10/2026 (Ibovespa -2,68% a 171.006,10; dólar R$ 5,3466; Fed 3,75%-4,00%)",
+  "Boca 28/10 (Ibovespa mês -8,23%, ano +6,13%; dólar R$ 5,3402)"
+ ]
+}
