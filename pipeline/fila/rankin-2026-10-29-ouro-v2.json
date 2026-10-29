@@ -1,0 +1,99 @@
+{
+ "decimais": 0,
+ "destaque": "Brasil",
+ "music_mood": "alegre",
+ "motor": "ranking",
+ "pasta": "mundonumeral",
+ "titulo": "QUEM TEM MAIS OURO",
+ "subtitulo": "toneladas de ouro nas reservas dos bancos centrais",
+ "unidade": "",
+ "fonte": "Fonte: World Gold Council, reservas oficiais de ouro (2025/26)",
+ "intro": [
+  "O ouro voltou a ser o queridinho dos bancos centrais, que compram toneladas dele todo ano pra proteger a economia. Alguns países guardam verdadeiras montanhas.",
+  "Você sabe quem tem mais? Fica até o final pra descobrir quem ficou em primeiro."
+ ],
+ "itens": [
+  {
+   "pos": 10,
+   "nome": "Turquia",
+   "valor": 614,
+   "fala": "Em décimo vem a Turquia, com seiscentas e catorze toneladas.",
+   "clip": "mn-bandeira-turquia-18983.mp4"
+  },
+  {
+   "pos": 9,
+   "nome": "Japão",
+   "valor": 846,
+   "fala": "Em nono, o Japão, com oitocentas e quarenta e seis toneladas. É uma das maiores economias do planeta, mas guarda pouco ouro perto dos líderes.",
+   "clip": "mn-bandeira-japao-42108.mp4"
+  },
+  {
+   "pos": 8,
+   "nome": "Índia",
+   "valor": 880,
+   "fala": "Em oitavo a Índia, com oitocentas e oitenta toneladas. Lá, o ouro também é tradição de família.",
+   "clip": "mn-bandeira-india-42085.mp4"
+  },
+  {
+   "pos": 7,
+   "nome": "Suíça",
+   "valor": 1040,
+   "fala": "Em sétimo vem a Suíça, com mil e quarenta toneladas. O país é famoso por refinar e guardar ouro dos outros.",
+   "clip": "mn-bandeira-suica-18128.mp4"
+  },
+  {
+   "pos": 6,
+   "nome": "China",
+   "valor": 2306,
+   "fala": "Em sexto a China, com duas mil trezentas e seis toneladas.",
+   "clip": "mn-bandeira-china-13312.mp4"
+  },
+  {
+   "pos": 5,
+   "nome": "Rússia",
+   "valor": 2327,
+   "fala": "Em quinto fica a Rússia, com duas mil trezentas e vinte e sete toneladas, uma defesa contra sanções.",
+   "clip": "mn-bandeira-russia-18097.mp4"
+  },
+  {
+   "pos": 4,
+   "nome": "França",
+   "valor": 2437,
+   "fala": "Em quarto vem a França, com duas mil quatrocentas e trinta e sete toneladas, quase tudo guardado em Paris.",
+   "clip": "mn-bandeira-franca-42086.mp4"
+  },
+  {
+   "pos": 3,
+   "nome": "Itália",
+   "valor": 2452,
+   "fala": "Em terceiro a Itália, com duas mil quatrocentas e cinquenta e duas toneladas.",
+   "clip": "mn-bandeira-italia-18897.mp4"
+  },
+  {
+   "pos": 2,
+   "nome": "Alemanha",
+   "valor": 3350,
+   "fala": "Em segundo fica a Alemanha, com três mil trezentas e cinquenta toneladas. É a maior reserva da Europa.",
+   "clip": "mn-cidade-alemanha-neve-18744.mp4"
+  },
+  {
+   "pos": 1,
+   "nome": "EUA",
+   "valor": 8133,
+   "fala": "E em primeiro, bem longe de todo mundo, os Estados Unidos, com oito mil cento e trinta e três toneladas.",
+   "clip": "mn-bandeira-eua-40711.mp4"
+  }
+ ],
+ "outro": [
+  "Você esperava essa diferença dos Estados Unidos?",
+  "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+ ],
+ "output": "rankin-2026-10-29-ouro-v2.mp4",
+ "clips_intro": [
+  "mn-terra-girando-34314.mp4",
+  "mn-cidade-noite-aerea-42342.mp4",
+  "mn-toquio-noite-20061.mp4"
+ ],
+ "clip_final": "mn-bandeira-eua-tremulando-46901.mp4",
+ "bg_clip": "mn-terra-girando-34314.mp4"
+}
