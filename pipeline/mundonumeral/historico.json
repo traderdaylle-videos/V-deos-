@@ -487,5 +487,27 @@
   "metricool_id": 409576014,
   "publicado": false,
   "duracao_s": 69.4
+ },
+ {
+  "data": "2026-10-29",
+  "turno": "manha",
+  "horario": "10:00",
+  "tema": "Países com mais ouro nas reservas dos bancos centrais (2025/26)",
+  "fonte": "World Gold Council",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-29-ouro-v2.mp4",
+  "metricool_id": 409870934,
+  "publicado": false,
+  "duracao_s": 71.5
+ },
+ {
+  "data": "2026-10-29",
+  "turno": "tarde",
+  "horario": "18:00",
+  "tema": "Maiores reservas internacionais em dólar, sem ouro (2025/26)",
+  "fonte": "FMI, reservas cambiais",
+  "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-29-reservas-v3.mp4",
+  "metricool_id": 409870987,
+  "publicado": false,
+  "duracao_s": 70.5
  }
 ]
