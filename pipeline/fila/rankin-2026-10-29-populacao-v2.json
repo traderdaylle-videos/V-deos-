@@ -14,21 +14,21 @@
       "pos": 10,
       "nome": "Etiópia",
       "valor": 138.9,
-      "fala": "Em décimo lugar vem a Etiópia, com cento e trinta e nove milhões de pessoas. É o segundo país mais populoso da África.",
+      "fala": "Em décimo vem a Etiópia, com cento e trinta e nove milhões. A segunda mais populosa da África.",
       "clip": "mn-terra-girando-34314.mp4"
     },
     {
       "pos": 9,
       "nome": "Rússia",
       "valor": 143.4,
-      "fala": "Em nono fica a Rússia, com cento e quarenta e três milhões. O maior país do mundo em área, mas com poucos habitantes por quilômetro.",
+      "fala": "Em nono fica a Rússia, com cento e quarenta e três milhões. O maior país em área, mas pouco povoado.",
       "clip": "mn-bandeira-russia-18097.mp4"
     },
     {
       "pos": 8,
       "nome": "Bangladesh",
       "valor": 177.8,
-      "fala": "Em oitavo vem Bangladesh, com cento e setenta e oito milhões, espremidos num território menor que o do Ceará.",
+      "fala": "Em oitavo, Bangladesh, com cento e setenta e oito milhões, num território menor que o do Ceará.",
       "clip": "mn-seul-noite-transito-20089.mp4"
     },
     {
@@ -56,7 +56,7 @@
       "pos": 4,
       "nome": "Indonésia",
       "valor": 287.9,
-      "fala": "Em quarto fica a Indonésia, com duzentos e oitenta e oito milhões, espalhados por mais de dezessete mil ilhas.",
+      "fala": "Em quarto, a Indonésia, com duzentos e oitenta e oito milhões, em mais de dezessete mil ilhas.",
       "clip": "mn-cidade-noite-aerea-42342.mp4"
     },
     {
@@ -70,7 +70,7 @@
       "pos": 2,
       "nome": "China",
       "valor": 1412.9,
-      "fala": "Em segundo, a China, com um bilhão, quatrocentos e treze milhões. Foi a líder por séculos, e hoje a população já está encolhendo.",
+      "fala": "Em segundo, a China, com um bilhão, quatrocentos e treze milhões. A população já está encolhendo.",
       "clip": "mn-bandeira-china-13312.mp4"
     },
     {
@@ -85,7 +85,7 @@
     "Você imaginava a Índia na frente da China?",
     "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
   ],
-  "output": "rankin-2026-10-29-populacao.mp4",
+  "output": "rankin-2026-10-29-populacao-v2.mp4",
   "music_mood": "alegre",
   "clips_intro": [
     "mn-terra-girando-34314.mp4",
