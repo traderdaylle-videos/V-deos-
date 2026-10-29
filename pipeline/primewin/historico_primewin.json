@@ -1675,5 +1675,37 @@
   "metricool_id": 409521655,
   "metricool_uuid": "1799400186888536764",
   "agendado_para": "2026-10-28T20:32:00-03:00"
+ },
+ {
+  "data": "2026-10-29",
+  "turno": "manha",
+  "formato": "desejo",
+  "angulo": "desejo: quinta com calma, café sem olhar a tela; quem adia por medo do primeiro clique; automação segue entrada, saída e stop; testada em conta real",
+  "grafico": "linha / ondas",
+  "titulos": [
+   "TRÊS OPERAÇÕES",
+   "SEM CLICAR EM NADA"
+  ],
+  "clipes": [
+   "cafe-manha-musica-43391",
+   "praia-mulher-caminhando-1208",
+   "relaxando-por-do-sol-33968",
+   "homem-laptop-trabalhando-9756",
+   "numeros-oculos-47792",
+   "homem-ansiedade-47206",
+   "grafico-tempo-real-47018",
+   "mulher-graficos-ipad-45662",
+   "homem-mar-tranquilo-26667",
+   "maquina-contando-dinheiro-49134 (5PI)",
+   "pai-brincando-filho-7681 (endcard)"
+  ],
+  "bg_clip": "pai-brincando-filho-7681",
+  "cartoes": [],
+  "duracao_s": 67.5,
+  "arquivo": "media:primewin/primewin-2026-10-29-manha.mp4",
+  "canal": "metricool",
+  "metricool_id": 409949480,
+  "metricool_uuid": "5890421745006628679",
+  "agendado_para": "2026-10-29T08:28:00-03:00"
  }
 ]
