@@ -1,0 +1,187 @@
+{
+ "segs": [
+  [
+   "Ibovespa cai para cento e setenta e um mil pontos: por que isso mexe com a sua aposentadoria?",
+   0.5
+  ],
+  [
+   "Na quarta, o Ibovespa fechou em queda de dois vírgula sessenta e oito por cento. É o menor nível desde agosto.",
+   0.5
+  ],
+  [
+   "O Ibovespa é a média das maiores ações da Bolsa. Quando cai, Petrobras, Vale e Itaú valem menos.",
+   0.5
+  ],
+  [
+   "Em outubro, a queda passa de oito por cento.",
+   0.5
+  ],
+  [
+   "Por que chega até você? Fundos de previdência e de investimento têm ações. Se elas caem, o saldo na tela cai também.",
+   0.5
+  ],
+  [
+   "O dólar fechou perto de cinco reais e trinta e quatro. Dólar alto encarece importados e pesa nos preços.",
+   0.5
+  ],
+  [
+   "Dia de queda assusta, mas o que importa é o prazo. Quem investe para daqui a vinte anos vive muitos dias assim.",
+   0.5
+  ],
+  [
+   "O maior risco é vender no susto. Isso transforma perda de papel em perda de verdade.",
+   0.5
+  ],
+  [
+   "Hoje, abra seu extrato e veja quanto está em ações. Você aguenta ver essa parte cair vinte por cento?",
+   0.5
+  ],
+  [
+   "Seu dinheiro está preparado para dias assim? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-2,68%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Ibovespa: 171.006 pontos",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Outubro: -8,23%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Dólar R$ 5,34",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Quanto do seu dinheiro\nestá em ações?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  5,
+  9
+ ],
+ "keywords_gold": [
+  "IBOVESPA",
+  "DÓLAR",
+  "BOLSA",
+  "APOSENTADORIA",
+  "PREVIDÊNCIA",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  }
+ ],
+ "output": "gf-ibovespa-queda-curto.mp4",
+ "capa": "IBOVESPA CAI 2,68%: SUA APOSENTADORIA SENTE?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
