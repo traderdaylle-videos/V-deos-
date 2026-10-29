@@ -467,24 +467,24 @@
   "duracao_s": 70.7
  },
  {
-  "data": "2026-10-29",
-  "turno": "manha",
-  "horario": "07:30",
+  "data": "2026-10-28",
+  "turno": "noite",
+  "horario": "22:10",
   "tema": "Maiores economias do mundo (PIB, projeção 2026)",
   "fonte": "FMI, World Economic Outlook out/2025, projeção 2026",
   "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-29-economias.mp4",
-  "metricool_id": 409569819,
+  "metricool_id": 409576007,
   "publicado": false,
   "duracao_s": 71.8
  },
  {
-  "data": "2026-10-29",
-  "turno": "almoco",
-  "horario": "12:30",
+  "data": "2026-10-28",
+  "turno": "noite",
+  "horario": "23:00",
   "tema": "Países mais populosos do mundo (2026)",
   "fonte": "ONU, World Population Prospects 2024 (estimativa 2026)",
   "url": "https://raw.githubusercontent.com/traderdaylle-videos/V-deos-/media/mundonumeral/rankin-2026-10-29-populacao-v2.mp4",
-  "metricool_id": 409575769,
+  "metricool_id": 409576014,
   "publicado": false,
   "duracao_s": 69.4
  }
