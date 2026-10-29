@@ -1,0 +1,78 @@
+{
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_dois-corvos.py",
+ "output": "tiktok-2026-10-29-dois-corvos.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "DOIS",
+  "CORVOS",
+  "TOPO",
+  "BAIXA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1,
+ "segs": [
+  [
+   "intro",
+   "Dois candles de alta, e de repente a reversão aparece. Esse é o padrão dois corvos."
+  ],
+  [
+   "intro",
+   "Ele surge depois de uma alta e muitos analistas o observam como sinal de fraqueza dos compradores."
+  ],
+  [
+   "meio",
+   "Primeiro, vem um candle de alta grande, com corpo cheio, que mostra a força dos compradores."
+  ],
+  [
+   "meio",
+   "No segundo dia, o preço abre acima, mas os vendedores aparecem e o candle fecha de baixa."
+  ],
+  [
+   "meio",
+   "No terceiro dia, o preço abre dentro do corpo do segundo e fecha ainda mais baixo."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sem tendência de alta antes, o padrão perde o significado."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu dois corvos no gráfico do índice ou do dólar?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta forte, dois candles de baixa seguidos no topo e confirmação depois."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ]
+}

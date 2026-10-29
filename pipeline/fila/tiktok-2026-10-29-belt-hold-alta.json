@@ -1,0 +1,82 @@
+{
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_belt-hold-alta.py",
+ "output": "tiktok-2026-10-29-belt-hold-alta.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "BELT",
+  "HOLD",
+  "MÍNIMA",
+  "ALTA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1,
+ "segs": [
+  [
+   "intro",
+   "Abriu na mínima do dia e fechou perto da máxima. Isso é o belt hold de alta."
+  ],
+  [
+   "intro",
+   "É um candle único que muitos analistas observam depois de uma queda, como sinal de reação."
+  ],
+  [
+   "meio",
+   "Primeiro, o preço vem caindo e os vendedores dominam o gráfico."
+  ],
+  [
+   "meio",
+   "Aí, o candle abre exatamente na mínima do dia, sem sombra embaixo."
+  ],
+  [
+   "meio",
+   "Os compradores assumem o controle desde o primeiro minuto e empurram o preço pra cima."
+  ],
+  [
+   "meio",
+   "O candle fecha perto da máxima, com um corpo grande e quase sem sombra em cima."
+  ],
+  [
+   "meio",
+   "Mas cuidado: um candle sozinho não basta. Muitos esperam um segundo candle de alta pra confirmar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: qual candle de reversão você acha mais fácil de identificar?"
+  ],
+  [
+   "recap",
+   "Recapitulando: queda, abertura na mínima, corpo grande de alta e confirmação no candle seguinte."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ]
+}
