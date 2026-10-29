@@ -1,0 +1,82 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Sabe quando a alta vai ficando cansada e o preço faz uma curva, como um morro?"
+  ],
+  [
+   "intro",
+   "Isso é o topo arredondado, um padrão de reversão que mostra os compradores perdendo o fôlego."
+  ],
+  [
+   "meio",
+   "No começo, os candles de alta são grandes e o preço sobe com força."
+  ],
+  [
+   "meio",
+   "Aos poucos, eles ficam menores, e o preço quase para no alto."
+  ],
+  [
+   "meio",
+   "Depois, os candles de baixa aparecem e vão crescendo, desenhando o outro lado do morro."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam a perda do fundo da curva pra considerar a reversão confirmada."
+  ],
+  [
+   "meio",
+   "Mas cuidado: é um padrão lento e pode falhar, se o preço voltar a subir e passar do topo."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você prefere reversões rápidas ou lentas, como o topo arredondado?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta desacelera, curva em morro e confirmação na perda do fundo."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_topo_arredondado.py",
+ "output": "tiktok-2026-10-29-topo-arredondado.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "TOPO",
+  "ARREDONDADO",
+  "REVERSÃO",
+  "QUEDA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}

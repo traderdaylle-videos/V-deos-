@@ -1,0 +1,83 @@
+{
+ "segs": [
+  [
+   "intro",
+   "Uma queda forte, uma pausa curta e a queda volta com tudo. Esse é o três métodos de baixa."
+  ],
+  [
+   "intro",
+   "É um padrão de continuação, formado por cinco candles, e mostra que a tendência de baixa segue viva."
+  ],
+  [
+   "meio",
+   "Primeiro, vem um candle de baixa grande, com corpo bem cheio."
+  ],
+  [
+   "meio",
+   "Depois, três candles pequenos sobem, mas ficam dentro do corpo do primeiro, sem força pra reverter."
+  ],
+  [
+   "meio",
+   "No quinto candle, os vendedores voltam e o preço rompe a mínima do primeiro."
+  ],
+  [
+   "meio",
+   "Muitos analistas técnicos observam esse rompimento como sinal de que a queda pode continuar."
+  ],
+  [
+   "meio",
+   "Mas cuidado: se os candles da pausa passarem do corpo do primeiro, o padrão perde a validade."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu esse padrão no gráfico, ou só os de reversão?"
+  ],
+  [
+   "recap",
+   "Recapitulando: queda forte, pausa dentro do corpo e rompimento da mínima."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ],
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "grafico-closeup-47016.mp4",
+  "tendencia-tela-9607.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "lucro-bolsa-47012.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_tres_metodos_baixa.py",
+ "output": "tiktok-2026-10-29-tres-metodos-baixa.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "TRÊS",
+  "MÉTODOS",
+  "BAIXA",
+  "ROMPE",
+  "MÍNIMA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1
+}
