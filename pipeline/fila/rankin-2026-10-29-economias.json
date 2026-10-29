@@ -1,0 +1,99 @@
+{
+  "titulo": "AS MAIORES ECONOMIAS",
+  "subtitulo": "PIB em trilhões de dólares, projeção FMI para 2026",
+  "unidade": "US$ ",
+  "decimais": 2,
+  "destaque": "Brasil",
+  "fonte": "Fonte: FMI, World Economic Outlook (out/2025), projeção 2026",
+  "intro": [
+    "Dez países produzem mais da metade de toda a riqueza do mundo.",
+    "E o Brasil, em que posição está? Fica até o final pra descobrir quem ficou em primeiro."
+  ],
+  "itens": [
+    {
+      "pos": 10,
+      "nome": "Brasil",
+      "valor": 2.64,
+      "fala": "Em décimo está o Brasil, com dois trilhões e seiscentos e quarenta bilhões. A maior economia da América Latina.",
+      "clip": "mn-bandeira-brasil-42080.mp4"
+    },
+    {
+      "pos": 9,
+      "nome": "Rússia",
+      "valor": 2.66,
+      "fala": "Em nono vem a Rússia, com dois trilhões e seiscentos e sessenta bilhões. Vive de petróleo e gás.",
+      "clip": "mn-bandeira-russia-18097.mp4"
+    },
+    {
+      "pos": 8,
+      "nome": "Itália",
+      "valor": 2.74,
+      "fala": "Em oitavo fica a Itália, com dois trilhões e setecentos e quarenta bilhões. Moda e carros de luxo.",
+      "clip": "mn-bandeira-italia-18897.mp4"
+    },
+    {
+      "pos": 7,
+      "nome": "França",
+      "valor": 3.6,
+      "fala": "Em sétimo vem a França, com três trilhões e seiscentos bilhões. É também o país mais visitado do planeta.",
+      "clip": "mn-bandeira-franca-42086.mp4"
+    },
+    {
+      "pos": 6,
+      "nome": "Índia",
+      "valor": 4.15,
+      "fala": "Em sexto está a Índia, com quatro trilhões e cento e cinquenta bilhões. E é a que mais cresce entre as grandes.",
+      "clip": "mn-bandeira-india-42085.mp4"
+    },
+    {
+      "pos": 5,
+      "nome": "Reino Unido",
+      "valor": 4.26,
+      "fala": "Em quinto, o Reino Unido, com quatro trilhões e duzentos e sessenta bilhões. Londres é um centro financeiro global.",
+      "clip": "mn-bandeira-reino-unido-42115.mp4"
+    },
+    {
+      "pos": 4,
+      "nome": "Japão",
+      "valor": 4.38,
+      "fala": "Em quarto vem o Japão, com quatro trilhões e trezentos e oitenta bilhões. Carros, robôs e eletrônicos.",
+      "clip": "mn-toquio-noite-20061.mp4"
+    },
+    {
+      "pos": 3,
+      "nome": "Alemanha",
+      "valor": 5.45,
+      "fala": "Em terceiro, a Alemanha, com cinco trilhões e quatrocentos e cinquenta bilhões. Exporta máquinas e carros pro mundo todo.",
+      "clip": "mn-cidade-alemanha-neve-18744.mp4"
+    },
+    {
+      "pos": 2,
+      "nome": "China",
+      "valor": 20.85,
+      "fala": "Em segundo lugar a China, com vinte trilhões e oitocentos e cinquenta bilhões. A fábrica do mundo, quase quatro vezes a Alemanha.",
+      "clip": "mn-bandeira-china-13312.mp4"
+    },
+    {
+      "pos": 1,
+      "nome": "EUA",
+      "valor": 32.38,
+      "fala": "E em primeiro, os Estados Unidos, com trinta e dois trilhões e trezentos e oitenta bilhões. Mais de um quarto da economia mundial.",
+      "clip": "mn-bandeira-eua-40711.mp4"
+    }
+  ],
+  "outro": [
+    "Você imaginava o Brasil entre os dez maiores?",
+    "Comenta qual ranking você quer ver amanhã, e segue o Rankin Curiosos."
+  ],
+  "output": "rankin-2026-10-29-economias.mp4",
+  "music_mood": "alegre",
+  "clips_intro": [
+    "mn-terra-girando-34314.mp4",
+    "mn-cidade-noite-aerea-42342.mp4",
+    "mn-seul-noite-transito-20089.mp4"
+  ],
+  "clip_final": "mn-bandeira-brasil-42080.mp4",
+  "bg_clip": "mn-terra-girando-34314.mp4",
+  "motor": "ranking",
+  "pasta": "mundonumeral"
+}
