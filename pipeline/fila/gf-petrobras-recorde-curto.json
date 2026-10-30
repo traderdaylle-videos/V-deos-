@@ -1,0 +1,200 @@
+{
+ "segs": [
+  [
+   "Petrobras bate recorde de produção, mas a sua previdência pode perder.",
+   0.6
+  ],
+  [
+   "Na quarta, a Petrobras mostrou produção de três milhões e meio de barris por dia. É recorde.",
+   0.6
+  ],
+  [
+   "São onze vírgula sete por cento a mais que um ano atrás, puxados pelo pré-sal.",
+   0.5
+  ],
+  [
+   "A Petrobras tira petróleo do mar, refina e vende gasolina e diesel. Ganha com a diferença entre preço e custo.",
+   0.5
+  ],
+  [
+   "Mas produzir mais não garante lucro: quem manda é o preço do barril. Com o petróleo em queda, a ação recuou meio por cento na quinta.",
+   0.5
+  ],
+  [
+   "E pesa: a empresa vale treze e meio por cento do Ibovespa, que caiu um vírgula zero seis por cento.",
+   0.5
+  ],
+  [
+   "Por que chega até você? Fundos e previdência têm Petrobras na carteira. E o dólar, a cinco reais e trinta e nove, pesa nos combustíveis.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: separe o que depende de você do que não depende. O barril não depende. A diversificação, sim.",
+   0.5
+  ],
+  [
+   "Hoje, abra seu extrato e veja quanto depende de uma só empresa.",
+   0.7
+  ],
+  [
+   "Sua carteira aguenta um dia ruim do petróleo? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  4,
+  9
+ ],
+ "keywords_gold": [
+  "PETROBRAS",
+  "PETRÓLEO",
+  "PRÉ-SAL",
+  "IBOVESPA",
+  "DÓLAR",
+  "PREVIDÊNCIA",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "casal-mapa-carro-2718.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+11,7%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Petrobras: produção recorde",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "3,512 milhões\nde barris por dia",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "PETR4: -0,59%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "13,5% do Ibovespa",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Dólar R$ 5,39",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-petrobras-recorde-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "PETROBRAS BATE RECORDE: E A SUA PREVIDÊNCIA?"
+}
