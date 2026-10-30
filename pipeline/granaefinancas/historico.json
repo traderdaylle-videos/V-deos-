@@ -522,5 +522,67 @@
    "Boca 28/10 (Ibovespa mês -8,23%, ano +6,13%; dólar R$ 5,3402)"
   ],
   "formato": "aula de educação financeira (tarefa agendada)"
+ },
+ {
+  "data": "2026-10-30",
+  "tema": "Petrobras: prévia operacional 3T26 com produção recorde (3,512 mi boe/d, +11,7% a/a; pré-sal +15,9%), PETR4 -0,59% e Ibovespa -1,06% a 169.186 pts em 29/10; dólar R$ 5,387; previdência/fundos, dividendos e combustíveis",
+  "gancho": "Petrobras bate recorde, mas sua previdência pode perder: entenda em 1 minuto (hookscore 85,6 STRONG)",
+  "curto": {
+   "arquivo": "granaefinancas/gf-petrobras-recorde-curto.mp4",
+   "duracao": 54.5,
+   "capa": "granaefinancas/gf-petrobras-recorde-curto-capa.jpg",
+   "horario": "10:05/10:10",
+   "titulo_short": "Petrobras bate recorde: e a sua previdência?",
+   "ids": {
+    "reel": 411154367,
+    "short": 411154391
+   }
+  },
+  "longo": {
+   "arquivo": "granaefinancas/gf-petrobras-recorde-longo.mp4",
+   "duracao": 265.5,
+   "horario": "10:40",
+   "titulo": "Petrobras bate recorde de produção: o que isso muda na sua previdência?",
+   "capitulos": [
+    [
+     "0:00",
+     "Petrobras bate recorde"
+    ],
+    [
+     "0:48",
+     "Pré-sal e novas plataformas"
+    ],
+    [
+     "1:31",
+     "Por que a ação cai se a produção sobe"
+    ],
+    [
+     "1:58",
+     "Ibovespa e dólar"
+    ],
+    [
+     "2:20",
+     "Previdência, fundos e combustíveis"
+    ],
+    [
+     "3:13",
+     "Epicteto: o que depende de você"
+    ],
+    [
+     "3:27",
+     "4 passos práticos"
+    ],
+    [
+     "4:00",
+     "Resumo"
+    ]
+   ],
+   "id": 411154523
+  },
+  "fontes": [
+   "Petrobras 6-K prévia operacional 3T26 (28/10/2026, SEC)",
+   "Metrópoles 29/10/2026 (Ibovespa -1,06% a 169.186,42; dólar R$ 5,387; Petrobras ~13,5% do índice)"
+  ],
+  "formato": "aula de educação financeira (tarefa agendada)"
  }
 ]
