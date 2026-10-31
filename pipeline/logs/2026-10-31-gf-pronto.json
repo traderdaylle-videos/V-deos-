@@ -1,0 +1,62 @@
+{
+ "data": "2026-10-31",
+ "tema": "Desemprego 5,2% no 3T26 (PNAD/IBGE, 30/10/2026; 103,6 mi ocupados; renda R$ 3.790 +3,6%); por que mercado de trabalho forte mantém Selic (13,75%) e crédito caros; Copom 3-4/11; dívidas 29% da renda",
+ "gancho": "Desemprego de 5,2% é ótimo, mas pode manter o seu juro alto (hookscore 81,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-desemprego-juros-curto.mp4",
+  "duracao": 55.1,
+  "capa": "granaefinancas/gf-desemprego-juros-curto-capa.jpg",
+  "horario": "10:05/10:10",
+  "titulo_short": "Desemprego em 5,2%: por que seu juro continua alto",
+  "ids": {
+   "reel": 412116657,
+   "short": 412116675
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-desemprego-juros-longo.mp4",
+  "duracao": 268.6,
+  "horario": "10:40",
+  "titulo": "Desemprego em 5,2%: por que o seu juro continua alto?",
+  "capitulos": [
+   [
+    "0:00",
+    "Desemprego em 5,2%"
+   ],
+   [
+    "1:02",
+    "O que é a Selic"
+   ],
+   [
+    "1:31",
+    "Por que o juro fica alto"
+   ],
+   [
+    "2:14",
+    "Copom e incerteza"
+   ],
+   [
+    "2:25",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:04",
+    "Epicteto: o que depende de você"
+   ],
+   [
+    "3:19",
+    "4 passos práticos"
+   ],
+   [
+    "3:54",
+    "Resumo"
+   ]
+  ],
+  "id": 412116741
+ },
+ "fontes": [
+  "IBGE, PNAD Contínua 3T26 (30/10/2026), via CNN Brasil",
+  "BP Money (desemprego e Selic em 2027)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)"
+}
