@@ -1,0 +1,243 @@
+{
+ "segs": [
+  [
+   "Dólar a cinco reais e quarenta e quatro centavos: o que isso muda no seu bolso?",
+   0.5
+  ],
+  [
+   "Em uma semana, o dólar subiu nove por cento. É a maior alta semanal desde dois mil e oito.",
+   0.5
+  ],
+  [
+   "Antes do segundo turno, estava perto de quatro reais e noventa e nove centavos.",
+   0.5
+  ],
+  [
+   "Na mesma semana, o Ibovespa caiu dezoito por cento, o pior resultado desde março de dois mil e vinte.",
+   0.5
+  ],
+  [
+   "O mercado reagiu a dúvidas sobre as contas públicas. Com incerteza, o dinheiro corre para o dólar.",
+   0.5
+  ],
+  [
+   "Para você, o efeito chega devagar: eletrônicos, combustível e passagens tendem a ficar mais caros.",
+   0.5
+  ],
+  [
+   "Já a Vale, que vende minério lá fora em dólar, subiu três vírgula vinte e oito por cento.",
+   0.5
+  ],
+  [
+   "O Copom decide a Selic na quarta, quatro de novembro. Hoje: treze vírgula setenta e cinco por cento.",
+   0.5
+  ],
+  [
+   "Dólar alto pressiona preços e pode segurar os juros. Crédito caro por mais tempo.",
+   0.5
+  ],
+  [
+   "Ferramenta prática: liste o que você compra de importado e adie o que não for urgente.",
+   0.5
+  ],
+  [
+   "E você, já viu algum preço subir por causa do dólar?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  6
+ ],
+ "keywords_gold": [
+  "DÓLAR",
+  "IBOVESPA",
+  "SELIC",
+  "COPOM",
+  "JUROS",
+  "INFLAÇÃO",
+  "VALE",
+  "IMPORTADOS",
+  "CÂMBIO",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "homem-estressado-49225.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "R$ 5,44",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Dólar fecha outubro",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "+9% em 7 dias",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Antes: R$ 4,99",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Ibovespa: -18,12%\nna semana",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Importados\nficam mais caros",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Vale: +3,28%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-dolar-semana-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "DÓLAR A R$ 5,44: O QUE MUDA NO SEU BOLSO"
+}
