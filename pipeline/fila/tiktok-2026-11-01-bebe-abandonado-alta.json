@@ -1,0 +1,78 @@
+{
+ "photos_meio": [
+  "homem-ansiedade-47206.mp4",
+  "indicadores-negativos-3d-26759.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "grafico-tempo-real-47018.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_bebe-abandonado-alta.py",
+ "output": "tiktok-2026-11-01-bebe-abandonado-alta.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "BEBÊ",
+  "ABANDONADO",
+  "DOJI",
+  "ALTA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "maquina-contando-dinheiro-49134.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1,
+ "segs": [
+  [
+   "intro",
+   "Um candle sozinho no fundo do gráfico. Esse é o padrão bebê abandonado de alta."
+  ],
+  [
+   "intro",
+   "Ele surge depois de uma queda, e muitos analistas o observam como possível reversão."
+  ],
+  [
+   "meio",
+   "Primeiro, o preço despenca com candles de baixa seguidos e o pessimismo domina."
+  ],
+  [
+   "meio",
+   "Depois, surge um doji separado do anterior por um espaço vazio, o gap de baixa."
+  ],
+  [
+   "meio",
+   "No terceiro, o preço abre com outro gap, agora pra cima, e forma um candle de alta forte."
+  ],
+  [
+   "meio",
+   "Mas cuidado: é um padrão raro, e sem confirmação ele pode enganar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu um gap assim no gráfico do dólar?"
+  ],
+  [
+   "recap",
+   "Recapitulando: queda forte, doji isolado entre dois gaps, e candle de alta confirmando."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ]
+}

@@ -1,0 +1,74 @@
+{
+ "photos_meio": [
+  "homem-estressado-49225.mp4",
+  "lucro-bolsa-47012.mp4",
+  "grafico-closeup-47016.mp4",
+  "indicadores-negativos-3d-26759.mp4",
+  "tendencia-tela-9607.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_belt-hold-baixa.py",
+ "output": "tiktok-2026-11-01-belt-hold-baixa.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "BELT",
+  "HOLD",
+  "MÁXIMA",
+  "BAIXA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "contando-dinheiro-23168.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1,
+ "segs": [
+  [
+   "intro",
+   "Uma única vela pode mostrar o cansaço da alta. Esse é o belt hold de baixa."
+  ],
+  [
+   "intro",
+   "Ele aparece depois de uma subida, e muitos analistas o observam como sinal de que os vendedores assumiram o controle."
+  ],
+  [
+   "meio",
+   "Aí surge um candle que abre exatamente na máxima e cai durante todo o pregão."
+  ],
+  [
+   "meio",
+   "Ele fecha perto da mínima, quase sem sombra, mostrando vendedores no comando do começo ao fim."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sem tendência de alta antes, ou sem confirmação no candle seguinte, o sinal pode falhar."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: você já viu esse candle no gráfico do índice ou do dólar?"
+  ],
+  [
+   "recap",
+   "Recapitulando: alta forte, candle abrindo na máxima e fechando na mínima, e confirmação depois."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ]
+}
