@@ -1,0 +1,73 @@
+{
+ "data": "2026-11-02",
+ "tema": "Copom/Selic: 68,8% de chance de manutenção (opções de Copom B3), Selic 13,75%, dólar ~R$ 5,44, IPCA-15 4,62% em 12m, HSBC IPCA 2026 5,1%",
+ "gancho": "O mercado dá 68,8% de chance de a Selic não cair quarta-feira. E o seu bolso sente. (hookscore da versão curta 84-100 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-copom-selic-curto.mp4",
+  "duracao": 51.9,
+  "capa": "granaefinancas/gf-copom-selic-curto-capa.jpg",
+  "horario": "10:05 (Reels) / 10:10 (Short)",
+  "titulo_short": "Copom quarta: Selic sem corte? O que muda",
+  "ids": {
+   "reel": 413905064,
+   "short": 413905088
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-copom-selic-longo.mp4",
+  "duracao": 258.3,
+  "horario": "10:40",
+  "titulo": "Copom decide a Selic quarta: o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:14",
+    "O que é a Selic"
+   ],
+   [
+    "0:28",
+    "Quem decide: o Copom"
+   ],
+   [
+    "0:42",
+    "O que mudou após a eleição"
+   ],
+   [
+    "1:05",
+    "Dólar, preços e inflação"
+   ],
+   [
+    "1:42",
+    "Por que o juro não cai"
+   ],
+   [
+    "2:02",
+    "O que muda no seu bolso"
+   ],
+   [
+    "2:36",
+    "Renda fixa"
+   ],
+   [
+    "2:53",
+    "4 passos práticos"
+   ],
+   [
+    "3:37",
+    "Epicteto e resumo"
+   ]
+  ],
+  "id": 413905152
+ },
+ "fontes": [
+  "CNN Brasil via ac24horas, 02/11/2026 (opções de Copom B3 68,8%; Selic 13,75%; HSBC IPCA 5,1%)",
+  "IPCA-15 out/2026 e PNAD 3T26 (IBGE), conforme histórico"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "falhas": [
+  "Fonte única para o 68,8% (matéria CNN Brasil republicada); sem boletim Focus de 02/11 verificado"
+ ]
+}
