@@ -1,0 +1,231 @@
+{
+ "segs": [
+  [
+   "O mercado dá sessenta e oito vírgula oito por cento de chance de a Selic não cair quarta-feira. E o seu bolso sente.",
+   0.5
+  ],
+  [
+   "A Selic, hoje em treze vírgula setenta e cinco por cento, é o juro básico do país.",
+   0.5
+  ],
+  [
+   "O Copom decide quarta. Antes do segundo turno, a chance de corte passava de setenta por cento.",
+   0.5
+  ],
+  [
+   "Depois da eleição, o dólar foi a cinco reais e quarenta e quatro, e as projeções pioraram.",
+   0.5
+  ],
+  [
+   "Dólar alto encarece importados e pressiona a inflação. Com inflação pressionada, cortar o juro fica difícil.",
+   0.5
+  ],
+  [
+   "O HSBC projeta inflação de cinco vírgula um por cento em dois mil e vinte e seis.",
+   0.5
+  ],
+  [
+   "Pra você, juro alto deixa cartão, cheque especial e financiamento mais caros.",
+   0.5
+  ],
+  [
+   "Por outro lado, a renda fixa paga bem pra quem poupa.",
+   0.5
+  ],
+  [
+   "Você não controla o Copom. Mas controla qual dívida paga primeiro.",
+   0.5
+  ],
+  [
+   "Veja a taxa do seu cartão e quite a dívida mais cara primeiro.",
+   0.5
+  ],
+  [
+   "Hoje você paga juros, ou recebe juros?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  6
+ ],
+ "keywords_gold": [
+  "SELIC",
+  "COPOM",
+  "JUROS",
+  "INFLAÇÃO",
+  "DÓLAR",
+  "CÂMBIO",
+  "CARTÃO",
+  "RENDA FIXA",
+  "EPICTETO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "68,8%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "chance de a Selic não cair",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Copom: quarta, dia 4",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Dólar: R$ 5,44",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "IPCA 2026: 5,1%\n(projeção HSBC)",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Cartão e crédito\nmais caros",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-copom-selic-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "COPOM QUARTA: 68,8% DE CHANCE DE SELIC SEM CORTE"
+}
