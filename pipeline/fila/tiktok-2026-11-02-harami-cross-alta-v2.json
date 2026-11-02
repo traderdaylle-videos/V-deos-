@@ -7,7 +7,7 @@
   "grafico-tempo-real-47018.mp4"
  ],
  "explainer_script": "pipeline/tiktok/explainer_harami-cross-alta.py",
- "output": "tiktok-2026-11-02-harami-cross-alta.mp4",
+ "output": "tiktok-2026-11-02-harami-cross-alta-v2.mp4",
  "keywords_green": [
   "5PI"
  ],
@@ -41,6 +41,10 @@
   [
    "meio",
    "Esse doji mostra indecisão: os vendedores perderam força."
+  ],
+  [
+   "meio",
+   "Quem acompanha o padrão costuma esperar um candle de alta seguinte, que confirma a mudança."
   ],
   [
    "meio",
