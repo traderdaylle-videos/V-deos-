@@ -1,0 +1,78 @@
+{
+ "photos_meio": [
+  "homem-ansiedade-47206.mp4",
+  "indicadores-negativos-3d-26759.mp4",
+  "grafico-homem-analisando-47214.mp4",
+  "mulher-graficos-ipad-45662.mp4",
+  "grafico-tempo-real-47018.mp4"
+ ],
+ "explainer_script": "pipeline/tiktok/explainer_3-estrela-manha-doji.py",
+ "output": "tiktok-2026-11-03-estrela-manha-doji.mp4",
+ "keywords_green": [
+  "5PI"
+ ],
+ "keywords_orange": [
+  "ESTRELA",
+  "MANHÃ",
+  "DOJI",
+  "ALTA"
+ ],
+ "music_mood": "alegre",
+ "speed": 1.1,
+ "motor": "video",
+ "pasta": "tiktok",
+ "photo_5pi": "maquina-contando-dinheiro-49134.mp4",
+ "explainer_anim": "explicativo_anim.mp4",
+ "explainer_final": "explicativo_final.png",
+ "rev": 1,
+ "segs": [
+  [
+   "intro",
+   "Uma queda longa, um doji no fundo e um candle de alta forte. Essa é a estrela da manhã com doji."
+  ],
+  [
+   "intro",
+   "Ela surge no fim de uma tendência de baixa, e muitos analistas a observam como possível reversão."
+  ],
+  [
+   "meio",
+   "Primeiro, um grande candle de baixa mostra vendedores no controle."
+  ],
+  [
+   "meio",
+   "Depois, o doji perto da mínima mostra indecisão."
+  ],
+  [
+   "meio",
+   "Por fim, um candle de alta fecha dentro do primeiro corpo. É a confirmação."
+  ],
+  [
+   "meio",
+   "Mas cuidado: sem esse terceiro candle, o sinal pode ser falso."
+  ],
+  [
+   "meio",
+   "Me conta nos comentários: em qual ativo você já viu uma estrela da manhã?"
+  ],
+  [
+   "recap",
+   "Recapitulando: candle de baixa, doji no fundo e candle de alta confirmando."
+  ],
+  [
+   "final_5pi",
+   "Se você quer colocar esse estudo em prática com capital de verdade, a 5PI é uma mesa proprietária que libera até cem mil reais de capital pra você operar, direto na plataforma Profit."
+  ],
+  [
+   "final_5pi",
+   "O link tá aqui na descrição do vídeo."
+  ],
+  [
+   "final_fim",
+   "Segue aqui pra mais dicas de análise técnica."
+  ],
+  [
+   "final_fim",
+   "Lembrando: este vídeo é apenas educacional e não é recomendação de investimento."
+  ]
+ ]
+}
