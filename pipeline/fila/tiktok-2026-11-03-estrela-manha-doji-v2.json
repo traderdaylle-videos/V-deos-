@@ -6,16 +6,16 @@
   "mulher-graficos-ipad-45662.mp4",
   "grafico-tempo-real-47018.mp4"
  ],
- "explainer_script": "pipeline/tiktok/explainer_3-bebe-abandonado-baixa.py",
- "output": "tiktok-2026-11-03-bebe-abandonado-baixa.mp4",
+ "explainer_script": "pipeline/tiktok/explainer_estrela-manha-doji.py",
+ "output": "tiktok-2026-11-03-estrela-manha-doji-v2.mp4",
  "keywords_green": [
   "5PI"
  ],
  "keywords_orange": [
-  "BEBÊ",
-  "ABANDONADO",
-  "BAIXA",
-  "GAP"
+  "ESTRELA",
+  "MANHÃ",
+  "DOJI",
+  "ALTA"
  ],
  "music_mood": "alegre",
  "speed": 1.1,
@@ -28,35 +28,35 @@
  "segs": [
   [
    "intro",
-   "Uma alta, um doji flutuando e uma queda brusca. Esse é o bebê abandonado de baixa."
+   "Uma queda longa, um doji no fundo e um candle de alta forte. Essa é a estrela da manhã com doji."
   ],
   [
    "intro",
-   "Ele surge no topo de uma alta, e muitos analistas o observam como possível reversão."
+   "Ela surge no fim de uma tendência de baixa, e muitos analistas a observam como possível reversão."
   ],
   [
    "meio",
-   "Depois de candles de alta, o preço abre com gap para cima e forma um doji."
+   "Primeiro, um grande candle de baixa mostra vendedores no controle."
   ],
   [
    "meio",
-   "O doji fica isolado, sem tocar os vizinhos. É a indecisão no topo."
+   "Depois, o doji perto da mínima mostra indecisão."
   ],
   [
    "meio",
-   "No dia seguinte, abre com gap para baixo e cai forte. O doji fica abandonado."
+   "Por fim, um candle de alta fecha dentro do primeiro corpo. É a confirmação."
   ],
   [
    "meio",
-   "Mas cuidado: o padrão é raro, e sem confirmação o sinal pode ser falso."
+   "Mas cuidado: sem esse terceiro candle, o sinal pode ser falso."
   ],
   [
    "meio",
-   "Me conta nos comentários: você já viu um doji isolado assim?"
+   "Me conta nos comentários: em qual ativo você já viu uma estrela da manhã?"
   ],
   [
    "recap",
-   "Recapitulando: alta, doji com gap para cima e candle de baixa com gap para baixo."
+   "Recapitulando: candle de baixa, doji no fundo e candle de alta confirmando."
   ],
   [
    "final_5pi",
