@@ -1,0 +1,243 @@
+{
+ "segs": [
+  [
+   "Construtoras chegaram a cair até quarenta e três por cento num dia. E o seu bolso sente.",
+   0.5
+  ],
+  [
+   "Na segunda, vinte e seis de outubro, primeiro pregão depois da eleição, a Cyrela caía quarenta e três por cento, e a MRV, quarenta.",
+   0.5
+  ],
+  [
+   "O índice do setor imobiliário chegou a perder vinte e nove por cento.",
+   0.5
+  ],
+  [
+   "Cyrela e MRV são incorporadoras: compram terrenos, constroem prédios e vendem apartamentos.",
+   0.5
+  ],
+  [
+   "Por que caíram? Os juros futuros subiram. E juro alto encarece o financiamento, e menos gente consegue comprar.",
+   0.5
+  ],
+  [
+   "A Selic está em treze vírgula setenta e cinco por cento, e o Copom decide quarta.",
+   0.5
+  ],
+  [
+   "Pra você, isso aparece na parcela do financiamento e no aluguel.",
+   0.5
+  ],
+  [
+   "Mas queda de ação não é queda do preço do apartamento. A ação reage ao futuro.",
+   0.5
+  ],
+  [
+   "Antes de financiar, simule a parcela com juros mais altos.",
+   0.5
+  ],
+  [
+   "Regra prática: parcela de no máximo trinta por cento da renda.",
+   0.5
+  ],
+  [
+   "Você não controla o Copom, mas controla quanto da renda compromete. Financiaria agora ou esperaria?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  4,
+  6
+ ],
+ "keywords_gold": [
+  "CONSTRUTORAS",
+  "IMÓVEIS",
+  "FINANCIAMENTO",
+  "JUROS",
+  "SELIC",
+  "COPOM",
+  "PARCELA",
+  "ALUGUEL",
+  "CYRELA",
+  "MRV",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "homem-laptop-trabalhando-9756.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-pensando-rio-15777.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-estressado-49225.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "casal-mapa-carro-2718.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "relaxando-por-do-sol-33968.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-43%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "construtoras num só dia",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Cyrela: -43,4%\nMRV: -40,5%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Imob: -29%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Juros futuros\nsubiram",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Parcela e aluguel\nmais caros",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Parcela: até 30%\nda renda",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-construtoras-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "CONSTRUTORAS CAEM ATÉ 43%: SUA PARCELA ENTRA NA CONTA"
+}
