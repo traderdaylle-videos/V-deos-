@@ -1,0 +1,62 @@
+{
+ "data": "2026-11-04",
+ "tema": "Estrangeiros saem da bolsa após a eleição: Ibovespa -1%+ e dólar R$ 5,49 (3ª alta seguida) em 03/11/2026; Cogna -10%+; Copom 4/11, Selic 13,75%; importados, combustíveis, comida, reserva",
+ "gancho": "Dólar a R$ 5,49: estrangeiros saem da bolsa e o seu bolso sente. (hookscore 81,6 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-estrangeiros-dolar-curto.mp4",
+  "capa": "granaefinancas/gf-estrangeiros-dolar-curto-capa.jpg",
+  "duracao": 49.8,
+  "horario": "10:15 (Reels) / 10:20 (Short)",
+  "titulo_short": "Estrangeiros saem da bolsa: dólar a R$ 5,49",
+  "ids": {
+   "reel": 416445476,
+   "short": 416445502
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-estrangeiros-dolar-longo.mp4",
+  "duracao": 263.2,
+  "horario": "10:35",
+  "titulo": "Estrangeiros saem da bolsa: o que o dólar a R$ 5,49 muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:28",
+    "Quem são os estrangeiros"
+   ],
+   [
+    "1:06",
+    "Por que vendem"
+   ],
+   [
+    "1:24",
+    "Cogna"
+   ],
+   [
+    "1:54",
+    "Efeito no seu bolso"
+   ],
+   [
+    "2:31",
+    "Copom e Selic"
+   ],
+   [
+    "2:57",
+    "5 passos práticos"
+   ],
+   [
+    "4:00",
+    "Resumo"
+   ]
+  ],
+  "id": 416470960
+ },
+ "fontes": [
+  "Gazeta Brasil, fechamento 03/11/2026 (Ibovespa -1,74%, dólar R$ 5,4902, Cogna -12,66%)",
+  "BPMoney, 03/11/2026 (Ibovespa -1,42%, dólar R$ 5,487, 3ª alta seguida, Cogna -10,76%, estrangeiros reduzindo posições)"
+ ],
+ "obs": "Render inicial (push) falhou ao publicar no media (push recusado 3x); refeito via workflow_dispatch por spec."
+}
