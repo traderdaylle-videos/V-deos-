@@ -1,0 +1,220 @@
+{
+ "segs": [
+  [
+   "Selic parada em treze vírgula setenta e cinco por cento: você paga mais caro no cartão.",
+   0.5
+  ],
+  [
+   "Na quarta, o Copom interrompeu o ciclo de cortes e manteve a Selic. A decisão foi unânime.",
+   0.5
+  ],
+  [
+   "Foram cinco cortes seguidos desde março, quando a taxa estava em quinze por cento.",
+   0.5
+  ],
+  [
+   "A Selic é o juro básico do país. Ela serve de referência pra todos os outros juros.",
+   0.5
+  ],
+  [
+   "O dólar saiu de quatro reais e noventa e oito, na véspera do segundo turno, pra cinco reais e quarenta e cinco.",
+   0.5
+  ],
+  [
+   "Dólar alto encarece importados e pressiona a inflação. Por isso o mercado pede cautela.",
+   0.5
+  ],
+  [
+   "Na prática, juro básico nesse nível mantém caros o cartão, o cheque especial e o financiamento.",
+   0.5
+  ],
+  [
+   "Já a renda fixa continua pagando bem pra quem poupa.",
+   0.5
+  ],
+  [
+   "Você não controla o Copom. Mas controla qual dívida paga primeiro.",
+   0.5
+  ],
+  [
+   "Veja a taxa do seu cartão hoje e quite primeiro a dívida mais cara.",
+   0.5
+  ],
+  [
+   "Hoje você paga juros, ou recebe juros?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  4,
+  8
+ ],
+ "keywords_gold": [
+  "SELIC",
+  "COPOM",
+  "JUROS",
+  "INFLAÇÃO",
+  "DÓLAR",
+  "CARTÃO",
+  "RENDA FIXA",
+  "RESERVA",
+  "DÍVIDA",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "SELIC: 13,75%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Copom pausa os cortes",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "5 cortes seguidos\ndesde março",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Dólar: R$ 4,98 → R$ 5,45",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Cartão, cheque especial\ne financiamento",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Quite a dívida\nmais cara primeiro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-copom-pausa-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "SELIC PARADA EM 13,75%: SEU CARTÃO CONTINUA CARO"
+}
