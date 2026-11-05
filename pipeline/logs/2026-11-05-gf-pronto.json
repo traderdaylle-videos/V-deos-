@@ -1,0 +1,60 @@
+{
+ "data": "2026-11-05",
+ "tema": "Copom mantém a Selic em 13,75% (4/11/2026) após 5 cortes; dólar R$ 4,98 -> R$ 5,45; cartão, cheque especial, financiamento, renda fixa, dívida mais cara primeiro",
+ "gancho": "Selic parada em 13,75%: você paga mais caro no cartão. (hookscore 100 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-copom-pausa-curto.mp4",
+  "capa": "granaefinancas/gf-copom-pausa-curto-capa.jpg",
+  "duracao": 51.0,
+  "horario": "09:50 (Reels) / 09:55 (Short)",
+  "titulo_short": "Selic parada em 13,75%: e o seu cartão?",
+  "ids": {
+   "reel": 417660681,
+   "short": 417660765
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-copom-pausa-longo.mp4",
+  "duracao": 259.0,
+  "horario": "10:15",
+  "titulo": "Copom mantém a Selic em 13,75%: o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:24",
+    "O que é Copom e Selic"
+   ],
+   [
+    "0:54",
+    "Por que o BC parou: dólar e inflação"
+   ],
+   [
+    "1:48",
+    "O que muda no seu bolso"
+   ],
+   [
+    "2:25",
+    "Renda fixa"
+   ],
+   [
+    "2:44",
+    "5 passos práticos"
+   ],
+   [
+    "3:48",
+    "Resumo"
+   ]
+  ],
+  "id": 417661309
+ },
+ "fontes": [
+  "CNN Brasil, 04/11/2026 (Selic mantida em 13,75%; 5 cortes desde março, partindo de 15%; dólar de R$ 4,98 a R$ 5,45, +9,46% desde 25/10)",
+  "EG News, 04/11/2026 (decisão unânime; Ibovespa +1,15%, dólar R$ 5,45)",
+  "Money Times, 05/11/2026 (Ibovespa +1,23% a 167.563 pts; dólar R$ 5,4518)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "obs": "Sobreposição leve entre 'SELIC: 13,75%' e o subtítulo no 1º segundo do curto (não refeito). Aviso de recomendação removido da descrição do longo."
+}
