@@ -1,0 +1,220 @@
+{
+ "segs": [
+  [
+   "Ibovespa perdeu dez vírgula oitenta e um por cento em três meses: veja o que fazer com o seu dinheiro.",
+   0.5
+  ],
+  [
+   "Na quinta, cinco de novembro, ele fechou em cento e sessenta e seis mil pontos, queda de zero vírgula oitenta e dois por cento no dia.",
+   0.5
+  ],
+  [
+   "No ano, o ganho encolheu para três vírgula catorze por cento.",
+   0.5
+  ],
+  [
+   "Ibovespa é a média das maiores ações do Brasil. Quando cai, sua previdência e seus fundos sentem, mesmo sem você vender nada.",
+   0.5
+  ],
+  [
+   "Mas o mercado não cai igual para todos. A C&A, de moda, subiu nove por cento depois do balanço. A CSN Mineração caiu seis.",
+   0.5
+  ],
+  [
+   "Queda não é prejuízo enquanto você não vende. O prejuízo nasce quando o dinheiro precisava sair na hora errada.",
+   0.5
+  ],
+  [
+   "Por isso, separe cada real por objetivo. Dinheiro de curto prazo não combina com ações.",
+   0.5
+  ],
+  [
+   "Mantenha uma reserva de emergência em renda fixa, com liquidez diária.",
+   0.5
+  ],
+  [
+   "O que é de longo prazo pede paciência e aportes regulares, não pânico.",
+   0.5
+  ],
+  [
+   "Você tem dinheiro na bolsa, ou só em renda fixa? Conta nos comentários.",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  2,
+  4
+ ],
+ "keywords_gold": [
+  "IBOVESPA",
+  "BOLSA",
+  "TRIMESTRE",
+  "RENDA FIXA",
+  "RESERVA",
+  "PREVIDÊNCIA",
+  "AÇÕES",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "IBOVESPA: -10,81%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "no 4º trimestre",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "166.191 pontos\nem 05/11",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "No ano: só +3,14%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "C&A +9,25%\nCSN Mineração -6,49%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Queda ≠ prejuízo\nenquanto você não vende",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Reserva em renda fixa\ncom liquidez diária",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 10,
+   "ate": 10,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-bolsa-trimestre-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "IBOVESPA -10,81% EM 3 MESES: E O SEU DINHEIRO?"
+}
