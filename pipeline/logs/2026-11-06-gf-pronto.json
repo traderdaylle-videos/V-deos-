@@ -1,0 +1,58 @@
+{
+ "data": "2026-11-06",
+ "tema": "Ibovespa -10,81% no 4º trimestre (166.191 pts em 05/11/2026; -0,82% no dia; +3,14% no ano); C&A +9,25%, Smart Fit +5,48%, CSN Mineração -6,49%; PMI serviços 44,5; previdência/fundos, reserva em renda fixa, prazo",
+ "gancho": "Ibovespa perdeu 10,81% em 3 meses: veja o que fazer com o seu dinheiro. (hookscore 83,1 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-bolsa-trimestre-curto.mp4",
+  "capa": "granaefinancas/gf-bolsa-trimestre-curto-capa.jpg",
+  "duracao": 55.9,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Ibovespa -10,81% em 3 meses: e o seu dinheiro?",
+  "ids": {
+   "reel": 418860509,
+   "short": 418860531
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-bolsa-trimestre-longo.mp4",
+  "duracao": 260.7,
+  "horario": "10:20",
+  "titulo": "Ibovespa -10,81% em 3 meses: o que fazer com o seu dinheiro",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:46",
+    "O que é o Ibovespa"
+   ],
+   [
+    "1:24",
+    "Por que a bolsa caiu"
+   ],
+   [
+    "1:52",
+    "Quem ganhou e quem perdeu"
+   ],
+   [
+    "2:26",
+    "O sinal da economia (PMI)"
+   ],
+   [
+    "2:46",
+    "O que fazer: 5 passos"
+   ],
+   [
+    "3:54",
+    "Resumo"
+   ]
+  ],
+  "id": 418860658
+ },
+ "fontes": [
+  "Trademap, 05/11/2026 (Ibovespa 166.191 pts, -0,82% no dia, -1,03% na semana, -10,81% no 4º tri, +3,14% em 2026; C&A +9,25%, Smart Fit +5,48%, Cosan +4,60%, CSN Mineração -6,49%, Embraer -4,96%, Gerdau -3,58%; PMI serviços 49,2->44,5)",
+  "Mistobrasil, 05/11/2026 (queda pressionada pelo exterior, tecnologia nos EUA, balanços)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)"
+}
