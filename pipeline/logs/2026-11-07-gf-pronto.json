@@ -1,0 +1,56 @@
+{
+ "data": "2026-11-07",
+ "tema": "Dólar a R$ 5,51 (+0,4% no dia, +1,2% na semana) com payroll dos EUA (165 mil vagas); Ibovespa +1,39% a 168.498 pts; Vale +2,19%, Bradesco +3,12%, Itaú +1,40%, Petrobras PN -1,28%; importados, trigo, combustíveis, viagens; Selic 13,75%, CDI 13,65%",
+ "gancho": "Dólar a R$ 5,51 pode encarecer o seu mercado: veja por quê. (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-payroll-curto.mp4",
+  "capa": "granaefinancas/gf-dolar-payroll-curto-capa.jpg",
+  "duracao": 57.9,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Dólar a R$ 5,51: o que fica mais caro pra você?",
+  "ids": {
+   "reel": 419897801,
+   "short": 419897822
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-payroll-longo.mp4",
+  "duracao": 287.1,
+  "horario": "10:20",
+  "titulo": "Dólar a R$ 5,51: o que fica mais caro e o que fazer",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:53",
+    "Por que o dólar subiu"
+   ],
+   [
+    "1:46",
+    "O que muda no seu bolso"
+   ],
+   [
+    "2:42",
+    "Quem ganha e quem perde"
+   ],
+   [
+    "3:34",
+    "5 passos práticos"
+   ],
+   [
+    "4:18",
+    "Resumo"
+   ]
+  ],
+  "id": 419897955
+ },
+ "fontes": [
+  "DGABC, 06/11/2026 (Ibovespa +1,39% a 168.498,45 pts; dólar R$ 5,5087; Bradesco +3,12%, Vale +2,19%, Itaú +1,40%, Petrobras PN -1,28%; CDI 13,65%)",
+  "TV Guararapes, 06/11/2026 (dólar R$ 5,511, +0,44% no dia, +1,20% na semana; payroll EUA 165 mil vagas)",
+  "Brasil Inovador, 06/11/2026 (Ibovespa +1,39%; payroll acima do consenso; contas públicas)",
+  "Campo Grande News, 06/11/2026 (dólar R$ 5,5082; Selic 13,75%)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)"
+}
