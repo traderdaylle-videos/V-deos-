@@ -9,10 +9,6 @@
    0.5
   ],
   [
-   "Toda semana, o Banco Central pergunta a economistas o que eles esperam pra inflação, juros e dólar.",
-   0.5
-  ],
-  [
    "Em sete dias, a previsão do dólar pro fim do ano saltou de cinco reais e cinco centavos pra cinco reais e trinta e quatro.",
    0.5
   ],
@@ -29,7 +25,7 @@
    0.5
   ],
   [
-   "Dólar mais caro encarece produto importado, combustível e trigo, e isso pesa no preço do mercado.",
+   "Dólar mais caro encarece importados, combustível e trigo.",
    0.5
   ],
   [
@@ -60,8 +56,8 @@
  "impactos_seg": [
   0,
   1,
-  3,
-  4
+  2,
+  3
  ],
  "keywords_gold": [
   "INFLAÇÃO",
@@ -135,11 +131,6 @@
    "seg": 11,
    "src": "grafico-tempo-real-47018.mp4",
    "offset": 1
-  },
-  {
-   "seg": 12,
-   "src": "escritorio-movimentado-918.mp4",
-   "offset": 1
   }
  ],
  "overlays": [
@@ -172,11 +163,22 @@
    ]
   },
   {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Dólar 2026\nR$ 5,05 → R$ 5,34",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
    "seg": 3,
    "ate": 3,
    "linhas": [
     {
-     "t": "Dólar 2026\nR$ 5,05 → R$ 5,34",
+     "t": "Selic 2026\n13,25% → 13,50%",
      "estilo": "Tit",
      "y": 820
     }
@@ -187,7 +189,7 @@
    "ate": 4,
    "linhas": [
     {
-     "t": "Selic 2026\n13,25% → 13,50%",
+     "t": "Selic 2027\n11,75% → 12,50%",
      "estilo": "Tit",
      "y": 820
     }
@@ -198,7 +200,7 @@
    "ate": 5,
    "linhas": [
     {
-     "t": "Selic 2027\n11,75% → 12,50%",
+     "t": "Juro alto\npor mais tempo",
      "estilo": "Tit",
      "y": 820
     }
@@ -209,7 +211,7 @@
    "ate": 6,
    "linhas": [
     {
-     "t": "Juro alto\npor mais tempo",
+     "t": "Importados\nmais caros",
      "estilo": "Tit",
      "y": 820
     }
@@ -220,17 +222,6 @@
    "ate": 7,
    "linhas": [
     {
-     "t": "Importados\nmais caros",
-     "estilo": "Tit",
-     "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 8,
-   "ate": 8,
-   "linhas": [
-    {
      "t": "Cartão e financiamento\ncaros",
      "estilo": "Tit",
      "y": 820
@@ -238,8 +229,8 @@
    ]
   },
   {
-   "seg": 10,
-   "ate": 10,
+   "seg": 9,
+   "ate": 9,
    "linhas": [
     {
      "t": "Quite a dívida\nmais cara primeiro",
@@ -249,8 +240,8 @@
    ]
   },
   {
-   "seg": 12,
-   "ate": 12,
+   "seg": 11,
+   "ate": 11,
    "linhas": [
     {
      "t": "Manda pra alguém\nque precisa ouvir isso",

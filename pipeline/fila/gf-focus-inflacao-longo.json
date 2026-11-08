@@ -73,10 +73,6 @@
    0.5
   ],
   [
-   "Por isso a gente costuma dizer que o dólar alto é uma inflação a caminho.",
-   0.5
-  ],
-  [
    "Agora a Selic, que é o juro básico da economia. Hoje ela está em treze vírgula setenta e cinco por cento ao ano.",
    0.5
   ],
@@ -102,10 +98,6 @@
   ],
   [
    "Por último, o crescimento. A previsão pro PIB de dois mil e vinte e seis caiu de um vírgula oitenta pra um vírgula setenta e seis por cento.",
-   0.5
-  ],
-  [
-   "É uma queda pequena, mas aponta na direção contrária: preços mais altos, juros mais altos e economia crescendo um pouco menos.",
    0.5
   ],
   [
@@ -437,16 +429,6 @@
    "seg": 44,
    "src": "contando-dinheiro-23168.mp4",
    "offset": 1
-  },
-  {
-   "seg": 45,
-   "src": "grafico-tempo-real-47018.mp4",
-   "offset": 1
-  },
-  {
-   "seg": 46,
-   "src": "cidade-noite-aerea-42343.mp4",
-   "offset": 1
   }
  ],
  "overlays": [
@@ -545,11 +527,22 @@
    ]
   },
   {
+   "seg": 18,
+   "ate": 18,
+   "linhas": [
+    {
+     "t": "Selic hoje: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
    "seg": 19,
    "ate": 19,
    "linhas": [
     {
-     "t": "Selic hoje: 13,75%",
+     "t": "Selic 2026\n13,25% → 13,50%",
      "estilo": "Tit",
      "y": 820
     }
@@ -560,18 +553,18 @@
    "ate": 20,
    "linhas": [
     {
-     "t": "Selic 2026\n13,25% → 13,50%",
+     "t": "Selic 2027\n11,75% → 12,50%",
      "estilo": "Tit",
      "y": 820
     }
    ]
   },
   {
-   "seg": 21,
-   "ate": 21,
+   "seg": 24,
+   "ate": 24,
    "linhas": [
     {
-     "t": "Selic 2027\n11,75% → 12,50%",
+     "t": "PIB 2026\n1,80% → 1,76%",
      "estilo": "Tit",
      "y": 820
     }
@@ -582,7 +575,18 @@
    "ate": 25,
    "linhas": [
     {
-     "t": "PIB 2026\n1,80% → 1,76%",
+     "t": "O que muda pra você",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 26,
+   "ate": 26,
+   "linhas": [
+    {
+     "t": "1. Mercado e posto",
      "estilo": "Tit",
      "y": 820
     }
@@ -593,7 +597,7 @@
    "ate": 27,
    "linhas": [
     {
-     "t": "O que muda pra você",
+     "t": "2. Cartão",
      "estilo": "Tit",
      "y": 820
     }
@@ -604,7 +608,7 @@
    "ate": 28,
    "linhas": [
     {
-     "t": "1. Mercado e posto",
+     "t": "3. Financiamento",
      "estilo": "Tit",
      "y": 820
     }
@@ -615,29 +619,29 @@
    "ate": 29,
    "linhas": [
     {
-     "t": "2. Cartão",
-     "estilo": "Tit",
-     "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 30,
-   "ate": 30,
-   "linhas": [
-    {
-     "t": "3. Financiamento",
-     "estilo": "Tit",
-     "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 31,
-   "ate": 31,
-   "linhas": [
-    {
      "t": "Renda fixa",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 33,
+   "ate": 33,
+   "linhas": [
+    {
+     "t": "Passo 1: liste as dívidas",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 34,
+   "ate": 34,
+   "linhas": [
+    {
+     "t": "Passo 2: dívida mais cara",
      "estilo": "Tit",
      "y": 820
     }
@@ -648,7 +652,7 @@
    "ate": 35,
    "linhas": [
     {
-     "t": "Passo 1: liste as dívidas",
+     "t": "Passo 3: reserva",
      "estilo": "Tit",
      "y": 820
     }
@@ -659,7 +663,7 @@
    "ate": 36,
    "linhas": [
     {
-     "t": "Passo 2: dívida mais cara",
+     "t": "Passo 4: compare preços",
      "estilo": "Tit",
      "y": 820
     }
@@ -670,28 +674,6 @@
    "ate": 37,
    "linhas": [
     {
-     "t": "Passo 3: reserva",
-     "estilo": "Tit",
-     "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 38,
-   "ate": 38,
-   "linhas": [
-    {
-     "t": "Passo 4: compare preços",
-     "estilo": "Tit",
-     "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 39,
-   "ate": 39,
-   "linhas": [
-    {
      "t": "Passo 5: revise o orçamento",
      "estilo": "Tit",
      "y": 820
@@ -699,8 +681,8 @@
    ]
   },
   {
-   "seg": 42,
-   "ate": 42,
+   "seg": 40,
+   "ate": 40,
    "linhas": [
     {
      "t": "Resumo",
@@ -710,8 +692,8 @@
    ]
   },
   {
-   "seg": 46,
-   "ate": 46,
+   "seg": 44,
+   "ate": 44,
    "linhas": [
     {
      "t": "Manda pra alguém\nque precisa ouvir isso",
