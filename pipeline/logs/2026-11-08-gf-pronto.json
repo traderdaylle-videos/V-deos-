@@ -1,0 +1,63 @@
+{
+ "data": "2026-11-08",
+ "tema": "Boletim Focus 03/11/2026: IPCA 2026 5,22% (5,19%), IPCA 2027 4,76% (4,34%), dólar 2026 R$ 5,34 (R$ 5,05), Selic 2026 13,50% (13,25%), Selic 2027 12,50% (11,75%), PIB 2026 1,76% (1,80%); supermercado, importados, cartão, financiamento, renda fixa",
+ "gancho": "Mercado prevê inflação de 5,22%: seu supermercado pode ficar mais caro. (hookscore 83,0 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-focus-inflacao-curto-v2.mp4",
+  "capa": "granaefinancas/gf-focus-inflacao-curto-v2-capa.jpg",
+  "duracao": 54.4,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "IPCA em 5,22%: seu mercado fica mais caro?",
+  "ids": {
+   "reel": 420696310,
+   "short": 420696330
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-focus-inflacao-longo-v2.mp4",
+  "duracao": 269.5,
+  "horario": "10:20",
+  "titulo": "Inflação de 5,22% e juros altos: o que o Focus prevê pro seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:04",
+    "O que é o Boletim Focus"
+   ],
+   [
+    "0:33",
+    "Inflação"
+   ],
+   [
+    "1:21",
+    "Dólar"
+   ],
+   [
+    "1:54",
+    "Selic"
+   ],
+   [
+    "2:37",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:18",
+    "5 passos práticos"
+   ],
+   [
+    "4:01",
+    "Resumo"
+   ]
+  ],
+  "id": 420696406
+ },
+ "fontes": [
+  "InfoMoney, Boletim Focus 03/11/2026",
+  "IstoÉ Dinheiro, Focus 03/11/2026"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "obs": "nome sem -v2 já existia no media (mp4 antigo); specs renomeados para -v2"
+}
