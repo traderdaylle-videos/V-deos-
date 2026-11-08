@@ -1,63 +1,79 @@
 {
  "segs": [
   [
-   "Seus mil reais parados valem só novecentos e cinquenta no fim do ano.",
-   0.6
-  ],
-  [
-   "O Boletim Focus desta terça-feira mostrou que o mercado espera cinco vírgula vinte e dois por cento de inflação em dois mil e vinte e seis.",
-   0.6
-  ],
-  [
-   "Uma semana antes, era cinco vírgula zero um. A expectativa subiu.",
+   "Inflação de cinco vírgula vinte e dois por cento: o mercado prevê seu supermercado mais caro.",
    0.5
   ],
   [
-   "Inflação é o aumento geral dos preços. Quando ela sobe, cada real compra menos.",
+   "É o que mostra o Boletim Focus do Banco Central, divulgado na segunda-feira, três de novembro.",
    0.5
   ],
   [
-   "Isso passa do teto da meta do governo, que é quatro vírgula cinco por cento.",
-   0.6
-  ],
-  [
-   "O Focus é a pesquisa semanal do Banco Central com economistas. É expectativa, não garantia.",
+   "Toda semana, o Banco Central pergunta a economistas o que eles esperam pra inflação, juros e dólar.",
    0.5
   ],
   [
-   "Com inflação mais alta, o Banco Central tem menos espaço para baixar os juros. Hoje a Selic está em treze vírgula setenta e cinco.",
-   0.4
-  ],
-  [
-   "Juros altos deixam o cartão e o financiamento caros.",
+   "Em sete dias, a previsão do dólar pro fim do ano saltou de cinco reais e cinco centavos pra cinco reais e trinta e quatro.",
    0.5
   ],
   [
-   "Parado na conta, o dinheiro perde valor. Em silêncio.",
-   0.8
+   "A previsão da Selic no fim de dois mil e vinte e seis subiu de treze vírgula vinte e cinco pra treze vírgula cinquenta por cento.",
+   0.5
   ],
   [
-   "Epicteto ensinava: nem tudo depende de você. Mas o que você faz com o seu dinheiro, depende.",
-   0.7
+   "Pra dois mil e vinte e sete, subiu de onze vírgula setenta e cinco pra doze vírgula cinquenta.",
+   0.5
   ],
   [
-   "Hoje, compare o rendimento da sua reserva com a inflação prevista. Ela está ganhando?",
-   0.6
+   "Traduzindo: o mercado acha que o juro alto vai durar mais tempo.",
+   0.5
   ],
   [
-   "Seu dinheiro trabalha ou só espera? Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
-   0.2
+   "Dólar mais caro encarece produto importado, combustível e trigo, e isso pesa no preço do mercado.",
+   0.5
+  ],
+  [
+   "E juro alto mantém caros o cartão, o cheque especial e o financiamento.",
+   0.5
+  ],
+  [
+   "Você não controla o Focus. Mas controla quanta dívida cara carrega.",
+   0.5
+  ],
+  [
+   "Anote hoje a taxa de juros de cada dívida sua e quite a mais cara primeiro.",
+   0.5
+  ],
+  [
+   "Você olha o preço antes de comprar, ou só descobre no caixa?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
   ]
  ],
- "voice": {
-  "length_scale": 1.0,
-  "noise_scale": 0.72,
-  "noise_w": 0.9,
-  "pitch_semitons": -1.5
- },
  "target": [
   45,
   65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  4
+ ],
+ "keywords_gold": [
+  "INFLAÇÃO",
+  "FOCUS",
+  "JUROS",
+  "SELIC",
+  "DÓLAR",
+  "CARTÃO",
+  "RENDA FIXA",
+  "RESERVA",
+  "DÍVIDA",
+  "GRANA E FINANÇAS"
  ],
  "clips": [
   {
@@ -72,12 +88,12 @@
   },
   {
    "seg": 2,
-   "src": "cidade-noite-aerea-42343.mp4",
-   "offset": 3
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
   },
   {
    "seg": 3,
-   "src": "maquina-contando-dinheiro-49134.mp4",
+   "src": "cidade-noite-aerea-42343.mp4",
    "offset": 1
   },
   {
@@ -87,37 +103,42 @@
   },
   {
    "seg": 5,
-   "src": "cartao-compra-online-14009.mp4",
+   "src": "numeros-oculos-47792.mp4",
    "offset": 1
   },
   {
    "seg": 6,
-   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
-   "offset": 2
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
   },
   {
    "seg": 7,
-   "src": "corredor-colunas-estatuas-32893.mp4",
+   "src": "maquina-contando-dinheiro-49134.mp4",
    "offset": 1
   },
   {
    "seg": 8,
    "src": "homem-pensativo-duvida-47495.mp4",
-   "offset": 2
+   "offset": 1
   },
   {
    "seg": 9,
-   "src": "homem-escrevendo-46768.mp4",
+   "src": "mulher-graficos-ipad-45662.mp4",
    "offset": 1
   },
   {
    "seg": 10,
-   "src": "homem-pensando-rio-15777.mp4",
-   "offset": 6
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
   },
   {
    "seg": 11,
-   "src": "dinheiro-transacao-18247.mp4",
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 12,
+   "src": "escritorio-movimentado-918.mp4",
    "offset": 1
   }
  ],
@@ -127,12 +148,12 @@
    "ate": 0,
    "linhas": [
     {
-     "t": "R$ 1.000 → R$ 950",
+     "t": "IPCA 2026: 5,22%",
      "estilo": "Num",
      "y": 700
     },
     {
-     "t": "poder de compra\nno fim do ano",
+     "t": "projeção do mercado (Focus)",
      "estilo": "Sub",
      "y": 960,
      "t0": 0.3
@@ -144,15 +165,20 @@
    "ate": 1,
    "linhas": [
     {
-     "t": "5,22%",
-     "estilo": "Num",
-     "y": 700
-    },
+     "t": "Boletim Focus\n3 de novembro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
     {
-     "t": "inflação esperada\npara 2026",
-     "estilo": "Sub",
-     "y": 960,
-     "t0": 0.3
+     "t": "Dólar 2026\nR$ 5,05 → R$ 5,34",
+     "estilo": "Tit",
+     "y": 820
     }
    ]
   },
@@ -161,7 +187,40 @@
    "ate": 4,
    "linhas": [
     {
-     "t": "Teto da meta:\n4,5%",
+     "t": "Selic 2026\n13,25% → 13,50%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Selic 2027\n11,75% → 12,50%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Juro alto\npor mais tempo",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Importados\nmais caros",
      "estilo": "Tit",
      "y": 820
     }
@@ -172,26 +231,9 @@
    "ate": 8,
    "linhas": [
     {
-     "t": "Parado,\nele perde.",
+     "t": "Cartão e financiamento\ncaros",
      "estilo": "Tit",
      "y": 820
-    }
-   ]
-  },
-  {
-   "seg": 9,
-   "ate": 9,
-   "linhas": [
-    {
-     "t": "Nem tudo depende de você.\nO seu dinheiro, sim.",
-     "estilo": "Sub",
-     "y": 780
-    },
-    {
-     "t": "Epicteto",
-     "estilo": "Sub",
-     "y": 1000,
-     "t0": 0.8
     }
    ]
   },
@@ -200,15 +242,15 @@
    "ate": 10,
    "linhas": [
     {
-     "t": "Sua reserva rende\nmais que 5,22%?",
-     "estilo": "Sub",
-     "y": 800
+     "t": "Quite a dívida\nmais cara primeiro",
+     "estilo": "Tit",
+     "y": 820
     }
    ]
   },
   {
-   "seg": 11,
-   "ate": 11,
+   "seg": 12,
+   "ate": 12,
    "linhas": [
     {
      "t": "Manda pra alguém\nque precisa ouvir isso",
@@ -224,21 +266,8 @@
    ]
   }
  ],
- "impactos_seg": [
-  0,
-  1,
-  8,
-  11
- ],
- "keywords_gold": [
-  "NOVECENTOS E CINQUENTA",
-  "CINCO VÍRGULA VINTE E DOIS",
-  "PARADO",
-  "EPICTETO",
-  "GRANA E FINANÇAS"
- ],
  "output": "gf-focus-inflacao-curto.mp4",
  "motor": "gf",
  "pasta": "granaefinancas",
- "capa": "INFLAÇÃO EM 2026: MERCADO ESPERA 5,22%"
+ "capa": "IPCA 2026 EM 5,22%: SEU MERCADO FICA MAIS CARO?"
 }
