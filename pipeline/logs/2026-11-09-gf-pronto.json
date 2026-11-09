@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-09",
+ "tema": "Itaú 3T26 (balanço 3/11/2026): lucro recorrente R$ 12,6 bi, ROE 23,6%, margem com clientes R$ 33,3 bi, carteira R$ 1,54 tri, inadimplência >90d 2,0% (1,9% em jun), custo do crédito R$ 10,4 bi; Selic 13,75%; cartão, cheque especial, CET",
+ "gancho": "O Itaú ganhou R$ 12,6 bilhões em um trimestre: quem paga essa conta? (hookscore 73,0 STRONG; versão falada: 'O Itaú lucrou doze bilhões e seiscentos milhões de reais em apenas três meses. De onde sai esse dinheiro?')",
+ "curto": {
+  "arquivo": "granaefinancas/gf-itau-3t26-curto.mp4",
+  "capa": "granaefinancas/gf-itau-3t26-curto-capa.jpg",
+  "duracao": 54.2,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Itaú lucra R$ 12,6 bi: de onde vem?",
+  "legenda": "pergunta de juros/mês, Fonte balanço 3T26, CTA, 5 hashtags",
+  "ids": {
+   "reel": 421740671,
+   "short": 421740685
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-itau-3t26-longo.mp4",
+  "duracao": 267.8,
+  "horario": "10:20",
+  "titulo": "Itaú lucra R$ 12,6 bi em 3 meses: como um banco ganha dinheiro",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:19",
+    "O que é um balanço"
+   ],
+   [
+    "0:43",
+    "Como um banco ganha dinheiro"
+   ],
+   [
+    "1:12",
+    "Crédito e Selic"
+   ],
+   [
+    "1:57",
+    "Inadimplência"
+   ],
+   [
+    "2:21",
+    "ROE"
+   ],
+   [
+    "2:41",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:14",
+    "5 passos práticos"
+   ],
+   [
+    "3:51",
+    "Resumo"
+   ]
+  ],
+  "id": 421740778
+ },
+ "fontes": [
+  "Times Brasil/CNBC, Itaú lucra R$ 12,6 bi no 3T (3/11/2026)",
+  "Investidor10, Itaú supera R$ 12 bi no 3T26 (3/11/2026)",
+  "Money Times, Focus 9/11/2026 (Selic 2026 13,75%)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "obs": "1ª execução: primeira busca de Focus retornou data errada (março); corrigido. Fontes divergem na variação anual do lucro (6,2% x 6,7%), por isso não citada. Capa do curto com título OK; overlay inicial 'Itaú: R$ 12,6 bi' quebra em 2 linhas. add_repo indisponível nesta sessão, push funcionou normalmente."
+}
