@@ -1,0 +1,201 @@
+{
+ "segs": [
+  [
+   "A Embraer lucrou quinze vírgula seis por cento a menos. Mas você sabe quanto ela já vendeu?",
+   0.5
+  ],
+  [
+   "No terceiro trimestre, o lucro ajustado foi de trezentos e oitenta milhões de reais. O mercado esperava o dobro.",
+   0.5
+  ],
+  [
+   "A empresa culpou as despesas financeiras, o custo das dívidas. Com a Selic em treze vírgula setenta e cinco por cento, até gigante sente.",
+   0.5
+  ],
+  [
+   "Mas a receita foi de doze bilhões de reais, alta de onze por cento, recorde para um terceiro trimestre.",
+   0.5
+  ],
+  [
+   "E a carteira de pedidos chegou a trinta e cinco vírgula sete bilhões de dólares. Recorde da história da Embraer.",
+   0.5
+  ],
+  [
+   "Ela fabrica jatos comerciais, executivos e aviões militares. Entregou sessenta e seis aeronaves no trimestre.",
+   0.5
+  ],
+  [
+   "Com isso, elevou a projeção do ano: receita de oito vírgula quatro a oito vírgula seis bilhões de dólares.",
+   0.5
+  ],
+  [
+   "A lição: lucro do trimestre e pedidos futuros são coisas diferentes.",
+   0.5
+  ],
+  [
+   "Você não controla o juro. Mas controla quanto da sua renda vai embora em dívida.",
+   0.6
+  ],
+  [
+   "Hoje, some o que você paga de juros por mês. Quanto dá o seu?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-15,6%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "lucro da Embraer no 3T26",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Receita R$ 12 bi\n+11%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Pedidos recorde\nUS$ 35,7 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "66 aeronaves\nentregues no 3T26",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Projeção 2026\nUS$ 8,4 a 8,6 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Quanto você paga\nde juros por mês?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  4,
+  6,
+  9
+ ],
+ "keywords_gold": [
+  "EMBRAER",
+  "15,6%",
+  "PEDIDOS",
+  "JUROS",
+  "DÍVIDA",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-embraer-3t26-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "EMBRAER: LUCRO -15,6%, PEDIDOS US$ 35,7 BI"
+}
