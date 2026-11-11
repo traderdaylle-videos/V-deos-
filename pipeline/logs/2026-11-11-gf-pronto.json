@@ -1,0 +1,73 @@
+{
+ "data": "2026-11-11",
+ "tema": "Ambev 3T26 (balanço de 29/10/2026): lucro líquido R$ 4,36 bi (-10,2%), lucro ajustado +14,3% (R$ 4,39 bi), receita líquida R$ 21,59 bi (orgânica +7,6%), Ebitda ajustado R$ 7,27 bi (+8,9% orgânico, margem 33,7%), receita/hl +6,8%, volume cerveja Brasil +0,5%, ação -2,76% no dia, recompra até 190 mi de ações (~R$ 2,9 bi); Selic 13,75%; renda e orçamento",
+ "gancho": "A Ambev lucrou R$ 4,4 bilhões. Mas o lucro caiu 10,2%. Você sabe por quê? (hookscore 70,9 OK)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ambev-3t26-curto.mp4",
+  "capa": "granaefinancas/gf-ambev-3t26-curto-capa.jpg",
+  "duracao": 53.5,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Ambev lucra 10,2% menos: o que isso diz do seu bolso",
+  "legenda": "pergunta sobre o que ficou caro, Fonte balanço 3T26, CTA, 5 hashtags",
+  "ids": {
+   "reel": 424357435,
+   "short": 424357456
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ambev-3t26-longo.mp4",
+  "duracao": 261.3,
+  "horario": "10:20",
+  "titulo": "Ambev lucra 10,2% menos, mas o lucro ajustado sobe 14,3%: entenda",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:13",
+    "O que a Ambev faz"
+   ],
+   [
+    "0:38",
+    "Receita e lucro"
+   ],
+   [
+    "0:58",
+    "Por que o lucro caiu"
+   ],
+   [
+    "1:23",
+    "O que é Ebitda"
+   ],
+   [
+    "1:43",
+    "Receita por litro e volume"
+   ],
+   [
+    "2:21",
+    "Selic, ação e recompra"
+   ],
+   [
+    "3:09",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:22",
+    "4 passos práticos"
+   ],
+   [
+    "3:48",
+    "Resumo"
+   ]
+  ],
+  "id": 424357536
+ },
+ "fontes": [
+  "Euqueroinvestir: lucro líquido da Ambev recua 10,2% no 3T26 (29/10/2026)",
+  "Suno: Ambev ABEV3 lucro 3T26 supera (29/10/2026)",
+  "Investidor10: Ambev lucra R$ 4,4 bi e anuncia recompra (29/10/2026)"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "obs": "Balanço divulgado em 29/10 (IPCA de outubro ainda não saiu). Sem recomendação de compra/venda. add_repo indisponível nesta sessão; push funcionou."
+}
