@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-12",
+ "tema": "IPCA-15 de outubro/2026 (IBGE, 23/10): +0,32% (set +0,70%), 12 meses 4,62% (4,47%), 2026 4,15%; alimentação e bebidas +0,88%, alimentação no domicílio +1,01% (tomate +24,54%, cebola +13,63%, batata +10,96%); energia -0,89%, passagens aéreas -9,24%; meta 3% (teto 4,5%); Selic 13,75%; cartão, renda fixa, orçamento",
+ "gancho": "Inflação de 0,32%, mas o tomate subiu 24,54%. Você sabe por quê? (hookscore 78,7 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ipca15-outubro-curto.mp4",
+  "capa": "granaefinancas/gf-ipca15-outubro-curto-capa.jpg",
+  "duracao": 55.2,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Inflação de 0,32%, mas o tomate subiu 24,54%",
+  "legenda": "pergunta sobre item do mercado, Fonte IBGE IPCA-15, CTA, 5 hashtags",
+  "ids": {
+   "reel": 425619151,
+   "short": 425619173
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ipca15-outubro-longo.mp4",
+  "duracao": 271.6,
+  "horario": "10:15",
+  "titulo": "IPCA-15 de outubro: inflação cai a 0,32%, mas o tomate sobe 24,54%",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:15",
+    "O que é o IPCA-15"
+   ],
+   [
+    "0:36",
+    "Os números do mês"
+   ],
+   [
+    "0:51",
+    "Energia e passagens"
+   ],
+   [
+    "1:10",
+    "Comida em casa"
+   ],
+   [
+    "1:48",
+    "A média engana"
+   ],
+   [
+    "2:10",
+    "Acumulado e meta"
+   ],
+   [
+    "2:43",
+    "Selic e juros"
+   ],
+   [
+    "3:12",
+    "Renda fixa"
+   ],
+   [
+    "3:20",
+    "5 passos práticos"
+   ],
+   [
+    "3:54",
+    "Resumo"
+   ]
+  ],
+  "id": 425619274
+ },
+ "fontes": [
+  "IBGE: IPCA-15 outubro 2026 (23/10/2026)",
+  "Jornal GGN: IPCA-15 desacelera para 0,32% em outubro (23/10/2026)",
+  "JB, Mixvale, bpmoney: IPCA-15 0,32% e 4,62% em 12 meses"
+ ],
+ "formato": "aula de educação financeira (tarefa agendada)",
+ "obs": "IPCA cheio de outubro não encontrado nas buscas; usado o IPCA-15 (23/10). Sem recomendação de compra/venda. add_repo indisponível nesta sessão; push funcionou."
+}
