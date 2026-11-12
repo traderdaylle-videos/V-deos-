@@ -1,0 +1,266 @@
+{
+ "segs": [
+  [
+   "Inflação de zero vírgula trinta e dois por cento, mas o tomate subiu vinte e quatro vírgula cinquenta e quatro por cento. Você sabe por quê?",
+   0.5
+  ],
+  [
+   "É o IPCA quinze de outubro, a prévia da inflação oficial do IBGE.",
+   0.5
+  ],
+  [
+   "Em setembro, foi zero vírgula setenta. Em outubro, desacelerou para zero vírgula trinta e dois.",
+   0.5
+  ],
+  [
+   "A energia elétrica caiu zero vírgula oitenta e nove por cento, e as passagens aéreas, nove vírgula vinte e quatro.",
+   0.5
+  ],
+  [
+   "Mas a comida em casa subiu um por cento. O tomate disparou vinte e quatro vírgula cinquenta e quatro.",
+   0.5
+  ],
+  [
+   "A cebola subiu treze vírgula sessenta e três, e a batata, quase onze por cento.",
+   0.5
+  ],
+  [
+   "Em doze meses, a inflação chegou a quatro vírgula sessenta e dois por cento.",
+   0.5
+  ],
+  [
+   "Com a Selic em treze vírgula setenta e cinco, o crédito segue caro, e o cartão pesa.",
+   0.5
+  ],
+  [
+   "A lição: o número geral esconde o que pesa no seu prato. Importa a sua inflação.",
+   0.5
+  ],
+  [
+   "Anote o que você compra todo mês. Seu carrinho encareceu mais que a média?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  6
+ ],
+ "keywords_gold": [
+  "IPCA",
+  "INFLAÇÃO",
+  "MERCADO",
+  "TOMATE",
+  "ALIMENTOS",
+  "SELIC",
+  "JUROS",
+  "CARTÃO",
+  "RENDA",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "homem-mar-tranquilo-26667.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+24,54%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "preço do tomate em outubro",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "IPCA-15 de outubro",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "0,70% → 0,32%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Energia: -0,89%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Comida em casa\n+1,01%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Cebola: +13,63%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "12 meses: 4,62%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Sua inflação",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Anote seus gastos",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 10,
+   "ate": 10,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-ipca15-outubro-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "IPCA-15 EM 0,32%: MAS O TOMATE SUBIU 24,54%"
+}
