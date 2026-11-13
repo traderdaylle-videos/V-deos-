@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-13",
+ "tema": "Banco do Brasil 3T26 (balanço de 11/11/2026): lucro ajustado R$ 1,27 bi (-66,5%), ROE 2,8% (8,4%), inadimplência >90d 6,08% (4,51%), agro 6,92%, pessoa física 9,14%, custo do crédito R$ 21,2 bi (+18,4%), projeção 2026 de R$ 18-22 bi para R$ 9-11 bi, dividendos 25%; ação -8,34% (menor fechamento desde abril/2023); dólar R$ 5,65 (+1,60%, maior desde jun/2025), Ibovespa -0,43% a 171.324; Selic 13,75%; crédito, cartão, dívidas",
+ "gancho": "Banco do Brasil: lucro caiu 66,5% por um problema que atinge você. (hookscore 81,6 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-bb-3t26-curto.mp4",
+  "capa": "granaefinancas/gf-bb-3t26-curto-capa.jpg",
+  "duracao": 52.3,
+  "horario": "09:50 (Reels) / 09:55 (Short)",
+  "titulo_short": "Banco do Brasil: lucro cai 66,5% e o calote sobe",
+  "legenda": "pergunta sobre dívidas, Fonte, CTA, 5 hashtags",
+  "ids": {
+   "reel": 426894124,
+   "short": 426894146
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-bb-3t26-longo.mp4",
+  "duracao": 267.2,
+  "horario": "10:10",
+  "titulo": "Banco do Brasil: lucro cai 66,5% e o calote sobe | O que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:16",
+    "Quem é o Banco do Brasil"
+   ],
+   [
+    "0:39",
+    "Os números do balanço"
+   ],
+   [
+    "1:03",
+    "O calote sobe"
+   ],
+   [
+    "1:52",
+    "Projeção cortada"
+   ],
+   [
+    "2:16",
+    "Ação e dólar"
+   ],
+   [
+    "2:50",
+    "O que muda para você"
+   ],
+   [
+    "3:20",
+    "5 passos práticos"
+   ],
+   [
+    "3:51",
+    "Resumo"
+   ]
+  ],
+  "id": 426894247
+ },
+ "fontes": [
+  "Agência Brasil: Lucro do BB cai 66,5% no 3º trimestre (11/11/2026)",
+  "O Tempo/Folhapress: Dólar dispara e fecha no maior valor desde junho de 2025 (12/11/2026)",
+  "Trademap: Ibovespa fecha em baixa (12/11/2026)"
+ ],
+ "formato": "balanço de grande empresa + educação financeira (tarefa agendada)",
+ "obs": "Sem recomendação de compra/venda. add_repo indisponível nesta sessão; push funcionou."
+}
