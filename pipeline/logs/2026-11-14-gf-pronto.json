@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-14",
+ "tema": "Petrobras 3T26 (balanço de 10-11/11/2026): lucro líquido R$ 39,7 bi (+21,5% a/a; -24% vs 2T26), Ebitda ajustado R$ 85,8 bi, caixa operacional R$ 61,8 bi (+15%), proventos R$ 15,3 bi (R$ 1,19/ação), investimento 2026 de US$ 19,4 bi para US$ 24-25,5 bi, dívida líquida US$ 57,8 bi, produção 3,51 mi boe/d, diesel recorde; PETR4 -3,11% a R$ 43,55; dólar R$ 5,657 (+2,63% na semana), Ibovespa 172.457 (+0,66%); Selic 13,75%; combustíveis, frete, proventos",
+ "gancho": "Petrobras: o lucro subiu 21,5%, mas a ação caiu e isso atinge você. (hookscore 78,7 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-petrobras-3t26-curto.mp4",
+  "capa": "granaefinancas/gf-petrobras-3t26-curto-capa.jpg",
+  "duracao": 55.6,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Petrobras: lucro sobe 21,5% e a ação cai",
+  "legenda": "pergunta sobre notícia de empresa, Fonte, CTA, 5 hashtags",
+  "ids": {
+   "reel": 427959198,
+   "short": 427959209
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-petrobras-3t26-longo.mp4",
+  "duracao": 283.2,
+  "horario": "10:15",
+  "titulo": "Petrobras: lucro sobe 21,5% e a ação cai | O que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Intro"
+   ],
+   [
+    "0:17",
+    "Quem é a Petrobras"
+   ],
+   [
+    "0:41",
+    "Os números do balanço"
+   ],
+   [
+    "1:13",
+    "Produção e diesel"
+   ],
+   [
+    "1:28",
+    "O que são proventos"
+   ],
+   [
+    "1:49",
+    "Investimento maior"
+   ],
+   [
+    "2:18",
+    "A ação cai"
+   ],
+   [
+    "2:39",
+    "Dívida e tributos"
+   ],
+   [
+    "3:00",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:32",
+    "5 passos práticos"
+   ],
+   [
+    "4:08",
+    "Resumo"
+   ]
+  ],
+  "id": 427959370
+ },
+ "fontes": [
+  "InfoMoney: Petrobras ações fecham em baixa após provento abaixo e capex acima (3T26)",
+  "Jornal do Brasil: Petrobras lucra R$ 39,8 bi no 3T26 e eleva previsão de produção",
+  "A Crítica: dólar acumula alta de 2,63% na semana e bolsa fecha sexta em alta (13/11/2026)"
+ ],
+ "formato": "balanço de grande empresa + educação financeira (tarefa agendada)",
+ "obs": "Fontes divergem entre lucro R$ 39,7 bi e R$ 39,8 bi; usado 39,7. Sem recomendação de compra/venda. add_repo/register_repo_root indisponíveis nesta sessão; push funcionou. Id do longo mudou para 427959370 após correção da descrição."
+}
