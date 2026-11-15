@@ -1,0 +1,85 @@
+{
+ "data": "2026-11-15",
+ "tema": "IPCA de outubro/2026 (IBGE, 12/11/2026): +0,14% (set +0,82%), 12 meses 4,63% (4,58%), 2026 4,10%; teto da meta 4,5% (centro 3%); alimentação e bebidas +1,04%, comida em casa +1,31% (tomate +19,57%, cebola +11,29%, arroz +4,81%, carnes +2,27%); energia -1,92% (bandeira amarela para verde), passagens aéreas -9,21%, gasolina -0,56%, diesel +1,66%; INPC 0,22% (12 meses 4,49%); Selic 13,75%; cartão, renda fixa real, orçamento",
+ "gancho": "A inflação passou de 4,5% e o seu mercado já sentiu. (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ipca-out26-curto.mp4",
+  "capa": "granaefinancas/gf-ipca-out26-curto-capa.jpg",
+  "duracao": 51.3,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "IPCA 4,63%: a inflação furou o teto da meta",
+  "legenda": "pergunta sobre a inflação no bolso, Fonte IBGE, CTA, 5 hashtags",
+  "ids": {
+   "reel": 428837803,
+   "short": 428837821
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ipca-out26-longo.mp4",
+  "duracao": 257.1,
+  "horario": "10:15",
+  "titulo": "IPCA 4,63%: a inflação furou o teto da meta | O que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:17",
+    "O que é o IPCA"
+   ],
+   [
+    "0:38",
+    "IPCA de outubro: 0,14%"
+   ],
+   [
+    "0:46",
+    "Inflação em 12 meses: 4,63%"
+   ],
+   [
+    "0:53",
+    "A meta de inflação e o teto de 4,5%"
+   ],
+   [
+    "1:09",
+    "O que pesou: alimentos"
+   ],
+   [
+    "1:36",
+    "O que segurou: energia"
+   ],
+   [
+    "1:53",
+    "Transportes e combustíveis"
+   ],
+   [
+    "2:12",
+    "Selic e juros"
+   ],
+   [
+    "2:41",
+    "Cartão e crédito"
+   ],
+   [
+    "2:56",
+    "Rendimento real"
+   ],
+   [
+    "3:25",
+    "Orçamento da casa"
+   ],
+   [
+    "3:41",
+    "Resumo"
+   ],
+   [
+    "3:58",
+    "Sua vez: comente"
+   ]
+  ],
+  "ids": {
+   "youtube": 428837889
+  }
+ },
+ "falhas": []
+}
