@@ -1,0 +1,226 @@
+{
+ "segs": [
+  [
+   "A inflação passou de quatro vírgula cinco por cento e o seu mercado já sentiu.",
+   0.5
+  ],
+  [
+   "O IPCA de outubro subiu só zero vírgula catorze por cento. Mas, em doze meses, chegou a quatro vírgula sessenta e três, acima do teto da meta.",
+   0.5
+  ],
+  [
+   "Quem pesou foi a comida. Alimentação e bebidas subiram um vírgula zero quatro por cento no mês.",
+   0.5
+  ],
+  [
+   "O tomate subiu dezenove vírgula cinquenta e sete por cento, a cebola, onze vírgula vinte e nove, e o arroz, quatro vírgula oitenta e um.",
+   0.5
+  ],
+  [
+   "A conta de luz segurou o índice: caiu um vírgula noventa e dois por cento, com a bandeira verde.",
+   0.5
+  ],
+  [
+   "Inflação acima do teto dificulta cortar juros. A Selic segue em treze vírgula setenta e cinco por cento, e o cartão continua caro.",
+   0.5
+  ],
+  [
+   "Dinheiro parado perde valor todo mês. Compare o que o seu rende com a inflação de doze meses.",
+   0.5
+  ],
+  [
+   "Você sente mais a inflação do índice ou a do seu bolso? Conta nos comentários.",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  5
+ ],
+ "keywords_gold": [
+  "INFLAÇÃO",
+  "IPCA",
+  "TETO DA META",
+  "SELIC",
+  "JUROS",
+  "ALIMENTOS",
+  "TOMATE",
+  "ENERGIA",
+  "CARTÃO",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "homem-contando-dinheiro-ansioso-49438.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-mar-tranquilo-26667.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "4,63%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "inflação em 12 meses",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "IPCA out: 0,14%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Alimentos: +1,04%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Tomate: +19,57%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Energia: -1,92%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Inflação x rendimento",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Sua inflação",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-ipca-out26-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "IPCA 4,63%: INFLAÇÃO FURA O TETO DA META"
+}
