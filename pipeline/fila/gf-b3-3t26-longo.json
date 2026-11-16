@@ -1,0 +1,677 @@
+{
+ "formato": "16:9",
+ "segs": [
+  [
+   "Você perde na bolsa, mas a B3 lucra: um vírgula seis bilhão de reais em apenas três meses. Você sabe como isso é possível?",
+   0.5
+  ],
+  [
+   "Neste vídeo, você vai entender o balanço da B3, como a bolsa brasileira ganha dinheiro, por que o volume importa mais que o preço e o que isso muda para quem investe.",
+   0.5
+  ],
+  [
+   "Primeiro, o que é a B3. É a empresa que administra a bolsa de valores do Brasil, o lugar onde acontecem as compras e vendas de ações, de contratos futuros e de opções.",
+   0.5
+  ],
+  [
+   "Pense na B3 como o dono de um grande shopping. Ele não vende as mercadorias, mas cobra uma parte de cada venda feita dentro dele.",
+   0.5
+  ],
+  [
+   "Na prática, toda vez que alguém compra ou vende uma ação, paga uma pequena taxa. A B3 recebe, quer o investidor tenha lucro, quer tenha prejuízo.",
+   0.5
+  ],
+  [
+   "É por isso que a receita dela depende do volume negociado, e não do preço das ações. Bolsa em alta ou em queda, se muita gente negocia, a B3 ganha.",
+   0.5
+  ],
+  [
+   "Agora, os números. A B3 divulgou o balanço do terceiro trimestre na noite de doze de novembro de dois mil e vinte e seis.",
+   0.5
+  ],
+  [
+   "A receita líquida foi de dois vírgula setenta e seis bilhões de reais, alta de onze por cento sobre o mesmo período do ano anterior.",
+   0.5
+  ],
+  [
+   "O lucro líquido contábil chegou a um vírgula seiscentos e vinte e seis bilhão de reais, uma alta de trinta vírgula cinco por cento.",
+   0.5
+  ],
+  [
+   "Mas atenção, porque esse número tem um detalhe. Ele inclui um benefício fiscal de duzentos e setenta e sete milhões de reais, ligado a juros sobre capital próprio extraordinários.",
+   0.5
+  ],
+  [
+   "Quando se tira esse efeito pontual, chega-se ao lucro recorrente, que mostra o ritmo normal do negócio.",
+   0.5
+  ],
+  [
+   "O lucro recorrente foi de um vírgula trinta e oito bilhão de reais, alta de nove vírgula nove por cento. Cresceu, mas bem menos do que o lucro contábil.",
+   0.5
+  ],
+  [
+   "Por isso, quando você vir uma manchete com um número grande de lucro, vale perguntar se ele é recorrente ou se tem um efeito que não vai se repetir.",
+   0.5
+  ],
+  [
+   "O que impulsionou o resultado? O volume. Em outubro, a bolsa negociou, em média, sessenta e um vírgula um bilhões de reais por dia, um recorde mensal.",
+   0.5
+  ],
+  [
+   "No mercado à vista, que é a compra e venda de ações do dia a dia, o volume médio do trimestre foi de vinte e sete vírgula três bilhões por dia, alta de vinte e cinco vírgula quatro por cento.",
+   0.5
+  ],
+  [
+   "Mais gente negociando significa mais taxas. É o ciclo que alimenta a receita da B3.",
+   0.5
+  ],
+  [
+   "A empresa também ganha com outros negócios, como dados, tecnologia e infraestrutura para o mercado de renda fixa e de crédito.",
+   0.5
+  ],
+  [
+   "Esses negócios dependem menos do humor da bolsa, e ajudam a manter a receita mais estável quando o volume de ações esfria.",
+   0.5
+  ],
+  [
+   "Agora, a eficiência. A margem operacional recorrente ficou em sessenta e oito por cento da receita líquida.",
+   0.5
+  ],
+  [
+   "Em termos simples: de cada cem reais que entram, sessenta e oito sobram como resultado da operação, antes de juros, impostos e depreciação.",
+   0.5
+  ],
+  [
+   "É uma margem muito alta, típica de quem vende um serviço sem precisar produzir mercadorias.",
+   0.5
+  ],
+  [
+   "Mas há um ponto de atenção. As despesas operacionais subiram dezessete vírgula quatro por cento em um ano, mais rápido que a receita.",
+   0.5
+  ],
+  [
+   "Se isso continuar, a margem vai sendo comprimida. É um dos itens que os analistas acompanham de perto.",
+   0.5
+  ],
+  [
+   "E o dinheiro dos acionistas? Neste trimestre, a B3 devolveu cerca de um vírgula cinco bilhão de reais.",
+   0.5
+  ],
+  [
+   "Foram um vírgula cento e vinte e oito bilhão em juros sobre capital próprio e trezentos e oitenta e três milhões em recompra de ações.",
+   0.5
+  ],
+  [
+   "Recomprar ações é uma forma de devolver dinheiro: com menos ações no mercado, o lucro é dividido entre menos papéis, e o lucro por ação sobe.",
+   0.5
+  ],
+  [
+   "Só que parte desse pagamento foi extraordinária, de setecentos e cinquenta milhões de reais. Esse tipo de pagamento não costuma se repetir todo trimestre.",
+   0.5
+  ],
+  [
+   "Agora, o risco para o futuro. Hoje a B3 tem praticamente o monopólio da negociação de ações e derivativos no Brasil.",
+   0.5
+  ],
+  [
+   "Mas estão previstas duas concorrentes. Uma bolsa de derivativos, a A5X, deve chegar no primeiro semestre de dois mil e vinte e sete.",
+   0.5
+  ],
+  [
+   "E outra, a Base Exchange, para ações, fundos e fundos imobiliários, deve chegar no segundo semestre do mesmo ano.",
+   0.5
+  ],
+  [
+   "Com concorrência, a B3 pode precisar reduzir tarifas e dar incentivos para manter os clientes, o que pesa nas margens.",
+   0.5
+  ],
+  [
+   "E o que isso tem a ver com o seu dinheiro? Primeiro, o juro. A Selic está em treze vírgula setenta e cinco por cento ao ano.",
+   0.5
+  ],
+  [
+   "Com um juro desses, a renda fixa paga bem e compete com a bolsa pela atenção de quem investe.",
+   0.5
+  ],
+  [
+   "Segundo, o custo. Quem investe em ações paga taxas de negociação e de custódia, e quem negocia muito paga mais vezes.",
+   0.5
+  ],
+  [
+   "Esses custos ficam pequenos em cada operação, mas, somados ao longo do ano, comem parte do retorno, principalmente de quem compra e vende toda hora.",
+   0.5
+  ],
+  [
+   "Por isso, entender como a bolsa ganha dinheiro ajuda a decidir quanto você realmente quer operar.",
+   0.5
+  ],
+  [
+   "Terceiro, o imposto. Ganhos na bolsa podem ter imposto de renda, e as regras mudam conforme o tipo de operação. Confira sempre a regra atual.",
+   0.5
+  ],
+  [
+   "Então, três perguntas práticas. Quanto eu pago de taxas por ano? Quanto do meu retorno sobra depois de custos e imposto?",
+   0.5
+  ],
+  [
+   "E o que rende mais para o meu objetivo: operar toda hora, ou investir com calma e diversificar?",
+   0.5
+  ],
+  [
+   "No fim, o balanço da B3 mostra uma lição simples: quem administra o mercado ganha com o movimento, e o seu papel é cuidar do próprio dinheiro com atenção.",
+   0.5
+  ],
+  [
+   "Agora é com você. Você olha as taxas dos seus investimentos? Comenta aí.",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  240,
+  330
+ ],
+ "impactos_seg": [
+  0,
+  2,
+  8,
+  18
+ ],
+ "keywords_gold": [
+  "B3",
+  "LUCRO",
+  "BOLSA",
+  "VOLUME",
+  "TAXAS",
+  "MARGEM",
+  "SELIC",
+  "RENDA FIXA",
+  "INVESTIR",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 10,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 11,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 12,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 13,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 14,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 15,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 16,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 17,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 18,
+   "src": "tendencia-tela-9607.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 19,
+   "src": "mulher-graficos-ipad-45662.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 20,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 21,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 22,
+   "src": "pai-brincando-filho-7681.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 23,
+   "src": "relaxando-por-do-sol-33968.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 24,
+   "src": "familia-caminhando-por-do-sol-6472.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 25,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 26,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 27,
+   "src": "corredor-colunas-estatuas-32893.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 28,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 29,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 30,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 31,
+   "src": "indicadores-negativos-3d-26759.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 32,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 33,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 34,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 35,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 36,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 37,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 38,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 39,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 40,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 41,
+   "src": "homem-mar-tranquilo-26667.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "R$ 1,6 bi",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "lucro da B3 em 3 meses",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "O que é a B3",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Taxa em cada negócio",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Ganha com volume",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Receita: R$ 2,76 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Lucro: R$ 1,63 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 9,
+   "ate": 9,
+   "linhas": [
+    {
+     "t": "Efeito fiscal pontual",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 11,
+   "ate": 11,
+   "linhas": [
+    {
+     "t": "Recorrente: R$ 1,38 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 13,
+   "ate": 13,
+   "linhas": [
+    {
+     "t": "Volume: R$ 61,1 bi/dia",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 14,
+   "ate": 14,
+   "linhas": [
+    {
+     "t": "À vista: +25,4%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 17,
+   "ate": 17,
+   "linhas": [
+    {
+     "t": "Margem: 68%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 20,
+   "ate": 20,
+   "linhas": [
+    {
+     "t": "Despesas: +17,4%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 22,
+   "ate": 22,
+   "linhas": [
+    {
+     "t": "Devolveu R$ 1,5 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 24,
+   "ate": 24,
+   "linhas": [
+    {
+     "t": "Recompra de ações",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 27,
+   "ate": 27,
+   "linhas": [
+    {
+     "t": "Concorrência em 2027",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 28,
+   "ate": 28,
+   "linhas": [
+    {
+     "t": "A5X e Base Exchange",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 31,
+   "ate": 31,
+   "linhas": [
+    {
+     "t": "Selic: 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 33,
+   "ate": 33,
+   "linhas": [
+    {
+     "t": "O custo das taxas",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 36,
+   "ate": 36,
+   "linhas": [
+    {
+     "t": "Imposto",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 37,
+   "ate": 37,
+   "linhas": [
+    {
+     "t": "3 perguntas",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 39,
+   "ate": 39,
+   "linhas": [
+    {
+     "t": "Lição final",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 40,
+   "ate": 40,
+   "linhas": [
+    {
+     "t": "Comenta aí",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 41,
+   "ate": 41,
+   "linhas": [
+    {
+     "t": "Manda pra alguém\nque precisa ouvir isso",
+     "estilo": "Sub",
+     "y": 640
+    },
+    {
+     "t": "@granaefinancas",
+     "estilo": "Handle",
+     "y": 880,
+     "t0": 1.6
+    }
+   ]
+  }
+ ],
+ "output": "gf-b3-3t26-longo.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
