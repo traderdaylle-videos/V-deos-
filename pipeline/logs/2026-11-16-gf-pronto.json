@@ -1,0 +1,80 @@
+{
+ "data": "2026-11-16",
+ "tema": "B3 3T26 (balanço de 12/11/2026): lucro líquido R$ 1,626 bi (+30,5%), recorrente R$ 1,38 bi (+9,9%), benefício fiscal pontual R$ 277,5 mi, receita líquida R$ 2,76 bi (+11%), margem Ebitda ~68%, despesas +17,4%, volume recorde em outubro R$ 61,1 bi/dia, retorno a acionistas R$ 1,5 bi, concorrência A5X (1S27) e Base Exchange (2S27); Selic 13,75%; taxas, custos, renda fixa x bolsa",
+ "gancho": "Você perde na bolsa, mas a B3 lucra: 1,6 bilhão. (hookscore 100 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-b3-3t26-curto.mp4",
+  "capa": "granaefinancas/gf-b3-3t26-curto-capa.jpg",
+  "duracao": 59.3,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "B3 lucra R$ 1,6 bi até quando você perde",
+  "legenda": "pergunta sobre taxas, Fonte B3/Genial, CTA, 5 hashtags",
+  "ids": {
+   "reel": 429991078,
+   "short": 429991108
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-b3-3t26-longo.mp4",
+  "duracao": 278.8,
+  "horario": "10:15",
+  "titulo": "B3 lucra R$ 1,6 bi: como a bolsa ganha dinheiro | O que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:16",
+    "O que é a B3"
+   ],
+   [
+    "0:40",
+    "Como a bolsa ganha dinheiro"
+   ],
+   [
+    "0:48",
+    "Resultado do 3T26"
+   ],
+   [
+    "1:18",
+    "Lucro contábil x recorrente"
+   ],
+   [
+    "1:39",
+    "Volume recorde"
+   ],
+   [
+    "2:09",
+    "Margem operacional"
+   ],
+   [
+    "2:37",
+    "Dinheiro aos acionistas"
+   ],
+   [
+    "3:09",
+    "Concorrência em 2027"
+   ],
+   [
+    "3:33",
+    "O que isso muda no seu bolso"
+   ],
+   [
+    "4:17",
+    "Três perguntas práticas"
+   ],
+   [
+    "4:31",
+    "Conclusão"
+   ]
+  ],
+  "ids": {
+   "youtube": 429991199
+  }
+ },
+ "fontes": [
+  "melhorinvestimento.net B3 3T26",
+  "Genial Investimentos B3SA3 3T26"
+ ]
+}
