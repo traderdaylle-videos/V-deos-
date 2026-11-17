@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-17",
+ "tema": "Dólar a R$ 5,7777 (+2,17% em 16/11/2026, maior valor desde abr/2025, Agência Brasil/Canal Rural); Ibovespa -1,83% a 169.295 pts; Nasdaq -2,49%, Dow -1,41%; Vale -4,41% a R$ 60,70; Petrobras ON -3,24%, PN -2,83%; Itaú -2,29%, Bradesco -2%, Ambev +0,51%; euro R$ 6,357 (+1,97%); Selic 13,75%, CDI 13,65%; US$ 100 = R$ 565,70 -> R$ 577,77; importados, inflação, câmbio",
+ "gancho": "O dólar chegou a R$ 5,78 e o seu café já sente isso. (hookscore 94,3 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-5-78-curto.mp4",
+  "capa": "granaefinancas/gf-dolar-5-78-curto-capa.jpg",
+  "duracao": 55.5,
+  "horario": "10:05 (Reels) / 10:10 (Short)",
+  "titulo_short": "Dólar a R$ 5,78: o maior em 15 meses",
+  "legenda": "pergunta comprar agora ou esperar, Fonte Canal Rural/Agência Brasil, CTA, 5 hashtags",
+  "ids": {
+   "reel": 431378403,
+   "short": 431378436
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-5-78-longo.mp4",
+  "duracao": 278.9,
+  "horario": "10:25",
+  "titulo": "Dólar a R$ 5,78: por que subiu e o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:21",
+    "O que é câmbio"
+   ],
+   [
+    "0:53",
+    "O que aconteceu na Bolsa"
+   ],
+   [
+    "1:13",
+    "Por que o investidor compra dólar"
+   ],
+   [
+    "1:40",
+    "Vale, Petrobras e bancos"
+   ],
+   [
+    "2:23",
+    "O que muda no seu bolso"
+   ],
+   [
+    "3:26",
+    "Quatro ideias práticas"
+   ],
+   [
+    "4:04",
+    "Epicteto e o que você controla"
+   ],
+   [
+    "4:12",
+    "Resumo"
+   ]
+  ],
+  "ids": {
+   "youtube": 431378533
+  }
+ },
+ "fontes": [
+  "Canal Rural fechamento 16/11/2026",
+  "Agência Brasil dólar maior valor desde abril de 2025",
+  "InfoMoney ao vivo 16/11/2026"
+ ]
+}
