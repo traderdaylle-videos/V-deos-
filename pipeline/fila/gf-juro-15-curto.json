@@ -5,7 +5,7 @@
    0.5
   ],
   [
-   "Na terça, o juro futuro para dois mil e trinta e cinco fechou em quinze vírgula cento e quarenta e cinco por cento. Para dois mil e vinte e oito, catorze vírgula quatro.",
+   "Na terça, o juro futuro para dois mil e trinta e cinco fechou em quinze vírgula quinze por cento.",
    0.5
   ],
   [
@@ -17,7 +17,7 @@
    0.5
   ],
   [
-   "Na terça, ele recuou com o mercado de olho no ajuste fiscal, de até sessenta bilhões de reais em dois mil e vinte e sete.",
+   "Na terça, ele recuou, com o mercado de olho no ajuste fiscal.",
    0.5
   ],
   [
@@ -25,7 +25,7 @@
    0.5
   ],
   [
-   "Na renda fixa, juro alto paga mais. Mas travar dinheiro por muitos anos exige olhar o risco, não só a taxa.",
+   "Na renda fixa, juro alto paga mais, mas travar dinheiro por anos exige olhar o risco.",
    0.5
   ],
   [
@@ -135,7 +135,7 @@
    "ate": 1,
    "linhas": [
     {
-     "t": "DI 2035: 15,145%\nDI 2028: 14,4%",
+     "t": "DI 2035: 15,145%",
      "estilo": "Tit",
      "y": 820
     }
@@ -157,7 +157,7 @@
    "ate": 4,
    "linhas": [
     {
-     "t": "Ajuste fiscal\naté R$ 60 bi em 2027",
+     "t": "Ajuste fiscal\nno Senado",
      "estilo": "Tit",
      "y": 820
     }
