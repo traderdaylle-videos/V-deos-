@@ -1,0 +1,74 @@
+{
+ "data": "2026-11-18",
+ "tema": "Juro futuro de 10 anos acima de 15% (17/11/2026): DI jan/2035 15,145% (ant. 15,348%), DI jan/2028 14,4% (ant. 14,556%); Selic 13,75%; ajuste fiscal no Senado até R$ 60 bi em 2027; Ibovespa +0,31% a 169.817; dólar R$ 5,781; IPCA 12m 4,63%; crédito, financiamento, renda fixa (CNN Brasil, InfoMoney/Reuters)",
+ "gancho": "O juro de 10 anos está em 15% e o seu crédito já sente isso. (hookscore 79,2 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-juro-15-curto.mp4",
+  "capa": "granaefinancas/gf-juro-15-curto-capa.jpg",
+  "duracao": 48.3,
+  "horario": "09:45 (Reels) / 09:50 (Short)",
+  "titulo_short": "Juro de 10 anos passa de 15%: seu crédito sente",
+  "legenda": "pergunta sobre crédito, Fonte CNN Brasil/InfoMoney, CTA, 5 hashtags",
+  "ids": {
+   "reel": 432751943,
+   "short": 432751970
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-juro-15-longo.mp4",
+  "duracao": 254.2,
+  "horario": "10:15",
+  "titulo": "Juro de 10 anos passa de 15%: o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:15",
+    "O que é juro e Selic"
+   ],
+   [
+    "0:22",
+    "Juro futuro e contratos de DI"
+   ],
+   [
+    "0:48",
+    "Por que o prazo longo custa mais"
+   ],
+   [
+    "1:20",
+    "O que aconteceu nesta semana"
+   ],
+   [
+    "1:55",
+    "Efeitos no seu bolso"
+   ],
+   [
+    "2:28",
+    "O lado do investidor em renda fixa"
+   ],
+   [
+    "2:52",
+    "Inflação e Banco Central"
+   ],
+   [
+    "3:09",
+    "O que fazer: quatro ideias"
+   ],
+   [
+    "3:52",
+    "Resumo"
+   ]
+  ],
+  "ids": {
+   "youtube": 432781022
+  }
+ },
+ "fontes": [
+  "CNN Brasil fechamento 17/11/2026",
+  "InfoMoney/Reuters taxas dos DIs 17/11/2026",
+  "Itaú fechamento 17/11/2026"
+ ],
+ "obs": "Push com 2 commits seguidos deixou o diff do workflow vazio; renders disparados via workflow_dispatch (spec por vez)."
+}
