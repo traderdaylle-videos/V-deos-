@@ -1,0 +1,79 @@
+{
+ "data": "2026-11-20",
+ "tema": "Dólar a R$ 5,932 (+1,1% em 19/11/2026, maior valor desde abr/2025; semana +4,95%, novembro +9,01%, ano +8,13%); Banco Central vendeu US$ 1 bi em leilão à vista; Senado concluiu projeto fiscal (superávit primário 0,5% do PIB em 2027, impacto estimado pelo governo > R$ 50 bi; Câmara vota 23/11); Ibovespa -0,69% a 166.376 pts (semana -3,53%); Nasdaq -2,25%, S&P 500 -2,02%; Tesouro Direto suspendeu brevemente parte de prefixados e IPCA+; Selic 13,75%; importados, insumos, combustíveis, viagens (Agência Brasil/Imirante, A Crítica, TradeMap)",
+ "gancho": "O dólar subiu nove por cento em novembro. Seu bolso já sentiu? (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-5-93-curto.mp4",
+  "capa": "granaefinancas/gf-dolar-5-93-curto-capa.jpg",
+  "duracao": 57.4,
+  "horario": "10:00 (Reels) / 10:05 (Short)",
+  "titulo_short": "Dólar a R$ 5,93: o maior desde abril de 2025",
+  "legenda": "pergunta gasto x dólar, Fonte Agência Brasil, CTA, 5 hashtags",
+  "ids": {
+   "reel": 435490727,
+   "short": 435490767
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-5-93-longo.mp4",
+  "duracao": 269.3,
+  "horario": "10:30",
+  "titulo": "Dólar a R$ 5,93: por que subiu 9% em novembro e o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:17",
+    "O que é o dólar"
+   ],
+   [
+    "0:33",
+    "O fechamento de quinta (19/11)"
+   ],
+   [
+    "0:56",
+    "Por que o dólar sobe"
+   ],
+   [
+    "1:20",
+    "Projeto fiscal no Senado"
+   ],
+   [
+    "1:38",
+    "O que o Banco Central fez"
+   ],
+   [
+    "2:08",
+    "Bolsa"
+   ],
+   [
+    "2:18",
+    "Como o dólar chega ao seu bolso"
+   ],
+   [
+    "2:58",
+    "Tesouro Direto"
+   ],
+   [
+    "3:23",
+    "O que fazer no seu orçamento"
+   ],
+   [
+    "3:56",
+    "Resumo"
+   ]
+  ],
+  "ids": {
+   "youtube": 435490935
+  }
+ },
+ "fontes": [
+  "Agência Brasil/Imirante 19/11/2026",
+  "A Crítica 19/11/2026",
+  "Misto Brasil 19/11/2026",
+  "TradeMap 19/11/2026"
+ ],
+ "obs": "Render único em ~23 min; sem erros. Longo narra 'Primeiro, Segundo, Quarto' (falta 'Terceiro', cortado do roteiro)."
+}
