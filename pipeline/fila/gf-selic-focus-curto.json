@@ -1,0 +1,170 @@
+{
+ "segs": [
+  [
+   "Selic a doze vírgula setenta e cinco por cento em dois mil e vinte e sete. O mercado já sabe. E você?",
+   0.5
+  ],
+  [
+   "O Boletim Focus é a pesquisa semanal do Banco Central com bancos e consultorias. Saiu segunda, dia dezesseis.",
+   0.5
+  ],
+  [
+   "A inflação esperada para este ano caiu de cinco vírgula vinte e dois para cinco vírgula onze por cento. Para dois mil e vinte e sete, subiu para cinco.",
+   0.5
+  ],
+  [
+   "A meta é três por cento, com teto de quatro e meio. A previsão segue acima do teto.",
+   0.5
+  ],
+  [
+   "Por isso a Selic deve ficar em treze vírgula setenta e cinco este ano. Para o fim de dois mil e vinte e sete, a aposta subiu de doze vírgula cinquenta para doze vírgula setenta e cinco.",
+   0.5
+  ],
+  [
+   "Juro alto encarece cartão, cheque especial e financiamento. Em troca, a renda fixa paga mais.",
+   0.5
+  ],
+  [
+   "Previsão não é garantia. É o que o mercado espera hoje.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: algumas coisas dependem de nós, outras não. O juro não depende de você. Sua dívida, sim.",
+   0.5
+  ],
+  [
+   "Qual dívida sua cobra mais juro? Comece por ela.",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "numeros-oculos-47792.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "escritorio-movimentado-918.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "maquina-contando-dinheiro-49134.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "homem-pensativo-duvida-47495.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "homem-escrevendo-46768.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "grafico-homem-analisando-47214.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "12,75%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Selic esperada para 2027",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Inflação 2026\n5,22% → 5,11%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Selic fim de 2027\n12,50% → 12,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 8,
+   "ate": 8,
+   "linhas": [
+    {
+     "t": "Qual dívida\ncobra mais juro?",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "impactos_seg": [
+  0,
+  2,
+  4,
+  8
+ ],
+ "keywords_gold": [
+  "SELIC",
+  "FOCUS",
+  "12,75%",
+  "INFLAÇÃO",
+  "JURO",
+  "GRANA E FINANÇAS"
+ ],
+ "output": "gf-selic-focus-curto.mp4",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "capa": "SELIC A 12,75% EM 2027: SEU CRÉDITO FICA CARO"
+}
