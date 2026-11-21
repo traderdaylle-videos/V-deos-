@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-21",
+ "tema": "Boletim Focus de 16/11/2026 (Banco Central): IPCA 2026 5,11% (ant. 5,22%), IPCA 2027 5% (ant. 4,90%); Selic 13,75% em 2026 (mantida) e 12,75% em 2027 (ant. 12,50%); PIB 2026 1,72% (ant. 1,75%), PIB 2027 1,02% (ant. 1,15%); dólar 2026 R$ 5,40 (ant. 5,35); IGP-M 2026 6,22%; crédito, cartão, renda fixa (InfoMoney 16/11)",
+ "gancho": "Selic a 12,75% em 2027. O mercado já sabe. E você? (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-selic-focus-curto.mp4",
+  "capa": "granaefinancas/gf-selic-focus-curto-capa.jpg",
+  "duracao": 56.3,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Selic a 12,75% em 2027: o que o Focus diz",
+  "legenda": "gancho, números do Focus, pergunta sobre dívida, Fonte Focus/BC, CTA, 5 hashtags",
+  "ids": {
+   "reel": 436622766,
+   "short": 436622802
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-selic-focus-longo.mp4",
+  "duracao": 272.9,
+  "horario": "10:30",
+  "titulo": "Selic a 12,75% em 2027? Boletim Focus explicado e o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:11",
+    "O que é o Boletim Focus"
+   ],
+   [
+    "0:36",
+    "Inflação esperada"
+   ],
+   [
+    "1:10",
+    "Selic e o Copom"
+   ],
+   [
+    "1:33",
+    "Selic em 2027 e depois"
+   ],
+   [
+    "1:57",
+    "Como a Selic chega ao seu bolso"
+   ],
+   [
+    "2:33",
+    "PIB"
+   ],
+   [
+    "2:55",
+    "Dólar e os limites da previsão"
+   ],
+   [
+    "3:25",
+    "Preços administrados"
+   ],
+   [
+    "3:43",
+    "O que fazer no seu orçamento"
+   ],
+   [
+    "4:09",
+    "Resumo"
+   ]
+  ],
+  "ids": {
+   "youtube": 436622857
+  }
+ },
+ "fontes": [
+  "InfoMoney, Boletim Focus 16/11/2026 (números conferidos; segunda fonte Mixvale indisponível)",
+  "Copom 3-4/11/2026 (historico)"
+ ],
+ "obs": "Render único ~22 min, sem erros. 20/11 foi feriado (mercado fechado), por isso a pauta foi o Focus. Overlay final do longo caiu no seg 30 (um seg antes da pergunta). Add_repo indisponível nesta execução, mas o push funcionou."
+}
