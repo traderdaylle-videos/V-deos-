@@ -1,0 +1,192 @@
+{
+ "segs": [
+  [
+   "Sessenta e um vírgula sete por cento ao ano: o juro escondido na sua Black Friday.",
+   0.5
+  ],
+  [
+   "A CNC projeta onze vírgula cinquenta e dois bilhões em vendas na Black Friday desta sexta.",
+   0.5
+  ],
+  [
+   "É o maior valor desde dois mil e quatorze, mas o crescimento previsto é de só um vírgula oito por cento, contra três vírgula dois no ano passado.",
+   0.5
+  ],
+  [
+   "O freio é o juro: a taxa média do crédito livre pra pessoa física está em sessenta e um vírgula sete por cento ao ano, a maior pra essa época desde dois mil e dezessete.",
+   0.5
+  ],
+  [
+   "E vinte e nove vírgula seis por cento das famílias dizem ter conta em atraso.",
+   0.5
+  ],
+  [
+   "Parcelar não é de graça: o juro entra na prestação, mesmo quando ela parece caber no mês.",
+   0.5
+  ],
+  [
+   "Eletrodomésticos tiveram alta prévia de onze vírgula noventa e um por cento. Desconto só vale se o preço antes era real.",
+   0.5
+  ],
+  [
+   "Antes de passar o cartão, compare com o histórico do produto e anote o valor total, juros incluídos.",
+   0.5
+  ],
+  [
+   "Você vai comprar porque precisa, ou porque o preço caiu?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  3,
+  6
+ ],
+ "keywords_gold": [
+  "BLACK FRIDAY",
+  "JURO",
+  "CRÉDITO",
+  "CARTÃO",
+  "PARCELA",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "investidor-tablet-escritorio-45706.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "cartao-compra-online-14009.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "celular-rolando-29302.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "casal-contas-problemas-48974.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "dinheiro-transacao-18247.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "61,7% ao ano",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "juro do crédito livre",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Black Friday\nR$ 11,52 bi",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "+1,8% (antes +3,2%)",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "29,6% das famílias\ncom conta atrasada",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Eletro +11,91% antes",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Some o total com juros",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-blackfriday-juros-curto.mp4",
+ "capa": "BLACK FRIDAY: JURO DE 61,7% AO ANO NO CRÉDITO",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
