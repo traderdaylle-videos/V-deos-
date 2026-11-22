@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-22",
+ "tema": "Black Friday 2026 (projeção CNC de 12/11/2026, InfoMoney): vendas R$ 11,52 bi (maior desde 2014), +1,8% (2025: +3,2%); juro médio do crédito livre PF 61,7% a.a. (BC; maior para a época desde 2017); 29,6% das famílias com conta em atraso, 12,52% sem condições de pagar; eletro e utilidades R$ 4,70 bi; 150 itens monitorados, 70% das categorias com desconto efetivo potencial, eletrodomésticos +11,91% de alta prévia; Selic 13,75%; IPCA 12m 4,63%; crédito, parcelamento, desconto real",
+ "gancho": "61,7% ao ano: o juro escondido na sua Black Friday (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-blackfriday-juros-curto.mp4",
+  "capa": "granaefinancas/gf-blackfriday-juros-curto-capa.jpg",
+  "duracao": 53.9,
+  "horario": "10:00 (Reels) / 10:05 (Short)",
+  "titulo_short": "Black Friday: o juro de 61,7% ao ano",
+  "legenda": "juro 61,7%, CNC R$ 11,52 bi, pergunta, Fonte CNC/BC via InfoMoney, CTA, 5 hashtags",
+  "ids": {
+   "reel": 437515722,
+   "short": 437515737
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-blackfriday-juros-longo.mp4",
+  "duracao": 283.9,
+  "horario": "10:35",
+  "titulo": "Black Friday 2026: juro de 61,7% ao ano e o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:18",
+    "A projeção da CNC"
+   ],
+   [
+    "0:45",
+    "Setores que mais vendem"
+   ],
+   [
+    "1:12",
+    "O juro de 61,7% ao ano"
+   ],
+   [
+    "1:58",
+    "Exemplo: R$ 1.000 em 10x"
+   ],
+   [
+    "2:24",
+    "Descontos reais"
+   ],
+   [
+    "3:13",
+    "Inflação e renda"
+   ],
+   [
+    "3:46",
+    "3 passos práticos"
+   ],
+   [
+    "4:30",
+    "Resumo e fonte"
+   ]
+  ],
+  "ids": {
+   "youtube": 437515798
+  }
+ },
+ "fontes": [
+  "InfoMoney (Élida Oliveira), projeção CNC 12/11/2026; IstoÉ Dinheiro confirma R$ 11,52 bi e 1,8%",
+  "Copom 4/11/2026 (Selic 13,75%) e IPCA 12m (histórico)"
+ ],
+ "obs": "Domingo; 20/11 feriado e Focus já usado, por isso pauta Black Friday. Exemplo de parcelamento (R$ 1.000 em 10x a 61,7% a.a. ≈ R$ 1.238) é cálculo próprio, rotulado como ilustrativo. Add_repo indisponível nesta execução; push funcionou. Render ~28 min."
+}
