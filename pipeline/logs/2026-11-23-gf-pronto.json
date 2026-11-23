@@ -1,0 +1,74 @@
+{
+ "data": "2026-11-23",
+ "tema": "Pacote fiscal na Câmara (votação prevista 23/11/2026, Agenda do Poder): impacto no primário 2027 de R$ 45,1 a 56,1 bi (estimativa do governo); meta superávit 0,5% do PIB = R$ 73,2 bi; Senado 69 a 2; teto real de gastos 2,5%→2%; créditos tributários R$ 12,8 a 18,3 bi; dólar R$ 5,93 em 19/11 (maior desde abr/2025, Agência Brasil); Selic 13,75%; importados, combustível, viagem, juros",
+ "gancho": "Até R$ 56 bilhões: o pacote fiscal que a Câmara vota hoje e mexe no seu dólar (hookscore 76,6 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-pacote-fiscal-curto.mp4",
+  "capa": "granaefinancas/gf-pacote-fiscal-curto-capa.jpg",
+  "duracao": 51.7,
+  "horario": "09:55 (Reels) / 10:00 (Short)",
+  "titulo_short": "Pacote fiscal: até R$ 56 bi e o dólar a R$ 5,93",
+  "legenda": "pergunta, Fonte Agenda do Poder/Agência Brasil, CTA, 5 hashtags",
+  "ids": {
+   "reel": 438704415,
+   "short": 438704437
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-pacote-fiscal-longo.mp4",
+  "duracao": 252.0,
+  "horario": "10:35",
+  "titulo": "Pacote fiscal: até R$ 56 bi e o que muda no seu bolso e no dólar",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:17",
+    "Votação no Senado"
+   ],
+   [
+    "0:29",
+    "Meta fiscal de 2027"
+   ],
+   [
+    "0:59",
+    "O que o pacote muda"
+   ],
+   [
+    "1:59",
+    "O dólar e o seu bolso"
+   ],
+   [
+    "2:14",
+    "Impacto nos preços e no juro"
+   ],
+   [
+    "2:38",
+    "Contas públicas e dólar"
+   ],
+   [
+    "3:03",
+    "Epicteto e o que depende de você"
+   ],
+   [
+    "3:14",
+    "Passos práticos"
+   ],
+   [
+    "3:40",
+    "Resumo e fontes"
+   ]
+  ],
+  "ids": {
+   "youtube": 438704540
+  }
+ },
+ "fontes": [
+  "Agenda do Poder 23/11/2026 (números do governo; fonte única, rotulada como estimativa)",
+  "Agência Brasil (dólar 19/11)",
+  "BC (Selic 13,75%)"
+ ],
+ "obs": "Resultado da votação na Câmara não conhecido na produção; texto diz 'vota hoje'. add_repo indisponível; push funcionou após corrigir HEAD destacado. Longo com 905 palavras ficou em 252 s (faixa 240–330)."
+}
