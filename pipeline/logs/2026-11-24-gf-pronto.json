@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-24",
+ "tema": "Petrobras: plano de US$ 122 bi (2027-2031) e dividendos de US$ 55 a 60 bi",
+ "gancho": "Cento e vinte e dois bilhões de dólares: o plano da Petrobras e a sua gasolina (hookscore 83,0 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-petrobras-plano-curto.mp4",
+  "capa": "granaefinancas/gf-petrobras-plano-curto-capa.jpg",
+  "duracao": 54.1,
+  "horario": "09:55 (Reels) / 10:05 (Short)",
+  "titulo_short": "Petrobras: US$ 122 bi em 5 anos e a sua gasolina",
+  "legenda": "pergunta, Fonte Money Times, CTA, 5 hashtags",
+  "ids": {
+   "reel": 440200358,
+   "short": 440200386
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-petrobras-plano-longo.mp4",
+  "duracao": 268.1,
+  "horario": "10:35",
+  "titulo": "Petrobras: US$ 122 bi em 5 anos, dividendos e o que muda no seu bolso",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:25",
+    "Quem é a Petrobras"
+   ],
+   [
+    "0:44",
+    "O que é capex"
+   ],
+   [
+    "1:10",
+    "Dividendos"
+   ],
+   [
+    "1:41",
+    "Seu dia a dia"
+   ],
+   [
+    "2:15",
+    "Pacote fiscal, bolsa e dólar"
+   ],
+   [
+    "3:12",
+    "Epicteto e o que depende de você"
+   ],
+   [
+    "3:29",
+    "Passos práticos"
+   ],
+   [
+    "3:59",
+    "Resumo e fontes"
+   ]
+  ],
+  "ids": {
+   "youtube": 440200586
+  }
+ },
+ "fontes": [
+  "Money Times 24/11/2026 (fonte única do plano; SpaceMoney inacessível)",
+  "Agência Petrobras / Nord (plano anterior US$ 109 bi)"
+ ],
+ "obs": "add_repo indisponível; push funcionou. Placar da votação não obtido (não citado). Descrição do longo corrigida para remover aviso de recomendação (id novo 440200586)."
+}
