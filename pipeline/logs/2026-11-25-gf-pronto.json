@@ -1,0 +1,69 @@
+{
+ "data": "2026-11-25",
+ "tema": "Boletim Focus de 23/11/2026: Selic 2027 em 13% e IPCA 2027 em 5,12%",
+ "gancho": "Juros de 13% em 2027: o seu cartão vai continuar caro (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-focus-selic-curto.mp4",
+  "capa": "granaefinancas/gf-focus-selic-curto-capa.jpg",
+  "duracao": 50.1,
+  "horario": "09:55 (Reels) / 10:05 (Short)",
+  "titulo_short": "Selic de 13% em 2027: o que muda no seu cartão",
+  "legenda": "pergunta, Fonte Focus/InfoMoney/XP, CTA, 5 hashtags",
+  "ids": {
+   "reel": 441660431,
+   "short": 441660538
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-focus-selic-longo.mp4",
+  "duracao": 252.7,
+  "horario": "10:35",
+  "titulo": "Selic de 13% em 2027: o que muda no seu bolso (Focus 23/11)",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:31",
+    "O que é o Focus"
+   ],
+   [
+    "0:43",
+    "O que é a Selic"
+   ],
+   [
+    "0:58",
+    "Projeção da Selic"
+   ],
+   [
+    "1:22",
+    "Inflação esperada"
+   ],
+   [
+    "1:58",
+    "Dólar e PIB"
+   ],
+   [
+    "2:33",
+    "No seu bolso"
+   ],
+   [
+    "3:13",
+    "Passos práticos"
+   ],
+   [
+    "3:42",
+    "Resumo e fontes"
+   ]
+  ],
+  "ids": {
+   "youtube": 441660679
+  }
+ },
+ "fontes": [
+  "InfoMoney 23/11/2026 (Focus)",
+  "XP 23/11/2026 (Focus; corpo da página cita data de referência 13/11, provável erro de texto)"
+ ],
+ "obs": "add_repo indisponível; push funcionou. Render demorou ~25 min. Contagens de semanas seguidas (IPCA 2027 sexta alta, PIB sexta queda) são da XP."
+}
