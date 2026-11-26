@@ -1,0 +1,163 @@
+{
+ "segs": [
+  [
+   "Dólar a cinco reais e oitenta e dois: seu celular importado fica mais barato?",
+   0.5
+  ],
+  [
+   "Na quarta-feira, dia vinte e cinco, o dólar comercial caiu um vírgula cinquenta e nove por cento e fechou a cinco reais e oitenta e dois.",
+   0.5
+  ],
+  [
+   "No mesmo dia, o Ibovespa subiu um vírgula cinquenta e oito por cento, aos cento e sessenta e seis mil pontos.",
+   0.5
+  ],
+  [
+   "A Vale, uma das maiores mineradoras do mundo, que vende minério de ferro, subiu três vírgula um por cento. O Bradesco, banco que ganha com crédito e tarifas, subiu quatro vírgula dezenove.",
+   0.5
+  ],
+  [
+   "Segundo a imprensa, o mercado ficou aliviado com os juros futuros e com as medidas de controle de gastos do governo.",
+   0.5
+  ],
+  [
+   "Dólar mais baixo ajuda a segurar o preço de importados, como eletrônicos, combustível e trigo. Mas o efeito leva semanas para chegar à prateleira.",
+   0.5
+  ],
+  [
+   "E um dia de queda não é tendência: na véspera, o dólar chegou a passar de seis reais.",
+   0.5
+  ],
+  [
+   "Antes de comprar, compare o preço de hoje com o das últimas semanas. Você acompanha o dólar antes de comprar importados?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.5
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  2,
+  3,
+  5
+ ],
+ "keywords_gold": [
+  "DÓLAR",
+  "R$ 5,82",
+  "IBOVESPA",
+  "VALE",
+  "BRADESCO",
+  "PETROBRAS",
+  "JUROS",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "tendencia-tela-9607.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "R$ 5,82",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Dólar fecha em queda de 1,59%",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Ibovespa +1,58%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Vale +3,1% | Bradesco +4,19%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 5,
+   "ate": 5,
+   "linhas": [
+    {
+     "t": "Efeito leva semanas",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-dolar-bolsa-curto.mp4",
+ "capa": "DÓLAR A R$ 5,82: SEU IMPORTADO FICA MAIS BARATO?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
