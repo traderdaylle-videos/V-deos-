@@ -1,0 +1,74 @@
+{
+ "data": "2026-11-26",
+ "tema": "Dólar a R$ 5,82 (-1,59%) e Ibovespa +1,58% em 25/11/2026: Vale, Bradesco, Petrobras",
+ "gancho": "Dólar a R$ 5,82: seu celular importado fica mais barato? (hookscore 84,4 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-bolsa-curto.mp4",
+  "capa": "granaefinancas/gf-dolar-bolsa-curto-capa.jpg",
+  "duracao": 57.5,
+  "horario": "09:55 (Reels) / 10:05 (Short)",
+  "titulo_short": "Dólar a R$ 5,82: seu importado fica mais barato?",
+  "legenda": "pergunta, Fonte Canal Rural/Metrópoles, CTA, 5 hashtags",
+  "ids": {
+   "reel": 443043897,
+   "short": 443043913
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-bolsa-longo.mp4",
+  "duracao": 283.5,
+  "horario": "10:35",
+  "titulo": "Dólar a R$ 5,82 e Bolsa em alta: o que muda no seu bolso (25/11)",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:31",
+    "O que é o dólar comercial"
+   ],
+   [
+    "0:47",
+    "O dia em números"
+   ],
+   [
+    "0:57",
+    "Vale e Bradesco"
+   ],
+   [
+    "1:36",
+    "Petrobras e Ambev"
+   ],
+   [
+    "2:00",
+    "Por que o dólar caiu"
+   ],
+   [
+    "2:35",
+    "No seu bolso"
+   ],
+   [
+    "3:16",
+    "Um dia não é tendência"
+   ],
+   [
+    "3:34",
+    "Passos práticos"
+   ],
+   [
+    "4:05",
+    "Resumo e fontes"
+   ]
+  ],
+  "ids": {
+   "youtube": 443044137
+  }
+ },
+ "fontes": [
+  "Canal Rural/Estadão Conteúdo 25/11/2026",
+  "Metrópoles 25/11/2026",
+  "Boletim Focus 23/11/2026"
+ ],
+ "obs": "add_repo indisponível; push funcionou. Render ~25 min. Descrição do longo sem aviso de recomendação (reagendado, id novo 443044137)."
+}
