@@ -1,0 +1,77 @@
+{
+ "data": "2026-11-27",
+ "tema": "Bolsa +6,07% (Ibovespa 176.799 pts) e dólar a R$ 5,74 em 26/11/2026",
+ "gancho": "Bolsa sobe 6,07% num dia: o que isso muda no seu bolso? (hookscore 80,1 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-ibovespa-seis-por-cento-curto.mp4",
+  "capa": "granaefinancas/gf-ibovespa-seis-por-cento-curto-capa.jpg",
+  "duracao": 54.3,
+  "horario": "10:00 (Reels) / 10:10 (Short)",
+  "titulo_short": "Bolsa +6,07% e dólar a R$ 5,74: o que muda?",
+  "legenda": "pergunta, Fonte Agência Brasil/O Repórter, CTA, 5 hashtags",
+  "ids": {
+   "reel": 444308331,
+   "short": 444308358
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-ibovespa-seis-por-cento-longo-v2.mp4",
+  "duracao": 272.8,
+  "horario": "10:30",
+  "titulo": "Bolsa +6,07% e dólar a R$ 5,74: o que muda no seu bolso (26/11)",
+  "capitulos": [
+   [
+    "0:00",
+    "Introdução"
+   ],
+   [
+    "0:10",
+    "O dia em números"
+   ],
+   [
+    "0:38",
+    "O dólar a R$ 5,74"
+   ],
+   [
+    "1:02",
+    "Por que o setor financeiro disparou"
+   ],
+   [
+    "1:27",
+    "O que moveu o mercado"
+   ],
+   [
+    "1:43",
+    "Inflação: IPCA-15"
+   ],
+   [
+    "2:12",
+    "O que muda no seu bolso"
+   ],
+   [
+    "2:53",
+    "Selic e crédito caro"
+   ],
+   [
+    "3:16",
+    "O que depende de você"
+   ],
+   [
+    "3:31",
+    "Passos práticos"
+   ],
+   [
+    "4:05",
+    "Resumo e fontes"
+   ]
+  ],
+  "ids": {
+   "youtube": 444337516
+  }
+ },
+ "fontes": [
+  "Agência Brasil 26/11/2026",
+  "O Repórter 26/11/2026"
+ ],
+ "obs": "add_repo indisponível; push funcionou. Longo v1 (sem passo 1 e sem pergunta final) descartado; v2 usado. Sem fala de política: só 'expectativas sobre a Fazenda' como contexto neutro."
+}
