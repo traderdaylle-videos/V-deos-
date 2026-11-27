@@ -1,0 +1,171 @@
+{
+ "segs": [
+  [
+   "Bolsa sobe seis vírgula zero sete por cento num dia. O que isso muda no seu bolso?",
+   0.5
+  ],
+  [
+   "Quinta-feira, o Ibovespa fechou em cento e setenta e seis mil pontos. É a maior alta diária desde cinco de outubro.",
+   0.5
+  ],
+  [
+   "O dólar caiu um vírgula vinte e cinco por cento e fechou a cinco reais e setenta e quatro.",
+   0.5
+  ],
+  [
+   "O setor financeiro, que reúne os bancos, subiu quase nove por cento. Se o mercado vê contas públicas mais firmes, o risco cai e os papéis sobem.",
+   0.5
+  ],
+  [
+   "A inflação ajudou: o IPCA-15 de novembro foi zero vírgula vinte e dois por cento, abaixo do esperado.",
+   0.5
+  ],
+  [
+   "Dólar menor alivia importados e combustível. Mas o efeito leva semanas para chegar à prateleira.",
+   0.5
+  ],
+  [
+   "Um dia de festa na Bolsa não é tendência. A Selic segue em treze vírgula setenta e cinco por cento, e o crédito continua caro.",
+   0.5
+  ],
+  [
+   "Epicteto ensinava: o mercado não depende de você. Sua dívida e seu orçamento, sim.",
+   0.5
+  ],
+  [
+   "Antes de parcelar, pergunte: esse gasto cabe no mês sem o cartão?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  2,
+  6
+ ],
+ "keywords_gold": [
+  "IBOVESPA",
+  "6,07%",
+  "DÓLAR",
+  "R$ 5,74",
+  "SELIC",
+  "BANCOS",
+  "GRANA E FINANÇAS"
+ ],
+ "clips": [
+  {
+   "seg": 0,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "tendencia-tela-9607.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  }
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "+6,07%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Ibovespa tem a maior alta desde 5/10",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 2,
+   "ate": 2,
+   "linhas": [
+    {
+     "t": "Dólar R$ 5,74",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 3,
+   "ate": 3,
+   "linhas": [
+    {
+     "t": "Financeiro +8,98%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 6,
+   "ate": 6,
+   "linhas": [
+    {
+     "t": "Selic 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-ibovespa-seis-por-cento-curto.mp4",
+ "capa": "BOLSA +6,07% E DÓLAR A R$ 5,74: O QUE MUDA NO SEU BOLSO?",
+ "motor": "gf",
+ "pasta": "granaefinancas"
+}
