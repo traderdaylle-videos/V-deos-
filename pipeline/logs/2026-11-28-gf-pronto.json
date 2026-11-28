@@ -1,0 +1,30 @@
+{
+ "data": "2026-11-28",
+ "tema": "Dólar cai 7,07% na semana (R$ 5,52) e ações de consumo disparam",
+ "gancho": "Dólar cai 7,07% em 5 dias. O que isso muda no seu bolso? (hookscore 81,8 STRONG)",
+ "curto": {
+  "arquivo": "granaefinancas/gf-dolar-queda-semanal-curto.mp4",
+  "capa": "granaefinancas/gf-dolar-queda-semanal-curto-capa.jpg",
+  "duracao": 56.4,
+  "horario": "10:00 (Reels) / 10:10 (Short)",
+  "titulo_short": "Dólar cai 7% em 5 dias: o que muda no bolso?",
+  "ids": {
+   "reel": 445395678,
+   "short": 445395692
+  }
+ },
+ "longo": {
+  "arquivo": "granaefinancas/gf-dolar-queda-semanal-longo.mp4",
+  "horario": "10:30",
+  "titulo": "Dólar cai 7,07% em 5 dias: o que muda no seu bolso (27/11)",
+  "capitulos": "estimados pela contagem de palavras (ver agendamento)",
+  "ids": {
+   "youtube": 445395771
+  }
+ },
+ "fontes": [
+  "Agência Brasil 27/11/2026",
+  "Suno Notícias 27/11/2026"
+ ],
+ "obs": "Sábado: posts agendados ~30 min à frente. Confirmação do nome do ministro da Fazenda citada só como fato de mercado (prêmio de risco), sem juízo político."
+}
