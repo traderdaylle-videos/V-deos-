@@ -1,0 +1,172 @@
+{
+ "segs": [
+  [
+   "Dólar cai sete vírgula zero sete por cento em cinco dias. O que isso muda no seu bolso?",
+   0.5
+  ],
+  [
+   "Sexta-feira, o dólar fechou a cinco reais e cinquenta e dois centavos. Foi a maior queda semanal desde outubro de dois mil e oito.",
+   0.5
+  ],
+  [
+   "Na segunda, ele chegou a passar de seis reais. Agora, são cinco quedas seguidas.",
+   0.5
+  ],
+  [
+   "Dólar menor tende a baratear importados, combustível e viagem. Mas o efeito leva semanas para chegar à prateleira.",
+   0.5
+  ],
+  [
+   "Com os juros futuros em queda, ações de consumo e de imóveis dispararam: a Magazine Luiza subiu quase dez por cento, e a MRV, mais de onze.",
+   0.5
+  ],
+  [
+   "A Magalu é varejista e ganha vendendo a prazo. A MRV constrói apartamentos populares e depende de crédito barato.",
+   0.5
+  ],
+  [
+   "Já Petrobras e Vale caíram mais de dois por cento, porque vendem lá fora e recebem em dólar.",
+   0.5
+  ],
+  [
+   "Uma semana não é tendência. A Selic segue em treze vírgula setenta e cinco por cento, e o crédito continua caro.",
+   0.5
+  ],
+  [
+   "Antes de comprar a prazo, pergunte: esse preço cabe no mês sem o cartão?",
+   0.5
+  ],
+  [
+   "Manda pra alguém que precisa ouvir isso. E segue a Grana e Finanças.",
+   0.2
+  ]
+ ],
+ "target": [
+  45,
+  65
+ ],
+ "impactos_seg": [
+  0,
+  1,
+  2,
+  7
+ ],
+ "keywords_gold": [
+  "DÓLAR",
+  "7,07%",
+  "R$ 5,52",
+  "IBOVESPA",
+  "6,13%",
+  "SELIC",
+  "MAGALU",
+  "GRANA E FINANÇAS"
+ ],
+ "overlays": [
+  {
+   "seg": 0,
+   "ate": 0,
+   "linhas": [
+    {
+     "t": "-7,07%",
+     "estilo": "Num",
+     "y": 700
+    },
+    {
+     "t": "Dólar tem a maior queda semanal desde 2008",
+     "estilo": "Sub",
+     "y": 960,
+     "t0": 0.3
+    }
+   ]
+  },
+  {
+   "seg": 1,
+   "ate": 1,
+   "linhas": [
+    {
+     "t": "Dólar R$ 5,52",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 4,
+   "ate": 4,
+   "linhas": [
+    {
+     "t": "Magalu +9,74% | MRV +11%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  },
+  {
+   "seg": 7,
+   "ate": 7,
+   "linhas": [
+    {
+     "t": "Selic 13,75%",
+     "estilo": "Tit",
+     "y": 820
+    }
+   ]
+  }
+ ],
+ "output": "gf-dolar-queda-semanal-curto.mp4",
+ "capa": "DÓLAR CAI 7,07% EM 5 DIAS: O QUE MUDA NO SEU BOLSO?",
+ "motor": "gf",
+ "pasta": "granaefinancas",
+ "clips": [
+  {
+   "seg": 0,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 1,
+   "src": "grafico-closeup-47016.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 2,
+   "src": "investidor-tablet-45708.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 3,
+   "src": "homem-analisando-graficos-17415.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 4,
+   "src": "contando-dinheiro-23168.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 5,
+   "src": "lucro-bolsa-47012.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 6,
+   "src": "grafico-tempo-real-47018.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 7,
+   "src": "tendencia-tela-9607.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 8,
+   "src": "empresario-grafico-sucesso-26518.mp4",
+   "offset": 1
+  },
+  {
+   "seg": 9,
+   "src": "cidade-noite-aerea-42343.mp4",
+   "offset": 1
+  }
+ ]
+}
